@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Design Pattern/Structural/Adapter 패턴.md",
+                "file": "Design Pattern/Structural/Bridge pattern.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Design Pattern/Structural/Adapter 패턴.md",
+                "file": "Design Pattern/Structural/Bridge pattern.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Design Pattern/Structural/Adapter 패턴.md",
+                "file": "Design Pattern/Structural/Bridge pattern.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Design Pattern/Structural/Adapter 패턴.md"
+                "file": "Design Pattern/Structural/Bridge pattern.md"
               }
             }
           }
@@ -149,6 +149,8 @@
   },
   "active": "43f5cd739343f701",
   "lastOpenFiles": [
+    "Design Pattern/Structural/Adapter 패턴.md",
+    "Design Pattern/Structural/Bridge pattern.md",
     "README.md",
     "Design Pattern.md",
     "Swift Concurrency/Chapter 1/Introduction.md",
@@ -161,7 +163,6 @@
     "Swift Concurrency/Chapter 1/Pasted image 20231002190800.png",
     "Swift Concurrency/Chapter 1/Pasted image 20231002190737.png",
     "Swift Concurrency/Chapter 1",
-    "Design Pattern/Structural/Adapter 패턴.md",
     "Design Pattern/Structural",
     "Design Pattern/Creational/Signleton.md",
     "Design Pattern/Creational/Prototype.md",
