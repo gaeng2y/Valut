@@ -6,4 +6,8 @@ Swift에서는 Sequence 프로토콜을 채택하면 이터레이터 패턴을 �
 **반복자**(Iterator)는 컬렉션의 요소들의 기본 표현​(리스트, 스택, 트리 등)​을 노출하지 않고 그들을 하나씩 순회할 수 있도록 하는 행동 디자인 패턴입니다.
 ![이터레이터](https://refactoring.guru/images/patterns/diagrams/iterator/structure-2x.png?id=b7b4708d3f279dd046eb1692f1cba710)
 
-예제에서는 Line와 Point가 있는데 우리는 drawPoint라는 메소드는 Point 파라미터를 받아서 그리는 부분이었는데
+예제에서는 Line와 Point가 있는데 우리는 drawPoint라는 메소드는 Point 파라미터를 받아서 그리는 부분이었다
+
+* 어댑터를 구현하는 것은 쉽다.
+	* 무엇보다도 먼저 무엇을 결정해야 하는 지를 결정해야 하기 때문이다.
+* 실제로 가지고 있는 
