@@ -11,11 +11,9 @@
             "id": "43f5cd739343f701",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Design Pattern/Structural/Bridge pattern.md",
-                "mode": "source",
-                "source": false
+                "file": "Design Pattern/Structural/Bridge/Pasted image 20231006003811.png"
               }
             }
           }
@@ -85,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Design Pattern/Structural/Bridge pattern.md",
+                "file": "Design Pattern/Structural/Bridge/Pasted image 20231006003811.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Design Pattern/Structural/Bridge pattern.md",
+                "file": "Design Pattern/Structural/Bridge/Pasted image 20231006003811.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Design Pattern/Structural/Bridge pattern.md"
+                "file": "Design Pattern/Structural/Bridge/Pasted image 20231006003811.png"
               }
             }
           }
@@ -147,10 +145,13 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "43f5cd739343f701",
+  "active": "160736a19be9866b",
   "lastOpenFiles": [
+    "Design Pattern/Structural/Bridge",
+    "Design Pattern/Structural/Bridge/Bridge pattern.md",
+    "Design Pattern/Structural/Pasted image 20231006003836.png",
+    "Design Pattern/Structural/Bridge/Pasted image 20231006003811.png",
     "Design Pattern/Structural/Adapter 패턴.md",
-    "Design Pattern/Structural/Bridge pattern.md",
     "README.md",
     "Design Pattern.md",
     "Swift Concurrency/Chapter 1/Introduction.md",
