@@ -6,6 +6,4 @@
 	* WindowsPTS, UnixPTS, WindowsPTS, UnixPTS를 구현하기로 결정했다면 2x2 시나리오로 끝낼 수 있다.
 * 브릿지 패턴은 바로 이 전체 엔터티 폭발을 실제로 방지하는 것이다.
 
-
-ThreadScheduler ----- PreemptiveThreadScheduler. ------ WindowsPTS / UnixPTS
-							----- CooperativeThreadScheduler  ----- WindowsPTS / UnixPTS 
+ThreadScheduler는 platormScheduler(UnixScheduler, WindowsScheduler)를 채택하여 Preemp
