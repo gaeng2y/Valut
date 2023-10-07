@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Design Pattern/Structural/Bridge/Bridge pattern.md",
+                "file": "Design Pattern/Structural/Composite/Composite 패턴.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Design Pattern/Structural/Bridge/Bridge pattern.md",
+                "file": "Design Pattern/Structural/Composite/Composite 패턴.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Design Pattern/Structural/Bridge/Bridge pattern.md",
+                "file": "Design Pattern/Structural/Composite/Composite 패턴.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Design Pattern/Structural/Bridge/Bridge pattern.md"
+                "file": "Design Pattern/Structural/Composite/Composite 패턴.md"
               }
             }
           }
@@ -147,10 +147,12 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "160736a19be9866b",
+  "active": "43f5cd739343f701",
   "lastOpenFiles": [
-    "Pasted image 20231006003836.png.md",
     "Design Pattern/Structural/Bridge/Bridge pattern.md",
+    "Design Pattern/Structural/Composite/Composite 패턴.md",
+    "Design Pattern/Structural/Composite",
+    "Pasted image 20231006003836.png.md",
     "Design Pattern/Structural/Bridge/Pasted image 20231006003811.png",
     "Design Pattern/Structural/Adatper",
     "Design Pattern/Structural/Bridge",
@@ -181,7 +183,6 @@
     "Design Pattern/SOLID/ISP.md",
     "Design Pattern/SOLID/DIP.md",
     "Design Pattern/SOLID",
-    "Swift Concurrency",
-    "Design Pattern"
+    "Swift Concurrency"
   ]
 }
