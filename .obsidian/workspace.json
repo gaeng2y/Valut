@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Design Pattern/Structural/Composite/Composite 패턴.md",
+                "file": "Design Pattern/Structural/Bridge/Bridge pattern.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Design Pattern/Structural/Composite/Composite 패턴.md",
+                "file": "Design Pattern/Structural/Bridge/Bridge pattern.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Design Pattern/Structural/Composite/Composite 패턴.md",
+                "file": "Design Pattern/Structural/Bridge/Bridge pattern.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Design Pattern/Structural/Composite/Composite 패턴.md"
+                "file": "Design Pattern/Structural/Bridge/Bridge pattern.md"
               }
             }
           }
@@ -149,6 +149,7 @@
   },
   "active": "43f5cd739343f701",
   "lastOpenFiles": [
+    "Design Pattern/Structural/Adatper/Adapter 패턴.md",
     "Design Pattern/Structural/Bridge/Bridge pattern.md",
     "Design Pattern/Structural/Composite/Composite 패턴.md",
     "Design Pattern/Structural/Composite",
@@ -157,7 +158,6 @@
     "Design Pattern/Structural/Adatper",
     "Design Pattern/Structural/Bridge",
     "Design Pattern/Structural/Bridge/Pasted image 20231006003836.png",
-    "Design Pattern/Structural/Adatper/Adapter 패턴.md",
     "README.md",
     "Design Pattern.md",
     "Swift Concurrency/Chapter 1/Introduction.md",
