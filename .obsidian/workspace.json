@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Design Pattern/Structural/Decorator/다중 상속.md",
+                "file": "Design Pattern/Structural/Decorator/Decorator Pattern.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Design Pattern/Structural/Decorator/다중 상속.md",
+                "file": "Design Pattern/Structural/Decorator/Decorator Pattern.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Design Pattern/Structural/Decorator/다중 상속.md",
+                "file": "Design Pattern/Structural/Decorator/Decorator Pattern.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Design Pattern/Structural/Decorator/다중 상속.md"
+                "file": "Design Pattern/Structural/Decorator/Decorator Pattern.md"
               }
             }
           }
@@ -149,8 +149,9 @@
   },
   "active": "43f5cd739343f701",
   "lastOpenFiles": [
-    "Design Pattern/Structural/Decorator/Decorator Pattern.md",
+    "Design Pattern/Structural/Decorator/동적 데코레이터.md",
     "Design Pattern/Structural/Decorator/다중 상속.md",
+    "Design Pattern/Structural/Decorator/Decorator Pattern.md",
     "Design Pattern/Structural/Decorator/Custom String builder.md",
     "Design Pattern/Structural/Composite/Composite 패턴.md",
     "Design Pattern/Structural/Adatper/Adapter 패턴.md",
