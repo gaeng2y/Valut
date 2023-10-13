@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Design Pattern/Structural/Facade/Example.md",
+                "file": "Swift Concurrency/Chapter 2/Introducing.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Design Pattern/Structural/Facade/Example.md",
+                "file": "Swift Concurrency/Chapter 2/Introducing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Design Pattern/Structural/Facade/Example.md",
+                "file": "Swift Concurrency/Chapter 2/Introducing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Design Pattern/Structural/Facade/Example.md"
+                "file": "Swift Concurrency/Chapter 2/Introducing.md"
               }
             }
           }
@@ -139,18 +139,20 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:퀵 스위처 열기": false,
-      "graph:그래프 뷰 열기": false,
-      "canvas:새 캔버스 만들기": false,
-      "daily-notes:오늘의 데일리 노트 열기": false,
-      "templates:템플릿 삽입": false,
-      "command-palette:명령어 팔레트 열기": false
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
     }
   },
   "active": "43f5cd739343f701",
   "lastOpenFiles": [
-    "Design Pattern/Structural/Facade/Overview.md",
+    "Swift Concurrency/Chapter 1/Introduction.md",
+    "Swift Concurrency/Chapter 3/Continuations.md",
     "Design Pattern/Structural/Facade/Example.md",
+    "Design Pattern/Structural/Facade/Overview.md",
     "Design Pattern/Structural/Decorator/정리.md",
     "Design Pattern/Structural/Facade",
     "Design Pattern/Structural/Decorator/동적, 정적 데코레이터.md",
@@ -169,12 +171,10 @@
     "Design Pattern/Structural/Bridge/Pasted image 20231006003836.png",
     "README.md",
     "Design Pattern.md",
-    "Swift Concurrency/Chapter 1/Introduction.md",
     "Design pattern.md",
     "2023-10-04.md",
     "Swift Concurrency/Chapter 2/Introducing.md",
     "Swift Concurrency/Chapter 2",
-    "Swift Concurrency/Chapter 3/Continuations.md",
     "Swift Concurrency/Chapter 3",
     "Swift Concurrency/Chapter 1/Pasted image 20231002190800.png",
     "Swift Concurrency/Chapter 1/Pasted image 20231002190737.png",
