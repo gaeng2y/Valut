@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Design Pattern/Structural/Facade/Example.md",
+                "file": "Design Pattern/Structural/Flyweight/Motivation.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Design Pattern/Structural/Facade/Example.md",
+                "file": "Design Pattern/Structural/Flyweight/Motivation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Design Pattern/Structural/Facade/Example.md",
+                "file": "Design Pattern/Structural/Flyweight/Motivation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Design Pattern/Structural/Facade/Example.md"
+                "file": "Design Pattern/Structural/Flyweight/Motivation.md"
               }
             }
           }
@@ -149,11 +149,14 @@
   },
   "active": "43f5cd739343f701",
   "lastOpenFiles": [
+    "Design Pattern/Structural/Facade/Review.md",
+    "Design Pattern/Structural/Flyweight/Motivation.md",
+    "Design Pattern/Structural/Flyweight",
+    "Design Pattern/Structural/Facade/Example.md",
     "Design Pattern/Structural/Facade/Overview.md",
     "Swift Concurrency/Chapter 2/Introducing.md",
     "Swift Concurrency/Chapter 1/Introduction.md",
     "Swift Concurrency/Chapter 3/Continuations.md",
-    "Design Pattern/Structural/Facade/Example.md",
     "Design Pattern/Structural/Decorator/정리.md",
     "Design Pattern/Structural/Facade",
     "Design Pattern/Structural/Decorator/동적, 정적 데코레이터.md",
@@ -185,9 +188,6 @@
     "Design Pattern/Creational/Factory.md",
     "Design Pattern/Creational/Builder.md",
     "Design Pattern/Creational/Abstract Factory.md",
-    "Design Pattern/Creational",
-    "Design Pattern/SOLID/SRP.md",
-    "Design Pattern/SOLID/OCP.md",
-    "Design Pattern/SOLID/LSP.md"
+    "Design Pattern/SOLID/SRP.md"
   ]
 }
