@@ -15,3 +15,5 @@ Structured Concurrency는 구조적 프로그래밍과 같은 아이디러르 �
 
 ## async let 구성
 async let 바인딩으로도 알려져 있다. 
+
+이 코드와 동시에 첫 번째 비트를 만드는 것은 매우 간단합니다. let로 상수를 만드는 방법을 알고 있다면, async let을 사용할 수 있습니다.
