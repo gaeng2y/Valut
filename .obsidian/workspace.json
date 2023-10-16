@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e7b4ae53214a312e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Swift Concurrency/Chapter 4/Structured Concurrency.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Design Pattern/Structural/Flyweight/Motivation.md",
+                "file": "Swift Concurrency/Chapter 4/Structured Concurrency.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Design Pattern/Structural/Flyweight/Motivation.md",
+                "file": "Swift Concurrency/Chapter 4/Structured Concurrency.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Design Pattern/Structural/Flyweight/Motivation.md"
+                "file": "Swift Concurrency/Chapter 4/Structured Concurrency.md"
               }
             }
           }
@@ -147,8 +160,10 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "43f5cd739343f701",
+  "active": "e7b4ae53214a312e",
   "lastOpenFiles": [
+    "Swift Concurrency/Chapter 4/Structured Concurrency.md",
+    "Swift Concurrency/Chapter 4",
     "Design Pattern/Structural/Facade/Review.md",
     "Design Pattern/Structural/Facade/Overview.md",
     "Design Pattern/Structural/Facade/Example.md",
@@ -182,12 +197,10 @@
     "Swift Concurrency/Chapter 1/Pasted image 20231002190800.png",
     "Swift Concurrency/Chapter 1/Pasted image 20231002190737.png",
     "Swift Concurrency/Chapter 1",
-    "Design Pattern/Structural",
     "Design Pattern/Creational/Signleton.md",
     "Design Pattern/Creational/Prototype.md",
     "Design Pattern/Creational/Factory.md",
     "Design Pattern/Creational/Builder.md",
-    "Design Pattern/Creational/Abstract Factory.md",
-    "Design Pattern/SOLID/SRP.md"
+    "Design Pattern/Creational/Abstract Factory.md"
   ]
 }
