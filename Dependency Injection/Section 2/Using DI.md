@@ -120,4 +120,30 @@ final class DIContainer: DIContainerProtocol {
 > [!NOTE]
 > 참고: 기본적으로 DI 컨테이너는 다른 패턴과 마찬가지로 프로그래밍 문제를 해결하기 위한 접근 방식입니다. 타사 프레임워크를 포함하여 여러 가지 방법으로 구현할 수 있습니다.
 
-다음으로, 컨테이너가 종속성을 처리하도록 하려면 `ProfileView.swift`를 열고 다음과 같이 `ProfileView`의 초기화 프로그램을 업데이트하세요.
+다음으로, 컨테이너가 종속성을 처리하도록 하려면 `ProfileView.swift`를 열고 다음과 같이 `ProfileView`의 초기화 프로그램을 업데이트하세요.(`ProfileContentProvider.swift` 도 같이,,,)
+```swift
+init(
+  provider: ProfileContentProviderProtocol = 
+    DIContainer.shared.resolve(type: ProfileContentProviderProtocol.self)!,
+  user: User = DIContainer.shared.resolve(type: User.self)!
+) {
+  self.provider = provider
+  self.user = user
+}
+```
+
+이제 `DIContainer`는 기본적으로 필요한 매개변수를 제공합니다. 그러나 테스트 목적으로 종속성을 직접 전달하거나 컨테이너에 모의 종속성을 등록할 수 있습니다.
+
+마지막으로, 작업을 시작하기 전에 앱의 동작을 복제하기 위해 종속성의 초기 상태를 정의해야 합니다.
+
+`SceneDelegate` 에서 profileView 초기화 코드 바로 위에 아래의 코드를 추가하자.
+```swift
+let container = DIContainer.shared
+container.register(type: PrivacyLevel.self, component: PrivacyLevel.friend)
+container.register(type: User.self, component: Mock.user())
+container.register(
+  type: ProfileContentProviderProtocol.self, 
+  component: ProfileContentProvider()
+)
+```
+
