@@ -109,3 +109,13 @@ var body: some View {
 ```swift
 container.register(type: PreferencesStore.self, component: PreferencesStore())
 ```
+
+그리고 `ProfileContentProvider`로 이동하여 클래스 선언부와, 프로토콜 선언부를 수정해주자.
+```swift
+final class ProfileContentProvider<Store: PreferencesStoreProtocol>: ProfileContentProviderProtocol {
+```
+
+```swift
+protocol ProfileContentProviderProtocol: ObservableObject {
+```
+
