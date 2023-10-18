@@ -52,5 +52,30 @@ DI 클라이언트 객체인 클래스는 구현의 종속성인 DI 서비스 �
 
 **종속성 주입**은 제어 반전 원칙을 적용하는 데 도움이 되는 몇 가지 패턴 중 하나입니다. _생성자 주입_ , _세터 주입_ , _인터페이스 주입_ 등 여러 가지 방법으로 종속성 주입을 구현할 수 있습니다.
 ### 생성자 주입(Constructor Injection)
+**생성자 주입** 또는 **초기화 주입**에서는 모든 클래스 종속성을 생성자 매개변수로 전달합니다. 클래스에 필요한 모든 종속성을 한 곳에서 즉시 확인할 수 있으므로 코드의 기능을 더 쉽게 이해할 수 있습니다. 예를 들어, 이 스니펫을 보세요
 
+```swift
+protocol EngineProtocol {
+  func start()
+  func stop()
+}
 
+protocol TransmissionProtocol {
+  func changeGear(gear: Gear)
+}
+
+final class Car {
+  private let engine: EngineProtocol
+  private let transmission: TransmissionProtocol
+
+  init(engine: EngineProtocol, transmission: TransmissionProtocol) {
+    self.engine = engine
+    self.transmission = transmission
+  }
+}
+```
+
+이 코드 조각에서 `EngineProtocol`및 `TransmissionProtocol`는 _서비스_ 이고 클라이언트는 `Car` 입니다 . 책임을 분할하고 추상화를 사용하므로 예상 프로토콜을 준수하는 모든 종속성을 갖춘 인스턴스를 생성할 수 있습니다.
+
+일부 단위 테스트로 자동차를 다루기 위해 `EngineProtocol` 및 `TransmissionProtocol`의 테스트 구현을 통과할 수도 있습니다.
+### Setter Injection
