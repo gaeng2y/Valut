@@ -34,3 +34,19 @@ static func from(string: String) -> PrivacyLevel? {
 
 이제 프로젝트에 `PreferencesStore.swift` 를 추가해보자.
 `UserDefaults`에서 사용자 기본 설정을 저장하고 읽는 역할을 담당하는 클래스입니다.
+
+5개의 프로필 섹션 각각에 대한 속성과 기본 설정을 재설정하는 방법이 있습니다.
+`PreferencesStoreProtocol`은 `ObservableObject` 프로토콜을 준수하므로 저장소에 `@Published` 속성이 변경될 때마다 내보내는 게시자가 있습니다.
+
+### Adding the Preferences Screen
+`Views` 폴더에 `UserPreferencesView.swift`를 추가하자.
+
+![[Pasted image 20231018161012.png]]
+새로운 화면은 위와 같이 생겼다.
+
+`PreferencesStoreProtocol`을 구현하여 새 화면에서 사용자 기본 설정을 저장하도록 합니다. `UserPreferencesView` 선언을 다음과 같이 업데이트합니다.
+
+모든 정적으로 유형이 지정된 프로그래밍 언어와 마찬가지로 유형은 컴파일 타임에 정의되고 확인됩니다.
+문제는 다음과 같습니다. `Store`가 런타임에 갖게 될 정확한 유형을 모르지만 당황하지 마세요! 당신이 알고 있는 것은 `Store`가 `PreferencesStoreProtocol`을 준수한다는 것입니다. 따라서 `Store`가 이 프로토콜을 구현할 것이라고 컴파일러에 알립니다.
+
+컴파일러는 뷰에 사용하려는 특정 유형을 알아야 합니다. 나중에 `UserPreferencesView` 인스턴스를 생성할 때 다음과 같이 꺾쇠 괄호 안에 프로토콜 대신 특정 유형을 사용해야 합니다.
