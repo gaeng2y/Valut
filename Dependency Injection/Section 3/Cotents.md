@@ -149,3 +149,8 @@ init(
 수행한 작업은 다음과 같습니다.
 1. DI 컨테이너는 PreferencesStore의 인스턴스를 제공합니다.
 2. `objectWillChange` 속성을 사용하여 `PreferencesStoreProtocol` 게시자를 구독합니다.
+3. Store에서 속성이 변경되면 `ProfileContentProviderProtocol` 게시자도 내보내도록 합니다.
+
+이제 `PrivacyLevel` 열거형의 인스턴스 대신 저장소의 속성을 사용하도록 `ProfileContentProvider`의 속성을 업데이트하세요.
+### Bringing It All Together
+Provider의 변경 사항을 구독하려면 `ProfileView.swift`를 열고 `ProfileView` 선언도 변경하세요.

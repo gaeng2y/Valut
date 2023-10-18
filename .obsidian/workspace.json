@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dependency Injection/Section 3/Cotents.md",
+                "file": "Swift Concurrency/Chapter 4/Structured Concurrency.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Dependency Injection/Section 3/Cotents.md",
+                "file": "Swift Concurrency/Chapter 4/Structured Concurrency.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Dependency Injection/Section 3/Cotents.md",
+                "file": "Swift Concurrency/Chapter 4/Structured Concurrency.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Dependency Injection/Section 3/Cotents.md"
+                "file": "Swift Concurrency/Chapter 4/Structured Concurrency.md"
               }
             }
           }
@@ -152,29 +152,38 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "switcher:퀵 스위처 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 데일리 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false
     }
   },
   "active": "e7b4ae53214a312e",
   "lastOpenFiles": [
+    "Untitled.md",
     "Dependency Injection/Section 3/Pasted image 20231018161012.png",
-    "Dependency Injection/Section 2/Using DI.md",
+    "Dependency Injection/Pasted image 20231018161012.png",
     "Dependency Injection/Section 3/Cotents.md",
+    "Dependency Injection/Section 3/Untitled.md",
     "Dependency Injection/Section 3",
-    "Dependency Injection/Section 1/Dependency Injection with example.md",
+    "Dependency Injection/Untitled",
+    "Dependency Injection/Section 2/Using DI.md",
+    "Dependency Injection/Section 2/Untitled.md",
     "Dependency Injection/Section 2",
     "Dependency Injection/Section 1/Pasted image 20231018134446.png",
+    "Dependency Injection/Section 1/Dependency Injection with example.md",
     "Dependency Injection/Section 1",
-    "Swift Concurrency/Chapter 1/Introduction.md",
-    "Swift Concurrency/Chapter 1/Pasted image 20231002190800.png",
-    "Swift Concurrency/Chapter 1/Pasted image 20231002190737.png",
-    "README.md",
+    "Dependency Injection/Untitled/Pasted image 20231018134446.png",
+    "Dependency Injection/Untitled/Dependency Injection with example.md",
+    "Dependency Injection/Dependency Injection with example.md",
+    "Dependency Injection/Pasted image 20231018134446.png",
+    "Pasted image 20231018134446.png",
+    "Dependency Injection/DI가 뭐냐?.md",
+    "Dependency Injection/Untitled.md",
     "Dependency Injection",
+    "Untitled",
     "Swift Concurrency/Chapter 4/Structured Concurrency.md",
     "Swift Concurrency/Chapter 4",
     "Design Pattern/Structural/Facade/Review.md",
@@ -188,20 +197,16 @@
     "Design Pattern/Structural/Composite/Composite 패턴.md",
     "Design Pattern/Structural/Flyweight",
     "Swift Concurrency/Chapter 2/Introducing.md",
+    "Swift Concurrency/Chapter 1/Introduction.md",
     "Swift Concurrency/Chapter 3/Continuations.md",
     "Design Pattern/Structural/Facade",
     "Design Pattern/Structural/Decorator/Custom String builder.md",
     "Design Pattern/Structural/Adatper/Adapter 패턴.md",
     "Design Pattern/Structural/Decorator",
     "Design Pattern/Structural/Bridge/Bridge pattern.md",
-    "Design Pattern/Structural/Composite",
-    "Pasted image 20231006003836.png.md",
     "Design Pattern/Structural/Bridge/Pasted image 20231006003811.png",
-    "Design Pattern/Structural/Adatper",
     "Design Pattern/Structural/Bridge/Pasted image 20231006003836.png",
-    "Design Pattern.md",
-    "Design pattern.md",
-    "2023-10-04.md",
-    "Design Pattern/Creational/Signleton.md"
+    "Swift Concurrency/Chapter 1/Pasted image 20231002190800.png",
+    "Swift Concurrency/Chapter 1/Pasted image 20231002190737.png"
   ]
 }
