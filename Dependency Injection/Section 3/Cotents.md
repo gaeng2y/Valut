@@ -50,3 +50,62 @@ static func from(string: String) -> PrivacyLevel? {
 문제는 다음과 같습니다. `Store`가 런타임에 갖게 될 정확한 유형을 모르지만 당황하지 마세요! 당신이 알고 있는 것은 `Store`가 `PreferencesStoreProtocol`을 준수한다는 것입니다. 따라서 `Store`가 이 프로토콜을 구현할 것이라고 컴파일러에 알립니다.
 
 컴파일러는 뷰에 사용하려는 특정 유형을 알아야 합니다. 나중에 `UserPreferencesView` 인스턴스를 생성할 때 다음과 같이 꺾쇠 괄호 안에 프로토콜 대신 특정 유형을 사용해야 합니다.
+```swift
+UserPreferencesView<PreferencesStore>()
+```
+
+이렇게 하면 컴파일 타임에 유형을 확인할 수 있습니다. 이제, `UserPreferencesView` 에 프로퍼티와 생성자를 추가하자.
+
+```swift
+private var store: Store
+
+init(store: Store = DIContainer.shared.resolve(type: Store.self)!) {
+  self.store = store
+}
+```
+
+그 후 `body` 구문을 수정하자.
+```swift
+var body: some View {
+  NavigationView {
+    VStack {
+      PreferenceView(title: .photos, value: store.photosPreference) { value in
+        store.photosPreference = value
+      }
+      PreferenceView(
+        title: .friends, 
+        value: store.friendsListPreference
+      ) { value in
+        store.friendsListPreference = value
+      }
+      PreferenceView(title: .feed, value: store.feedPreference) { value in
+        store.feedPreference = value
+      }
+      PreferenceView(
+        title: .videoCall, 
+        value: store.videoCallsPreference
+      ) { value in
+        store.videoCallsPreference = value
+      }
+      PreferenceView(
+        title: .message, 
+        value: store.messagePreference
+      ) { value in
+        store.messagePreference = value
+      }
+      Spacer()
+    }
+  }.navigationBarTitle("Privacy preferences")
+}
+```
+
+코드를 살펴보면,
+
+- `VStack`의 각 `PreferenceView`는 개인 정보 보호 수준을 선택하는 드롭다운 메뉴가 있는 다양한 프로필 섹션을 나타냅니다.
+- 스토어에서 각 기본 설정의 현재 값을 읽습니다.
+- 사용자가 개인 정보 보호 옵션을 선택하면 새 값을 저장소에 저장합니다.
+
+이제 `SceneDelegate.swift`로 가서 DIContainer에 store dependency를 등록하자.
+```swift
+container.register(type: PreferencesStore.self, component: PreferencesStore())
+```
