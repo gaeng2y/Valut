@@ -147,3 +147,24 @@ container.register(
 )
 ```
 
+## Extending the Functionality
+때때로 사용자는 친구 목록에 있는 사람들로부터 일부 콘텐츠나 기능을 숨기고 싶어합니다. 어쩌면 그들은 가까운 친구들에게만 보여주고 싶은 파티 사진을 올릴 수도 있습니다. 아니면 가까운 친구들의 영상 통화만 받고 싶을 수도 있습니다.
+
+이유가 무엇이든 친한 친구에게 추가 접근 권한을 부여하는 기능은 훌륭한 기능입니다.
+
+구현을 위해 `PrivacyLevel` 에 다른 케이스를 추가하자.
+
+다음으로, 새로운 개인 정보 보호 수준을 처리할 공급자를 업데이트합니다. `ProfileContentProvider.swift`로 이동하여 다음 속성을 업데이트하세요:
+```swift
+var canStartVideoChat: Bool {
+  privacyLevel > .friend
+}
+
+var photosView: AnyView {
+  privacyLevel > .friend ? 
+    AnyView(PhotosView(photos: user.photos)) : 
+    AnyView(EmptyView())
+}
+```
+
+이 코드를 사용하면 가까운 친구만 사진에 액세스하고 화상 통화를 시작할 수 있습니다. 개인 정보 보호 수준을 추가하기 위해 다른 변경 사항을 적용할 필요는 없습니다.
