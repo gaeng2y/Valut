@@ -120,3 +120,5 @@ final class Car: EngineMountable, TransmissionMountable {
   }
 }
 ```
+  
+코드가 더욱 분리됩니다. 게다가 인젝터는 클라이언트의 실제 구현을 전혀 인식하지 못할 수도 있습니다.
