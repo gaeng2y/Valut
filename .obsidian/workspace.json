@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Swift Concurrency/Chapter 4/Structured Concurrency.md",
+                "file": "Dependency Injection/DI가 뭐냐?.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Swift Concurrency/Chapter 4/Structured Concurrency.md",
+                "file": "Dependency Injection/DI가 뭐냐?.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Swift Concurrency/Chapter 4/Structured Concurrency.md",
+                "file": "Dependency Injection/DI가 뭐냐?.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Swift Concurrency/Chapter 4/Structured Concurrency.md"
+                "file": "Dependency Injection/DI가 뭐냐?.md"
               }
             }
           }
@@ -152,20 +152,23 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:퀵 스위처 열기": false,
-      "graph:그래프 뷰 열기": false,
-      "canvas:새 캔버스 만들기": false,
-      "daily-notes:오늘의 데일리 노트 열기": false,
-      "templates:템플릿 삽입": false,
-      "command-palette:명령어 팔레트 열기": false
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
     }
   },
   "active": "e7b4ae53214a312e",
   "lastOpenFiles": [
+    "Dependency Injection/Pasted image 20231018134446.png",
+    "Swift Concurrency/Chapter 1/Introduction.md",
+    "Swift Concurrency/Chapter 1/Pasted image 20231002190800.png",
+    "Swift Concurrency/Chapter 1/Pasted image 20231002190737.png",
     "Dependency Injection/DI가 뭐냐?.md",
-    "Dependency Injection/Untitled.md",
+    "README.md",
     "Dependency Injection",
-    "Untitled",
     "Swift Concurrency/Chapter 4/Structured Concurrency.md",
     "Swift Concurrency/Chapter 4",
     "Design Pattern/Structural/Facade/Review.md",
@@ -179,7 +182,6 @@
     "Design Pattern/Structural/Composite/Composite 패턴.md",
     "Design Pattern/Structural/Flyweight",
     "Swift Concurrency/Chapter 2/Introducing.md",
-    "Swift Concurrency/Chapter 1/Introduction.md",
     "Swift Concurrency/Chapter 3/Continuations.md",
     "Design Pattern/Structural/Facade",
     "Design Pattern/Structural/Decorator/Custom String builder.md",
@@ -192,13 +194,11 @@
     "Design Pattern/Structural/Adatper",
     "Design Pattern/Structural/Bridge",
     "Design Pattern/Structural/Bridge/Pasted image 20231006003836.png",
-    "README.md",
     "Design Pattern.md",
     "Design pattern.md",
     "2023-10-04.md",
     "Swift Concurrency/Chapter 2",
-    "Swift Concurrency/Chapter 1/Pasted image 20231002190800.png",
-    "Swift Concurrency/Chapter 1/Pasted image 20231002190737.png",
+    "Swift Concurrency/Chapter 3",
     "Design Pattern/Creational/Signleton.md",
     "Design Pattern/Creational/Prototype.md",
     "Design Pattern/Creational/Factory.md"
