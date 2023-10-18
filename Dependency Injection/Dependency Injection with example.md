@@ -78,7 +78,7 @@ final class Car {
 이 코드 조각에서 `EngineProtocol`및 `TransmissionProtocol`는 _서비스_ 이고 클라이언트는 `Car` 입니다 . 책임을 분할하고 추상화를 사용하므로 예상 프로토콜을 준수하는 모든 종속성을 갖춘 인스턴스를 생성할 수 있습니다.
 
 일부 단위 테스트로 자동차를 다루기 위해 `EngineProtocol` 및 `TransmissionProtocol`의 테스트 구현을 통과할 수도 있습니다.
-### Setter 
+### Setter 주입
 **Setter 주입** 또는 **메소드 주입**은 눈에 띄게 다릅니다. 이 예에서 볼 수 있듯이 종속성 설정자 메서드가 필요합니다.
 ```swift
 final class Car {
@@ -90,6 +90,32 @@ final class Car {
   }
 
   func setTransmission(transmission: TransmissionProtocol) {
+    self.transmission = transmission
+  }
+}
+```
+이는 종속성이 몇 개만 있고 일부는 선택 사항인 경우에 좋은 접근 방식입니다. 
+그러나 필요한 종속성을 설정하도록 강요하는 것이 없기 때문에 잊어버리기 쉽습니다. 다음으로 인터페이스 주입을 살펴보겠습니다.
+### 인터페이스 주입(Interface Injection)
+인터페이스 주입을 위해서는 클라이언트가 종속성을 주입하는 데 사용되는 프로토콜을 준수해야 합니다. 이 예를 보세요:
+```swift
+protocol EngineMountable {
+  func mountEngine(engine: EngineProtocol)
+}
+
+protocol TransmissionMountable {
+  func mountTransmission(transmission: TransmissionProtocol)
+}
+
+final class Car: EngineMountable, TransmissionMountable {
+  private var engine: EngineProtocol?
+  private var transmission: TransmissionProtocol?
+
+  func mountEngine(engine: EngineProtocol) {
+    self.engine = engine
+  }
+
+  func mountTransmission(transmission: TransmissionProtocol) {
     self.transmission = transmission
   }
 }
