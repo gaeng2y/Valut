@@ -119,3 +119,33 @@ final class ProfileContentProvider<Store: PreferencesStoreProtocol>: ProfileCont
 protocol ProfileContentProviderProtocol: ObservableObject {
 ```
 
+이 코드를 사용하면 `ProfileView`가 `ProfileContentProvider`의 변경 사항을 구독하고 사용자가 새 기본 설정을 선택할 때 즉시 상태를 업데이트할 수 있습니다.
+
+`ProfileContentProvider`에서 저장소에 대한 속성을 추가하고 초기화 프로그램을 바꿉니다.
+
+```swift
+private var store: Store
+private var cancellables: Set<AnyCancellable> = []
+
+init(
+  privacyLevel: PrivacyLevel = 
+    DIContainer.shared.resolve(type: PrivacyLevel.self)!,
+  user: User = DIContainer.shared.resolve(type: User.self)!,
+  // 1
+  store: Store = DIContainer.shared.resolve(type: Store.self)!
+) {
+  self.privacyLevel = privacyLevel
+  self.user = user
+  self.store = store
+
+  // 2
+  store.objectWillChange.sink { _ in
+    self.objectWillChange.send()
+  }
+  .store(in: &cancellables)
+}
+```
+
+수행한 작업은 다음과 같습니다.
+1. DI 컨테이너는 PreferencesStore의 인스턴스를 제공합니다.
+2. `objectWillChange` 속성을 사용하여 `PreferencesStoreProtocol` 게시자를 구독합니다.
