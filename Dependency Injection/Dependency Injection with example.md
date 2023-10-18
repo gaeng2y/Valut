@@ -78,4 +78,19 @@ final class Car {
 이 코드 조각에서 `EngineProtocol`및 `TransmissionProtocol`는 _서비스_ 이고 클라이언트는 `Car` 입니다 . 책임을 분할하고 추상화를 사용하므로 예상 프로토콜을 준수하는 모든 종속성을 갖춘 인스턴스를 생성할 수 있습니다.
 
 일부 단위 테스트로 자동차를 다루기 위해 `EngineProtocol` 및 `TransmissionProtocol`의 테스트 구현을 통과할 수도 있습니다.
-### Setter Injection
+### Setter 
+**Setter 주입** 또는 **메소드 주입**은 눈에 띄게 다릅니다. 이 예에서 볼 수 있듯이 종속성 설정자 메서드가 필요합니다.
+```swift
+final class Car {
+  private var engine: EngineProtocol?
+  private var transmission: TransmissionProtocol?
+
+  func setEngine(engine: EngineProtocol) {
+    self.engine = engine
+  }
+
+  func setTransmission(transmission: TransmissionProtocol) {
+    self.transmission = transmission
+  }
+}
+```
