@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Swift Concurrency/Chapter 4/무제 파일.md",
+                "file": "Design Pattern/Structural/Proxy/Protection Proxy.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Swift Concurrency/Chapter 4/무제 파일.md",
+                "file": "Design Pattern/Structural/Proxy/Protection Proxy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Swift Concurrency/Chapter 4/무제 파일.md",
+                "file": "Design Pattern/Structural/Proxy/Protection Proxy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Swift Concurrency/Chapter 4/무제 파일.md"
+                "file": "Design Pattern/Structural/Proxy/Protection Proxy.md"
               }
             }
           }
@@ -149,8 +149,13 @@
   },
   "active": "d3dc2f80770fe0c9",
   "lastOpenFiles": [
-    "Swift Concurrency/Chapter 4/Task Groups.md",
+    "Design Pattern/Structural/Proxy/Property Proxy.md",
+    "Design Pattern/Structural/Proxy/Protection Proxy.md",
+    "Design Pattern/Structural/Proxy/Overview.md",
+    "Dependency Injection/Pasted image 20231019231727.png",
     "Swift Concurrency/Chapter 4/무제 파일.md",
+    "Design Pattern/Structural/Proxy",
+    "Swift Concurrency/Chapter 4/Task Groups.md",
     "README.md",
     "Dependency Injection/Section 1/Dependency Injection with example.md",
     "Design Pattern/Structural/Flyweight/Motivation.md",
@@ -185,11 +190,7 @@
     "Design Pattern/Structural/Decorator",
     "Design Pattern/Structural/Bridge/Bridge pattern.md",
     "Design Pattern/Structural/Composite",
-    "Pasted image 20231006003836.png.md",
     "Design Pattern/Structural/Bridge/Pasted image 20231006003811.png",
-    "Design Pattern/Structural/Adatper",
-    "Design Pattern/Structural/Bridge/Pasted image 20231006003836.png",
-    "Design Pattern.md",
-    "Design pattern.md"
+    "Design Pattern/Structural/Bridge/Pasted image 20231006003836.png"
   ]
 }
