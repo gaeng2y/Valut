@@ -11,11 +11,9 @@
             "id": "d3dc2f80770fe0c9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Design Pattern/Structural/Proxy/Protection Proxy.md",
-                "mode": "source",
-                "source": false
+                "file": "Design Pattern/Structural/Proxy/Pasted image 20231019231727.png"
               }
             }
           }
@@ -69,7 +67,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "9843e891487ed6f6",
@@ -85,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Design Pattern/Structural/Proxy/Protection Proxy.md",
+                "file": "Design Pattern/Structural/Proxy/Pasted image 20231019231727.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +101,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Design Pattern/Structural/Proxy/Protection Proxy.md",
+                "file": "Design Pattern/Structural/Proxy/Pasted image 20231019231727.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Design Pattern/Structural/Proxy/Protection Proxy.md"
+                "file": "Design Pattern/Structural/Proxy/Pasted image 20231019231727.png"
               }
             }
           }
@@ -147,12 +146,19 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "d3dc2f80770fe0c9",
+  "active": "160736a19be9866b",
   "lastOpenFiles": [
-    "Design Pattern/Structural/Proxy/Property Proxy.md",
+    "(Unit,UI)Tests/UnitTets/샘플 포스팅.md",
+    "(Unit,UI)Tests/UITests/샘플 포스팅.md",
+    "(Unit,UI)Tests/UITests/라이브러리.md",
+    "(Unit,UI)Tests/UnitTets/라이브러리.md",
     "Design Pattern/Structural/Proxy/Protection Proxy.md",
+    "(Unit,UI)Tests/UnitTets",
+    "(Unit,UI)Tests/UITests",
+    "(Unit,UI)Tests",
+    "Design Pattern/Structural/Proxy/Property Proxy.md",
     "Design Pattern/Structural/Proxy/Overview.md",
-    "Dependency Injection/Pasted image 20231019231727.png",
+    "Design Pattern/Structural/Proxy/Pasted image 20231019231727.png",
     "Swift Concurrency/Chapter 4/무제 파일.md",
     "Design Pattern/Structural/Proxy",
     "Swift Concurrency/Chapter 4/Task Groups.md",
@@ -183,13 +189,6 @@
     "Design Pattern/Structural/Composite/Composite 패턴.md",
     "Design Pattern/Structural/Flyweight",
     "Swift Concurrency/Chapter 2/Introducing.md",
-    "Swift Concurrency/Chapter 3/Continuations.md",
-    "Design Pattern/Structural/Facade",
-    "Design Pattern/Structural/Decorator/Custom String builder.md",
-    "Design Pattern/Structural/Adatper/Adapter 패턴.md",
-    "Design Pattern/Structural/Decorator",
-    "Design Pattern/Structural/Bridge/Bridge pattern.md",
-    "Design Pattern/Structural/Composite",
     "Design Pattern/Structural/Bridge/Pasted image 20231006003811.png",
     "Design Pattern/Structural/Bridge/Pasted image 20231006003836.png"
   ]
