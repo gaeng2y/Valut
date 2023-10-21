@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Design Pattern/Structural/Proxy/Summary.md",
+                "file": "Design Pattern/Behavior/Chain Of Responsibility/Example.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Design Pattern/Structural/Proxy/Summary.md",
+                "file": "Design Pattern/Behavior/Chain Of Responsibility/Example.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Design Pattern/Structural/Proxy/Summary.md",
+                "file": "Design Pattern/Behavior/Chain Of Responsibility/Example.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Design Pattern/Structural/Proxy/Summary.md"
+                "file": "Design Pattern/Behavior/Chain Of Responsibility/Example.md"
               }
             }
           }
@@ -149,6 +149,12 @@
   },
   "active": "d3dc2f80770fe0c9",
   "lastOpenFiles": [
+    "Design Pattern/Behavior/Chain Of Responsibility/Command Query Separation.md",
+    "Design Pattern/Behavior/Chain Of Responsibility/Example.md",
+    "Design Pattern/Behavior/Chain Of Responsibility/Overview.md",
+    "Design Pattern/Structural/Proxy/Summary.md",
+    "Design Pattern/Behavior",
+    "Design Pattern/Behavior/Chain Of Responsibility",
     "Dependency Injection/Pasted image 20231019231727.png",
     "conflict-files-obsidian-git.md",
     "Design Pattern/Structural/Proxy/Pasted image 20231019231727.png",
@@ -159,7 +165,6 @@
     "(Unit,UI)Tests/UnitTets",
     "(Unit,UI)Tests/UITests",
     "(Unit,UI)Tests",
-    "Design Pattern/Structural/Proxy/Summary.md",
     "Design Pattern/Structural/Proxy/Proxy vs Decorator.md",
     "Design Pattern/Structural/Proxy/Property Proxy.md",
     "Design Pattern/Structural/Proxy/Protection Proxy.md",
@@ -183,13 +188,9 @@
     "Swift Concurrency/Chapter 1/Pasted image 20231002190737.png",
     "Dependency Injection",
     "Swift Concurrency/Chapter 4/Structured Concurrency.md",
-    "Swift Concurrency/Chapter 4",
     "Design Pattern/Structural/Facade/Review.md",
     "Design Pattern/Structural/Facade/Overview.md",
     "Design Pattern/Structural/Facade/Example.md",
-    "Design Pattern/Structural/Decorator/동적, 정적 데코레이터.md",
-    "Design Pattern/Structural/Decorator/정리.md",
-    "Design Pattern/Structural/Flyweight",
     "Design Pattern/Structural/Bridge/Pasted image 20231006003811.png",
     "Design Pattern/Structural/Bridge/Pasted image 20231006003836.png"
   ]
