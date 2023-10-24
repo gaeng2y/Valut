@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Design Pattern/Behavior/Mediator/Summary.md",
+                "file": "Swift Concurrency/Chapter 4/Summary.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Design Pattern/Behavior/Mediator/Summary.md",
+                "file": "Swift Concurrency/Chapter 4/Summary.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Design Pattern/Behavior/Mediator/Summary.md",
+                "file": "Swift Concurrency/Chapter 4/Summary.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Design Pattern/Behavior/Mediator/Summary.md"
+                "file": "Swift Concurrency/Chapter 4/Summary.md"
               }
             }
           }
@@ -149,8 +149,11 @@
   },
   "active": "d3dc2f80770fe0c9",
   "lastOpenFiles": [
-    "Design Pattern/Behavior/Mediator/Example.md",
+    "Swift Concurrency/Chapter 4/Structured Concurrency.md",
+    "Swift Concurrency/Chapter 5/Unstructured Concurrency.md",
     "Design Pattern/Behavior/Mediator/Summary.md",
+    "Swift Concurrency/Chapter 5",
+    "Design Pattern/Behavior/Mediator/Example.md",
     "Design Pattern/Behavior/Mediator/Overview.md",
     "Design Pattern/Behavior/Chain Of Responsibility/Example.md",
     "Design Pattern/Behavior/Mediator",
@@ -173,7 +176,7 @@
     "(Unit,UI)Tests/UnitTets",
     "(Unit,UI)Tests/UITests",
     "(Unit,UI)Tests",
-    "Swift Concurrency/Chapter 4/무제 파일.md",
+    "Swift Concurrency/Chapter 4/Summary.md",
     "Design Pattern/Structural/Proxy",
     "Swift Concurrency/Chapter 4/Task Groups.md",
     "README.md",
@@ -186,11 +189,8 @@
     "Dependency Injection/Section 2/Using DI.md",
     "Dependency Injection/Section 3",
     "Dependency Injection/Section 2",
-    "Dependency Injection/Section 1",
-    "Swift Concurrency/Chapter 1/Introduction.md",
     "Swift Concurrency/Chapter 1/Pasted image 20231002190800.png",
     "Swift Concurrency/Chapter 1/Pasted image 20231002190737.png",
-    "Swift Concurrency/Chapter 4/Structured Concurrency.md",
     "Design Pattern/Structural/Bridge/Pasted image 20231006003811.png",
     "Design Pattern/Structural/Bridge/Pasted image 20231006003836.png"
   ]
