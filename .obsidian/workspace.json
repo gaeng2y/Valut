@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Design Pattern/Creational/Signleton.md",
+                "file": "Modular programming/Library, Framework, Swift Package 차이점.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Modular programming/Library, Framework, Swift Package 차이점.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Modular programming/Library, Framework, Swift Package 차이점.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "conflict-files-obsidian-git.md"
+                "file": "Modular programming/Library, Framework, Swift Package 차이점.md"
               }
             }
           }
@@ -145,8 +147,11 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "160736a19be9866b",
+  "active": "d3dc2f80770fe0c9",
   "lastOpenFiles": [
+    "Design Pattern/Creational/Signleton.md",
+    "Modular programming/Library, Framework, Swift Package 차이점.md",
+    "conflict-files-obsidian-git.md",
     "Swift Concurrency/Chapter 5/Unstructured Concurrency.md",
     "Swift Concurrency/Chapter 5",
     "Swift Concurrency/Chapter 4/Summary.md",
@@ -163,8 +168,6 @@
     "Design Pattern/Behavior",
     "Swift Concurrency/Chapter 4/무제 파일.md",
     "Modular programming",
-    "Design Pattern/Creational/Signleton.md",
-    "conflict-files-obsidian-git.md",
     "Design Pattern/Structural/Proxy/Pasted image 20231019231727.png",
     "(Unit,UI)Tests/UnitTets/샘플 포스팅.md",
     "(Unit,UI)Tests/UITests/샘플 포스팅.md",
