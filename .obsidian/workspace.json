@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Swift Concurrency/Chapter 4/Summary.md",
+                "file": "Swift Concurrency/Chapter 5/Unstructured Concurrency.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Swift Concurrency/Chapter 4/Summary.md",
+                "file": "Swift Concurrency/Chapter 5/Unstructured Concurrency.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Swift Concurrency/Chapter 4/Summary.md",
+                "file": "Swift Concurrency/Chapter 5/Unstructured Concurrency.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Swift Concurrency/Chapter 4/Summary.md"
+                "file": "Swift Concurrency/Chapter 5/Unstructured Concurrency.md"
               }
             }
           }
@@ -149,6 +149,8 @@
   },
   "active": "d3dc2f80770fe0c9",
   "lastOpenFiles": [
+    "README.md",
+    "Swift Concurrency/Chapter 4/Summary.md",
     "Swift Concurrency/Chapter 4/Structured Concurrency.md",
     "Swift Concurrency/Chapter 5/Unstructured Concurrency.md",
     "Design Pattern/Behavior/Mediator/Summary.md",
@@ -176,10 +178,8 @@
     "(Unit,UI)Tests/UnitTets",
     "(Unit,UI)Tests/UITests",
     "(Unit,UI)Tests",
-    "Swift Concurrency/Chapter 4/Summary.md",
     "Design Pattern/Structural/Proxy",
     "Swift Concurrency/Chapter 4/Task Groups.md",
-    "README.md",
     "Dependency Injection/Section 1/Dependency Injection with example.md",
     "Design Pattern/Structural/Flyweight/Motivation.md",
     "Dependency Injection/Section 1/Pasted image 20231018134446.png",
