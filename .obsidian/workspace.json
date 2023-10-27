@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Swift Concurrency/Chapter 5/Unstructured Concurrency.md",
+                "file": "Design Pattern/Behavior/Observer/Overview.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Swift Concurrency/Chapter 5/Unstructured Concurrency.md",
+                "file": "Design Pattern/Behavior/Observer/Overview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Swift Concurrency/Chapter 5/Unstructured Concurrency.md",
+                "file": "Design Pattern/Behavior/Observer/Overview.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Swift Concurrency/Chapter 5/Unstructured Concurrency.md"
+                "file": "Design Pattern/Behavior/Observer/Overview.md"
               }
             }
           }
@@ -162,8 +162,10 @@
   },
   "active": "9745f3d26545eecc",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "Swift Concurrency/Chapter 5/Unstructured Concurrency.md",
+    "Design Pattern/Behavior/Observer/Overview.md",
+    "Design Pattern/Behavior/Observer",
+    "conflict-files-obsidian-git.md",
     "Modular programming/Library, Framework, Swift Package 차이점.md",
     "Modular programming",
     "README.md",
@@ -199,9 +201,7 @@
     "Design Pattern/Structural/Flyweight/Motivation.md",
     "Dependency Injection/Section 1/Pasted image 20231018134446.png",
     "Dependency Injection/Section 3/Cotents.md",
-    "Untitled.md",
     "Dependency Injection/Section 3/Pasted image 20231018161012.png",
-    "Dependency Injection/Section 3",
     "Swift Concurrency/Chapter 1/Pasted image 20231002190800.png",
     "Swift Concurrency/Chapter 1/Pasted image 20231002190737.png",
     "Design Pattern/Structural/Bridge/Pasted image 20231006003811.png",
