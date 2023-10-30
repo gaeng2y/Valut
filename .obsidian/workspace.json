@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Design Pattern/Behavior/Observer/Overview.md",
+                "file": "Design Pattern/Behavior/Interpreter/Overview.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Design Pattern/Behavior/Observer/Overview.md",
+                "file": "Design Pattern/Behavior/Interpreter/Overview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Design Pattern/Behavior/Observer/Overview.md",
+                "file": "Design Pattern/Behavior/Interpreter/Overview.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Design Pattern/Behavior/Observer/Overview.md"
+                "file": "Design Pattern/Behavior/Interpreter/Overview.md"
               }
             }
           }
@@ -162,8 +162,12 @@
   },
   "active": "9745f3d26545eecc",
   "lastOpenFiles": [
-    "Swift Concurrency/Chapter 5/Unstructured Concurrency.md",
+    "Design Pattern/Behavior/Command/Overview.md",
+    "Design Pattern/Behavior/Interpreter/Overview.md",
     "Design Pattern/Behavior/Observer/Overview.md",
+    "Design Pattern/Behavior/Interpreter",
+    "Design Pattern/Behavior/Command",
+    "Swift Concurrency/Chapter 5/Unstructured Concurrency.md",
     "Design Pattern/Behavior/Observer",
     "conflict-files-obsidian-git.md",
     "Modular programming/Library, Framework, Swift Package 차이점.md",
@@ -194,13 +198,9 @@
     "(Unit,UI)Tests/UITests/라이브러리.md",
     "(Unit,UI)Tests/UnitTets",
     "(Unit,UI)Tests/UITests",
-    "(Unit,UI)Tests",
-    "Design Pattern/Structural/Proxy",
     "Swift Concurrency/Chapter 4/Task Groups.md",
     "Dependency Injection/Section 1/Dependency Injection with example.md",
-    "Design Pattern/Structural/Flyweight/Motivation.md",
     "Dependency Injection/Section 1/Pasted image 20231018134446.png",
-    "Dependency Injection/Section 3/Cotents.md",
     "Dependency Injection/Section 3/Pasted image 20231018161012.png",
     "Swift Concurrency/Chapter 1/Pasted image 20231002190800.png",
     "Swift Concurrency/Chapter 1/Pasted image 20231002190737.png",
