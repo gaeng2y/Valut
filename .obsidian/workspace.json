@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Swift Concurrency/Chapter 5/Unstructured Concurrency in Action.md",
+                "file": "Swift Concurrency/Chapter 6/Actor.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Swift Concurrency/Chapter 5/Unstructured Concurrency in Action.md",
+                "file": "Swift Concurrency/Chapter 6/Actor.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Swift Concurrency/Chapter 5/Unstructured Concurrency in Action.md",
+                "file": "Swift Concurrency/Chapter 6/Actor.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Swift Concurrency/Chapter 5/Unstructured Concurrency in Action.md"
+                "file": "Swift Concurrency/Chapter 6/Actor.md"
               }
             }
           }
@@ -162,8 +162,10 @@
   },
   "active": "9745f3d26545eecc",
   "lastOpenFiles": [
-    "Swift Concurrency/Chapter 5/Unstructured Concurrency.md",
     "Swift Concurrency/Chapter 5/Unstructured Concurrency in Action.md",
+    "Swift Concurrency/Chapter 6/Actor.md",
+    "Swift Concurrency/Chapter 6",
+    "Swift Concurrency/Chapter 5/Unstructured Concurrency.md",
     "Design Pattern/Behavior/Interpreter/Overview.md",
     "Design Pattern/Behavior/Command/Overview.md",
     "Design Pattern/Behavior/Observer/Overview.md",
@@ -198,8 +200,6 @@
     "(Unit,UI)Tests/UITests/샘플 포스팅.md",
     "(Unit,UI)Tests/UITests/라이브러리.md",
     "(Unit,UI)Tests/UnitTets",
-    "(Unit,UI)Tests/UITests",
-    "Swift Concurrency/Chapter 4/Task Groups.md",
     "Dependency Injection/Section 1/Pasted image 20231018134446.png",
     "Dependency Injection/Section 3/Pasted image 20231018161012.png",
     "Swift Concurrency/Chapter 1/Pasted image 20231002190800.png",
