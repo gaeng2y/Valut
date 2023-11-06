@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Modular programming/Library, Framework, Swift Package 차이점.md",
+                "file": "Swift Concurrency/Chapter 5/Unstructured Concurrency.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9745f3d26545eecc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Design Pattern/Behavior/Interpreter/Overview.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Modular programming/Library, Framework, Swift Package 차이점.md",
+                "file": "Design Pattern/Behavior/Interpreter/Overview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Modular programming/Library, Framework, Swift Package 차이점.md",
+                "file": "Design Pattern/Behavior/Interpreter/Overview.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Modular programming/Library, Framework, Swift Package 차이점.md"
+                "file": "Design Pattern/Behavior/Interpreter/Overview.md"
               }
             }
           }
@@ -148,47 +161,48 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "d3dc2f80770fe0c9",
+  "active": "9745f3d26545eecc",
   "lastOpenFiles": [
-    "Design Pattern/Creational/Signleton.md",
-    "Modular programming/Library, Framework, Swift Package 차이점.md",
-    "conflict-files-obsidian-git.md",
+    "Design Pattern/Behavior/Command/Overview.md",
+    "Swift Concurrency/Chapter 6/Actors.md",
+    "Swift Concurrency/Chapter 5/Unstructured Concurrency in Action.md",
+    "Swift Concurrency/Chapter 6",
     "Swift Concurrency/Chapter 5/Unstructured Concurrency.md",
-    "Swift Concurrency/Chapter 5",
-    "Swift Concurrency/Chapter 4/Summary.md",
-    "Design Pattern/Structural/Proxy/Summary.md",
-    "Design Pattern/Structural/Proxy/Proxy vs Decorator.md",
-    "Design Pattern/Behavior/Mediator/Summary.md",
-    "Design Pattern/Behavior/Mediator/Overview.md",
-    "Design Pattern/Behavior/Mediator/Example.md",
-    "Design Pattern/Behavior/Chain Of Responsibility/Overview.md",
-    "Design Pattern/Behavior/Chain Of Responsibility/Example.md",
-    "Design Pattern/Behavior/Chain Of Responsibility/Command Query Separation.md",
-    "Design Pattern/Behavior/Mediator",
-    "Design Pattern/Behavior/Chain Of Responsibility",
-    "Design Pattern/Behavior",
-    "Swift Concurrency/Chapter 4/무제 파일.md",
+    "Design Pattern/Behavior/Interpreter/Overview.md",
+    "Design Pattern/Behavior/Observer/Overview.md",
+    "Design Pattern/Behavior/Interpreter",
+    "Design Pattern/Behavior/Command",
+    "Design Pattern/Behavior/Observer",
+    "conflict-files-obsidian-git.md",
+    "Modular programming/Library, Framework, Swift Package 차이점.md",
     "Modular programming",
+    "README.md",
+    "Swift Concurrency/Chapter 4/Summary.md",
+    "Swift Concurrency/Chapter 4/Structured Concurrency.md",
+    "Design Pattern/Behavior/Mediator/Summary.md",
+    "Swift Concurrency/Chapter 5",
+    "Design Pattern/Behavior/Mediator/Example.md",
+    "Design Pattern/Behavior/Mediator/Overview.md",
+    "Design Pattern/Behavior/Chain Of Responsibility/Example.md",
+    "Design Pattern/Behavior/Mediator",
+    "Design Pattern/Behavior/Chain Of Responsibility/Command Query Separation.md",
+    "Design Pattern/Behavior/Chain Of Responsibility/Overview.md",
+    "Design Pattern/Structural/Proxy/Summary.md",
+    "Design Pattern/Structural/Proxy/Property Proxy.md",
+    "Design Pattern/Structural/Proxy/Proxy vs Decorator.md",
+    "Design Pattern/Structural/Proxy/Protection Proxy.md",
+    "Design Pattern/Structural/Proxy/Overview.md",
+    "Design Pattern/Behavior",
+    "Design Pattern/Behavior/Chain Of Responsibility",
+    "Dependency Injection/Pasted image 20231019231727.png",
     "Design Pattern/Structural/Proxy/Pasted image 20231019231727.png",
+    "(Unit,UI)Tests/UnitTets/라이브러리.md",
     "(Unit,UI)Tests/UnitTets/샘플 포스팅.md",
     "(Unit,UI)Tests/UITests/샘플 포스팅.md",
     "(Unit,UI)Tests/UITests/라이브러리.md",
-    "(Unit,UI)Tests/UnitTets/라이브러리.md",
-    "Design Pattern/Structural/Proxy/Protection Proxy.md",
     "(Unit,UI)Tests/UnitTets",
-    "(Unit,UI)Tests/UITests",
-    "(Unit,UI)Tests",
-    "Design Pattern/Structural/Proxy/Property Proxy.md",
-    "Design Pattern/Structural/Proxy/Overview.md",
-    "Design Pattern/Structural/Proxy",
-    "Swift Concurrency/Chapter 4/Task Groups.md",
-    "README.md",
-    "Dependency Injection/Section 1/Dependency Injection with example.md",
-    "Design Pattern/Structural/Flyweight/Motivation.md",
     "Dependency Injection/Section 1/Pasted image 20231018134446.png",
-    "Dependency Injection/Section 3/Cotents.md",
     "Dependency Injection/Section 3/Pasted image 20231018161012.png",
-    "Dependency Injection/Section 3",
     "Swift Concurrency/Chapter 1/Pasted image 20231002190800.png",
     "Swift Concurrency/Chapter 1/Pasted image 20231002190737.png",
     "Design Pattern/Structural/Bridge/Pasted image 20231006003811.png",
