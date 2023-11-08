@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Design Pattern/Behavior/Interpreter/Overview.md",
+                "file": "Swift Concurrency/Chatper 7/Actors.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Design Pattern/Behavior/Interpreter/Overview.md",
+                "file": "Swift Concurrency/Chatper 7/Actors.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Design Pattern/Behavior/Interpreter/Overview.md",
+                "file": "Swift Concurrency/Chatper 7/Actors.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Design Pattern/Behavior/Interpreter/Overview.md"
+                "file": "Swift Concurrency/Chatper 7/Actors.md"
               }
             }
           }
@@ -162,12 +162,15 @@
   },
   "active": "9745f3d26545eecc",
   "lastOpenFiles": [
+    "무제 파일.md",
+    "Swift Concurrency/Chatper 7/Actors.md",
+    "Design Pattern/Behavior/Interpreter/Overview.md",
+    "Swift Concurrency/Chatper 7",
     "Design Pattern/Behavior/Command/Overview.md",
     "Swift Concurrency/Chapter 6/Actors.md",
     "Swift Concurrency/Chapter 5/Unstructured Concurrency in Action.md",
     "Swift Concurrency/Chapter 6",
     "Swift Concurrency/Chapter 5/Unstructured Concurrency.md",
-    "Design Pattern/Behavior/Interpreter/Overview.md",
     "Design Pattern/Behavior/Observer/Overview.md",
     "Design Pattern/Behavior/Interpreter",
     "Design Pattern/Behavior/Command",
@@ -197,9 +200,6 @@
     "Design Pattern/Structural/Proxy/Pasted image 20231019231727.png",
     "(Unit,UI)Tests/UnitTets/라이브러리.md",
     "(Unit,UI)Tests/UnitTets/샘플 포스팅.md",
-    "(Unit,UI)Tests/UITests/샘플 포스팅.md",
-    "(Unit,UI)Tests/UITests/라이브러리.md",
-    "(Unit,UI)Tests/UnitTets",
     "Dependency Injection/Section 1/Pasted image 20231018134446.png",
     "Dependency Injection/Section 3/Pasted image 20231018161012.png",
     "Swift Concurrency/Chapter 1/Pasted image 20231002190800.png",
