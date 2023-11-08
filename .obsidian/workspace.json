@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "c14b06ab64d87f5c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Swift Concurrency/Chatper 7/Actors.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Swift Concurrency/Chatper 7/Actors.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Swift Concurrency/Chatper 7/Actors.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           }
@@ -160,10 +172,13 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "9745f3d26545eecc",
+  "active": "c14b06ab64d87f5c",
   "lastOpenFiles": [
-    "무제 파일.md",
     "Swift Concurrency/Chatper 7/Actors.md",
+    "conflict-files-obsidian-git.md",
+    "Trouble shooting/UITableView Sticky Header 만들기.md",
+    "Trouble shooting",
+    "무제 파일.md",
     "Design Pattern/Behavior/Interpreter/Overview.md",
     "Swift Concurrency/Chatper 7",
     "Design Pattern/Behavior/Command/Overview.md",
@@ -175,7 +190,6 @@
     "Design Pattern/Behavior/Interpreter",
     "Design Pattern/Behavior/Command",
     "Design Pattern/Behavior/Observer",
-    "conflict-files-obsidian-git.md",
     "Modular programming/Library, Framework, Swift Package 차이점.md",
     "Modular programming",
     "README.md",
@@ -195,11 +209,9 @@
     "Design Pattern/Structural/Proxy/Protection Proxy.md",
     "Design Pattern/Structural/Proxy/Overview.md",
     "Design Pattern/Behavior",
-    "Design Pattern/Behavior/Chain Of Responsibility",
     "Dependency Injection/Pasted image 20231019231727.png",
     "Design Pattern/Structural/Proxy/Pasted image 20231019231727.png",
     "(Unit,UI)Tests/UnitTets/라이브러리.md",
-    "(Unit,UI)Tests/UnitTets/샘플 포스팅.md",
     "Dependency Injection/Section 1/Pasted image 20231018134446.png",
     "Dependency Injection/Section 3/Pasted image 20231018161012.png",
     "Swift Concurrency/Chapter 1/Pasted image 20231002190800.png",
