@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Swift Concurrency/Chatper 7/Actors.md",
+                "file": "Swift Concurrency/Chatper 7/Introducing Actors.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Swift Concurrency/Chatper 7/Actors.md",
+                "file": "Swift Concurrency/Chatper 7/Introducing Actors.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Swift Concurrency/Chatper 7/Actors.md",
+                "file": "Swift Concurrency/Chatper 7/Introducing Actors.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Swift Concurrency/Chatper 7/Actors.md"
+                "file": "Swift Concurrency/Chatper 7/Introducing Actors.md"
               }
             }
           }
@@ -162,8 +162,9 @@
   },
   "active": "9745f3d26545eecc",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "Swift Concurrency/Chatper 7/Actors.md",
+    "Swift Concurrency/Chatper 7/Introducing Actors.md",
+    "conflict-files-obsidian-git.md",
     "Trouble shooting/UITableView Sticky Header 만들기.md",
     "Trouble shooting",
     "무제 파일.md",
@@ -199,7 +200,6 @@
     "Design Pattern/Behavior",
     "Dependency Injection/Pasted image 20231019231727.png",
     "Design Pattern/Structural/Proxy/Pasted image 20231019231727.png",
-    "(Unit,UI)Tests/UnitTets/라이브러리.md",
     "Dependency Injection/Section 1/Pasted image 20231018134446.png",
     "Dependency Injection/Section 3/Pasted image 20231018161012.png",
     "Swift Concurrency/Chapter 1/Pasted image 20231002190800.png",
