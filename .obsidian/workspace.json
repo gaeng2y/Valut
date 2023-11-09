@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Swift Concurrency/Chatper 7/General Tips for Working with Actors.md",
+                "file": "Swift Concurrency/Chatper 7/Sendable Types.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Swift Concurrency/Chatper 7/General Tips for Working with Actors.md",
+                "file": "Swift Concurrency/Chatper 7/Sendable Types.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Swift Concurrency/Chatper 7/General Tips for Working with Actors.md",
+                "file": "Swift Concurrency/Chatper 7/Sendable Types.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Swift Concurrency/Chatper 7/General Tips for Working with Actors.md"
+                "file": "Swift Concurrency/Chatper 7/Sendable Types.md"
               }
             }
           }
@@ -162,13 +162,16 @@
   },
   "active": "9745f3d26545eecc",
   "lastOpenFiles": [
-    "Swift Concurrency/Chatper 7/Actors and Detached Tasks.md",
-    "Swift Concurrency/Chatper 7/General Tips for Working with Actors.md",
-    "Swift Concurrency/Chatper 7/Actor Reentrancy.md",
-    "Swift Concurrency/Chatper 7/Actors and Protocol Conformance.md",
-    "Swift Concurrency/Chatper 7/Nonisolated Access to an Actor.md",
-    "Swift Concurrency/Chatper 7/Introducing Actors.md",
-    "Swift Concurrency/Chatper 7/Actors.md",
+    "Dependency Injection/Pasted image 20231109214830.png",
+    "Swift Concurrency/Chapter 6/Actor Reentrancy.md",
+    "Swift Concurrency/Chatper 7/Sendable Types.md",
+    "Swift Concurrency/Chapter 6/Actors.md",
+    "Swift Concurrency/Chapter 6/General Tips for Working with Actors.md",
+    "Swift Concurrency/Chapter 6/Actors and Detached Tasks.md",
+    "Swift Concurrency/Chapter 6/Actors and Protocol Conformance.md",
+    "Swift Concurrency/Chapter 6/Nonisolated Access to an Actor.md",
+    "Swift Concurrency/Chapter 6/Introducing Actors.md",
+    "Swift Concurrency/Chapter 6/Actors.md",
     "conflict-files-obsidian-git.md",
     "Trouble shooting/UITableView Sticky Header 만들기.md",
     "Trouble shooting",
@@ -176,7 +179,6 @@
     "Design Pattern/Behavior/Interpreter/Overview.md",
     "Swift Concurrency/Chatper 7",
     "Design Pattern/Behavior/Command/Overview.md",
-    "Swift Concurrency/Chapter 6/Actors.md",
     "Swift Concurrency/Chapter 5/Unstructured Concurrency in Action.md",
     "Swift Concurrency/Chapter 6",
     "Swift Concurrency/Chapter 5/Unstructured Concurrency.md",
@@ -195,8 +197,6 @@
     "Design Pattern/Behavior/Mediator/Overview.md",
     "Design Pattern/Behavior/Chain Of Responsibility/Example.md",
     "Design Pattern/Behavior/Mediator",
-    "Design Pattern/Behavior/Chain Of Responsibility/Command Query Separation.md",
-    "Design Pattern/Behavior/Chain Of Responsibility/Overview.md",
     "Design Pattern/Behavior",
     "Dependency Injection/Pasted image 20231019231727.png",
     "Design Pattern/Structural/Proxy/Pasted image 20231019231727.png",
