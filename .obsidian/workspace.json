@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "fa6436266f55bb0a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SwiftUI Documentation/Model Data.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Swift Concurrency/Chapter 6/General Tips for Working with Actors.md",
+                "file": "SwiftUI Documentation/Model Data.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Swift Concurrency/Chapter 6/General Tips for Working with Actors.md",
+                "file": "SwiftUI Documentation/Model Data.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Swift Concurrency/Chapter 6/General Tips for Working with Actors.md"
+                "file": "SwiftUI Documentation/Model Data.md"
               }
             }
           }
@@ -147,11 +160,13 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "515bbc0d667cf49c",
+  "active": "fa6436266f55bb0a",
   "lastOpenFiles": [
+    "SwiftUI Documentation",
+    "Swift Concurrency/Chapter 6/General Tips for Working with Actors.md",
+    "SwiftUI Documentation/Model Data.md",
     "Swift Concurrency/Chapter 6/Actors and Detached Tasks.md",
     "Swift Concurrency/Chapter 6/Actors and Protocol Conformance.md",
-    "Swift Concurrency/Chapter 6/General Tips for Working with Actors.md",
     "Swift Concurrency/Chapter 6/Introducing Actors.md",
     "Swift Concurrency/Chapter 6/Nonisolated Access to an Actor.md",
     "Swift Concurrency/Chatper 7/Sendable Types.md",
@@ -181,8 +196,6 @@
     "Design Pattern/Behavior/Mediator/Summary.md",
     "Design Pattern/Behavior/Mediator/Overview.md",
     "Design Pattern/Behavior/Mediator/Example.md",
-    "Design Pattern/Behavior/Chain Of Responsibility/Overview.md",
-    "Design Pattern/Behavior/Chain Of Responsibility/Example.md",
     "Design Pattern/Behavior/Mediator",
     "Design Pattern/Behavior/Chain Of Responsibility",
     "Design Pattern/Behavior",
