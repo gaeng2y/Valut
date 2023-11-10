@@ -5,4 +5,7 @@ SwiftUI는 사용자 인터페이스 디자인에 대한 선언적 접근 방식
 #### [State](https://developer.apple.com/documentation/swiftui/state)
 SwiftUI에서 관리하는 값을 읽고 쓸 수 있는 속성 래퍼 유형입니다.
 
+**Overview**
+뷰 계층 구조에 저장하는 지정된 값 유형에 대한 단일 정보 소스로 상태를 사용하세요.
+SwiftUI가 제공하는 스토리지 관리와 충돌할 수 있는 멤버별 초기화에서 상태를 설정하는 것을 방지하려면 상태를 비공개로 선언하세요.
 #### [Binding](https://developer.apple.com/documentation/swiftui/binding)
