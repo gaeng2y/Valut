@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Design Pattern/Behavior/Memento/Memento.md",
+                "file": "Design Pattern/Behavior/Memento/Overview.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Design Pattern/Behavior/Memento/Memento.md",
+                "file": "Design Pattern/Behavior/Memento/Overview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Design Pattern/Behavior/Memento/Memento.md",
+                "file": "Design Pattern/Behavior/Memento/Overview.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Design Pattern/Behavior/Memento/Memento.md"
+                "file": "Design Pattern/Behavior/Memento/Overview.md"
               }
             }
           }
@@ -162,8 +162,9 @@
   },
   "active": "9745f3d26545eecc",
   "lastOpenFiles": [
-    "Design Pattern/Behavior/Memento/Overview.md",
+    "Design Pattern/Behavior/Memento/Redo & Undo.md",
     "Design Pattern/Behavior/Memento/Memento.md",
+    "Design Pattern/Behavior/Memento/Overview.md",
     "Design Pattern/Behavior/Null Object/코드 예제.md",
     "Design Pattern/Behavior/Memento",
     "Design Pattern/Behavior/Iterator/Array-backed properties.md",
@@ -197,7 +198,6 @@
     "Design Pattern/Behavior/Interpreter/Overview.md",
     "Swift Concurrency/Chatper 7",
     "Design Pattern/Behavior/Command/Overview.md",
-    "Swift Concurrency/Chapter 5/Unstructured Concurrency in Action.md",
     "Swift Concurrency/Chapter 6",
     "Design Pattern/Behavior/Interpreter",
     "Design Pattern/Behavior/Command",
