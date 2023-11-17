@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Design Pattern/Behavior/Memento/Overview.md",
+                "file": "Design Pattern/Behavior/State/Overview.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Design Pattern/Behavior/Memento/Overview.md",
+                "file": "Design Pattern/Behavior/State/Overview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Design Pattern/Behavior/Memento/Overview.md",
+                "file": "Design Pattern/Behavior/State/Overview.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Design Pattern/Behavior/Memento/Overview.md"
+                "file": "Design Pattern/Behavior/State/Overview.md"
               }
             }
           }
@@ -162,9 +162,11 @@
   },
   "active": "9745f3d26545eecc",
   "lastOpenFiles": [
+    "Design Pattern/Behavior/Memento/Overview.md",
+    "Design Pattern/Behavior/State/Overview.md",
+    "Design Pattern/Behavior/State",
     "Design Pattern/Behavior/Memento/Redo & Undo.md",
     "Design Pattern/Behavior/Memento/Memento.md",
-    "Design Pattern/Behavior/Memento/Overview.md",
     "Design Pattern/Behavior/Null Object/코드 예제.md",
     "Design Pattern/Behavior/Memento",
     "Design Pattern/Behavior/Iterator/Array-backed properties.md",
@@ -197,10 +199,8 @@
     "무제 파일.md",
     "Design Pattern/Behavior/Interpreter/Overview.md",
     "Swift Concurrency/Chatper 7",
-    "Design Pattern/Behavior/Command/Overview.md",
     "Swift Concurrency/Chapter 6",
     "Design Pattern/Behavior/Interpreter",
-    "Design Pattern/Behavior/Command",
     "Dependency Injection/Pasted image 20231019231727.png",
     "Design Pattern/Structural/Proxy/Pasted image 20231019231727.png",
     "Dependency Injection/Section 1/Pasted image 20231018134446.png",
