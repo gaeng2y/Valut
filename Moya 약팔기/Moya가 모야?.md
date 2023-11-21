@@ -12,6 +12,6 @@ Moya의 몇 가지 놀라운 기능:
 
 ### [Example](https://github.com/Moya/Moya/tree/master/docs/Examples)
 
--> Combine / 확장을 통한 concurrency냐 라는 고민
+-> Combine / [확장을 통한 concurrency](https://github.com/Moya/Moya/issues/2265)냐 라는 고민
 
 moya가 최소 지원버전이 iOS 10이라 concurrency를 지원안함
