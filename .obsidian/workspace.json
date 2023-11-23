@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Design Pattern/Behavior/State/Example.md",
+                "file": "Design Pattern/Behavior/Strategy/Dynamic Strategy.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Design Pattern/Behavior/State/Example.md",
+                "file": "Design Pattern/Behavior/Strategy/Dynamic Strategy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Design Pattern/Behavior/State/Example.md",
+                "file": "Design Pattern/Behavior/Strategy/Dynamic Strategy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Design Pattern/Behavior/State/Example.md"
+                "file": "Design Pattern/Behavior/Strategy/Dynamic Strategy.md"
               }
             }
           }
@@ -162,6 +162,9 @@
   },
   "active": "9745f3d26545eecc",
   "lastOpenFiles": [
+    "Design Pattern/Behavior/Strategy/Overview.md",
+    "Design Pattern/Behavior/Strategy/Dynamic Strategy.md",
+    "Design Pattern/Behavior/State/Example.md",
     "TIL/231123.md",
     "Design Pattern/Behavior/Null Object/코드 예제.md",
     "conflict-files-obsidian-git.md",
@@ -170,10 +173,8 @@
     "Design Pattern/Behavior/Memento/Overview.md",
     "Design Pattern/Behavior/Memento/Memento.md",
     "Trouble shooting/로또 번호 만들기.md",
-    "Design Pattern/Behavior/Strategy/Overview.md",
     "Moya 약팔기/Moya가 모야?.md",
     "Moya 약팔기",
-    "Design Pattern/Behavior/State/Example.md",
     "Design Pattern/Behavior/Strategy",
     "Design Pattern/Behavior/State/Overview.md",
     "Design Pattern/Behavior/State",
@@ -199,7 +200,6 @@
     "Swift Concurrency/Chapter 6/General Tips for Working with Actors.md",
     "Swift Concurrency/Chapter 6/Actors and Detached Tasks.md",
     "Swift Concurrency/Chapter 6/Actors and Protocol Conformance.md",
-    "Swift Concurrency/Chapter 6/Nonisolated Access to an Actor.md",
     "Trouble shooting",
     "Dependency Injection/Pasted image 20231019231727.png",
     "Design Pattern/Structural/Proxy/Pasted image 20231019231727.png",
