@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b6f54d6e5823ca93",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Design Pattern/Behavior/Template Method/예를 들어.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Design Pattern/Behavior/Template Method/예를 들어.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Design Pattern/Behavior/Template Method/예를 들어.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           }
@@ -160,10 +172,11 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "9745f3d26545eecc",
+  "active": "b6f54d6e5823ca93",
   "lastOpenFiles": [
-    "Design Pattern/Behavior/Template Method/Overview.md",
     "Design Pattern/Behavior/Template Method/예를 들어.md",
+    "conflict-files-obsidian-git.md",
+    "Design Pattern/Behavior/Template Method/Overview.md",
     "Design Pattern/Behavior/Strategy/Dynamic Strategy.md",
     "Design Pattern/Behavior/Visitor",
     "Design Pattern/Behavior/Template Method",
@@ -171,7 +184,6 @@
     "Design Pattern/Behavior/State/Example.md",
     "TIL/231123.md",
     "Design Pattern/Behavior/Null Object/코드 예제.md",
-    "conflict-files-obsidian-git.md",
     "TIL",
     "Design Pattern/Behavior/Memento/Redo & Undo.md",
     "Design Pattern/Behavior/Memento/Overview.md",
