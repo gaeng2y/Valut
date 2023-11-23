@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TIL/231123.md",
+                "file": "Design Pattern/Behavior/State/Example.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TIL/231123.md",
+                "file": "Design Pattern/Behavior/State/Example.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TIL/231123.md",
+                "file": "Design Pattern/Behavior/State/Example.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TIL/231123.md"
+                "file": "Design Pattern/Behavior/State/Example.md"
               }
             }
           }
@@ -162,9 +162,9 @@
   },
   "active": "9745f3d26545eecc",
   "lastOpenFiles": [
+    "TIL/231123.md",
     "Design Pattern/Behavior/Null Object/코드 예제.md",
     "conflict-files-obsidian-git.md",
-    "TIL/231123.md",
     "TIL",
     "Design Pattern/Behavior/Memento/Redo & Undo.md",
     "Design Pattern/Behavior/Memento/Overview.md",
