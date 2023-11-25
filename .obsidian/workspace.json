@@ -25,26 +25,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Design Pattern/Behavior/Iterator/Array-backed properties.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "53a1b36a46ceb03d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "Design Pattern/Behavior/Visitor/Intrusive Expression Printing.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -110,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "Design Pattern/Behavior/Visitor/Intrusive Expression Printing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "Design Pattern/Behavior/Visitor/Intrusive Expression Printing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "conflict-files-obsidian-git.md"
+                "file": "Design Pattern/Behavior/Visitor/Intrusive Expression Printing.md"
               }
             }
           }
@@ -172,8 +160,9 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "53a1b36a46ceb03d",
+  "active": "f237a3bc3d816cdf",
   "lastOpenFiles": [
+    "Design Pattern/Behavior/Visitor/Dispatch.md",
     "Design Pattern/Behavior/Iterator/Array-backed properties.md",
     "conflict-files-obsidian-git.md",
     "Design Pattern/Behavior/Iterator/Overview.md",
@@ -182,7 +171,6 @@
     "Design Pattern/Behavior/Memento/Overview.md",
     "Design Pattern/Behavior/Strategy/Dynamic Strategy.md",
     "Design Pattern/Behavior/Iterator/Iterator Object.md",
-    "Design Pattern/Behavior/Visitor/Dispatch.md",
     "Design Pattern/Behavior/Visitor/Overview.md",
     "Design Pattern/Behavior/Null Object/코드 예제.md",
     "Design Pattern/Behavior/Visitor/Intrusive Expression Printing.md",
