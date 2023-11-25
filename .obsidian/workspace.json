@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Design Pattern/Behavior/Visitor/Intrusive Expression Printing.md",
+                "file": "Design Pattern/Behavior/Visitor/Dispatch.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "9843e891487ed6f6",
@@ -98,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Design Pattern/Behavior/Visitor/Intrusive Expression Printing.md",
+                "file": "Design Pattern/Behavior/Visitor/Dispatch.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Design Pattern/Behavior/Visitor/Intrusive Expression Printing.md",
+                "file": "Design Pattern/Behavior/Visitor/Dispatch.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Design Pattern/Behavior/Visitor/Intrusive Expression Printing.md"
+                "file": "Design Pattern/Behavior/Visitor/Dispatch.md"
               }
             }
           }
@@ -162,6 +163,7 @@
   },
   "active": "f237a3bc3d816cdf",
   "lastOpenFiles": [
+    "Design Pattern/Behavior/Visitor/Intrusive Expression Printing.md",
     "Design Pattern/Behavior/Visitor/Dispatch.md",
     "Design Pattern/Behavior/Iterator/Array-backed properties.md",
     "conflict-files-obsidian-git.md",
@@ -173,7 +175,6 @@
     "Design Pattern/Behavior/Iterator/Iterator Object.md",
     "Design Pattern/Behavior/Visitor/Overview.md",
     "Design Pattern/Behavior/Null Object/코드 예제.md",
-    "Design Pattern/Behavior/Visitor/Intrusive Expression Printing.md",
     "Design Pattern/Behavior/Template Method/예를 들어.md",
     "Design Pattern/Behavior/Template Method/Overview.md",
     "Design Pattern/Behavior/Visitor",
