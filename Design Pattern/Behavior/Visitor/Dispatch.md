@@ -26,6 +26,7 @@
 파일명 `visitor.Classic.swift`를 보면, 이 파일은 스위프트(Swift)에서 전통적인 방식으로 방문자(Visitor) 패턴을 구현한 것으로 추측됩니다. "클래식(Classic)"이라는 용어는 일반적으로 가장 기본적이고 널리 알려진 방식을 나타내는 경우가 많습니다. 방문자 패턴의 클래식 구현에 대해 설명드리겠습니다.
 
 ### 클래식 방문자 패턴 (Classic Visitor Pattern)
+https://refactoring.guru/ko/design-patterns/visitor-double-dispatch
 
 이 패턴은 객체 지향 프로그래밍에서 자주 사용되는 디자인 패턴으로, 복잡한 객체 구조에 대해 연산을 수행할 수 있게 해줍니다. 기본 구성 요소는 다음과 같습니다:
 
