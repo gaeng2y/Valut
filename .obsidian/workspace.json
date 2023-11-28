@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Design Pattern/Behavior/Visitor/Overview.md",
+                "file": "TIL/231128.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Design Pattern/Behavior/Visitor/Overview.md",
+                "file": "TIL/231128.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Design Pattern/Behavior/Visitor/Overview.md",
+                "file": "TIL/231128.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Design Pattern/Behavior/Visitor/Overview.md"
+                "file": "TIL/231128.md"
               }
             }
           }
@@ -161,8 +161,10 @@
   },
   "active": "9745f3d26545eecc",
   "lastOpenFiles": [
-    "Design Pattern/Behavior/Visitor/Dispatch.md",
+    "TIL/231123.md",
+    "TIL/231128.md",
     "Design Pattern/Behavior/Visitor/Overview.md",
+    "Design Pattern/Behavior/Visitor/Dispatch.md",
     "Design Pattern/Behavior/Visitor/Intrusive Expression Printing.md",
     "Design Pattern/Behavior/Iterator/Overview.md",
     "Design Pattern/Behavior/Iterator/Array-backed properties.md",
@@ -179,7 +181,6 @@
     "Design Pattern/Behavior/Template Method",
     "Design Pattern/Behavior/Strategy/Overview.md",
     "Design Pattern/Behavior/State/Example.md",
-    "TIL/231123.md",
     "TIL",
     "Design Pattern/Behavior/Memento/Redo & Undo.md",
     "Design Pattern/Behavior/Memento/Memento.md",
@@ -197,7 +198,6 @@
     "Dependency Injection/Pasted image 20231113214228.png",
     "Dependency Injection/Pasted image 20231113214222.png",
     "Computational Thinking",
-    "Swift Concurrency/Chatper 7/The Sendable Protocol.md",
     "Design Pattern/Behavior/Iterator",
     "Dependency Injection/Pasted image 20231109214830.png",
     "Dependency Injection/Pasted image 20231019231727.png",
