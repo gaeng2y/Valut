@@ -13,19 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TIL/231201.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f237a3bc3d816cdf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Design Pattern/Behavior/Visitor/Dispatch.md",
+                "file": "TIL/231202.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TIL/231201.md",
+                "file": "TIL/231202.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TIL/231201.md",
+                "file": "TIL/231202.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TIL/231201.md"
+                "file": "TIL/231202.md"
               }
             }
           }
@@ -161,12 +149,13 @@
   },
   "active": "9745f3d26545eecc",
   "lastOpenFiles": [
-    "TIL/231128.md",
     "TIL/231201.md",
+    "TIL/231202.md",
+    "Design Pattern/Behavior/Visitor/Dispatch.md",
+    "TIL/231128.md",
     "TIL/231129.md",
     "TIL/231123.md",
     "Design Pattern/Behavior/Visitor/Overview.md",
-    "Design Pattern/Behavior/Visitor/Dispatch.md",
     "Design Pattern/Behavior/Visitor/Intrusive Expression Printing.md",
     "Design Pattern/Behavior/Iterator/Overview.md",
     "Design Pattern/Behavior/Iterator/Array-backed properties.md",
@@ -194,7 +183,6 @@
     "Design Pattern/Behavior/State",
     "Design Pattern/Behavior/Memento",
     "Design Pattern/Behavior/Null Object",
-    "Computational Thinking/컴퓨터의 연산.md",
     "Dependency Injection/Pasted image 20231113214228.png",
     "Dependency Injection/Pasted image 20231113214222.png",
     "Computational Thinking",
