@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TIL/231202.md",
+                "file": "TIL/231205 TIL.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TIL/231202.md",
+                "file": "TIL/231205 TIL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TIL/231202.md",
+                "file": "TIL/231205 TIL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TIL/231202.md"
+                "file": "TIL/231205 TIL.md"
               }
             }
           }
@@ -149,9 +149,10 @@
   },
   "active": "9745f3d26545eecc",
   "lastOpenFiles": [
+    "TIL/231202.md",
+    "TIL/231205 TIL.md",
     "TIL/231204 TIL.md",
     "TIL/231201.md",
-    "TIL/231202.md",
     "Design Pattern/Behavior/Visitor/Dispatch.md",
     "TIL/231128.md",
     "TIL/231129.md",
@@ -177,7 +178,6 @@
     "Design Pattern/Behavior/Memento/Redo & Undo.md",
     "Design Pattern/Behavior/Memento/Memento.md",
     "Trouble shooting/로또 번호 만들기.md",
-    "Moya 약팔기/Moya가 모야?.md",
     "Moya 약팔기",
     "Design Pattern/Behavior/Strategy",
     "Design Pattern/Behavior/State",
