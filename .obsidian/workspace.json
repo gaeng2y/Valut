@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TIL/231208 TIL.md",
+                "file": "TIL/20231212 TIL.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TIL/231208 TIL.md",
+                "file": "TIL/20231212 TIL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TIL/231208 TIL.md",
+                "file": "TIL/20231212 TIL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TIL/231208 TIL.md"
+                "file": "TIL/20231212 TIL.md"
               }
             }
           }
@@ -149,8 +149,9 @@
   },
   "active": "9745f3d26545eecc",
   "lastOpenFiles": [
-    "TIL/231207 TIL.md",
     "TIL/231208 TIL.md",
+    "TIL/20231212 TIL.md",
+    "TIL/231207 TIL.md",
     "TIL/231202.md",
     "Trouble shooting/이미지 스크롤 뷰.md",
     "Trouble shooting/Xcode Configuration.md",
@@ -177,7 +178,6 @@
     "Design Pattern/Behavior/Template Method/Overview.md",
     "Design Pattern/Behavior/Visitor",
     "Design Pattern/Behavior/Template Method",
-    "Design Pattern/Behavior/Strategy/Overview.md",
     "TIL",
     "Moya 약팔기",
     "Design Pattern/Behavior/Strategy",
