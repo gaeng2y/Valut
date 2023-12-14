@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TIL/231207 TIL.md",
+                "file": "Trouble shooting/ContentsDetailViewerViewController.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TIL/231207 TIL.md",
+                "file": "Trouble shooting/ContentsDetailViewerViewController.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TIL/231207 TIL.md",
+                "file": "Trouble shooting/ContentsDetailViewerViewController.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TIL/231207 TIL.md"
+                "file": "Trouble shooting/ContentsDetailViewerViewController.md"
               }
             }
           }
@@ -149,9 +149,10 @@
   },
   "active": "9745f3d26545eecc",
   "lastOpenFiles": [
-    "TIL/231202.md",
-    "TIL/231207 TIL.md",
     "Trouble shooting/이미지 스크롤 뷰.md",
+    "Trouble shooting/ContentsDetailViewerViewController.md",
+    "TIL/231207 TIL.md",
+    "TIL/231202.md",
     "Trouble shooting/Xcode Configuration.md",
     "TIL/231205 TIL.md",
     "Dependency Injection/Pasted image 20231205170440.png",
@@ -177,7 +178,6 @@
     "Design Pattern/Behavior/Visitor",
     "Design Pattern/Behavior/Template Method",
     "Design Pattern/Behavior/Strategy/Overview.md",
-    "Design Pattern/Behavior/State/Example.md",
     "TIL",
     "Moya 약팔기",
     "Design Pattern/Behavior/Strategy",
