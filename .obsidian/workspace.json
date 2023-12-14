@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Trouble shooting/ContentsDetailViewerViewController.md",
+                "file": "TIL/231213 TIL.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Trouble shooting/ContentsDetailViewerViewController.md",
+                "file": "TIL/231213 TIL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Trouble shooting/ContentsDetailViewerViewController.md",
+                "file": "TIL/231213 TIL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Trouble shooting/ContentsDetailViewerViewController.md"
+                "file": "TIL/231213 TIL.md"
               }
             }
           }
@@ -149,14 +149,13 @@
   },
   "active": "9745f3d26545eecc",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "Trouble shooting/ContentsDetailViewerViewController.md",
+    "TIL/20231212 TIL.md",
     "TIL/231213 TIL.md",
     "TIL/231208 TIL.md",
-    "TIL/20231212 TIL.md",
-    "Trouble shooting/이미지 스크롤 뷰.md",
     "TIL/231207 TIL.md",
     "TIL/231202.md",
+    "Trouble shooting/이미지 스크롤 뷰.md",
     "Trouble shooting/Xcode Configuration.md",
     "TIL/231205 TIL.md",
     "Dependency Injection/Pasted image 20231205170440.png",
@@ -170,6 +169,7 @@
     "Design Pattern/Behavior/Visitor/Intrusive Expression Printing.md",
     "Design Pattern/Behavior/Iterator/Overview.md",
     "Design Pattern/Behavior/Iterator/Array-backed properties.md",
+    "conflict-files-obsidian-git.md",
     "Design Pattern/무제 파일.md",
     "Swift Concurrency/Chapter 5/Unstructured Concurrency.md",
     "Design Pattern/Behavior/Memento/Overview.md",
