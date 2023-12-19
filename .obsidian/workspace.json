@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "원티드 커리어/20231218.md",
+                "file": "TIL/20231219.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "원티드 커리어/20231218.md",
+                "file": "TIL/20231219.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "원티드 커리어/20231218.md",
+                "file": "TIL/20231219.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "원티드 커리어/20231218.md"
+                "file": "TIL/20231219.md"
               }
             }
           }
@@ -150,10 +150,11 @@
   "active": "9745f3d26545eecc",
   "lastOpenFiles": [
     "TIL/231213 TIL.md",
+    "TIL/20231212 TIL.md",
+    "TIL/20231219.md",
     "원티드 커리어/20231218.md",
     "원티드 커리어",
     "Trouble shooting/ContentsDetailViewerViewController.md",
-    "TIL/20231212 TIL.md",
     "TIL/231208 TIL.md",
     "TIL/231207 TIL.md",
     "TIL/231202.md",
@@ -176,7 +177,6 @@
     "Swift Concurrency/Chapter 5/Unstructured Concurrency.md",
     "Design Pattern/Behavior/Memento/Overview.md",
     "Design Pattern/Behavior/Strategy/Dynamic Strategy.md",
-    "Design Pattern/Behavior/Iterator/Iterator Object.md",
     "Design Pattern/Behavior/Visitor",
     "Design Pattern/Behavior/Template Method",
     "TIL",
