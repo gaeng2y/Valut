@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Trouble shooting/AVAsset 만지기.md",
+                "file": "웹, 네트워크/Chatper 1.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 298.5
   },
   "right": {
     "id": "9843e891487ed6f6",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Trouble shooting/AVAsset 만지기.md",
+                "file": "웹, 네트워크/Chatper 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Trouble shooting/AVAsset 만지기.md",
+                "file": "웹, 네트워크/Chatper 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Trouble shooting/AVAsset 만지기.md"
+                "file": "웹, 네트워크/Chatper 1.md"
               }
             }
           }
@@ -147,22 +147,21 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "9745f3d26545eecc",
+  "active": "160736a19be9866b",
   "lastOpenFiles": [
-    "Trouble shooting/ContentsDetailViewerViewController.md",
     "Trouble shooting/AVAsset 만지기.md",
+    "TIL/20231219.md",
     "웹, 네트워크/Chatper 1.md",
     "웹, 네트워크",
+    "TIL/231213 TIL.md",
+    "TIL/20231212 TIL.md",
     "원티드 커리어/20231218.md",
     "원티드 커리어",
-    "TIL/20231219.md",
-    "conflict-files-obsidian-git.md",
-    "TIL/231213 TIL.md",
+    "Trouble shooting/ContentsDetailViewerViewController.md",
     "TIL/231208 TIL.md",
-    "TIL/20231212 TIL.md",
-    "Trouble shooting/이미지 스크롤 뷰.md",
     "TIL/231207 TIL.md",
     "TIL/231202.md",
+    "Trouble shooting/이미지 스크롤 뷰.md",
     "Trouble shooting/Xcode Configuration.md",
     "TIL/231205 TIL.md",
     "Dependency Injection/Pasted image 20231205170440.png",
@@ -176,6 +175,7 @@
     "Design Pattern/Behavior/Visitor/Intrusive Expression Printing.md",
     "Design Pattern/Behavior/Iterator/Overview.md",
     "Design Pattern/Behavior/Iterator/Array-backed properties.md",
+    "conflict-files-obsidian-git.md",
     "Design Pattern/무제 파일.md",
     "Swift Concurrency/Chapter 5/Unstructured Concurrency.md",
     "Design Pattern/Behavior/Visitor",
