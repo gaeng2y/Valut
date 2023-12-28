@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "814be6136fc70c0f",
+        "id": "1b394fbdd8eb4f08",
         "type": "tabs",
         "children": [
           {
-            "id": "9745f3d26545eecc",
+            "id": "5ae4720cb8c2a5bb",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -147,18 +147,18 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "160736a19be9866b",
+  "active": "5ae4720cb8c2a5bb",
   "lastOpenFiles": [
+    "TIL/231208 TIL.md",
+    "웹, 네트워크/Chatper 1.md",
     "Trouble shooting/AVAsset 만지기.md",
     "TIL/20231219.md",
-    "웹, 네트워크/Chatper 1.md",
     "웹, 네트워크",
     "TIL/231213 TIL.md",
     "TIL/20231212 TIL.md",
     "원티드 커리어/20231218.md",
     "원티드 커리어",
     "Trouble shooting/ContentsDetailViewerViewController.md",
-    "TIL/231208 TIL.md",
     "TIL/231207 TIL.md",
     "TIL/231202.md",
     "Trouble shooting/이미지 스크롤 뷰.md",
