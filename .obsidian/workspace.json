@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Trouble shooting/SLComposeServiceViewController 커스텀하기.md",
+                "file": "웹, 네트워크/Chapter 2.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Trouble shooting/SLComposeServiceViewController 커스텀하기.md",
+                "file": "웹, 네트워크/Chapter 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Trouble shooting/SLComposeServiceViewController 커스텀하기.md",
+                "file": "웹, 네트워크/Chapter 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Trouble shooting/SLComposeServiceViewController 커스텀하기.md"
+                "file": "웹, 네트워크/Chapter 2.md"
               }
             }
           }
@@ -149,11 +149,12 @@
   },
   "active": "5ae4720cb8c2a5bb",
   "lastOpenFiles": [
-    "Trouble shooting/AVAsset 만지기.md",
+    "웹, 네트워크/Chatper 1.md",
+    "웹, 네트워크/Chapter 2.md",
     "Trouble shooting/SLComposeServiceViewController 커스텀하기.md",
+    "Trouble shooting/AVAsset 만지기.md",
     "Trouble shooting/로또 번호 만들기.md",
     "Trouble shooting/이미지 스크롤 뷰.md",
-    "웹, 네트워크/Chatper 1.md",
     "TIL/231208 TIL.md",
     "TIL/20231219.md",
     "웹, 네트워크",
@@ -177,7 +178,6 @@
     "Design Pattern/Behavior/Visitor/Intrusive Expression Printing.md",
     "Design Pattern/Behavior/Iterator/Overview.md",
     "Design Pattern/Behavior/Iterator/Array-backed properties.md",
-    "conflict-files-obsidian-git.md",
     "Design Pattern/Behavior/Visitor",
     "Design Pattern/Behavior/Template Method",
     "TIL",
