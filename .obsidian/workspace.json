@@ -18,8 +18,57 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d13ff8796927c89c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SwiftUI 스터디/Food Truck/SwiftUI 스터디.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "03d3f1c2df33de53",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SwiftUI 스터디/Food Truck/SwiftUI 스터디.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2ae595571f1302e9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SwiftUI 스터디/Food Truck/SwiftUI 스터디.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "12f0992a75962981",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SwiftUI 스터디/Food Truck/SwiftUI 스터디.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -85,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "웹, 네트워크/Chapter 2.md",
+                "file": "SwiftUI 스터디/Food Truck/SwiftUI 스터디.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "웹, 네트워크/Chapter 2.md",
+                "file": "SwiftUI 스터디/Food Truck/SwiftUI 스터디.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "웹, 네트워크/Chapter 2.md"
+                "file": "SwiftUI 스터디/Food Truck/SwiftUI 스터디.md"
               }
             }
           }
@@ -147,10 +196,16 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "5ae4720cb8c2a5bb",
+  "active": "12f0992a75962981",
   "lastOpenFiles": [
-    "웹, 네트워크/Chatper 1.md",
+    "README.md",
+    "무제 파일.md",
+    "SwiftUI 스터디/Food Truck",
+    "SwiftUI 스터디/Food Truck/SwiftUI 스터디.md",
+    "SwiftUI 스터디",
+    "ㅍ.md",
     "웹, 네트워크/Chapter 2.md",
+    "웹, 네트워크/Chatper 1.md",
     "Trouble shooting/SLComposeServiceViewController 커스텀하기.md",
     "Trouble shooting/AVAsset 만지기.md",
     "Trouble shooting/로또 번호 만들기.md",
@@ -173,19 +228,12 @@
     "Design Pattern/Behavior/Visitor/Dispatch.md",
     "TIL/231128.md",
     "TIL/231129.md",
-    "TIL/231123.md",
-    "Design Pattern/Behavior/Visitor/Overview.md",
-    "Design Pattern/Behavior/Visitor/Intrusive Expression Printing.md",
-    "Design Pattern/Behavior/Iterator/Overview.md",
-    "Design Pattern/Behavior/Iterator/Array-backed properties.md",
     "Design Pattern/Behavior/Visitor",
     "Design Pattern/Behavior/Template Method",
     "TIL",
     "Moya 약팔기",
     "Design Pattern/Behavior/Strategy",
     "Design Pattern/Behavior/State",
-    "Design Pattern/Behavior/Memento",
-    "Design Pattern/Behavior/Null Object",
     "Dependency Injection/Pasted image 20231113214228.png",
     "Dependency Injection/Pasted image 20231113214222.png",
     "Dependency Injection/Pasted image 20231109214830.png",
