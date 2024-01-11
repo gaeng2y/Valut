@@ -8,54 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "5ae4720cb8c2a5bb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "웹, 네트워크/Chapter 2.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d13ff8796927c89c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SwiftUI 스터디/Food Truck/SwiftUI 스터디.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "03d3f1c2df33de53",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SwiftUI 스터디/Food Truck/SwiftUI 스터디.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2ae595571f1302e9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SwiftUI 스터디/Food Truck/SwiftUI 스터디.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "12f0992a75962981",
             "type": "leaf",
             "state": {
@@ -67,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -198,13 +149,13 @@
   },
   "active": "12f0992a75962981",
   "lastOpenFiles": [
+    "웹, 네트워크/Chapter 2.md",
+    "SwiftUI 스터디/Food Truck/SwiftUI 스터디.md",
     "README.md",
     "무제 파일.md",
     "SwiftUI 스터디/Food Truck",
-    "SwiftUI 스터디/Food Truck/SwiftUI 스터디.md",
     "SwiftUI 스터디",
     "ㅍ.md",
-    "웹, 네트워크/Chapter 2.md",
     "웹, 네트워크/Chatper 1.md",
     "Trouble shooting/SLComposeServiceViewController 커스텀하기.md",
     "Trouble shooting/AVAsset 만지기.md",
