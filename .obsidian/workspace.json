@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SwiftUI 스터디/Food Truck/코드 분석.md",
+                "file": "SwiftUI 스터디/Food Truck/Documentation.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SwiftUI 스터디/Food Truck/코드 분석.md",
+                "file": "SwiftUI 스터디/Food Truck/Documentation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SwiftUI 스터디/Food Truck/코드 분석.md",
+                "file": "SwiftUI 스터디/Food Truck/Documentation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SwiftUI 스터디/Food Truck/코드 분석.md"
+                "file": "SwiftUI 스터디/Food Truck/Documentation.md"
               }
             }
           }
@@ -147,10 +147,10 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "160736a19be9866b",
+  "active": "12f0992a75962981",
   "lastOpenFiles": [
-    "SwiftUI 스터디/Food Truck/Documentation.md",
     "SwiftUI 스터디/Food Truck/코드 분석.md",
+    "SwiftUI 스터디/Food Truck/Documentation.md",
     "웹, 네트워크/Chapter 2.md",
     "README.md",
     "무제 파일.md",
