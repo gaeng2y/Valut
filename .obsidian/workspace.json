@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "1b394fbdd8eb4f08",
+        "id": "814be6136fc70c0f",
         "type": "tabs",
         "children": [
           {
-            "id": "12f0992a75962981",
+            "id": "9745f3d26545eecc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SwiftUI 스터디/Food Truck/코드 분석.md",
+                "file": "Trouble shooting/UIKit에서 SwiftUI 사용하기.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SwiftUI 스터디/Food Truck/코드 분석.md",
+                "file": "Trouble shooting/UIKit에서 SwiftUI 사용하기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SwiftUI 스터디/Food Truck/코드 분석.md",
+                "file": "Trouble shooting/UIKit에서 SwiftUI 사용하기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SwiftUI 스터디/Food Truck/코드 분석.md"
+                "file": "Trouble shooting/UIKit에서 SwiftUI 사용하기.md"
               }
             }
           }
@@ -147,22 +147,17 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "12f0992a75962981",
+  "active": "9745f3d26545eecc",
   "lastOpenFiles": [
-    "SwiftUI 스터디/Food Truck/Documentation.md",
-    "SwiftUI 스터디/Food Truck/코드 분석.md",
+    "Trouble shooting/SLComposeServiceViewController 커스텀하기.md",
+    "Trouble shooting/UIKit에서 SwiftUI 사용하기.md",
     "웹, 네트워크/Chapter 2.md",
-    "README.md",
-    "무제 파일.md",
+    "SwiftUI 스터디/Food Truck/코드 분석.md",
+    "SwiftUI 스터디/Food Truck/Documentation.md",
     "SwiftUI 스터디/Food Truck",
     "SwiftUI 스터디",
-    "ㅍ.md",
     "웹, 네트워크/Chatper 1.md",
-    "Trouble shooting/SLComposeServiceViewController 커스텀하기.md",
     "Trouble shooting/AVAsset 만지기.md",
-    "Trouble shooting/로또 번호 만들기.md",
-    "Trouble shooting/이미지 스크롤 뷰.md",
-    "TIL/231208 TIL.md",
     "TIL/20231219.md",
     "웹, 네트워크",
     "TIL/231213 TIL.md",
@@ -170,8 +165,10 @@
     "원티드 커리어/20231218.md",
     "원티드 커리어",
     "Trouble shooting/ContentsDetailViewerViewController.md",
+    "TIL/231208 TIL.md",
     "TIL/231207 TIL.md",
     "TIL/231202.md",
+    "Trouble shooting/이미지 스크롤 뷰.md",
     "Trouble shooting/Xcode Configuration.md",
     "TIL/231205 TIL.md",
     "Dependency Injection/Pasted image 20231205170440.png",
@@ -180,6 +177,9 @@
     "Design Pattern/Behavior/Visitor/Dispatch.md",
     "TIL/231128.md",
     "TIL/231129.md",
+    "TIL/231123.md",
+    "Design Pattern/Behavior/Visitor/Overview.md",
+    "Design Pattern/Behavior/Visitor/Intrusive Expression Printing.md",
     "Design Pattern/Behavior/Visitor",
     "Design Pattern/Behavior/Template Method",
     "TIL",
