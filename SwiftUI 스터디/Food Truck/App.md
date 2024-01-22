@@ -43,3 +43,40 @@ NavigationSplitView의 leftColumn에 `Sidebar`가 detailColumn엔 `DetailColumn`
 `DetailColumn`은 뭔가의 동작을 하지는 않고 `selection`에 반응하는 동작만하여 해당 `Panel`에 맞는 뷰를 보여준다.
 
 
+#### TruckView
+
+```swift
+WidthThresholdReader(widthThreshold: 520) { proxy in
+	ScrollView(.vertical) {
+		VStack(spacing: 16) {
+			BrandHeader()
+            
+            Grid(horizontalSpacing: 12, verticalSpacing: 12) {
+				if proxy.isCompact {
+					orders
+					weather
+					donuts
+					socialFeed
+                } else {
+	                GridRow {
+			            orders
+				        weather
+				    }
+				    GridRow {
+					    donuts
+						socialFeed
+					}
+                }
+	        }
+            .containerShape(RoundedRectangle(cornerRadius: 12, style: .continuous))
+            .fixedSize(horizontal: false, vertical: true)
+            .padding([.horizontal, .bottom], 16)
+            .frame(maxWidth: 1200)
+                }
+            }
+        }
+```
+
+기본적인 구조는 이렇다
+
+우선 `WidthThresholdReader` 에 대해 먼저 살펴보자.
