@@ -25,7 +25,7 @@ macOS일 때는 기본 사이즈와 상단 메뉴바에서 사용가능한 기�
 
 ## ContentView
 ```swift 
-@State **private** **var** selection: Panel? = Panel.truck
+@State private var selection: Panel? = Panel.truck
 ```
 NavigationSplitView의 leftColumn에 `Sidebar`가 detailColumn엔 `DetailColumn`이 들어가게 된다.
 
@@ -135,4 +135,8 @@ Proxy를 이용해 width에 따라 isCompact인지 아닌지 체크하는 것 �
 [List](https://developer.apple.com/documentation/swiftui/list)와는 어떻게 다른지 비교해봤는데
 
 List는 UIKit에서 UITableView로 구성되는 부분이고 Table은 약간 엑셀 느낌..?으로 
+
+OrderTable - OrderRow로 이어지는 화면,,,
+
+
 
