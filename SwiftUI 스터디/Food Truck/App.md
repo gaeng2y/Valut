@@ -107,3 +107,19 @@ Proxy를 이용해 width에 따라 isCompact인지 아닌지 체크하는 것 �
 
 `WidthThresholdReader` 안에 뷰를 만들어준다,,,
 
+```swift
+.navigationDestination(for: Panel.self) { panel in
+	switch panel {
+	case .orders:
+		OrdersView(model: model)
+	case .donuts:
+		DonutGallery(model: model)
+	case .socialFeed:
+		SocialFeedView()
+	case .city(let id):
+		CityView(city: City.identified(by: id))
+	default:
+		DonutGallery(model: model)
+	}
+}
+```
