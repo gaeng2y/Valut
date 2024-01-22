@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SwiftUI 스터디/Food Truck/App.md",
+                "file": "Obsidian Valut.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SwiftUI 스터디/Food Truck/App.md",
+                "file": "Obsidian Valut.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SwiftUI 스터디/Food Truck/App.md",
+                "file": "Obsidian Valut.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SwiftUI 스터디/Food Truck/App.md"
+                "file": "Obsidian Valut.md"
               }
             }
           }
@@ -149,16 +149,16 @@
   },
   "active": "12f0992a75962981",
   "lastOpenFiles": [
+    "SwiftUI 스터디/Food Truck/App.md",
     "SwiftUI 스터디/Food Truck/Documentation.md",
     "SwiftUI 스터디/Food Truck/FoodTruckKit.md",
     "SwiftUI 스터디/Food Truck/코드 분석.md",
-    "SwiftUI 스터디/Food Truck/App.md",
     "SwiftUI Documentation/Model Data.md",
     "MVVM/Input - Ouput 패턴.md",
     "Trouble shooting/UIKit에서 SwiftUI 사용하기.md",
     "MVVM",
     "웹, 네트워크/Chapter 2.md",
-    "README.md",
+    "Obsidian Valut.md",
     "무제 파일.md",
     "SwiftUI 스터디/Food Truck",
     "SwiftUI 스터디",
