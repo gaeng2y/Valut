@@ -130,6 +130,9 @@ Proxy를 이용해 width에 따라 isCompact인지 아닌지 체크하는 것 �
 `Card`는 `TruckView`에서 Grid의 뷰로 사용할 녀석들
 
 ### OrdersView
-https://developer.apple.com/documentation/swiftui/table
+[Table](https://developer.apple.com/documentation/swiftui/table) 을 이용하여 구성
 
-https://developer.apple.com/documentation/swiftui/list
+[List](https://developer.apple.com/documentation/swiftui/list)와는 어떻게 다른지 비교해봤는데
+
+List는 UIKit에서 UITableView로 구성되는 부분이고 Table은 약간 엑셀 느낌..?으로 
+
