@@ -127,6 +127,8 @@ Proxy를 이용해 width에 따라 isCompact인지 아닌지 체크하는 것 �
 
 **!! 위의 내용이 맞는지 확인하기**
 
+`Card`는 `TruckView`에서 Grid의 뷰로 사용할 녀석들
+
 ### OrdersView
 https://developer.apple.com/documentation/swiftui/table
 
