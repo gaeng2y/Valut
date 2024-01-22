@@ -36,3 +36,7 @@ NavigationSplitView의 leftColumn에 `Sidebar`가 detailColumn엔 `DetailColumn`
 
 `List`를 사용하고 `NavigationLink`를 각각 넣어준다.
 
+`Sidebar` 에서 변경된 `Panel`이 `DetailColumn`에도 변경되어 뷰가 변경된다.
+
+`DetailColumn`은 뭔가의 동작을 하지는 않고 `selection`에 반응하는 동작만하여 해당 `Panel`에 맞는 뷰를 보여준다.
+
