@@ -100,3 +100,10 @@ struct WidthThresholdProxy: Equatable {
     var isCompact: Bool
 }
 ```
+
+Proxy를 이용해 width에 따라 isCompact인지 아닌지 체크하는 것 같음,,,
+
+다시 **TruckView**로 넘어와서
+
+`WidthThresholdReader` 안에 뷰를 만들어준다,,,
+
