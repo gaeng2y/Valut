@@ -80,3 +80,13 @@ WidthThresholdReader(widthThreshold: 520) { proxy in
 기본적인 구조는 이렇다
 
 우선 `WidthThresholdReader` 에 대해 먼저 살펴보자.
+
+주석을 살펴보니
+
+자식 뷰가 수평으로 압축된 것처럼 동작해야 하는지 여부를 결정하는 데 유용한 뷰
+뷰가 압축되었는지 여부를 결정하는 데에 필요한 요소
+* Width
+* Dynamic Type Size
+* Horizontal size class (on iOS)
+
+라고 되어있네요.
