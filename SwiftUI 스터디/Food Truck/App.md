@@ -81,7 +81,9 @@ WidthThresholdReader(widthThreshold: 520) { proxy in
 
 우선 `WidthThresholdReader` 에 대해 먼저 살펴보자.
 
-주석을 살펴보니
+#### WidthThresholdReader
+
+상단 주석을 살펴보니
 
 자식 뷰가 수평으로 압축된 것처럼 동작해야 하는지 여부를 결정하는 데 유용한 뷰
 뷰가 압축되었는지 여부를 결정하는 데에 필요한 요소
@@ -90,3 +92,11 @@ WidthThresholdReader(widthThreshold: 520) { proxy in
 * Horizontal size class (on iOS)
 
 라고 되어있네요.
+
+그 안에 구조체로 `WidthThresholdProxy` 이 선언되어있습니다. 
+```swift
+struct WidthThresholdProxy: Equatable {
+    var width: Double
+    var isCompact: Bool
+}
+```
