@@ -123,3 +123,8 @@ Proxy를 이용해 width에 따라 isCompact인지 아닌지 체크하는 것 �
 	}
 }
 ```
+에서 이미 해당 뷰가 navigation안에 들어가있으니 navigationSelection에 따라 바뀌면서 적용되는거로 보임
+
+**!! 위의 내용이 맞는지 확인하기**
+
+### OrdersView
