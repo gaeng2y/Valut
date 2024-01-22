@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Trouble shooting/UIKit에서 SwiftUI 사용하기.md",
+                "file": "MVVM/Input - Ouput 패턴.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Trouble shooting/UIKit에서 SwiftUI 사용하기.md",
+                "file": "MVVM/Input - Ouput 패턴.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Trouble shooting/UIKit에서 SwiftUI 사용하기.md",
+                "file": "MVVM/Input - Ouput 패턴.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Trouble shooting/UIKit에서 SwiftUI 사용하기.md"
+                "file": "MVVM/Input - Ouput 패턴.md"
               }
             }
           }
@@ -149,8 +149,10 @@
   },
   "active": "12f0992a75962981",
   "lastOpenFiles": [
-    "SwiftUI 스터디/Food Truck/코드 분석.md",
     "Trouble shooting/UIKit에서 SwiftUI 사용하기.md",
+    "MVVM/Input - Ouput 패턴.md",
+    "MVVM",
+    "SwiftUI 스터디/Food Truck/코드 분석.md",
     "SwiftUI 스터디/Food Truck/Documentation.md",
     "웹, 네트워크/Chapter 2.md",
     "README.md",
@@ -179,13 +181,11 @@
     "TIL/231204 TIL.md",
     "TIL/231201.md",
     "Design Pattern/Behavior/Visitor/Dispatch.md",
-    "TIL/231128.md",
     "Design Pattern/Behavior/Visitor",
     "Design Pattern/Behavior/Template Method",
     "TIL",
     "Moya 약팔기",
     "Design Pattern/Behavior/Strategy",
-    "Design Pattern/Behavior/State",
     "Dependency Injection/Pasted image 20231113214228.png",
     "Dependency Injection/Pasted image 20231113214222.png",
     "Dependency Injection/Pasted image 20231109214830.png",
