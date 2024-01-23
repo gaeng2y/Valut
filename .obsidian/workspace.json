@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SwiftUI 스터디/Food Truck/App.md",
+                "file": "Swift Concurrency/Chapter 8/Final Actors.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SwiftUI 스터디/Food Truck/App.md",
+                "file": "Swift Concurrency/Chapter 8/Final Actors.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SwiftUI 스터디/Food Truck/App.md",
+                "file": "Swift Concurrency/Chapter 8/Final Actors.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SwiftUI 스터디/Food Truck/App.md"
+                "file": "Swift Concurrency/Chapter 8/Final Actors.md"
               }
             }
           }
@@ -149,15 +149,20 @@
   },
   "active": "12f0992a75962981",
   "lastOpenFiles": [
-    "SwiftUI 스터디/Food Truck/코드 분석.md",
+    "Swift Concurrency/Chapter 8/Main Actor.md",
+    "Swift Concurrency/Chapter 8/Final Actors.md",
+    "Swift Concurrency/Chapter 6/Nonisolated Access to an Actor.md",
+    "README.md",
+    "Swift Concurrency/Chapter 8",
+    "Trouble shooting/로또 번호 만들기.md",
     "SwiftUI 스터디/Food Truck/App.md",
+    "SwiftUI 스터디/Food Truck/코드 분석.md",
     "SwiftUI 스터디/Food Truck/Documentation.md",
     "SwiftUI 스터디/Food Truck/FoodTruckKit.md",
     "Trouble shooting/UIKit에서 SwiftUI 사용하기.md",
     "MVVM/Input - Ouput 패턴.md",
     "MVVM",
     "웹, 네트워크/Chapter 2.md",
-    "README.md",
     "무제 파일.md",
     "SwiftUI 스터디/Food Truck",
     "SwiftUI 스터디",
@@ -165,7 +170,6 @@
     "웹, 네트워크/Chatper 1.md",
     "Trouble shooting/SLComposeServiceViewController 커스텀하기.md",
     "Trouble shooting/AVAsset 만지기.md",
-    "Trouble shooting/로또 번호 만들기.md",
     "Trouble shooting/이미지 스크롤 뷰.md",
     "TIL/231208 TIL.md",
     "TIL/20231219.md",
@@ -177,15 +181,11 @@
     "Trouble shooting/ContentsDetailViewerViewController.md",
     "TIL/231207 TIL.md",
     "TIL/231202.md",
-    "Trouble shooting/Xcode Configuration.md",
-    "TIL/231205 TIL.md",
     "Dependency Injection/Pasted image 20231205170440.png",
-    "TIL/231204 TIL.md",
     "Design Pattern/Behavior/Visitor",
     "Design Pattern/Behavior/Template Method",
     "TIL",
     "Moya 약팔기",
-    "Design Pattern/Behavior/Strategy",
     "Dependency Injection/Pasted image 20231113214228.png",
     "Dependency Injection/Pasted image 20231113214222.png",
     "Dependency Injection/Pasted image 20231109214830.png",
