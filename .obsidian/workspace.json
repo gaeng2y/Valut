@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Swift Concurrency/Chapter 7/Sendable Types.md",
+                "file": "Swift Concurrency/Chapter 7/The Sendable Protocol.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Swift Concurrency/Chapter 7/Sendable Types.md",
+                "file": "Swift Concurrency/Chapter 7/The Sendable Protocol.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Swift Concurrency/Chapter 7/Sendable Types.md",
+                "file": "Swift Concurrency/Chapter 7/The Sendable Protocol.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Swift Concurrency/Chapter 7/Sendable Types.md"
+                "file": "Swift Concurrency/Chapter 7/The Sendable Protocol.md"
               }
             }
           }
@@ -149,6 +149,7 @@
   },
   "active": "12f0992a75962981",
   "lastOpenFiles": [
+    "Swift Concurrency/Chapter 7/Sendable Types.md",
     "Swift Concurrency/Chapter 8/Main Actor.md",
     "Swift Concurrency/Chapter 8/Final Actors.md",
     "Swift Concurrency/Chapter 6/Nonisolated Access to an Actor.md",
@@ -180,7 +181,6 @@
     "원티드 커리어",
     "Trouble shooting/ContentsDetailViewerViewController.md",
     "TIL/231207 TIL.md",
-    "TIL/231202.md",
     "Dependency Injection/Pasted image 20231205170440.png",
     "Design Pattern/Behavior/Visitor",
     "Design Pattern/Behavior/Template Method",
