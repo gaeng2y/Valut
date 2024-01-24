@@ -7,3 +7,17 @@ Sendable 타입이 어떻게 행동하는지 더 잘 이해하기 위해, 우리
 #### 구조체
 구조체는 즉시 보낼 수 있을 것이다. 그러나 보낼 수 없는 상황도 있다.
 구조체가 클래스 타입의 프로퍼티를 가지고 있는 경우를 상상해보자.
+
+```swift
+class TVShow {
+    let title: String
+    var rating: Int
+    init(title: String, rating: Int) {
+        self.title = title
+        self.rating = rating
+    }
+}
+struct TVShowLibrary {
+    var shows: [TVShow] = []
+}
+```
