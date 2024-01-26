@@ -160,3 +160,5 @@ Configures the semantic role for the content populating the toolbar. 라고 되�
 
 해당 모디파이어는 [ToolBarRole](https://developer.apple.com/documentation/swiftui/toolbarrole)의 타입을 파라미터로 받는데 해당 타입은 도구 모음을 채우는 콘텐츠의 목적이라는 뜻을 가진다.
 
+### CityView
+ParkingSpotShowcaseView 또한 TimelineView를 이용한다.(BrandHeader와 동일하게)
