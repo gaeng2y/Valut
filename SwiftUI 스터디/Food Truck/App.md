@@ -138,5 +138,25 @@ List는 UIKit에서 UITableView로 구성되는 부분이고 Table은 약간 엑
 
 OrderTable - OrderRow로 이어지는 화면,,,
 
+### DonutGallery
 
+DonutGallery 안에 Grid || Table로 보여준다.
+위의 바버튼을 누르면 테이블 형태로 바꿀 수 있다.
+각 또한 상단에 UIBarButtonItem 을 넣는 대신 SwiftUI에선 
+```swift
+#if os(iOS)
+        .toolbarRole(.browser)
+        #endif
+        .toolbar {
+            ToolbarItemGroup {
+                toolbarItems
+            }
+        }
+```
+위와같이 간단하게 넣을 수 있다.
+
+근데 `.toolbarRole`은 뭐지하고 살펴봤는데
+Configures the semantic role for the content populating the toolbar. 라고 되어있다.
+
+해당 모디파이어는 [ToolBarRole](https://developer.apple.com/documentation/swiftui/toolbarrole)의 타입을 파라미터로 받는데 해당 타입은 도구 모음을 채우는 콘텐츠의 목적이라는 뜻을 가진다.
 
