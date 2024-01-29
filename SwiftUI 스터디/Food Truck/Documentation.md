@@ -99,3 +99,6 @@ Chart {
     }
 }
 ```
+
+### [Obtain a weather forecast](https://developer.apple.com/documentation/swiftui/food_truck_building_a_swiftui_multiplatform_app#4143589)
+앱은 `TruckView`의 `Forecast` 패널에 예측 온도 그래프를 표시합니다. 앱은 WeatherKit 프레임워크에서 이 데이터를 얻습니다.
