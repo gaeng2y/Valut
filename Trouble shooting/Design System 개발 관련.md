@@ -17,3 +17,6 @@ https://minsone.github.io/programming/bundling-resources-with-a-swift-package
 
 해당 내용 참고하면서 진행 중
 
+Package.swift
+파일에 taget에 `resources: [.process("Resources")` 추가
+resource에는 .process, .copy가 있는데 process는 뎁스를 다 없애버리고, copy는 뎁스 그대로 카피해버림
