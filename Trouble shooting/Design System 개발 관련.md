@@ -19,4 +19,9 @@ https://minsone.github.io/programming/bundling-resources-with-a-swift-package
 
 Package.swift
 파일에 taget에 `resources: [.process("Resources")` 추가
-resource에는 .process, .copy가 있는데 process는 뎁스를 다 없애버리고, copy는 뎁스 그대로 카피해버림
+resource에는 .process, .copy가 있는데 process는 뎁스를 다 없애버리고, copy는 뎁스 그대로 카피해버림.
+
+ChatGPT 말로는 직접 Asset.car에 접근하지말래서 그냥 UIColor로 선회,,,
+
+이제 Color를 어떻게 적용할 지? Foudnation에 직접 컬러가 들어갈지 혹은 앱 || 컴포넌트에서 컬러를 갖고있어서 전달할지?
+
