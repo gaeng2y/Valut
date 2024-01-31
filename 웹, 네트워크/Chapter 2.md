@@ -29,3 +29,8 @@ P(lease) D(o) N(ot) T(ouch) S(teve) P(et) A(llegator)
 * 또 7계층이 생기면서 통신이 일어나는 과정을 단계별로 파악할 수 있게 되었다.
 ### OSI 7계층과 TCP/IP 4계층
 #### 프로토콜의 집합, TCP/IP 4계층
+응용 - 전송 - 인터넷 - 네트워크 액세스
+
+|  | OSI 모델 |  |  |  |
+| ---- | ---- | ---- | ---- | ---- |
+| Max | Planck |  | Marie | Curie |

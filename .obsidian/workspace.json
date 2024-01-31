@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SwiftUI 스터디/Food Truck/WeatherKit 사용해보기.md",
+                "file": "웹, 네트워크/Chapter 2.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SwiftUI 스터디/Food Truck/WeatherKit 사용해보기.md",
+                "file": "웹, 네트워크/Chapter 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SwiftUI 스터디/Food Truck/WeatherKit 사용해보기.md",
+                "file": "웹, 네트워크/Chapter 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SwiftUI 스터디/Food Truck/WeatherKit 사용해보기.md"
+                "file": "웹, 네트워크/Chapter 2.md"
               }
             }
           }
@@ -149,10 +149,10 @@
   },
   "active": "12f0992a75962981",
   "lastOpenFiles": [
+    "SwiftUI 스터디/Food Truck/WeatherKit 사용해보기.md",
     "Trouble shooting/Design System 개발 관련.md",
     "Trouble shooting/Access Token 관련.md",
     "SwiftUI 스터디/Food Truck/Documentation.md",
-    "SwiftUI 스터디/Food Truck/WeatherKit 사용해보기.md",
     "SwiftUI 스터디/Food Truck/App.md",
     "Swift Concurrency/Chapter 7/The Sendable Protocol.md",
     "Swift Concurrency/Chapter 7/Sendable Types.md",
