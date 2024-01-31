@@ -1,0 +1,27 @@
+https://voracious-pigment-aaf.notion.site/3613bac852aa4528b3b1c916078add1e#1cf1cb2c38ac44458ae0b0b1a094117e
+
+해당 문서를 참고
+
+문제가 생겼음 처음에는 프레임워크로 개발하였음.
+
+근데? 프레임워크에서 UIColor로 에셋에 접근하면 Color를 잘 가져옴.
+
+하지만 asset에 직접 접근하려면 문제가 생김.
+
+그래서 일단 패키지로 바꿈
+
+왜냐면 스태틱, 다이나믹 신경쓰기 싫어서,,,
+
+그래서
+https://minsone.github.io/programming/bundling-resources-with-a-swift-package
+
+해당 내용 참고하면서 진행 중
+
+Package.swift
+파일에 taget에 `resources: [.process("Resources")` 추가
+resource에는 .process, .copy가 있는데 process는 뎁스를 다 없애버리고, copy는 뎁스 그대로 카피해버림.
+
+ChatGPT 말로는 직접 Asset.car에 접근하지말래서 그냥 UIColor로 선회,,,
+
+이제 Color를 어떻게 적용할 지? Foudnation에 직접 컬러가 들어갈지 혹은 앱 || 컴포넌트에서 컬러를 갖고있어서 전달할지?
+
