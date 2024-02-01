@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "웹, 네트워크/Chapter 2.md",
+                "file": "SwiftUI 스터디/Food Truck/WeatherKit 사용해보기.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "웹, 네트워크/Chapter 2.md",
+                "file": "SwiftUI 스터디/Food Truck/WeatherKit 사용해보기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "웹, 네트워크/Chapter 2.md",
+                "file": "SwiftUI 스터디/Food Truck/WeatherKit 사용해보기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "웹, 네트워크/Chapter 2.md"
+                "file": "SwiftUI 스터디/Food Truck/WeatherKit 사용해보기.md"
               }
             }
           }
@@ -149,6 +149,7 @@
   },
   "active": "12f0992a75962981",
   "lastOpenFiles": [
+    "웹, 네트워크/Chapter 2.md",
     "SwiftUI 스터디/Food Truck/WeatherKit 사용해보기.md",
     "Trouble shooting/Design System 개발 관련.md",
     "Trouble shooting/Access Token 관련.md",
@@ -167,7 +168,6 @@
     "Trouble shooting/UIKit에서 SwiftUI 사용하기.md",
     "MVVM/Input - Ouput 패턴.md",
     "MVVM",
-    "웹, 네트워크/Chapter 2.md",
     "무제 파일.md",
     "SwiftUI 스터디/Food Truck",
     "SwiftUI 스터디",
