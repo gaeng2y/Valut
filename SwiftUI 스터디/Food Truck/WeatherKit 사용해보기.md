@@ -23,3 +23,30 @@ WeatherKit은 현재 상태, 분별 강수량, 시간별, 일일 예보를 포�
 ### WWDC 분석해보기
 https://developer.apple.com/videos/play/wwdc2022/10003/
 
+Apple Weather Service 를 사용함
+
+* 고해상도 날씨 모델
+* 예측 알고리즘
+* 근접 지역의 기상 예뽀를 전세계에 제공
+
+Privacy
+
+개인 정보 보호에 대한 애플의 전념에 일치하도록 WeatherKit은 사용자 정보를 위태롭게 하지 않고 근접 지역 예보를 전달하도록 설계되었다.
+
+위치는 기상 예보를 제공하는 데만 사용되고 어떤 개인 식별 정보도 연관되어 있지 않으며 결코 공유되거나 판매되지 않는다.
+
+WWDC 영상에서는 이용 가능한 데이터 세트를 다룸. 그것은 Apple Weather Service가 뒷받침함.(줄여서 AWS라 그냥 부르겠음,,,)
+
+WeatherKit 프레임워크는 REST Api를 사용해 기상 정보를 요청하는 방법으로 어느 플랫폼에서든 기상 데이터를 얻을 수 있다.
+
+구현 요구 사항들과 모범 사례들을 설명.
+
+## Available datasets
+![[Pasted image 20240204233057.png]]
+### Weather data
+* **Current weather**
+* **Minute forecast**
+* **Hourly forecast**
+* **Daily forecast**
+* **Weather alerts**
+* **Hisorical weather**
