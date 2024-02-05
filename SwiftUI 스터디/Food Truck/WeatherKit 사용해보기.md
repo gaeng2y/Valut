@@ -116,3 +116,9 @@ WeatherKit을 사용하여 소프트웨어를 게시하려면 저작자 표시�
 라고 하네요. (킹작권은 중요하죠 암요...)
 
 말 그대로 니들 이거 표시해야되니까 우리가 제공해줄게 라는거군요...
+
+### Publishing requirements
+
+* Display active link to attribution
+* Display Apple Weather logo
+* Provide link to Weather alert attribution

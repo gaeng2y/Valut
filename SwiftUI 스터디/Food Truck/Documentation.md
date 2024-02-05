@@ -102,3 +102,40 @@ Chart {
 
 ### [Obtain a weather forecast](https://developer.apple.com/documentation/swiftui/food_truck_building_a_swiftui_multiplatform_app#4143589)
 앱은 `TruckView`의 `Forecast` 패널에 예측 온도 그래프를 표시합니다. 앱은 WeatherKit 프레임워크에서 이 데이터를 얻습니다.
+```swift
+.task(id: city.id) {
+    for parkingSpot in city.parkingSpots {
+        do {
+            let weather = try await WeatherService.shared.weather(for: parkingSpot.location)
+            condition = weather.currentWeather.condition
+            willRainSoon = weather.minuteForecast?.contains(where: { $0.precipitationChance >= 0.3 })
+            cloudCover = weather.currentWeather.cloudCover
+            temperature = weather.currentWeather.temperature
+            symbolName = weather.currentWeather.symbolName
+            
+            let attribution = try await WeatherService.shared.attribution
+            attributionLink = attribution.legalPageURL
+            attributionLogo = colorScheme == .light ? attribution.combinedMarkLightURL : attribution.combinedMarkDarkURL
+            
+            if willRainSoon == false {
+                spot = parkingSpot
+                break
+            }
+        } catch {
+            print("Could not gather weather information...", error.localizedDescription)
+            condition = .clear
+            willRainSoon = false
+            cloudCover = 0.15
+        }
+    }
+}
+```
+
+WeatherKit WWDC를 보니 눈에 띄는게 보이네요
+```swift
+let attribution = try await WeatherService.shared.attribution
+            attributionLink = attribution.legalPageURL
+            attributionLogo = colorScheme == .light ? attribution.combinedMarkLightURL : attribution.combinedMarkDarkURL
+```
+
+음 우리꺼 쓰려면 여기다 표시해~
