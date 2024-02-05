@@ -65,3 +65,36 @@ WeatherKit 프레임워크는 REST Api를 사용해 기상 정보를 요청하�
 	* 매시간과 일일 요청에 시자고가 종료 일자를 지정하는 방식으로 역사 데이터에 접근할 수 있다.
 ## Swift 프레임워크를 이용해서 코드 작성해보기
 ![[Pasted image 20240204233954.png]]
+
+App target에 WeatherKit 추가하기
+
+```swift
+private func fetchWeather() async throws {
+        let weatherService = WeatherService()
+        let seoul = CLLocation(latitude: 37.514575, longitude: 127.0495556)
+        do {
+            let weather = try await weatherService.weather(for: seoul)
+            let temperature = weather.currentWeather.temperature
+            let uvIndex = weather.currentWeather.uvIndex
+            
+            print(temperature, uvIndex)
+        } catch {
+            print(error)
+        }
+    }
+```
+
+그리고 호출해보니 
+`Error Domain=WeatherDaemon.WDSJWTAuthenticatorServiceListener.Errors Code=2 "(null)"`
+라는 에러가 나온다...
+
+음 그래서 WWDC를 좀 더 보니
+![[Pasted image 20240205201513.png]]
+
+여기서 App Services 에서 WeatherKit을 추가해야 정상적으로 가져온다!
+
+그 후 실행해보니
+
+![[Pasted image 20240205201543.png]]
+
+와 같은 결과 값을 가져올 수 있다.
