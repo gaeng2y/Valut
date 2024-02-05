@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Trouble shooting/Design System 개발 관련.md",
+                "file": "SwiftUI 스터디/Food Truck/WeatherKit 사용해보기.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Trouble shooting/Design System 개발 관련.md",
+                "file": "SwiftUI 스터디/Food Truck/WeatherKit 사용해보기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Trouble shooting/Design System 개발 관련.md",
+                "file": "SwiftUI 스터디/Food Truck/WeatherKit 사용해보기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Trouble shooting/Design System 개발 관련.md"
+                "file": "SwiftUI 스터디/Food Truck/WeatherKit 사용해보기.md"
               }
             }
           }
@@ -139,35 +139,37 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "command-palette:명령어 팔레트 열기": false,
       "switcher:퀵 스위처 열기": false,
       "graph:그래프 뷰 열기": false,
       "canvas:새 캔버스 만들기": false,
       "daily-notes:오늘의 데일리 노트 열기": false,
-      "templates:템플릿 삽입": false,
-      "command-palette:명령어 팔레트 열기": false
+      "templates:템플릿 삽입": false
     }
   },
   "active": "12f0992a75962981",
   "lastOpenFiles": [
-    "Trouble shooting/Access Token 관련.md",
-    "TIL/231202.md",
-    "Trouble shooting/Design System 개발 관련.md",
-    "SwiftUI 스터디/Food Truck/App.md",
+    "Dependency Injection/Pasted image 20240204233954.png",
+    "Dependency Injection/Pasted image 20240204233057.png",
+    "웹, 네트워크/Chapter 2.md",
     "SwiftUI 스터디/Food Truck/WeatherKit 사용해보기.md",
-    "Swift Concurrency/Chapter 8/Main Actor.md",
-    "Swift Concurrency/Chapter 8/Final Actors.md",
-    "Swift Concurrency/Chapter 8",
+    "Trouble shooting/Design System 개발 관련.md",
+    "Trouble shooting/Access Token 관련.md",
+    "SwiftUI 스터디/Food Truck/Documentation.md",
+    "SwiftUI 스터디/Food Truck/App.md",
     "Swift Concurrency/Chapter 7/The Sendable Protocol.md",
     "Swift Concurrency/Chapter 7/Sendable Types.md",
-    "Swift Concurrency/Chapter 7",
+    "Swift Concurrency/Chapter 8/Main Actor.md",
+    "Swift Concurrency/Chapter 8/Final Actors.md",
+    "Swift Concurrency/Chapter 6/Nonisolated Access to an Actor.md",
+    "README.md",
+    "Swift Concurrency/Chapter 8",
+    "Trouble shooting/로또 번호 만들기.md",
     "SwiftUI 스터디/Food Truck/코드 분석.md",
-    "SwiftUI 스터디/Food Truck/Documentation.md",
     "SwiftUI 스터디/Food Truck/FoodTruckKit.md",
     "Trouble shooting/UIKit에서 SwiftUI 사용하기.md",
     "MVVM/Input - Ouput 패턴.md",
     "MVVM",
-    "웹, 네트워크/Chapter 2.md",
-    "README.md",
     "무제 파일.md",
     "SwiftUI 스터디/Food Truck",
     "SwiftUI 스터디",
@@ -175,17 +177,16 @@
     "웹, 네트워크/Chatper 1.md",
     "Trouble shooting/SLComposeServiceViewController 커스텀하기.md",
     "Trouble shooting/AVAsset 만지기.md",
-    "Trouble shooting/로또 번호 만들기.md",
     "Trouble shooting/이미지 스크롤 뷰.md",
     "TIL/231208 TIL.md",
     "TIL/20231219.md",
     "웹, 네트워크",
-    "TIL/231213 TIL.md",
     "원티드 커리어",
     "Dependency Injection/Pasted image 20231205170440.png",
     "Design Pattern/Behavior/Visitor",
     "Design Pattern/Behavior/Template Method",
     "TIL",
+    "Moya 약팔기",
     "Dependency Injection/Pasted image 20231113214228.png",
     "Dependency Injection/Pasted image 20231113214222.png",
     "Dependency Injection/Pasted image 20231109214830.png",
@@ -193,7 +194,6 @@
     "Design Pattern/Structural/Proxy/Pasted image 20231019231727.png",
     "Dependency Injection/Section 1/Pasted image 20231018134446.png",
     "Dependency Injection/Section 3/Pasted image 20231018161012.png",
-    "Swift Concurrency/Chapter 1/Pasted image 20231002190800.png",
-    "Swift Concurrency/Chapter 1/Pasted image 20231002190737.png"
+    "Swift Concurrency/Chapter 1/Pasted image 20231002190800.png"
   ]
 }
