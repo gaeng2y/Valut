@@ -25,3 +25,30 @@ ChatGPT 말로는 직접 Asset.car에 접근하지말래서 그냥 UIColor로 �
 
 이제 Color를 어떻게 적용할 지? Foudnation에 직접 컬러가 들어갈지 혹은 앱 || 컴포넌트에서 컬러를 갖고있어서 전달할지?
 
+### Lottie 의존성 추가하기
+Lottie에 대한 의존성을 DesignSystemFoundation에 추가하려했다.
+
+그래서 우선..
+```swift
+dependencies: [
+        .package(url: "https://github.com/airbnb/lottie-spm.git", .upToNextMajor(from: "4.4.0"))
+    ],
+```
+
+를 추가해줬고
+
+이후에 taget에 추가하려했다.
+```swift
+dependencies: ["Lottie"]
+```
+이렇게 추가하니... 컴파일 에러가 떴다.
+`product 'Lottie' required by package 'designsystemfoundation' target 'DesignSystemFoundation' not found.`
+음... 대충 DesignSystemFoundation에 Lottie 패키지가 없다. 라고 하는데
+
+그래서 우리의 채찍피티에서 물어봤다.
+
+`.product(name: "Lottie", package: "lottie-ios")`
+
+이렇게 넣어보셈~
+
+해서 넣어보니까 오우 잘됨...
