@@ -1,6 +1,6 @@
 ![WeatherKit](https://velog.velcdn.com/images/kimdaehee0824/post/869eb5d2-d4ec-4ea5-8bd5-0f0a672df36c/image.png)
 
-WeatherKit는 Apple이 WWDC2022에서 공개한 AP입니다. Apple이 말하길 정확한 기상 예측에 접근하는 것이 그 어느 때보다도 중요하다고 생각해서 WeatherKit을 만들었다 합니다. 이번 WeatherKit의 특별한 점이라면 REST API를 지원해서 애플 기기가 아닌 다른 디바이스에서도 사용이 가능하다는 점이 있습니다.
+WeatherKit는 Apple이 WWDC2022에서 공개한 API입니다. Apple이 말하길 정확한 기상 예측에 접근하는 것이 그 어느 때보다도 중요하다고 생각해서 WeatherKit을 만들었다 합니다. 이번 WeatherKit의 특별한 점이라면 REST API를 지원해서 애플 기기가 아닌 다른 디바이스에서도 사용이 가능하다는 점이 있습니다.
 
 **iOS 16부터 가능**
 #### 가격
@@ -27,7 +27,7 @@ Apple Weather Service 를 사용함
 
 * 고해상도 날씨 모델
 * 예측 알고리즘
-* 근접 지역의 기상 예뽀를 전세계에 제공
+* 근접 지역의 기상 예보를 전세계에 제공
 
 Privacy
 
@@ -60,7 +60,7 @@ WeatherKit 프레임워크는 REST Api를 사용해 기상 정보를 요청하�
 * **Weather alerts**
 	* 요청된 지역의 발표된 심각한 기상 주의 사항이 포함
 	* 사용자들을 안전하게 잘 알게, 준비하게 해주는 중요한 정보가 들어있다.
-* **Hisorical weather**
+* **Historical weather**
 	* 과거의 기상 예보 중 저장된 걸 제공해서 기상 데이터의 동향을 볼 수 있다.
 	* 매시간과 일일 요청에 시자고가 종료 일자를 지정하는 방식으로 역사 데이터에 접근할 수 있다.
 ## Swift 프레임워크를 이용해서 코드 작성해보기
