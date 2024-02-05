@@ -18,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "3f66c4553c6dd997",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "SwiftUI 스터디/Food Truck/WeatherKit 사용해보기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "SwiftUI 스터디/Food Truck/WeatherKit 사용해보기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "conflict-files-obsidian-git.md"
+                "file": "SwiftUI 스터디/Food Truck/WeatherKit 사용해보기.md"
               }
             }
           }
@@ -160,16 +147,21 @@
       "templates:템플릿 삽입": false
     }
   },
-  "active": "3f66c4553c6dd997",
+  "active": "12f0992a75962981",
   "lastOpenFiles": [
-    "SwiftUI 스터디/Food Truck/WeatherKit 사용해보기.md",
+    "Dependency Injection/Pasted image 20240205202401.png",
+    "Dependency Injection/Pasted image 20240205201935.png",
+    "Trouble shooting/로또 번호 만들기.md",
+    "Trouble shooting/Xcode Configuration.md",
+    "Trouble shooting/Design System 개발 관련.md",
+    "Trouble shooting/ContentsDetailViewerViewController.md",
     "conflict-files-obsidian-git.md",
+    "SwiftUI 스터디/Food Truck/WeatherKit 사용해보기.md",
     "Dependency Injection/Pasted image 20240205201543.png",
     "Dependency Injection/Pasted image 20240205201513.png",
     "Dependency Injection/Pasted image 20240204233954.png",
     "Dependency Injection/Pasted image 20240204233057.png",
     "웹, 네트워크/Chapter 2.md",
-    "Trouble shooting/Design System 개발 관련.md",
     "Trouble shooting/Access Token 관련.md",
     "SwiftUI 스터디/Food Truck/Documentation.md",
     "SwiftUI 스터디/Food Truck/App.md",
@@ -180,7 +172,6 @@
     "Swift Concurrency/Chapter 6/Nonisolated Access to an Actor.md",
     "README.md",
     "Swift Concurrency/Chapter 8",
-    "Trouble shooting/로또 번호 만들기.md",
     "SwiftUI 스터디/Food Truck/코드 분석.md",
     "SwiftUI 스터디/Food Truck/FoodTruckKit.md",
     "Trouble shooting/UIKit에서 SwiftUI 사용하기.md",
@@ -193,9 +184,6 @@
     "웹, 네트워크/Chatper 1.md",
     "Trouble shooting/SLComposeServiceViewController 커스텀하기.md",
     "Trouble shooting/AVAsset 만지기.md",
-    "Trouble shooting/이미지 스크롤 뷰.md",
-    "TIL/231208 TIL.md",
-    "TIL/20231219.md",
     "웹, 네트워크",
     "원티드 커리어",
     "Dependency Injection/Pasted image 20231205170440.png",
@@ -206,7 +194,6 @@
     "Dependency Injection/Pasted image 20231113214228.png",
     "Dependency Injection/Pasted image 20231113214222.png",
     "Dependency Injection/Pasted image 20231109214830.png",
-    "Dependency Injection/Pasted image 20231019231727.png",
-    "Design Pattern/Structural/Proxy/Pasted image 20231019231727.png"
+    "Dependency Injection/Pasted image 20231019231727.png"
   ]
 }

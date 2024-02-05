@@ -98,3 +98,21 @@ private func fetchWeather() async throws {
 ![[Pasted image 20240205201543.png]]
 
 와 같은 결과 값을 가져올 수 있다.
+
+WWDC 세션을 계속 보니 이런 식으로 attribution을 이용해서 링크나 로고를 가져오네요
+
+![[Pasted image 20240205201935.png]]
+
+그래서 해당 attribution이 뭔지 찾아봤습니다.
+
+#### WeatherAttribution
+
+![[Pasted image 20240205202401.png]]
+
+날씨 데이터 제공자를 지정하는 데 필요한 정보를 정의하는 구조체이다.
+
+WeatherKit을 사용하여 소프트웨어를 게시하려면 저작자 표시가 필요합니다.
+
+라고 하네요. (킹작권은 중요하죠 암요...)
+
+말 그대로 니들 이거 표시해야되니까 우리가 제공해줄게 라는거군요...
