@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SwiftUI 스터디/Food Truck/WeatherKit 사용해보기.md",
+                "file": "SwiftUI 스터디/Backyard Birds/Documentation.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SwiftUI 스터디/Food Truck/WeatherKit 사용해보기.md",
+                "file": "SwiftUI 스터디/Backyard Birds/Documentation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SwiftUI 스터디/Food Truck/WeatherKit 사용해보기.md",
+                "file": "SwiftUI 스터디/Backyard Birds/Documentation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SwiftUI 스터디/Food Truck/WeatherKit 사용해보기.md"
+                "file": "SwiftUI 스터디/Backyard Birds/Documentation.md"
               }
             }
           }
@@ -149,10 +149,12 @@
   },
   "active": "12f0992a75962981",
   "lastOpenFiles": [
+    "SwiftUI 스터디/Food Truck/WeatherKit 사용해보기.md",
+    "SwiftUI 스터디/Backyard Birds/Documentation.md",
+    "SwiftUI 스터디/Backyard Birds",
     "SwiftUI 스터디/Food Truck/Documentation.md",
     "SwiftUI 스터디/Food Truck/FoodTruckKit.md",
     "SwiftUI 스터디/Food Truck/코드 분석.md",
-    "SwiftUI 스터디/Food Truck/WeatherKit 사용해보기.md",
     "Dependency Injection/Pasted image 20240205202401.png",
     "Dependency Injection/Pasted image 20240205201935.png",
     "Trouble shooting/로또 번호 만들기.md",
@@ -190,7 +192,6 @@
     "Design Pattern/Behavior/Visitor",
     "Design Pattern/Behavior/Template Method",
     "TIL",
-    "Moya 약팔기",
     "Dependency Injection/Pasted image 20231113214228.png",
     "Dependency Injection/Pasted image 20231113214222.png",
     "Dependency Injection/Pasted image 20231109214830.png"
