@@ -52,3 +52,9 @@ dependencies: ["Lottie"]
 이렇게 넣어보셈~
 
 해서 넣어보니까 오우 잘됨...
+
+## IdolUISystem
+App'sUISystem으로 DesignSystemFoundation에 대해 의존성을 가지게 하려고 한다.
+
+1. 프로젝트를 만들어 Package로 만든다.
+2. 
