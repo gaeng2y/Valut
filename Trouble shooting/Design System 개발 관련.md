@@ -82,3 +82,12 @@ Swift 5.5 이상부터는 `@_exported import` 키워드를 사용하여 모듈 �
 
 라고 한다...
 
+근데 막상해보니 안됨
+
+그래서 그냥
+
+DSF(DesignSystemFoundation) -> UISystem(Pacakge.swift에 DSF에 대한 의존성 추가) -> App
+
+이렇게 진행 될 것 같다.
+
+그렇다면 실제로 App에서는 DSF, UISystem 두 개 모두 의존하게 된다.
