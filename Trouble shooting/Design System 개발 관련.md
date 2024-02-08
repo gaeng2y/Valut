@@ -59,4 +59,26 @@ App'sUISystem으로 DesignSystemFoundation에 대해 의존성을 가지게 하�
 1. 디렉토리에서 `swift package init`을 실행하면 패키지 설정 완료
 2. 프로젝트 새로 만들어서 프레임워크 추가하기
 3. 폴더 정리
-4. 
+
+## 의존성 구조 만들기
+DesignSystemFoundation
+
+IdolUISystem
+
+idolapp
+
+이러한 구조를 가질텐데
+
+idolapp 에서 DesignSystemFoundation에서 선언한 ColorAsset을 IdolUISystem만 import해서는 알 수 없다.
+
+> ![note] 그래서 ChatGPT에 물어보니 
+Swift 컴파일러가 `idolMain` 타입 프로퍼티가 어떤 타입에 속하는지 알 수 없을 때 발생합니다. 이는 보통 해당 타입이 현재 스코프 내에 없거나, 해당 타입에 대한 정보가 명확하지 않을 때 나타나는 문제입니다.
+여기서 `ColorAsset` 구조체는 A 프레임워크에 선언되어 있고, `idolMain` 타입 프로퍼티 확장은 B 프레임워크에서 이루어졌습니다. B 프레임워크를 C 프로젝트에 import 했음에도 불구하고 `ColorAsset`에 대한 접근이나 확장된 프로퍼티를 찾을 수 없다는 것은, `ColorAsset` 타입이 C 프로젝트의 스코프 내에서 명확히 인식되지 않았음을 의미합니다.
+B 프레임워크가 A 프레임워크에 의존하고 있다면, B 프레임워크 내에서 `ColorAsset` 타입을 사용하려면, A 프레임워크도 C 프로젝트에서 직접 접근 가능해야 합니다. 그러나 A 프레임워크를 직접 import하지 않고 B 프레임워크만을 통해 `ColorAsset` 타입에 접근하고 싶다면, B 프레임워크에서 `ColorAsset` 타입을 재익스포트하는 방법을 사용할 수 있습니다.
+Swift 5.5 이상부터는 `@_exported import` 키워드를 사용하여 모듈 재익스포트를 할 수 있습니다. 이 방법을 사용하면, B 프레임워크 내부에서 A 프레임워크를 재익스포트하면, B 프레임워크를 import하는 C 프로젝트에서도 A 프레임워크의 공개 인터페이스에 접근할 수 있게 됩니다.
+`@_exported import DesignSystemFoundation`
+그러나 주의할 점은, `@_exported import`는 공식적으로 Swift 언어 사양에 포함된 기능이 아니라 내부적으로 사용되는 기능이므로, 향후 버전의 Swift에서 변경되거나 제거될 가능성이 있습니다. 따라서 이 방법을 사용할 때는 해당 리스크를 고려해야 합니다.
+만약 `@_exported import` 사용이 적절하지 않다고 판단되거나, Swift 버전이 낮아 사용할 수 없는 경우, C 프로젝트에서 A 프레임워크를 직접 import하는 것이 가장 확실한 해결 방법입니다. 이렇게 하면 `ColorAsset` 타입과 그에 대한 모든 확장에 직접 접근할 수 있게 됩니다.
+
+라고 한다...
+
