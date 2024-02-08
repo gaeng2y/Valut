@@ -91,3 +91,5 @@ DSF(DesignSystemFoundation) -> UISystem(Pacakge.swift에 DSF에 대한 의존성
 이렇게 진행 될 것 같다.
 
 그렇다면 실제로 App에서는 DSF, UISystem 두 개 모두 의존하게 된다.
+
+근데 지금 실제로 사용해보니 UISystem에 static으로 선언한 색들을 제대로 못가져온다.
