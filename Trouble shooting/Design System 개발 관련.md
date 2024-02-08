@@ -56,5 +56,7 @@ dependencies: ["Lottie"]
 ## IdolUISystem
 App'sUISystem으로 DesignSystemFoundation에 대해 의존성을 가지게 하려고 한다.
 
-1. 프로젝트를 만들어 Package로 만든다.
-2. 
+1. 디렉토리에서 `swift package init`을 실행하면 패키지 설정 완료
+2. 프로젝트 새로 만들어서 프레임워크 추가하기
+3. 폴더 정리
+4. 
