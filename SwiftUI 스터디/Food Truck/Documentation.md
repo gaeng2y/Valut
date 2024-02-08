@@ -10,7 +10,7 @@ Food Truck 샘플 프로젝트에는 두 가지 유형의 앱 타겟이 포함�
 - 개인 팀 서명을 사용하여 구축할 수 있는 간단한 앱 타겟입니다. 이 앱은 시뮬레이터에서 실행되며 장치에 설치하려면 표준 Apple ID만 필요합니다. 여기에는 앱 내 구매와 사용자가 iOS 홈 화면 또는 macOS 알림 센터에 위젯을 추가할 수 있는 위젯 확장 기능이 포함되어 있습니다.
 - 모든 기능을 갖춘 푸드트럭 올 앱 타겟입니다. 전체 앱은 시뮬레이터와 Apple 개발자 멤버십이 있는 장치에서 실행됩니다. 또한 암호키를 생성하고 로그인할 수도 있습니다.
 
-### ### [Construct a dynamic layout](https://developer.apple.com/documentation/swiftui/food_truck_building_a_swiftui_multiplatform_app#4143587)
+###  [Construct a dynamic layout](https://developer.apple.com/documentation/swiftui/food_truck_building_a_swiftui_multiplatform_app#4143587)
 TruckView의 New Orders 패널에는 가장 최근 주문 5개가 표시되고, 각 주문에는 도넛 축소판의 대각선 스택인 DonutStackView가 표시됩니다.
 
 Layout 프로토콜을 사용하면 앱이 도넛 썸네일을 대각선 레이아웃으로 정렬하는 DiagonalDonutStackLayout을 정의할 수 있습니다.
@@ -102,3 +102,40 @@ Chart {
 
 ### [Obtain a weather forecast](https://developer.apple.com/documentation/swiftui/food_truck_building_a_swiftui_multiplatform_app#4143589)
 앱은 `TruckView`의 `Forecast` 패널에 예측 온도 그래프를 표시합니다. 앱은 WeatherKit 프레임워크에서 이 데이터를 얻습니다.
+```swift
+.task(id: city.id) {
+    for parkingSpot in city.parkingSpots {
+        do {
+            let weather = try await WeatherService.shared.weather(for: parkingSpot.location)
+            condition = weather.currentWeather.condition
+            willRainSoon = weather.minuteForecast?.contains(where: { $0.precipitationChance >= 0.3 })
+            cloudCover = weather.currentWeather.cloudCover
+            temperature = weather.currentWeather.temperature
+            symbolName = weather.currentWeather.symbolName
+            
+            let attribution = try await WeatherService.shared.attribution
+            attributionLink = attribution.legalPageURL
+            attributionLogo = colorScheme == .light ? attribution.combinedMarkLightURL : attribution.combinedMarkDarkURL
+            
+            if willRainSoon == false {
+                spot = parkingSpot
+                break
+            }
+        } catch {
+            print("Could not gather weather information...", error.localizedDescription)
+            condition = .clear
+            willRainSoon = false
+            cloudCover = 0.15
+        }
+    }
+}
+```
+
+WeatherKit WWDC를 보니 눈에 띄는게 보이네요
+```swift
+let attribution = try await WeatherService.shared.attribution
+            attributionLink = attribution.legalPageURL
+            attributionLogo = colorScheme == .light ? attribution.combinedMarkLightURL : attribution.combinedMarkDarkURL
+```
+
+음 우리꺼 쓰려면 여기다 표시해~
