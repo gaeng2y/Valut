@@ -23,8 +23,12 @@
             "id": "6a5154a7a0118f84",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Trouble shooting/Access Token 관련.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
@@ -94,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Trouble shooting/Design System 개발 관련.md",
+                "file": "Trouble shooting/Access Token 관련.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Trouble shooting/Design System 개발 관련.md",
+                "file": "Trouble shooting/Access Token 관련.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Trouble shooting/Design System 개발 관련.md"
+                "file": "Trouble shooting/Access Token 관련.md"
               }
             }
           }
@@ -158,6 +162,13 @@
   },
   "active": "6a5154a7a0118f84",
   "lastOpenFiles": [
+    "Trouble shooting/AVAsset 만지기.md",
+    "Trouble shooting/UITableView Sticky Header 만들기.md",
+    "Trouble shooting/로또 번호 만들기.md",
+    "Trouble shooting/이미지 스크롤 뷰.md",
+    "Trouble shooting/Xcode Configuration.md",
+    "Trouble shooting/UIKit에서 SwiftUI 사용하기.md",
+    "Trouble shooting/SLComposeServiceViewController 커스텀하기.md",
     "Trouble shooting/Design System 개발 관련.md",
     "Dependency Injection/Pasted image 20240204233954.png",
     "Dependency Injection/Pasted image 20240204233057.png",
@@ -174,7 +185,6 @@
     "SwiftUI 스터디/Food Truck/코드 분석.md",
     "SwiftUI 스터디/Food Truck/Documentation.md",
     "SwiftUI 스터디/Food Truck/FoodTruckKit.md",
-    "Trouble shooting/UIKit에서 SwiftUI 사용하기.md",
     "MVVM/Input - Ouput 패턴.md",
     "MVVM",
     "웹, 네트워크/Chapter 2.md",
@@ -184,12 +194,7 @@
     "SwiftUI 스터디",
     "ㅍ.md",
     "웹, 네트워크/Chatper 1.md",
-    "Trouble shooting/SLComposeServiceViewController 커스텀하기.md",
-    "Trouble shooting/AVAsset 만지기.md",
-    "Trouble shooting/로또 번호 만들기.md",
-    "Trouble shooting/이미지 스크롤 뷰.md",
     "TIL/231208 TIL.md",
-    "TIL/20231219.md",
     "웹, 네트워크",
     "원티드 커리어",
     "Dependency Injection/Pasted image 20231205170440.png",
