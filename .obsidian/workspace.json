@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SwiftUI 스터디/Backyard Birds/Documentation.md",
+                "file": "Trouble shooting/Design System 개발 관련.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6a5154a7a0118f84",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Trouble shooting/Design System 개발 관련.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SwiftUI 스터디/Backyard Birds/Documentation.md",
+                "file": "Trouble shooting/Design System 개발 관련.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SwiftUI 스터디/Backyard Birds/Documentation.md",
+                "file": "Trouble shooting/Design System 개발 관련.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SwiftUI 스터디/Backyard Birds/Documentation.md"
+                "file": "Trouble shooting/Design System 개발 관련.md"
               }
             }
           }
@@ -139,59 +152,59 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "command-palette:명령어 팔레트 열기": false,
       "switcher:퀵 스위처 열기": false,
       "graph:그래프 뷰 열기": false,
       "canvas:새 캔버스 만들기": false,
       "daily-notes:오늘의 데일리 노트 열기": false,
-      "templates:템플릿 삽입": false
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "12f0992a75962981",
+  "active": "6a5154a7a0118f84",
   "lastOpenFiles": [
-    "SwiftUI 스터디/Food Truck/WeatherKit 사용해보기.md",
+    "SwiftUI Documentation/Model Data.md",
+    "Trouble shooting/Access Token 관련.md",
+    "conflict-files-obsidian-git.md",
     "SwiftUI 스터디/Backyard Birds/Documentation.md",
     "SwiftUI 스터디/Backyard Birds",
-    "SwiftUI 스터디/Food Truck/Documentation.md",
-    "SwiftUI 스터디/Food Truck/FoodTruckKit.md",
-    "SwiftUI 스터디/Food Truck/코드 분석.md",
     "Dependency Injection/Pasted image 20240205202401.png",
     "Dependency Injection/Pasted image 20240205201935.png",
-    "Trouble shooting/로또 번호 만들기.md",
-    "Trouble shooting/Xcode Configuration.md",
-    "Trouble shooting/Design System 개발 관련.md",
-    "Trouble shooting/ContentsDetailViewerViewController.md",
-    "conflict-files-obsidian-git.md",
     "Dependency Injection/Pasted image 20240205201543.png",
     "Dependency Injection/Pasted image 20240205201513.png",
+    "Trouble shooting/AVAsset 만지기.md",
+    "Trouble shooting/UITableView Sticky Header 만들기.md",
+    "Trouble shooting/로또 번호 만들기.md",
+    "Trouble shooting/이미지 스크롤 뷰.md",
+    "Trouble shooting/Xcode Configuration.md",
+    "Trouble shooting/UIKit에서 SwiftUI 사용하기.md",
+    "Trouble shooting/SLComposeServiceViewController 커스텀하기.md",
+    "Trouble shooting/Design System 개발 관련.md",
     "Dependency Injection/Pasted image 20240204233954.png",
     "Dependency Injection/Pasted image 20240204233057.png",
-    "웹, 네트워크/Chapter 2.md",
-    "Trouble shooting/Access Token 관련.md",
+    "TIL/231202.md",
     "SwiftUI 스터디/Food Truck/App.md",
-    "Swift Concurrency/Chapter 7/The Sendable Protocol.md",
-    "Swift Concurrency/Chapter 7/Sendable Types.md",
+    "SwiftUI 스터디/Food Truck/WeatherKit 사용해보기.md",
     "Swift Concurrency/Chapter 8/Main Actor.md",
     "Swift Concurrency/Chapter 8/Final Actors.md",
-    "Swift Concurrency/Chapter 6/Nonisolated Access to an Actor.md",
-    "README.md",
     "Swift Concurrency/Chapter 8",
-    "Trouble shooting/UIKit에서 SwiftUI 사용하기.md",
+    "Swift Concurrency/Chapter 7/The Sendable Protocol.md",
+    "Swift Concurrency/Chapter 7/Sendable Types.md",
+    "Swift Concurrency/Chapter 7",
+    "SwiftUI 스터디/Food Truck/코드 분석.md",
+    "SwiftUI 스터디/Food Truck/Documentation.md",
+    "SwiftUI 스터디/Food Truck/FoodTruckKit.md",
     "MVVM/Input - Ouput 패턴.md",
     "MVVM",
+    "웹, 네트워크/Chapter 2.md",
+    "README.md",
     "무제 파일.md",
     "SwiftUI 스터디/Food Truck",
     "SwiftUI 스터디",
-    "ㅍ.md",
-    "웹, 네트워크/Chatper 1.md",
-    "Trouble shooting/SLComposeServiceViewController 커스텀하기.md",
-    "Trouble shooting/AVAsset 만지기.md",
     "웹, 네트워크",
     "원티드 커리어",
     "Dependency Injection/Pasted image 20231205170440.png",
     "Design Pattern/Behavior/Visitor",
     "Design Pattern/Behavior/Template Method",
-    "TIL",
     "Dependency Injection/Pasted image 20231113214228.png",
     "Dependency Injection/Pasted image 20231113214222.png",
     "Dependency Injection/Pasted image 20231109214830.png"
