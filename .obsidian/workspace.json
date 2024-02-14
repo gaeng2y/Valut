@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Trouble shooting/Design System 개발 관련.md",
+                "file": "SwiftUI 스터디/Backyard Birds/Documentation.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Trouble shooting/Design System 개발 관련.md",
+                "file": "SwiftUI 스터디/Backyard Birds/Documentation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Trouble shooting/Design System 개발 관련.md",
+                "file": "SwiftUI 스터디/Backyard Birds/Documentation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Trouble shooting/Design System 개발 관련.md"
+                "file": "SwiftUI 스터디/Backyard Birds/Documentation.md"
               }
             }
           }
@@ -162,6 +162,7 @@
   },
   "active": "6a5154a7a0118f84",
   "lastOpenFiles": [
+    "Trouble shooting/Design System 개발 관련.md",
     "SwiftUI Documentation/Model Data.md",
     "Trouble shooting/Access Token 관련.md",
     "conflict-files-obsidian-git.md",
@@ -178,7 +179,6 @@
     "Trouble shooting/Xcode Configuration.md",
     "Trouble shooting/UIKit에서 SwiftUI 사용하기.md",
     "Trouble shooting/SLComposeServiceViewController 커스텀하기.md",
-    "Trouble shooting/Design System 개발 관련.md",
     "Dependency Injection/Pasted image 20240204233954.png",
     "Dependency Injection/Pasted image 20240204233057.png",
     "TIL/231202.md",
