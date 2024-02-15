@@ -12,6 +12,9 @@ To make your views work with Xcode previews, **you need to do three things**.
 2. We create a struct that conforms to the `PreviewProvider`.  
 3. Normally, we will return a SwiftUI view from the `previews` static property. But we want to preview a view here, so we need to wrap it using the `UIViewRepresentable` protocol.
 ### UIViewRepresentable
+First, we need to convert a view into a SwiftUI view using `UIViewRepresentable`.
+
+The process is straightforward. You just need to initialize your view and return it from `makeUIView()`. You can read more about this in detail in [how to convert a view to SwiftUI](https://sarunw.com/posts/uiview-in-swiftui/).
 
 ```swift
 import SwiftUI
