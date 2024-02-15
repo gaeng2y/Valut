@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Design System/FlexLayout/무제 파일.md",
+                "file": "Design System/FlexLayout/FlexLayout (1).md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 298.5
+    "width": 298.5,
+    "collapsed": true
   },
   "right": {
     "id": "9843e891487ed6f6",
@@ -110,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Design System/FlexLayout/무제 파일.md",
+                "file": "Design System/FlexLayout/FlexLayout (1).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Design System/FlexLayout/무제 파일.md",
+                "file": "Design System/FlexLayout/FlexLayout (1).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Design System/FlexLayout/무제 파일.md"
+                "file": "Design System/FlexLayout/FlexLayout (1).md"
               }
             }
           }
@@ -181,7 +182,7 @@
     "(Unit,UI)Tests/UITests/샘플 포스팅.md",
     "(Unit,UI)Tests/UITests/라이브러리.md",
     "Design System/FlexLayout/무제 파일.canvas",
-    "Design System/FlexLayout/무제 파일.md",
+    "Design System/FlexLayout/FlexLayout (1).md",
     "Design System/FlexLayout",
     "무제 파일.md",
     "Design System",
