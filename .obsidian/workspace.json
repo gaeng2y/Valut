@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Trouble shooting/Design System 개발 관련.md",
+                "file": "Design System/Design System 개발 관련.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UIKit에서 Preview 사용하기.md",
+                "file": "Design System/FlexLayout/무제 파일.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "UIKit에서 Preview 사용하기.md",
+                "file": "Design System/FlexLayout/무제 파일.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "UIKit에서 Preview 사용하기.md",
+                "file": "Design System/FlexLayout/무제 파일.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "UIKit에서 Preview 사용하기.md"
+                "file": "Design System/FlexLayout/무제 파일.md"
               }
             }
           }
@@ -174,9 +174,20 @@
   },
   "active": "91ca0139a92feed1",
   "lastOpenFiles": [
+    "Design System/UIKit에서 SwiftUI 사용하기.md",
+    "Modular programming/Library, Framework, Swift Package 차이점.md",
+    "(Unit,UI)Tests/UnitTets/라이브러리.md",
+    "(Unit,UI)Tests/UnitTets/샘플 포스팅.md",
+    "(Unit,UI)Tests/UITests/샘플 포스팅.md",
+    "(Unit,UI)Tests/UITests/라이브러리.md",
+    "Design System/FlexLayout/무제 파일.canvas",
+    "Design System/FlexLayout/무제 파일.md",
+    "Design System/FlexLayout",
+    "무제 파일.md",
+    "Design System",
+    "Design System/UIKit에서 Preview 사용하기.md",
     "SwiftUI 스터디/Backyard Birds/Documentation.md",
-    "UIKit에서 Preview 사용하기.md",
-    "Trouble shooting/Design System 개발 관련.md",
+    "Design System/Design System 개발 관련.md",
     "SwiftUI Documentation/Model Data.md",
     "Trouble shooting/Access Token 관련.md",
     "conflict-files-obsidian-git.md",
@@ -190,7 +201,6 @@
     "Trouble shooting/로또 번호 만들기.md",
     "Trouble shooting/이미지 스크롤 뷰.md",
     "Trouble shooting/Xcode Configuration.md",
-    "Trouble shooting/UIKit에서 SwiftUI 사용하기.md",
     "Trouble shooting/SLComposeServiceViewController 커스텀하기.md",
     "Dependency Injection/Pasted image 20240204233954.png",
     "Dependency Injection/Pasted image 20240204233057.png",
@@ -201,22 +211,13 @@
     "Swift Concurrency/Chapter 8/Final Actors.md",
     "Swift Concurrency/Chapter 8",
     "Swift Concurrency/Chapter 7/The Sendable Protocol.md",
-    "Swift Concurrency/Chapter 7/Sendable Types.md",
     "Swift Concurrency/Chapter 7",
-    "SwiftUI 스터디/Food Truck/코드 분석.md",
-    "SwiftUI 스터디/Food Truck/Documentation.md",
-    "SwiftUI 스터디/Food Truck/FoodTruckKit.md",
-    "MVVM/Input - Ouput 패턴.md",
     "MVVM",
-    "웹, 네트워크/Chapter 2.md",
-    "README.md",
     "SwiftUI 스터디/Food Truck",
     "SwiftUI 스터디",
     "웹, 네트워크",
     "원티드 커리어",
     "Dependency Injection/Pasted image 20231205170440.png",
-    "Design Pattern/Behavior/Visitor",
-    "Design Pattern/Behavior/Template Method",
     "Dependency Injection/Pasted image 20231113214228.png",
     "Dependency Injection/Pasted image 20231113214222.png",
     "Dependency Injection/Pasted image 20231109214830.png"
