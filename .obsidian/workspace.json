@@ -43,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -111,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Design System/FlexLayout/FlexLayout (1).md",
+                "file": "Design System/Design System 개발 관련.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Design System/FlexLayout/FlexLayout (1).md",
+                "file": "Design System/Design System 개발 관련.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Design System/FlexLayout/FlexLayout (1).md"
+                "file": "Design System/Design System 개발 관련.md"
               }
             }
           }
@@ -173,8 +172,9 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "91ca0139a92feed1",
+  "active": "12f0992a75962981",
   "lastOpenFiles": [
+    "Design System/FlexLayout/FlexLayout (1).md",
     "Design System/UIKit에서 SwiftUI 사용하기.md",
     "Modular programming/Library, Framework, Swift Package 차이점.md",
     "(Unit,UI)Tests/UnitTets/라이브러리.md",
@@ -182,7 +182,6 @@
     "(Unit,UI)Tests/UITests/샘플 포스팅.md",
     "(Unit,UI)Tests/UITests/라이브러리.md",
     "Design System/FlexLayout/무제 파일.canvas",
-    "Design System/FlexLayout/FlexLayout (1).md",
     "Design System/FlexLayout",
     "무제 파일.md",
     "Design System",

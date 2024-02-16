@@ -8,6 +8,8 @@ https://voracious-pigment-aaf.notion.site/3613bac852aa4528b3b1c916078add1e#1cf1c
 
 하지만 asset에 직접 접근하려면 문제가 생김.
 
+https://zeddios.tistory.com/1018
+
 그래서 일단 패키지로 바꿈
 
 왜냐면 스태틱, 다이나믹 신경쓰기 싫어서,,,
