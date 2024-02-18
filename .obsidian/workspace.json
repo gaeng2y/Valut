@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Design Pattern/리이오의 디자인 패턴/기본에 디자인 패턴 붓기.md",
+                "file": "SwiftUI 스터디/Backyard Birds/Documentation.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Design Pattern/리이오의 디자인 패턴/기본에 디자인 패턴 붓기.md",
+                "file": "SwiftUI 스터디/Backyard Birds/Documentation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Design Pattern/리이오의 디자인 패턴/기본에 디자인 패턴 붓기.md",
+                "file": "SwiftUI 스터디/Backyard Birds/Documentation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Design Pattern/리이오의 디자인 패턴/기본에 디자인 패턴 붓기.md"
+                "file": "SwiftUI 스터디/Backyard Birds/Documentation.md"
               }
             }
           }
@@ -149,6 +149,7 @@
   },
   "active": "12f0992a75962981",
   "lastOpenFiles": [
+    "Design Pattern/리이오의 디자인 패턴/기본에 디자인 패턴 붓기.md",
     "Design System/FlexLayout/FlexLayout (1).md",
     "Design System/UIKit에서 SwiftUI 사용하기.md",
     "Design System/UIKit에서 Preview 사용하기.md",
@@ -156,7 +157,6 @@
     "Design System/Design System 개발 관련.md",
     "Design System",
     "conflict-files-obsidian-git.md",
-    "Design Pattern/리이오의 디자인 패턴/기본에 디자인 패턴 붓기.md",
     "Design Pattern/무제 파일.md",
     "Design Pattern/리이오의 디자인 패턴",
     "SwiftUI 스터디/Backyard Birds/Documentation.md",
