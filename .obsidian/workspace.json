@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SwiftUI 스터디/Backyard Birds/SwiftData.md",
+                "file": "SwiftUI 스터디/Food Truck/코드 분석.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "storekit",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SwiftUI 스터디/Backyard Birds/SwiftData.md",
+                "file": "SwiftUI 스터디/Food Truck/코드 분석.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SwiftUI 스터디/Backyard Birds/SwiftData.md",
+                "file": "SwiftUI 스터디/Food Truck/코드 분석.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SwiftUI 스터디/Backyard Birds/SwiftData.md"
+                "file": "SwiftUI 스터디/Food Truck/코드 분석.md"
               }
             }
           }
@@ -150,8 +151,8 @@
   "active": "12f0992a75962981",
   "lastOpenFiles": [
     "SwiftUI 스터디/Backyard Birds/구조.md",
-    "SwiftUI 스터디/Backyard Birds/SwiftData.md",
     "SwiftUI 스터디/Backyard Birds/Documentation.md",
+    "SwiftUI 스터디/Backyard Birds/SwiftData.md",
     "Design Pattern/리이오의 디자인 패턴/기본에 디자인 패턴 붓기.md",
     "Design System/FlexLayout/FlexLayout (1).md",
     "Design System/UIKit에서 SwiftUI 사용하기.md",
