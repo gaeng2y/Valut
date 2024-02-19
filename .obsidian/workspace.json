@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SwiftUI 스터디/Backyard Birds/구조.md",
+                "file": "SwiftUI 스터디/Backyard Birds/SwiftData.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SwiftUI 스터디/Backyard Birds/구조.md",
+                "file": "SwiftUI 스터디/Backyard Birds/SwiftData.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SwiftUI 스터디/Backyard Birds/구조.md",
+                "file": "SwiftUI 스터디/Backyard Birds/SwiftData.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SwiftUI 스터디/Backyard Birds/구조.md"
+                "file": "SwiftUI 스터디/Backyard Birds/SwiftData.md"
               }
             }
           }
@@ -149,8 +149,9 @@
   },
   "active": "12f0992a75962981",
   "lastOpenFiles": [
-    "SwiftUI 스터디/Backyard Birds/Documentation.md",
     "SwiftUI 스터디/Backyard Birds/구조.md",
+    "SwiftUI 스터디/Backyard Birds/SwiftData.md",
+    "SwiftUI 스터디/Backyard Birds/Documentation.md",
     "Design Pattern/리이오의 디자인 패턴/기본에 디자인 패턴 붓기.md",
     "Design System/FlexLayout/FlexLayout (1).md",
     "Design System/UIKit에서 SwiftUI 사용하기.md",
@@ -184,7 +185,6 @@
     "Swift Concurrency/Chapter 8/Main Actor.md",
     "Swift Concurrency/Chapter 8/Final Actors.md",
     "Swift Concurrency/Chapter 6/Nonisolated Access to an Actor.md",
-    "README.md",
     "Swift Concurrency/Chapter 8",
     "MVVM",
     "SwiftUI 스터디/Food Truck",
