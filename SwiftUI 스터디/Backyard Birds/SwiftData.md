@@ -33,3 +33,9 @@ SwiftData가 Swift 클래스를 저장된 모델로 관리할 수 있게 해주�
 ```swift
 protocol PersistentModel : AnyObject, Observable, Hashable, Identifiable
 ```
+#### @Query
+연결된 모델 유형의 모든 인스턴스를 가져오는 매크로
+
+# Reference
+- https://developer.apple.com/documentation/swiftdata
+- https://www.youtube.com/watch?v=3r_5F9Env7Q
