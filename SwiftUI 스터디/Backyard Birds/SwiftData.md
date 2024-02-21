@@ -11,6 +11,8 @@ Swift macros, SwiftData와 같은 현대 언어 기능을 사용하는 것은 �
 
 프레임워크는 기본 모델 데이터 저장을 처리하고 선택적으로 여러 장치에서 해당 데이터를 동기화한다.
 
+SwiftData는 로컬에서 생성된 콘텐츠를 유지하는 것 이상의 용도를 가지고 있습니다. 예를 들어 원격 웹 서비스에서 데이터를 가져오는 앱은 SwiftData를 사용하여 경량 캐싱 메커니즘을 구현하고 제한된 오프라인 기능을 제공할 수 있습니다.
+
 ![[Pasted image 20240220200147.png]]
 
 ### CoreData의 러닝커브
@@ -35,6 +37,7 @@ protocol PersistentModel : AnyObject, Observable, Hashable, Identifiable
 ```
 #### @Query
 연결된 모델 유형의 모든 인스턴스를 가져오는 매크로
+
 
 # Reference
 - https://developer.apple.com/documentation/swiftdata
