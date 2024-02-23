@@ -38,6 +38,7 @@ protocol PersistentModel : AnyObject, Observable, Hashable, Identifiable
 #### @Query
 연결된 모델 유형의 모든 인스턴스를 가져오는 매크로
 
+## WWDC로 살펴보기
 
 # Reference
 - https://developer.apple.com/documentation/swiftdata
