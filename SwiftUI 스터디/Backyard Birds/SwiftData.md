@@ -4,6 +4,8 @@
 
 외부 파일 형식 없이 **전적으로 코드에 집중**하고 Swift의 새로운 매크로 시스템을 사용하여 **원할한 API 경험**을 제공
 
+Swift 매크로에서 제공하는 표현성에 의존. 
+
 ## Overview
 Core Data의 입증된 지속성 기술과 Swift의 모던 동시성 기능을 결합한 SwiftData를 사용하면 최소한의 코드와 외부 종속성 없이 신속하게 앱에 지속성을 추가할 수 있다.
 
@@ -23,6 +25,29 @@ SwiftData는 로컬에서 생성된 콘텐츠를 유지하는 것 이상의 용�
 ## 구성요소
 ![[Pasted image 20240220200444.png]]
 #### @Model
+- Powerful new Swift macro
+- Define your schema with code
+- Add SwiftData functionality to model types
+
+```swift
+import SwiftData
+
+@Model
+class Trip {
+	var name: String
+	var destination: String
+	var endDate: Date
+	var startDate: Date
+	
+	var bucketList: [BucketListItem]? = []
+	var livingAccommodation: LivingAccommodation?
+}
+```
+
+##### Attributes
+- Attributes inferred from p
+
+
 Swift 클래스를 SwiftData에서 관리하는 저장된 모델로 변환하는 매크로
 
 class -> PersistentModel
