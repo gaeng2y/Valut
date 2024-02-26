@@ -157,7 +157,29 @@ srtuct ContentView: View {
 * `FetchDescriptor`
 `SortDescriptor` 을 개선.
 
+##### Predicate
+Swift 네이티브 타입과 작동하고 강력하게 유형화된 구조를 위해 Swift 매크로를 사용.
+완전한 타입 검사가 이루어져 `NSPredicate`를 대체.
+```swift
+let tripPredicate = #Predicate<Trip> { $0.destination == "New York" }
+```
 
+쿼리 처럼 사용 가능
+
+가져오고자 하는 모델이 무엇인지 결정됐다면 새로운 `FetchDescriptor` 타입을 사용하여 `ModelContext`에 해당 모델을 가져오라고 명령할 수 있다.
+
+```swift
+let descriptor = FetchDescriptor<Trip>(predicate: tripPredicate)
+
+let trips = try context.fetch(descriptor)
+```
+
+##### More options
+* Relationship to prefetch
+* Result limits
+* Exclude unsaved changes
+##### Modifying your data
+`ModelContext`를 사용해 이러한 운영을 이끌어냄으로써 데이터 생성, 삭제, 수정(CRUD?)를 아주 쉽게 만들기도 한다.
 # Reference
 - https://developer.apple.com/documentation/swiftdata
 - https://www.youtube.com/watch?v=3r_5F9Env7Q
