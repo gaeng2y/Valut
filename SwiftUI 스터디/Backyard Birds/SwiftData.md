@@ -25,6 +25,25 @@ SwiftData는 로컬에서 생성된 콘텐츠를 유지하는 것 이상의 용�
 ## 구성요소
 ![[Pasted image 20240220200444.png]]
 #### @Model
+
+Swift 클래스를 SwiftData에서 관리하는 저장된 모델로 변환하는 매크로
+
+class -> PersistentModel
+
+Entity -> Schema
+
+#### PersistentModel
+SwiftData가 Swift 클래스를 저장된 모델로 관리할 수 있게 해주는 인터페이스
+
+```swift
+protocol PersistentModel : AnyObject, Observable, Hashable, Identifiable
+```
+#### @Query
+연결된 모델 유형의 모든 인스턴스를 가져오는 매크로
+
+## WWDC로 살펴보기
+### Using the model macro
+#### @Model
 - Powerful new Swift macro
 - Define your schema with code
 - Add SwiftData functionality to model types
@@ -59,25 +78,85 @@ SwiftData는 참조형 타입을 관계로 설계한다.
 * Collections of model types
 ##### Addtional metadata
 `@Model` 모든 저장 프로퍼티들을 수정한다.
-
-
-
-Swift 클래스를 SwiftData에서 관리하는 저장된 모델로 변환하는 매크로
-
-class -> PersistentModel
-
-Entity -> Schema
-
-#### PersistentModel
-SwiftData가 Swift 클래스를 저장된 모델로 관리할 수 있게 해주는 인터페이스
+SwiftData가 프로퍼티에 대한 메타데이터를 사용해 스키마 구축 방식에 영향을 줄 수 있다.
+프로퍼티가 추론되는 제어 방식
+* `@Attribute`: 유일한 제약조건 추가가 가능
+* `@Relationship`: 인버스 선택을 통제하고 삭제 전파 규칙을 정할 수 있다.
+`@Transient`로는 특정 프로퍼티를 포함하지 말라고 명령할 수 있다.
 
 ```swift
-protocol PersistentModel : AnyObject, Observable, Hashable, Identifiable
-```
-#### @Query
-연결된 모델 유형의 모든 인스턴스를 가져오는 매크로
+import SwiftData
 
-## WWDC로 살펴보기
+@Model
+class Trip {
+	@Attribute(.unique) var name: String
+	var destination: String
+	var endDate: Date
+	var startDate: Date
+	
+	@Relationship(.cascade) var bucketList: [BucketListItem]? = []
+	var livingAccommodation: LivingAccommodation?
+}
+```
+### Working with your data
+모델 타입으로 작업하는 방식과 운영을 이끌어내기 위해 사용할 두 가지 주요 객체
+-> `ModelContainer`, `ModelContext`
+#### Model container
+모델 타입에 유지되는 백엔드를 제공
+스키마를 지정함으로써 기본 설정을 사용하거나
+구성과 마이그레이션 옵션으로 커스텀할 수 있다.
+저장하고픈 모델 타입 목록을 지정하기만 하면 모델 컨테이너를 생성할 수 있다.
+-> 의존성 주입
+
+```swift
+import SwiftData
+
+let container = try ModelContainer(for: [Trip.self, LivingAccommodation.self],
+								  configurations: ModelConfiguration(url: URL("path)))
+```
+
+컨테이너가 설정되면 `ModelContext`로 데이터를 가져와 저장할 준비를 끝낸다.
+
+```swift
+import SwiftData
+import SwiftUI
+
+@main
+struct TripsApp: App {
+	var body: some Scene {
+		WindowGroup {
+			ContentView()
+		}
+		.modelContainer(for:
+			[Trip.self,
+			LivingAccommodation.self]
+		)
+	}
+}
+```
+
+#### ModelContext
+모델에 생기는 모든 변화를 관찰하고
+모델에서 작동하는 조치 중 많은 것들을 제공한다.
+* Tracking updates
+* Fetching models
+* Saving changes
+* Undoing changes
+
+```swift
+import SwiftData
+import Swiftui
+
+srtuct ContentView: View {
+	@Environment(\.modelContext) private var context
+}
+```
+##### Fetcing your data
+새로운 Swift 네이티브 타입들
+* `Predicate`
+* `FetchDescriptor`
+`SortDescriptor` 을 개선.
+
 
 # Reference
 - https://developer.apple.com/documentation/swiftdata
