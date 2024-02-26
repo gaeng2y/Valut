@@ -58,6 +58,8 @@ SwiftData는 참조형 타입을 관계로 설계한다.
 * Other model types
 * Collections of model types
 ##### Addtional metadata
+`@Model` 모든 저장 프로퍼티들을 수정한다.
+
 
 
 Swift 클래스를 SwiftData에서 관리하는 저장된 모델로 변환하는 매크로
