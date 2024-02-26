@@ -45,7 +45,19 @@ class Trip {
 ```
 
 ##### Attributes
-- Attributes inferred from p
+클래스에 저장된 프로퍼티에 변화를 주어 유지되는 프로퍼티로 바꾼다.
+- Attributes inferred from properties(SwiftData는 자연적으로 값 타입 프로퍼티가 곧바로 속성으로 사용되도록 적응시킨다.)
+- Support for basic value types
+- Complex value types
+	- Strcut
+	- Enum
+	- Codable
+	- Collections of value types
+##### Relationships
+SwiftData는 참조형 타입을 관계로 설계한다.
+* Other model types
+* Collections of model types
+##### Addtional metadata
 
 
 Swift 클래스를 SwiftData에서 관리하는 저장된 모델로 변환하는 매크로
