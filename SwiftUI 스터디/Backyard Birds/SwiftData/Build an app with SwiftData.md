@@ -64,7 +64,21 @@ let previewContainer: ModelContainer = {
 
 이 환경 변수는 모델 컨테이너를 설정할 때 자동으로 채워진다.
 
+자동 저장같은 경우는 일반적인 경우에 확인하지 않아도 되지만 SwiftData 스토리지를 공유하거나 전송하기 전에는 확인이 필요하다. 이때는 `save()`를 호출해라
+
 ### [Bonus] Document-based apps
+SwiftData 문서 기반 앱은 맞춤형 컨텐츠 유형을 선언해야 한다.
+
+각 SwiftData 문서는 고유 모델 집합을 기반으로 하고 디스크에서도 고유 표현을 가지게 된다.
+
+문서 컨텍스트에서는 컨텐츠 유형은 JPEG와 같은 이진 파일 포맷으로 생각하면 된다. 또 다른 유형의 문서인 패키지는 디스크상에 고정 구조를 지닌 디렉토리이다. (like Xcode project)
+
+![[Pasted image 20240227224829.png]]
+
+사용자가 덱을 열면 운영 체제가 앱을 덱 포맷, 파일 확장과 연동할 수 있어야 한다. 그래서 컨텐츠 유형을 선언해야 한다.
+
+SwiftData 문서는 패키지이다. 모델의 일부 프로퍼티를 `externalStorage` 속성으로 마킹하면 외부에 저장된 모든 아이템이 문서 패키지의 일부가 된다.
+
 ## Reference
 * WWDC 2023 [Build an app with SwiftData](https://developer.apple.com/videos/play/wwdc2023/10154)
 * [Sampe](https://developer.apple.com/documentation/SwiftUI/Building-a-document-based-app-using-SwiftData)
