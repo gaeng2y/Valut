@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SwiftUI 스터디/Backyard Birds/SwiftData/Build an app with SwiftData.md",
+                "file": "SwiftUI 스터디/Backyard Birds/SwiftData/Model your schema with SwiftData.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SwiftUI 스터디/Backyard Birds/SwiftData/Build an app with SwiftData.md",
+                "file": "SwiftUI 스터디/Backyard Birds/SwiftData/Model your schema with SwiftData.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SwiftUI 스터디/Backyard Birds/SwiftData/Build an app with SwiftData.md",
+                "file": "SwiftUI 스터디/Backyard Birds/SwiftData/Model your schema with SwiftData.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SwiftUI 스터디/Backyard Birds/SwiftData/Build an app with SwiftData.md"
+                "file": "SwiftUI 스터디/Backyard Birds/SwiftData/Model your schema with SwiftData.md"
               }
             }
           }
@@ -149,11 +149,11 @@
   },
   "active": "12f0992a75962981",
   "lastOpenFiles": [
+    "SwiftUI 스터디/Backyard Birds/SwiftData/Build an app with SwiftData.md",
     "Dependency Injection/Pasted image 20240227224829.png",
     "Dependency Injection/Pasted image 20240227223545.png",
     "Dependency Injection/Pasted image 20240227223531.png",
     "SwiftUI 스터디/Backyard Birds/SwiftData/SwiftData.md",
-    "SwiftUI 스터디/Backyard Birds/SwiftData/Build an app with SwiftData.md",
     "SwiftUI 스터디/Backyard Birds/SwiftData/Model your schema with SwiftData.md",
     "SwiftUI 스터디/Backyard Birds/SwiftData",
     "Dependency Injection/Pasted image 20240220200444.png",
@@ -184,7 +184,6 @@
     "Trouble shooting/Design System 개발 관련.md",
     "Trouble shooting/ContentsDetailViewerViewController.md",
     "Dependency Injection/Pasted image 20240205201543.png",
-    "Dependency Injection/Pasted image 20240205201513.png",
     "웹, 네트워크/Chapter 2.md",
     "Trouble shooting/Access Token 관련.md",
     "SwiftUI 스터디/Food Truck/App.md",
