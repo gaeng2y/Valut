@@ -1,4 +1,5 @@
 ### Utilizing schema macros
+
 ### Evolving schema
 ### Reference
 * WWDC23 [Model your schema with SwiftData](https://developer.apple.com/videos/play/wwdc2023/10195)
