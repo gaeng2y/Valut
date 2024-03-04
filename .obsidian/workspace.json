@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SwiftUI 스터디/Backyard Birds/SwiftData/Build an app with SwiftData.md",
+                "file": "SwiftUI 스터디/Backyard Birds/SwiftData/SwiftData.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SwiftUI 스터디/Backyard Birds/SwiftData/Build an app with SwiftData.md",
+                "file": "SwiftUI 스터디/Backyard Birds/SwiftData/SwiftData.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SwiftUI 스터디/Backyard Birds/SwiftData/Build an app with SwiftData.md",
+                "file": "SwiftUI 스터디/Backyard Birds/SwiftData/SwiftData.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SwiftUI 스터디/Backyard Birds/SwiftData/Build an app with SwiftData.md"
+                "file": "SwiftUI 스터디/Backyard Birds/SwiftData/SwiftData.md"
               }
             }
           }
@@ -149,12 +149,13 @@
   },
   "active": "12f0992a75962981",
   "lastOpenFiles": [
-    "SwiftUI 스터디/Backyard Birds/SwiftData/Model your schema with SwiftData.md",
+    "SwiftUI 스터디/Backyard Birds/Documentation.md",
     "SwiftUI 스터디/Backyard Birds/SwiftData/SwiftData.md",
+    "SwiftUI 스터디/Backyard Birds/SwiftData/Model your schema with SwiftData.md",
+    "SwiftUI 스터디/Backyard Birds/SwiftData/Build an app with SwiftData.md",
     "Trouble shooting/커뮤니티 화면 리팩토링.md",
     "conflict-files-obsidian-git.md",
     "Trouble shooting/Swift Date타입 뽀개보기.md",
-    "SwiftUI 스터디/Backyard Birds/SwiftData/Build an app with SwiftData.md",
     "Dependency Injection/Pasted image 20240227224829.png",
     "Dependency Injection/Pasted image 20240227223545.png",
     "Dependency Injection/Pasted image 20240227223531.png",
@@ -165,7 +166,6 @@
     "Dependency Injection/Pasted image 20240220200135.png",
     "SwiftUI 스터디/Food Truck/코드 분석.md",
     "SwiftUI 스터디/Backyard Birds/구조.md",
-    "SwiftUI 스터디/Backyard Birds/Documentation.md",
     "Design Pattern/리이오의 디자인 패턴/기본에 디자인 패턴 붓기.md",
     "Design System/FlexLayout/FlexLayout (1).md",
     "Design System/UIKit에서 SwiftUI 사용하기.md",
