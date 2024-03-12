@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WWDC/WWDC 15/Protocol-Oriented Programming in Swift.md",
+                "file": "WWDC/WWDC 15/Protocol-Oriented Programming in Swift/Protocol-Oriented Programming in Swift.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "WWDC/WWDC 15/Protocol-Oriented Programming in Swift.md",
+                "file": "WWDC/WWDC 15/Protocol-Oriented Programming in Swift/Protocol-Oriented Programming in Swift.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "WWDC/WWDC 15/Protocol-Oriented Programming in Swift.md",
+                "file": "WWDC/WWDC 15/Protocol-Oriented Programming in Swift/Protocol-Oriented Programming in Swift.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WWDC/WWDC 15/Protocol-Oriented Programming in Swift.md"
+                "file": "WWDC/WWDC 15/Protocol-Oriented Programming in Swift/Protocol-Oriented Programming in Swift.md"
               }
             }
           }
@@ -162,7 +162,9 @@
   },
   "active": "d9f78a6b17b98256",
   "lastOpenFiles": [
-    "WWDC/WWDC 15/Protocol-Oriented Programming in Swift.md",
+    "WWDC/WWDC 15/Protocol-Oriented Programming in Swift/Screenshot 2024-03-12 at 10.20.06 PM.png",
+    "WWDC/WWDC 15/Protocol-Oriented Programming in Swift/Protocol-Oriented Programming in Swift.md",
+    "WWDC/WWDC 15/Protocol-Oriented Programming in Swift",
     "실전 리팩토링/2024 03 12 라이브세션.md",
     "WWDC/WWDC 15",
     "WWDC",
@@ -177,7 +179,6 @@
     "Dependency Injection/Pasted image 20240312202339.png",
     "conflict-files-obsidian-git.md",
     "Trouble shooting/viewDidLoad() vs loadView().md",
-    "Dependency Injection/Pasted image 20240306121614.png",
     "실전 리팩토링/2024 03 05 라이브세션.md",
     "실전 리팩토링",
     "SwiftUI 스터디/Backyard Birds/SwiftData/SwiftData.md",
@@ -205,8 +206,6 @@
     "Trouble shooting/로또 번호 만들기.md",
     "Trouble shooting/Xcode Configuration.md",
     "Trouble shooting/Design System 개발 관련.md",
-    "Trouble shooting/ContentsDetailViewerViewController.md",
-    "Swift Concurrency/Chapter 8",
-    "MVVM"
+    "Swift Concurrency/Chapter 8"
   ]
 }
