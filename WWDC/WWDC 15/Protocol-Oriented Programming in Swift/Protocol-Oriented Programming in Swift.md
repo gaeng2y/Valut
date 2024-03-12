@@ -80,3 +80,49 @@ class Number: Ordered {
   }
 }
 ```
+
+`Ordered`는 `Label` 클래스와 같은 무엇이든 될 수 있으므로 컴파일되지 않습니다. 이제 올바른 유형을 얻으려면 다운캐스트해야 합니다.
+```swift
+return value < (other as! Number).value
+```
+
+`other`이 `Label`로 판명되면 어떻게 되나요? 우리 코드는 함정에 빠질 것입니다. 클래스가 자기 유형과 타인 유형 사이의 중요한 유형 관계를 표현할 수 없기 때문에 이 오류가 발생합니다.
+
+강제적 다운타입캐스팅을 하지말라;; 지들이 만들어놓고 쓰지말래,,,
+## We need a better abstraction mechanism
+- Supports value types and classes
+- Supports static type relationships and dynamic dispatch
+- Is non-monolithic
+- Supports retroactive modeling (can conform to another type's requirements in an extension)
+- Doesn't impose instance data on models
+- Doesn't impose initialization burdens on models
+- Makes clear what to implement/override
+## 정답은 프로토콜
+Swift는 최초의 프로토콜 지향 프로그래밍 언어입니다. `for` 루프와 문자열 리터럴이 작동하는 방식부터 제네릭에 대한 표준 라이브러리의 강조까지 Swift의 핵심은 프로토콜 지향입니다.
+
+프로토콜 먼저 만들자
+```swift
+protocol Ordered {
+  func precedes(other: Ordered) -> Bool
+}
+
+struct Number: Ordered {
+  var value: Double = 0
+
+  func precedes(other: Ordered) -> Bool {
+    return self.value < (other as! Number).value
+  }
+}
+```
+
+`Number`로 다운캐스트할 때 여전히 정적 유형의 안전 구멍이 있습니다. `Ordered`를 `Number`로 변경하면 `Number`가 `Ordered`를 따르지 않기 때문에 타입캐스팅 구문을 삭제할 수 없습니다.
+
+```swift
+func precedes(other: Number) -> Bool {
+  // ERROR: protocol requires function 'precedes' with type '(Ordered) -> Bool'
+  // candidate has non-matching type '(Number) -> Bool'
+  return self.value < other.value
+}
+```
+
+이 코드를 컴파일하려면 프로토콜에 `Self 요구 사항`을 추가해야 합니다. `Self`는 프로토콜을 준수하는 동적 유형에 대한 자리 표시자입니다.
