@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "실전 리팩토링/2024 03 12 라이브세션.md",
+                "file": "WWDC/WWDC 15/Protocol-Oriented Programming in Swift.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "실전 리팩토링/2024 03 12 라이브세션.md",
+                "file": "WWDC/WWDC 15/Protocol-Oriented Programming in Swift.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "실전 리팩토링/2024 03 12 라이브세션.md",
+                "file": "WWDC/WWDC 15/Protocol-Oriented Programming in Swift.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "실전 리팩토링/2024 03 12 라이브세션.md"
+                "file": "WWDC/WWDC 15/Protocol-Oriented Programming in Swift.md"
               }
             }
           }
@@ -162,6 +162,10 @@
   },
   "active": "d9f78a6b17b98256",
   "lastOpenFiles": [
+    "WWDC/WWDC 15/Protocol-Oriented Programming in Swift.md",
+    "실전 리팩토링/2024 03 12 라이브세션.md",
+    "WWDC/WWDC 15",
+    "WWDC",
     "Dependency Injection/Pasted image 20240312203446.png",
     "Dependency Injection/Pasted image 20240312203403.png",
     "Dependency Injection/Pasted image 20240312203143.png",
@@ -172,11 +176,9 @@
     "Dependency Injection/Pasted image 20240312202422.png",
     "Dependency Injection/Pasted image 20240312202339.png",
     "conflict-files-obsidian-git.md",
-    "실전 리팩토링/2024 03 12 라이브세션.md",
     "Trouble shooting/viewDidLoad() vs loadView().md",
     "Dependency Injection/Pasted image 20240306121614.png",
     "실전 리팩토링/2024 03 05 라이브세션.md",
-    "Dependency Injection/Pasted image 20240305200928.png",
     "실전 리팩토링",
     "SwiftUI 스터디/Backyard Birds/SwiftData/SwiftData.md",
     "SwiftUI 스터디/Backyard Birds/Documentation.md",
@@ -205,8 +207,6 @@
     "Trouble shooting/Design System 개발 관련.md",
     "Trouble shooting/ContentsDetailViewerViewController.md",
     "Swift Concurrency/Chapter 8",
-    "MVVM",
-    "SwiftUI 스터디/Food Truck",
-    "SwiftUI 스터디"
+    "MVVM"
   ]
 }
