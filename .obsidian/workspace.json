@@ -162,10 +162,11 @@
   },
   "active": "d9f78a6b17b98256",
   "lastOpenFiles": [
-    "WWDC/WWDC 15/Protocol-Oriented Programming in Swift/Protocol-Oriented Programming in Swift.md",
+    "WWDC/WWDC 15/Protocol-Oriented Programming in Swift/Screenshot 2024-03-12 at 10.53.15 PM.png",
     "Swift/self vs Self.md",
-    "Swift",
+    "WWDC/WWDC 15/Protocol-Oriented Programming in Swift/Protocol-Oriented Programming in Swift.md",
     "WWDC/WWDC 15/Protocol-Oriented Programming in Swift/Screenshot 2024-03-12 at 10.20.06 PM.png",
+    "Swift",
     "WWDC/WWDC 15/Protocol-Oriented Programming in Swift",
     "실전 리팩토링/2024 03 12 라이브세션.md",
     "WWDC/WWDC 15",
@@ -178,7 +179,6 @@
     "Dependency Injection/Pasted image 20240312202444.png",
     "Dependency Injection/Pasted image 20240312202437.png",
     "Dependency Injection/Pasted image 20240312202422.png",
-    "Dependency Injection/Pasted image 20240312202339.png",
     "conflict-files-obsidian-git.md",
     "Trouble shooting/viewDidLoad() vs loadView().md",
     "실전 리팩토링/2024 03 05 라이브세션.md",
@@ -206,7 +206,6 @@
     "SwiftUI 스터디/Food Truck/Documentation.md",
     "SwiftUI 스터디/Food Truck/FoodTruckKit.md",
     "Trouble shooting/로또 번호 만들기.md",
-    "Trouble shooting/Xcode Configuration.md",
-    "Trouble shooting/Design System 개발 관련.md"
+    "Trouble shooting/Xcode Configuration.md"
   ]
 }

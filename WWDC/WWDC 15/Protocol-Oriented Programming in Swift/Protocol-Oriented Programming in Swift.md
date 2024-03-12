@@ -125,4 +125,18 @@ func precedes(other: Number) -> Bool {
 }
 ```
 
-이 코드를 컴파일하려면 프로토콜에 `Self 요구 사항`을 추가해야 합니다. `Self`는 프로토콜을 준수하는 동적 유형에 대한 자리 표시자입니다.
+이 코드를 컴파일하려면 프로토콜에 [`Self 요구 사항`](obsidian://open?vault=Valut&file=Swift%2Fself%20vs%20Self)을 추가해야 합니다. `Self`는 프로토콜을 준수하는 동적 유형에 대한 자리 표시자입니다.
+
+```swift
+protocol Ordered {
+  func precedes(other: Self) -> Bool
+}
+```
+
+이제 이진 검색을 리팩토링할 수 있습니다. `Ordered`가 클래스일 때 함수 선언은 다음과 같습니다.
+
+```swift
+func binarySearch(sortedKeys: [Ordered], forKey k: Ordered) -> Int { ... }
+```
+
+`Ordered`가 클래스인 경우 `Ordered` 배열에는 모든 하위 클래스가 포함될 수 있습니다. 예를 들어, 3개가 모두 `Ordered`의 하위 클래스인 경우 [`Number`, `Label`, `Fruit`] 배열을 가질 수 있습니다.

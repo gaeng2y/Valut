@@ -10,3 +10,7 @@
 
 - Self는 type그 자체를 의미: **타입을 정의할때 사용**
 - Self.self는 type object를 의미: **타입을 넘길때 사용**
+## 문맥에 따라 의미가 다른 `Self`
+- protocol 내부에서의 Self 의미: 해당 protocol을 채택한 타입을 의미
+a
+![image](https://github.com/gaeng2y/Valut/blob/main/WWDC/WWDC%2015/Protocol-Oriented%20Programming%20in%20Swift/Screenshot%202024-03-12%20at%2010.53.15%20PM.png?raw=true)
