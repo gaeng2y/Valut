@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "bf6602db3ee11a84",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "실전 리팩토링/2024 03 12 라이브세션.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "실전 리팩토링/2024 03 12 라이브세션.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "실전 리팩토링/2024 03 12 라이브세션.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           }
@@ -160,10 +172,13 @@
       "templates:템플릿 삽입": false
     }
   },
-  "active": "d9f78a6b17b98256",
+  "active": "bf6602db3ee11a84",
   "lastOpenFiles": [
-    "실전 리팩토링/2024 03 05 라이브세션.md",
     "실전 리팩토링/2024 03 12 라이브세션.md",
+    "conflict-files-obsidian-git.md",
+    "Trouble shooting/viewDidLoad() vs loadView().md",
+    "Dependency Injection/Pasted image 20240306121614.png",
+    "실전 리팩토링/2024 03 05 라이브세션.md",
     "Dependency Injection/Pasted image 20240305200928.png",
     "실전 리팩토링",
     "SwiftUI 스터디/Backyard Birds/SwiftData/SwiftData.md",
@@ -171,7 +186,6 @@
     "SwiftUI 스터디/Backyard Birds/SwiftData/Model your schema with SwiftData.md",
     "SwiftUI 스터디/Backyard Birds/SwiftData/Build an app with SwiftData.md",
     "Trouble shooting/커뮤니티 화면 리팩토링.md",
-    "conflict-files-obsidian-git.md",
     "Trouble shooting/Swift Date타입 뽀개보기.md",
     "Dependency Injection/Pasted image 20240227224829.png",
     "Dependency Injection/Pasted image 20240227223545.png",
@@ -197,13 +211,11 @@
     "SwiftUI 스터디/Food Truck/Documentation.md",
     "SwiftUI 스터디/Food Truck/FoodTruckKit.md",
     "Dependency Injection/Pasted image 20240205202401.png",
-    "Dependency Injection/Pasted image 20240205201935.png",
     "Trouble shooting/로또 번호 만들기.md",
     "Trouble shooting/Xcode Configuration.md",
     "Trouble shooting/Design System 개발 관련.md",
     "Trouble shooting/ContentsDetailViewerViewController.md",
     "웹, 네트워크/Chapter 2.md",
-    "Trouble shooting/Access Token 관련.md",
     "Swift Concurrency/Chapter 8",
     "MVVM",
     "SwiftUI 스터디/Food Truck",
