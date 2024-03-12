@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "실전 리팩토링/2024 03 05 라이브세션.md",
+                "file": "실전 리팩토링/2024 03 12 라이브세션.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "실전 리팩토링/2024 03 05 라이브세션.md",
+                "file": "실전 리팩토링/2024 03 12 라이브세션.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "실전 리팩토링/2024 03 05 라이브세션.md",
+                "file": "실전 리팩토링/2024 03 12 라이브세션.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "실전 리팩토링/2024 03 05 라이브세션.md"
+                "file": "실전 리팩토링/2024 03 12 라이브세션.md"
               }
             }
           }
@@ -162,8 +162,9 @@
   },
   "active": "d9f78a6b17b98256",
   "lastOpenFiles": [
-    "Dependency Injection/Pasted image 20240305200928.png",
     "실전 리팩토링/2024 03 05 라이브세션.md",
+    "실전 리팩토링/2024 03 12 라이브세션.md",
+    "Dependency Injection/Pasted image 20240305200928.png",
     "실전 리팩토링",
     "SwiftUI 스터디/Backyard Birds/SwiftData/SwiftData.md",
     "SwiftUI 스터디/Backyard Birds/Documentation.md",
@@ -201,7 +202,6 @@
     "Trouble shooting/Xcode Configuration.md",
     "Trouble shooting/Design System 개발 관련.md",
     "Trouble shooting/ContentsDetailViewerViewController.md",
-    "Dependency Injection/Pasted image 20240205201543.png",
     "웹, 네트워크/Chapter 2.md",
     "Trouble shooting/Access Token 관련.md",
     "Swift Concurrency/Chapter 8",
