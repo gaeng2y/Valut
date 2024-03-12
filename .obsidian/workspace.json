@@ -98,6 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "실전 리팩토링/2024 03 12 라이브세션.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,6 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "실전 리팩토링/2024 03 12 라이브세션.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "conflict-files-obsidian-git.md"
+                "file": "실전 리팩토링/2024 03 12 라이브세션.md"
               }
             }
           }
@@ -158,10 +160,15 @@
       "templates:템플릿 삽입": false
     }
   },
-  "active": "160736a19be9866b",
+  "active": "d9f78a6b17b98256",
   "lastOpenFiles": [
-    "실전 리팩토링/2024 03 12 라이브세션.md",
+    "Dependency Injection/Pasted image 20240312202605.png",
+    "Dependency Injection/Pasted image 20240312202444.png",
+    "Dependency Injection/Pasted image 20240312202437.png",
+    "Dependency Injection/Pasted image 20240312202422.png",
+    "Dependency Injection/Pasted image 20240312202339.png",
     "conflict-files-obsidian-git.md",
+    "실전 리팩토링/2024 03 12 라이브세션.md",
     "Trouble shooting/viewDidLoad() vs loadView().md",
     "Dependency Injection/Pasted image 20240306121614.png",
     "실전 리팩토링/2024 03 05 라이브세션.md",
@@ -178,9 +185,6 @@
     "Dependency Injection/Pasted image 20240227223531.png",
     "SwiftUI 스터디/Backyard Birds/SwiftData",
     "Dependency Injection/Pasted image 20240220200444.png",
-    "Dependency Injection/Pasted image 20240220200159.png",
-    "Dependency Injection/Pasted image 20240220200147.png",
-    "Dependency Injection/Pasted image 20240220200135.png",
     "SwiftUI 스터디/Food Truck/코드 분석.md",
     "SwiftUI 스터디/Backyard Birds/구조.md",
     "Design Pattern/리이오의 디자인 패턴/기본에 디자인 패턴 붓기.md",
@@ -196,12 +200,10 @@
     "SwiftUI 스터디/Backyard Birds",
     "SwiftUI 스터디/Food Truck/Documentation.md",
     "SwiftUI 스터디/Food Truck/FoodTruckKit.md",
-    "Dependency Injection/Pasted image 20240205202401.png",
     "Trouble shooting/로또 번호 만들기.md",
     "Trouble shooting/Xcode Configuration.md",
     "Trouble shooting/Design System 개발 관련.md",
     "Trouble shooting/ContentsDetailViewerViewController.md",
-    "웹, 네트워크/Chapter 2.md",
     "Swift Concurrency/Chapter 8",
     "MVVM",
     "SwiftUI 스터디/Food Truck",
