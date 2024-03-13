@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Swift/self vs Self.md",
+                "file": "WWDC/WWDC 15/Protocol-Oriented Programming in Swift/Protocol-Oriented Programming in Swift.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Swift/self vs Self.md",
+                "file": "WWDC/WWDC 15/Protocol-Oriented Programming in Swift/Protocol-Oriented Programming in Swift.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Swift/self vs Self.md",
+                "file": "WWDC/WWDC 15/Protocol-Oriented Programming in Swift/Protocol-Oriented Programming in Swift.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Swift/self vs Self.md"
+                "file": "WWDC/WWDC 15/Protocol-Oriented Programming in Swift/Protocol-Oriented Programming in Swift.md"
               }
             }
           }
@@ -162,8 +162,8 @@
   },
   "active": "d9f78a6b17b98256",
   "lastOpenFiles": [
-    "WWDC/WWDC 15/Protocol-Oriented Programming in Swift/Screenshot 2024-03-12 at 10.53.15 PM.png",
     "Swift/self vs Self.md",
+    "WWDC/WWDC 15/Protocol-Oriented Programming in Swift/Screenshot 2024-03-12 at 10.53.15 PM.png",
     "WWDC/WWDC 15/Protocol-Oriented Programming in Swift/Protocol-Oriented Programming in Swift.md",
     "WWDC/WWDC 15/Protocol-Oriented Programming in Swift/Screenshot 2024-03-12 at 10.20.06 PM.png",
     "Swift",

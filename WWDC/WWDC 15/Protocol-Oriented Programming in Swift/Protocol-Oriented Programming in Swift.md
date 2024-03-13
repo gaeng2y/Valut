@@ -140,3 +140,73 @@ func binarySearch(sortedKeys: [Ordered], forKey k: Ordered) -> Int { ... }
 ```
 
 `Ordered`가 클래스인 경우 `Ordered` 배열에는 모든 하위 클래스가 포함될 수 있습니다. 예를 들어, 3개가 모두 `Ordered`의 하위 클래스인 경우 [`Number`, `Label`, `Fruit`] 배열을 가질 수 있습니다.
+## Replacing classes in OOP with protocols
+사용자가 그리기 화면에 셰이프를 끌어서 놓은 다음 해당 셰이프와 상호 작용할 수 있는 다이어그램 앱을 모델링하겠습니다. 우리는 문서와 디스플레이 모델을 구축하고 있습니다.
+
+첫째, 그리기 명령을 인쇄하는 기본 "Renderer"입니다.
+```swift
+struct Renderer {
+  func move(to point: CGPoint) {
+    print("Move to (\(point.x), \(point.y))")
+  }
+
+  func line(to point: CGPoint) {
+    print("Line to (\(point.x), \(point.y))")
+  }
+
+  func arc(at center: CGPoint, radius: CGFloat, startAngle: CGFloat, endAngle: CGFloat) {
+    print("Arc at \(center), radius: \(radius), startAngle: \(startAngle), endAngle: \(endAngle)")
+  }
+}
+```
+
+다음으로 모든 그리기 요소에 대한 공통 인터페이스를 제공하는 `Drawable` 프로토콜입니다.
+
+```swift
+protocol Drawable {
+  func draw(using renderer: Renderer)
+}
+```
+
+그런 다음 다각형과 같은 모양이 됩니다. 이는 다른 값 유형인 `CGPoint`로 구성된 값 유형입니다.
+
+```swift
+struct Polygon: Drawable {
+  var corners = [CGPoint]()
+
+  func draw(using renderer: Renderer) {
+    renderer.move(to: corners.last!)
+
+    for point in corners {
+      renderer.line(to: point)
+    }
+  }
+}
+```
+
+다음은 다른 값 유형으로 구성된 값 유형이기도 한 `Circle`입니다.
+
+```swift
+struct Circle: Drawable {
+  var center: CGPoint
+  var radius: CGFloat
+
+  func draw(using renderer: Renderer) {
+    renderer.arc(at: center, radius: radius, startAngle: 0.0, endAngle: twoPi)
+  }
+}
+```
+
+이제 원과 다각형으로 다이어그램을 만들 수 있습니다.
+
+```swift
+struct Diagram: Drawable {
+  var elements = [Drawable]()
+
+  func draw(using renderer: Renderer) {
+    for element in elements {
+      element.draw(using: renderer)
+    }
+  }
+}
+```
