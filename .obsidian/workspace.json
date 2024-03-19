@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Swift/Xcode Link.md",
+                "file": "Swift/무제 파일.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Swift/Xcode Link.md",
+                "file": "Swift/무제 파일.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Swift/Xcode Link.md",
+                "file": "Swift/무제 파일.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Swift/Xcode Link.md"
+                "file": "Swift/무제 파일.md"
               }
             }
           }
@@ -162,8 +162,9 @@
   },
   "active": "d9f78a6b17b98256",
   "lastOpenFiles": [
-    "WWDC/WWDC 15/Building Better Apps with Value Types in Swift/Building Better Apps with Value Types in Swift.md",
     "Swift/Xcode Link.md",
+    "Swift/무제 파일.md",
+    "WWDC/WWDC 15/Building Better Apps with Value Types in Swift/Building Better Apps with Value Types in Swift.md",
     "WWDC/WWDC 15/Building Better Apps with Value Types in Swift/ref.md",
     "WWDC/WWDC 15/Protocol-Oriented Programming in Swift/Protocol-Oriented Programming in Swift.md",
     "WWDC/WWDC 15/Building Better Apps with Value Types in Swift",
@@ -206,7 +207,6 @@
     "Design Pattern/무제 파일.md",
     "Design Pattern/리이오의 디자인 패턴",
     "SwiftUI 스터디/Food Truck/WeatherKit 사용해보기.md",
-    "SwiftUI 스터디/Food Truck/Documentation.md",
-    "SwiftUI 스터디/Food Truck/FoodTruckKit.md"
+    "SwiftUI 스터디/Food Truck/Documentation.md"
   ]
 }
