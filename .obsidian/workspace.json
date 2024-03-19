@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WWDC/WWDC 15/Building Better Apps with Value Types in Swift/Building Better Apps with Value Types in Swift.md",
+                "file": "Swift/Xcode Link.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "WWDC/WWDC 15/Building Better Apps with Value Types in Swift/Building Better Apps with Value Types in Swift.md",
+                "file": "Swift/Xcode Link.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "WWDC/WWDC 15/Building Better Apps with Value Types in Swift/Building Better Apps with Value Types in Swift.md",
+                "file": "Swift/Xcode Link.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WWDC/WWDC 15/Building Better Apps with Value Types in Swift/Building Better Apps with Value Types in Swift.md"
+                "file": "Swift/Xcode Link.md"
               }
             }
           }
@@ -162,8 +162,9 @@
   },
   "active": "d9f78a6b17b98256",
   "lastOpenFiles": [
-    "WWDC/WWDC 15/Building Better Apps with Value Types in Swift/ref.md",
     "WWDC/WWDC 15/Building Better Apps with Value Types in Swift/Building Better Apps with Value Types in Swift.md",
+    "Swift/Xcode Link.md",
+    "WWDC/WWDC 15/Building Better Apps with Value Types in Swift/ref.md",
     "WWDC/WWDC 15/Protocol-Oriented Programming in Swift/Protocol-Oriented Programming in Swift.md",
     "WWDC/WWDC 15/Building Better Apps with Value Types in Swift",
     "Swift/self vs Self.md",
@@ -206,7 +207,6 @@
     "Design Pattern/리이오의 디자인 패턴",
     "SwiftUI 스터디/Food Truck/WeatherKit 사용해보기.md",
     "SwiftUI 스터디/Food Truck/Documentation.md",
-    "SwiftUI 스터디/Food Truck/FoodTruckKit.md",
-    "Trouble shooting/로또 번호 만들기.md"
+    "SwiftUI 스터디/Food Truck/FoodTruckKit.md"
   ]
 }
