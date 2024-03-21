@@ -33,3 +33,9 @@ brew install jenkins-lts
 ```shell
 brew services restart jenkins-lts
 ```
+
+그리고 기본으로 추천 플러그인 설치하고
+- Jira
+- Generic Webhook Trigger
+- Bitbucket
+- 
