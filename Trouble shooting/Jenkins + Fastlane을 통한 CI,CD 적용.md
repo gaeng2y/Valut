@@ -43,5 +43,10 @@ exodusAppleDev 구글 계정을 bitbucket에 추가
 ssh-keygen을 통해서 private key 추가(BEGN-END 까지 다넣어야됨)
 처음에 안될거임 뭐 pod이 어쩌고 저쩌고 해서 pod: comand not found라고 되어서 나옴
 그래서 처음 한번은 디렉토리가서 pod install 해줘야됨
-
 ## Fastlane 설치
+
+그리고 이제 빌드를 하면 path가 제대로 들어가지않아서 문제가 생긴다.
+
+jenkins관리 -> 시스템 관리-> Global properties에
+
+터미널에서 `echo $PATH`로 나온 값을 복사해서 PATH라는 이름으로 붙여주면된다.
