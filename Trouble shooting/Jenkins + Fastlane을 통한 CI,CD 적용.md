@@ -38,4 +38,6 @@ brew services restart jenkins-lts
 - Jira
 - Generic Webhook Trigger
 - Bitbucket
+#### Jenkins credentials 추가
+
 ## Fastlane 설치
