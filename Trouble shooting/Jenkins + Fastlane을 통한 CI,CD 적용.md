@@ -10,6 +10,8 @@
 ```shell
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
+homebrew 설치하려면 xcode command line 설치하라고 나올거임,,,,
+
 ## Cocoapods 설치
 [Cocoapods](https://cocoapods.org)도 설치
 ```shell
