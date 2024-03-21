@@ -38,4 +38,4 @@ brew services restart jenkins-lts
 - Jira
 - Generic Webhook Trigger
 - Bitbucket
-- 
+## Fastlane 설치
