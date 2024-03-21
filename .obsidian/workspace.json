@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Trouble shooting/viewDidLoad() vs loadView().md",
+                "file": "Trouble shooting/Jenkins + Fastlane을 통한 CI,CD 적용.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Trouble shooting/viewDidLoad() vs loadView().md",
+                "file": "Trouble shooting/Jenkins + Fastlane을 통한 CI,CD 적용.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Trouble shooting/viewDidLoad() vs loadView().md",
+                "file": "Trouble shooting/Jenkins + Fastlane을 통한 CI,CD 적용.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Trouble shooting/viewDidLoad() vs loadView().md"
+                "file": "Trouble shooting/Jenkins + Fastlane을 통한 CI,CD 적용.md"
               }
             }
           }
@@ -149,9 +149,10 @@
   },
   "active": "bfeca792147c58fa",
   "lastOpenFiles": [
+    "Trouble shooting/viewDidLoad() vs loadView().md",
+    "Trouble shooting/Jenkins + Fastlane을 통한 CI,CD 적용.md",
     "Trouble shooting/커뮤니티 화면 리팩토링.md",
     "실전 리팩토링/2024 03 05 라이브세션.md",
-    "Trouble shooting/viewDidLoad() vs loadView().md",
     "Dependency Injection/Pasted image 20240306121614.png",
     "실전 리팩토링",
     "Dependency Injection/Pasted image 20240305200928.png",
