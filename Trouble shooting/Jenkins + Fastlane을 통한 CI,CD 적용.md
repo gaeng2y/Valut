@@ -39,5 +39,9 @@ brew services restart jenkins-lts
 - Generic Webhook Trigger
 - Bitbucket
 #### Jenkins credentials 추가
+exodusAppleDev 구글 계정을 bitbucket에 추가
+ssh-keygen을 통해서 private key 추가(BEGN-END 까지 다넣어야됨)
+처음에 안될거임 뭐 pod이 어쩌고 저쩌고 해서 pod: comand not found라고 되어서 나옴
+그래서 처음 한번은 디렉토리가서 pod install 해줘야됨
 
 ## Fastlane 설치
