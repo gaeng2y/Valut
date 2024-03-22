@@ -50,3 +50,8 @@ ssh-keygen을 통해서 private key 추가(BEGN-END 까지 다넣어야됨)
 jenkins관리 -> 시스템 관리-> Global properties에
 
 터미널에서 `echo $PATH`로 나온 값을 복사해서 PATH라는 이름으로 붙여주면된다.
+
+## 빌드 에러
+빌드가 자꾸 실패한다.
+#### read asset error
+에셋을 제대로 못읽는 이슈가 있어서 에셋을 지웠다가 재참조 시켰다.
