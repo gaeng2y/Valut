@@ -4,22 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "ffd57cdae8d4ae1b",
+        "id": "1b394fbdd8eb4f08",
         "type": "tabs",
         "children": [
           {
-            "id": "bfeca792147c58fa",
+            "id": "12f0992a75962981",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Trouble shooting/Jenkins + Fastlane을 통한 CI,CD 적용.md",
+                "file": "SwiftUI 스터디/Backyard Birds/SwiftData/Build an app with SwiftData.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d9f78a6b17b98256",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "WWDC/WWDC 16/Protocol and Value Oriented Programming in UIKit Apps/Protocol and Value Oriented Programming in UIKit Apps.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,7 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 232.5
+    "width": 298.5
   },
   "right": {
     "id": "9843e891487ed6f6",
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Trouble shooting/Jenkins + Fastlane을 통한 CI,CD 적용.md",
+                "file": "WWDC/WWDC 16/Protocol and Value Oriented Programming in UIKit Apps/Protocol and Value Oriented Programming in UIKit Apps.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Trouble shooting/Jenkins + Fastlane을 통한 CI,CD 적용.md",
+                "file": "WWDC/WWDC 16/Protocol and Value Oriented Programming in UIKit Apps/Protocol and Value Oriented Programming in UIKit Apps.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Trouble shooting/Jenkins + Fastlane을 통한 CI,CD 적용.md"
+                "file": "WWDC/WWDC 16/Protocol and Value Oriented Programming in UIKit Apps/Protocol and Value Oriented Programming in UIKit Apps.md"
               }
             }
           }
@@ -139,31 +152,35 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "command-palette:명령어 팔레트 열기": false,
       "switcher:퀵 스위처 열기": false,
       "graph:그래프 뷰 열기": false,
       "canvas:새 캔버스 만들기": false,
       "daily-notes:오늘의 데일리 노트 열기": false,
-      "templates:템플릿 삽입": false,
-      "command-palette:명령어 팔레트 열기": false
+      "templates:템플릿 삽입": false
     }
   },
-  "active": "bfeca792147c58fa",
+  "active": "d9f78a6b17b98256",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
-    "Trouble shooting/Jenkins + Fastlane을 통한 CI,CD 적용.md",
-    "실전 리팩토링/2024 03 12 라이브세션.md",
-    "WWDC/WWDC 15/Protocol-Oriented Programming in Swift/Screenshot 2024-03-12 at 10.53.15 PM.png",
-    "WWDC/WWDC 15/Protocol-Oriented Programming in Swift/Protocol-Oriented Programming in Swift.md",
-    "WWDC/WWDC 15/Building Better Apps with Value Types in Swift/ref.md",
+    "WWDC/추천 WWDC.md",
+    "WWDC/WWDC 16/Protocol and Value Oriented Programming in UIKit Apps/Protocol and Value Oriented Programming in UIKit Apps.md",
+    "WWDC/WWDC 16/Protocol and Value Oriented Programming in UIKit Apps",
+    "WWDC/WWDC 16",
     "WWDC/WWDC 15/Building Better Apps with Value Types in Swift/Building Better Apps with Value Types in Swift.md",
-    "WWDC/WWDC 15/Protocol-Oriented Programming in Swift",
+    "Trouble shooting/Jenkins + Fastlane을 통한 CI,CD 적용.md",
+    "WWDC/WWDC 15/Building Better Apps with Value Types in Swift/ref.md",
+    "Swift/무제 파일.md",
+    "Swift/Xcode Link.md",
+    "WWDC/WWDC 15/Protocol-Oriented Programming in Swift/Protocol-Oriented Programming in Swift.md",
     "WWDC/WWDC 15/Building Better Apps with Value Types in Swift",
+    "Swift/self vs Self.md",
+    "WWDC/WWDC 15/Protocol-Oriented Programming in Swift/Screenshot 2024-03-12 at 10.53.15 PM.png",
+    "WWDC/WWDC 15/Protocol-Oriented Programming in Swift/Screenshot 2024-03-12 at 10.20.06 PM.png",
+    "Swift",
+    "WWDC/WWDC 15/Protocol-Oriented Programming in Swift",
+    "실전 리팩토링/2024 03 12 라이브세션.md",
     "WWDC/WWDC 15",
     "WWDC",
-    "Swift/무제 파일.md",
-    "Swift/self vs Self.md",
-    "Swift/Xcode Link.md",
-    "Swift",
     "Dependency Injection/Pasted image 20240312203446.png",
     "Dependency Injection/Pasted image 20240312203403.png",
     "Dependency Injection/Pasted image 20240312203143.png",
@@ -172,29 +189,24 @@
     "Dependency Injection/Pasted image 20240312202444.png",
     "Dependency Injection/Pasted image 20240312202437.png",
     "Dependency Injection/Pasted image 20240312202422.png",
-    "Dependency Injection/Pasted image 20240312202339.png",
+    "conflict-files-obsidian-git.md",
     "Trouble shooting/viewDidLoad() vs loadView().md",
-    "Trouble shooting/커뮤니티 화면 리팩토링.md",
     "실전 리팩토링/2024 03 05 라이브세션.md",
     "실전 리팩토링",
-    "Design System/FlexLayout/FlexLayout (1).md",
-    "SwiftUI 스터디/Backyard Birds/Documentation.md",
-    "Trouble shooting/Swift Date타입 뽀개보기.md",
     "SwiftUI 스터디/Backyard Birds/SwiftData/SwiftData.md",
+    "SwiftUI 스터디/Backyard Birds/Documentation.md",
     "SwiftUI 스터디/Backyard Birds/SwiftData/Model your schema with SwiftData.md",
     "SwiftUI 스터디/Backyard Birds/SwiftData/Build an app with SwiftData.md",
-    "Design System/Design System 개발 관련.md",
-    "SwiftUI 스터디/Backyard Birds/구조.md",
+    "Trouble shooting/커뮤니티 화면 리팩토링.md",
+    "Trouble shooting/Swift Date타입 뽀개보기.md",
     "SwiftUI 스터디/Backyard Birds/SwiftData",
+    "SwiftUI 스터디/Food Truck/코드 분석.md",
+    "SwiftUI 스터디/Backyard Birds/구조.md",
     "Design Pattern/리이오의 디자인 패턴/기본에 디자인 패턴 붓기.md",
-    "Design Pattern/리이오의 디자인 패턴",
+    "Design System/FlexLayout/FlexLayout (1).md",
     "Design System/UIKit에서 SwiftUI 사용하기.md",
-    "Modular programming/Library, Framework, Swift Package 차이점.md",
-    "(Unit,UI)Tests/UnitTets/라이브러리.md",
-    "(Unit,UI)Tests/UnitTets/샘플 포스팅.md",
-    "(Unit,UI)Tests/UITests/샘플 포스팅.md",
-    "Design System/FlexLayout/무제 파일.canvas",
+    "Design System/UIKit에서 Preview 사용하기.md",
     "Design System/FlexLayout",
-    "Design System"
+    "Design System/Design System 개발 관련.md"
   ]
 }
