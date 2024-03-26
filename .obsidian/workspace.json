@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WWDC/WWDC 16/Protocol and Value Oriented Programming in UIKit Apps/Protocol and Value Oriented Programming in UIKit Apps.md",
+                "file": "Test-Driven Development/3부 - 테스트 주도 개발의 패턴/25장.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "WWDC/WWDC 16/Protocol and Value Oriented Programming in UIKit Apps/Protocol and Value Oriented Programming in UIKit Apps.md",
+                "file": "Test-Driven Development/3부 - 테스트 주도 개발의 패턴/25장.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "WWDC/WWDC 16/Protocol and Value Oriented Programming in UIKit Apps/Protocol and Value Oriented Programming in UIKit Apps.md",
+                "file": "Test-Driven Development/3부 - 테스트 주도 개발의 패턴/25장.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WWDC/WWDC 16/Protocol and Value Oriented Programming in UIKit Apps/Protocol and Value Oriented Programming in UIKit Apps.md"
+                "file": "Test-Driven Development/3부 - 테스트 주도 개발의 패턴/25장.md"
               }
             }
           }
@@ -162,8 +162,16 @@
   },
   "active": "d9f78a6b17b98256",
   "lastOpenFiles": [
-    "WWDC/추천 WWDC.md",
+    "Test-Driven Development/2부 - xUnit 예시/18장.md",
+    "Test-Driven Development/3부 - 테스트 주도 개발의 패턴/25장.md",
+    "TIL/231123.md",
+    "Test-Driven Development/3부 - 테스트 주도 개발의 패턴",
+    "Test-Driven Development/1부 - 화폐 예제/1장.md",
+    "Test-Driven Development/2부 - xUnit 예시",
+    "Test-Driven Development/1부 - 화폐 예제",
     "WWDC/WWDC 16/Protocol and Value Oriented Programming in UIKit Apps/Protocol and Value Oriented Programming in UIKit Apps.md",
+    "Test-Driven Development",
+    "WWDC/추천 WWDC.md",
     "WWDC/WWDC 16/Protocol and Value Oriented Programming in UIKit Apps",
     "WWDC/WWDC 16",
     "WWDC/WWDC 15/Building Better Apps with Value Types in Swift/Building Better Apps with Value Types in Swift.md",
@@ -180,7 +188,6 @@
     "WWDC/WWDC 15/Protocol-Oriented Programming in Swift",
     "실전 리팩토링/2024 03 12 라이브세션.md",
     "WWDC/WWDC 15",
-    "WWDC",
     "Dependency Injection/Pasted image 20240312203446.png",
     "Dependency Injection/Pasted image 20240312203403.png",
     "Dependency Injection/Pasted image 20240312203143.png",
@@ -192,21 +199,14 @@
     "conflict-files-obsidian-git.md",
     "Trouble shooting/viewDidLoad() vs loadView().md",
     "실전 리팩토링/2024 03 05 라이브세션.md",
-    "실전 리팩토링",
     "SwiftUI 스터디/Backyard Birds/SwiftData/SwiftData.md",
     "SwiftUI 스터디/Backyard Birds/Documentation.md",
     "SwiftUI 스터디/Backyard Birds/SwiftData/Model your schema with SwiftData.md",
     "SwiftUI 스터디/Backyard Birds/SwiftData/Build an app with SwiftData.md",
     "Trouble shooting/커뮤니티 화면 리팩토링.md",
     "Trouble shooting/Swift Date타입 뽀개보기.md",
-    "SwiftUI 스터디/Backyard Birds/SwiftData",
     "SwiftUI 스터디/Food Truck/코드 분석.md",
     "SwiftUI 스터디/Backyard Birds/구조.md",
-    "Design Pattern/리이오의 디자인 패턴/기본에 디자인 패턴 붓기.md",
-    "Design System/FlexLayout/FlexLayout (1).md",
-    "Design System/UIKit에서 SwiftUI 사용하기.md",
-    "Design System/UIKit에서 Preview 사용하기.md",
-    "Design System/FlexLayout",
-    "Design System/Design System 개발 관련.md"
+    "Design Pattern/리이오의 디자인 패턴/기본에 디자인 패턴 붓기.md"
   ]
 }
