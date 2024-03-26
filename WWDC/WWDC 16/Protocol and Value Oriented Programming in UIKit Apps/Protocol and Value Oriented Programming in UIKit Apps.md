@@ -7,3 +7,9 @@ Session: [youtube](https://www.youtube.com/watch?v=SCW0lb7qClw)
 ### 로컬 추론
 바로 앞에 있는 코드를 볼 때 코드의 나머지 부분이 해당 함수와 어떻게 상호 작용하는지 생각할 필요가 없다는 것을 의미한다. 
 
+## Overview
+Value types and protocols
+- Recap - Model
+- Focus - View and controller
+- Testing
+Sample Code: https://developer.apple.com/library/archive/LucidDreams/Introduction/Intro.html
