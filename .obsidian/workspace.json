@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Test-Driven Development/3부 - 테스트 주도 개발의 패턴/25장.md",
+                "file": "WWDC/WWDC 16/Protocol and Value Oriented Programming in UIKit Apps/Protocol and Value Oriented Programming in UIKit Apps.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Test-Driven Development/3부 - 테스트 주도 개발의 패턴/25장.md",
+                "file": "WWDC/WWDC 16/Protocol and Value Oriented Programming in UIKit Apps/Protocol and Value Oriented Programming in UIKit Apps.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Test-Driven Development/3부 - 테스트 주도 개발의 패턴/25장.md",
+                "file": "WWDC/WWDC 16/Protocol and Value Oriented Programming in UIKit Apps/Protocol and Value Oriented Programming in UIKit Apps.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Test-Driven Development/3부 - 테스트 주도 개발의 패턴/25장.md"
+                "file": "WWDC/WWDC 16/Protocol and Value Oriented Programming in UIKit Apps/Protocol and Value Oriented Programming in UIKit Apps.md"
               }
             }
           }
@@ -162,11 +162,11 @@
   },
   "active": "d9f78a6b17b98256",
   "lastOpenFiles": [
-    "Test-Driven Development/2부 - xUnit 예시/18장.md",
+    "Test-Driven Development/1부 - 화폐 예제/1장.md",
     "Test-Driven Development/3부 - 테스트 주도 개발의 패턴/25장.md",
+    "Test-Driven Development/2부 - xUnit 예시/18장.md",
     "TIL/231123.md",
     "Test-Driven Development/3부 - 테스트 주도 개발의 패턴",
-    "Test-Driven Development/1부 - 화폐 예제/1장.md",
     "Test-Driven Development/2부 - xUnit 예시",
     "Test-Driven Development/1부 - 화폐 예제",
     "WWDC/WWDC 16/Protocol and Value Oriented Programming in UIKit Apps/Protocol and Value Oriented Programming in UIKit Apps.md",
