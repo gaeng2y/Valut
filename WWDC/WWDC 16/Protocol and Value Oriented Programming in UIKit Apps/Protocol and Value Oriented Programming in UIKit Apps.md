@@ -168,5 +168,49 @@ let decoration = CascadingLayoutLayout(children: accessories)
 var composedLayout = DecoratingLayout(content: content, decoration: decoration)
 composedLayout.layout(in: rect)
 ```
+### associatedtype
+서브뷰들이 올바른 순서로 같은 타입들만 배치되도록 하려면
 
+```swift
+protocol Layout {
+	mutating func layout(in rect: CGRect)
+    associatedtype Content
+    var contents: [Content] { get }
+}
 
+struct DecoratingLayout: Layout {
+	...
+    typealias Content = UIView
+}
+struct CascadingLayout: Layout {
+	...
+    typealias Content = SKNode
+}
+```
+
+**UIView** 또는 **SKNode**로 혼합될 수 있으므로 **associatedtype**을 사용  
+associatedtype은 type placeholer로 준수하는 타입이 구체적인 타입을 선택해서 사용하도록 함
+
+```swift
+struct DecoratingLayout<Child: Layout, Decoration: Layout
+						where Child.Content == Decoration.Content> : Layout {
+	var content: Child
+    var decoration: Decoration
+    
+    typealias Content = Child.Content
+}
+```
+
+> UIView 대신 Layout을 사용하여 단위 테스트 가능  
+> Layout은 간단한 구조체에 프레임을 설정  
+> -> 테스트가 UIView와 완전히 분리되어 있고, 자체 레이아웃 및 테스트 논리에만 의존함을 의미
+
+### Techniques
+* 값 타입을 이용하여 지역 추론
+* 제네릭 타입은 빠르고 안전하게 다형화
+* 값의 컴포지션
+## Controller
+앱의 실행 취소 기능  
+(Dream에 대한 실행취소 기능은 구현했지만 FavoritCreature에 대한 실행 취소를 구현하지 않은 버그 상황)
+
+FavoritCreature와 관련된 실행 취소 구조를 추가할 수 있지만 다른 코드 경로 추가로 유지보수의 어려움 발생
