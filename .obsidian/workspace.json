@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Trouble shooting/Jenkins + Fastlane을 통한 CI,CD 적용.md",
+                "file": "Dependency Injection/DI & IOC Container/DI Container.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Trouble shooting/Jenkins + Fastlane을 통한 CI,CD 적용.md",
+                "file": "Dependency Injection/DI & IOC Container/DI Container.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Trouble shooting/Jenkins + Fastlane을 통한 CI,CD 적용.md",
+                "file": "Dependency Injection/DI & IOC Container/DI Container.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Trouble shooting/Jenkins + Fastlane을 통한 CI,CD 적용.md"
+                "file": "Dependency Injection/DI & IOC Container/DI Container.md"
               }
             }
           }
@@ -149,8 +149,16 @@
   },
   "active": "bfeca792147c58fa",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
+    "Dependency Injection/Section 3/Cotents.md",
+    "Dependency Injection/DI & IOC Container/DI Container.md",
+    "Dependency Injection/DI & IOC Container",
+    "Dependency Injection/Section 3/Pasted image 20231018161012.png",
+    "Dependency Injection/Pasted image 20240205201513.png",
+    "Dependency Injection/Pasted image 20240204233057.png",
+    "Dependency Injection/Pasted image 20231113214228.png",
+    "Dependency Injection/Pasted image 20231109214830.png",
     "Trouble shooting/Jenkins + Fastlane을 통한 CI,CD 적용.md",
+    "conflict-files-obsidian-git.md",
     "실전 리팩토링/2024 03 12 라이브세션.md",
     "WWDC/WWDC 15/Protocol-Oriented Programming in Swift/Screenshot 2024-03-12 at 10.53.15 PM.png",
     "WWDC/WWDC 15/Protocol-Oriented Programming in Swift/Protocol-Oriented Programming in Swift.md",
@@ -168,11 +176,6 @@
     "Dependency Injection/Pasted image 20240312203403.png",
     "Dependency Injection/Pasted image 20240312203143.png",
     "Dependency Injection/Pasted image 20240312202703.png",
-    "Dependency Injection/Pasted image 20240312202605.png",
-    "Dependency Injection/Pasted image 20240312202444.png",
-    "Dependency Injection/Pasted image 20240312202437.png",
-    "Dependency Injection/Pasted image 20240312202422.png",
-    "Dependency Injection/Pasted image 20240312202339.png",
     "Trouble shooting/viewDidLoad() vs loadView().md",
     "Trouble shooting/커뮤니티 화면 리팩토링.md",
     "실전 리팩토링/2024 03 05 라이브세션.md",
@@ -191,10 +194,7 @@
     "Design System/UIKit에서 SwiftUI 사용하기.md",
     "Modular programming/Library, Framework, Swift Package 차이점.md",
     "(Unit,UI)Tests/UnitTets/라이브러리.md",
-    "(Unit,UI)Tests/UnitTets/샘플 포스팅.md",
-    "(Unit,UI)Tests/UITests/샘플 포스팅.md",
     "Design System/FlexLayout/무제 파일.canvas",
-    "Design System/FlexLayout",
-    "Design System"
+    "Design System/FlexLayout"
   ]
 }
