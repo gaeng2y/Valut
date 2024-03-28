@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "ffd57cdae8d4ae1b",
+        "id": "1b394fbdd8eb4f08",
         "type": "tabs",
         "children": [
           {
-            "id": "bfeca792147c58fa",
+            "id": "d9f78a6b17b98256",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dependency Injection/DI & IOC Container/DI Container.md",
+                "file": "WWDC/WWDC 16/Protocol and Value Oriented Programming in UIKit Apps/Protocol and Value Oriented Programming in UIKit Apps.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 232.5
+    "width": 298.5,
+    "collapsed": true
   },
   "right": {
     "id": "9843e891487ed6f6",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Dependency Injection/DI & IOC Container/DI Container.md",
+                "file": "WWDC/WWDC 16/Protocol and Value Oriented Programming in UIKit Apps/Protocol and Value Oriented Programming in UIKit Apps.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Dependency Injection/DI & IOC Container/DI Container.md",
+                "file": "WWDC/WWDC 16/Protocol and Value Oriented Programming in UIKit Apps/Protocol and Value Oriented Programming in UIKit Apps.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Dependency Injection/DI & IOC Container/DI Container.md"
+                "file": "WWDC/WWDC 16/Protocol and Value Oriented Programming in UIKit Apps/Protocol and Value Oriented Programming in UIKit Apps.md"
               }
             }
           }
@@ -139,62 +140,61 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "command-palette:명령어 팔레트 열기": false,
       "switcher:퀵 스위처 열기": false,
       "graph:그래프 뷰 열기": false,
       "canvas:새 캔버스 만들기": false,
       "daily-notes:오늘의 데일리 노트 열기": false,
-      "templates:템플릿 삽입": false,
-      "command-palette:명령어 팔레트 열기": false
+      "templates:템플릿 삽입": false
     }
   },
-  "active": "bfeca792147c58fa",
+  "active": "d9f78a6b17b98256",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "Dependency Injection/DI & IOC Container/DI Container.md",
-    "WWDC/추천 WWDC.md",
+    "Dependency Injection/DI & IOC Container",
+    "Dependency Injection/Pasted image 20240327224352.png",
+    "Dependency Injection/Pasted image 20240327222859.png",
+    "Dependency Injection/Pasted image 20240327222750.png",
+    "SwiftUI 스터디/Backyard Birds/SwiftData/Build an app with SwiftData.md",
     "WWDC/WWDC 16/Protocol and Value Oriented Programming in UIKit Apps/Protocol and Value Oriented Programming in UIKit Apps.md",
-    "WWDC/WWDC 16/Protocol and Value Oriented Programming in UIKit Apps",
-    "WWDC/WWDC 16",
+    "Test-Driven Development/1부 - 화폐 예제/1장.md",
     "Test-Driven Development/3부 - 테스트 주도 개발의 패턴/25장.md",
     "Test-Driven Development/2부 - xUnit 예시/18장.md",
-    "Test-Driven Development/1부 - 화폐 예제/1장.md",
+    "TIL/231123.md",
     "Test-Driven Development/3부 - 테스트 주도 개발의 패턴",
     "Test-Driven Development/2부 - xUnit 예시",
     "Test-Driven Development/1부 - 화폐 예제",
     "Test-Driven Development",
-    "Dependency Injection/Pasted image 20240327224352.png",
-    "Dependency Injection/Pasted image 20240327222859.png",
-    "Dependency Injection/Pasted image 20240327222750.png",
-    "Dependency Injection/Section 3/Cotents.md",
-    "Dependency Injection/DI & IOC Container",
-    "Dependency Injection/Section 3/Pasted image 20231018161012.png",
-    "Dependency Injection/Pasted image 20240205201513.png",
-    "Dependency Injection/Pasted image 20240204233057.png",
-    "Dependency Injection/Pasted image 20231113214228.png",
-    "Dependency Injection/Pasted image 20231109214830.png",
-    "Trouble shooting/Jenkins + Fastlane을 통한 CI,CD 적용.md",
-    "실전 리팩토링/2024 03 12 라이브세션.md",
-    "WWDC/WWDC 15/Protocol-Oriented Programming in Swift/Screenshot 2024-03-12 at 10.53.15 PM.png",
-    "WWDC/WWDC 15/Protocol-Oriented Programming in Swift/Protocol-Oriented Programming in Swift.md",
-    "WWDC/WWDC 15/Building Better Apps with Value Types in Swift/ref.md",
+    "WWDC/추천 WWDC.md",
+    "WWDC/WWDC 16/Protocol and Value Oriented Programming in UIKit Apps",
+    "WWDC/WWDC 16",
     "WWDC/WWDC 15/Building Better Apps with Value Types in Swift/Building Better Apps with Value Types in Swift.md",
-    "WWDC/WWDC 15/Protocol-Oriented Programming in Swift",
-    "WWDC/WWDC 15/Building Better Apps with Value Types in Swift",
-    "WWDC/WWDC 15",
+    "Trouble shooting/Jenkins + Fastlane을 통한 CI,CD 적용.md",
+    "WWDC/WWDC 15/Building Better Apps with Value Types in Swift/ref.md",
     "Swift/무제 파일.md",
-    "Swift/self vs Self.md",
     "Swift/Xcode Link.md",
+    "WWDC/WWDC 15/Protocol-Oriented Programming in Swift/Protocol-Oriented Programming in Swift.md",
+    "WWDC/WWDC 15/Building Better Apps with Value Types in Swift",
+    "Swift/self vs Self.md",
+    "WWDC/WWDC 15/Protocol-Oriented Programming in Swift/Screenshot 2024-03-12 at 10.53.15 PM.png",
+    "WWDC/WWDC 15/Protocol-Oriented Programming in Swift/Screenshot 2024-03-12 at 10.20.06 PM.png",
+    "Swift",
+    "WWDC/WWDC 15/Protocol-Oriented Programming in Swift",
+    "실전 리팩토링/2024 03 12 라이브세션.md",
     "Dependency Injection/Pasted image 20240312203446.png",
+    "Dependency Injection/Pasted image 20240312203403.png",
+    "Dependency Injection/Pasted image 20240312203143.png",
+    "Dependency Injection/Pasted image 20240312202703.png",
+    "Dependency Injection/Pasted image 20240312202605.png",
+    "conflict-files-obsidian-git.md",
     "Trouble shooting/viewDidLoad() vs loadView().md",
-    "Trouble shooting/커뮤니티 화면 리팩토링.md",
     "실전 리팩토링/2024 03 05 라이브세션.md",
-    "Design System/FlexLayout/FlexLayout (1).md",
-    "SwiftUI 스터디/Backyard Birds/Documentation.md",
-    "Trouble shooting/Swift Date타입 뽀개보기.md",
     "SwiftUI 스터디/Backyard Birds/SwiftData/SwiftData.md",
+    "SwiftUI 스터디/Backyard Birds/Documentation.md",
     "SwiftUI 스터디/Backyard Birds/SwiftData/Model your schema with SwiftData.md",
-    "SwiftUI 스터디/Backyard Birds/SwiftData/Build an app with SwiftData.md",
-    "Design System/Design System 개발 관련.md",
-    "Design System/FlexLayout/무제 파일.canvas"
+    "Trouble shooting/커뮤니티 화면 리팩토링.md",
+    "Trouble shooting/Swift Date타입 뽀개보기.md",
+    "SwiftUI 스터디/Food Truck/코드 분석.md",
+    "SwiftUI 스터디/Backyard Birds/구조.md"
   ]
 }
