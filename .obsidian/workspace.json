@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WWDC/WWDC 23/Discover String Catalogs/Discover String Catalogs.md",
+                "file": "Trouble shooting/Swift Package에서 String Catalog 사용 시.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "WWDC/WWDC 23/Discover String Catalogs/Discover String Catalogs.md",
+                "file": "Trouble shooting/Swift Package에서 String Catalog 사용 시.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "WWDC/WWDC 23/Discover String Catalogs/Discover String Catalogs.md",
+                "file": "Trouble shooting/Swift Package에서 String Catalog 사용 시.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WWDC/WWDC 23/Discover String Catalogs/Discover String Catalogs.md"
+                "file": "Trouble shooting/Swift Package에서 String Catalog 사용 시.md"
               }
             }
           }
@@ -149,8 +149,9 @@
   },
   "active": "d9f78a6b17b98256",
   "lastOpenFiles": [
-    "Dependency Injection/Pasted image 20240403011545.png",
     "WWDC/WWDC 23/Discover String Catalogs/Discover String Catalogs.md",
+    "Trouble shooting/Swift Package에서 String Catalog 사용 시.md",
+    "Dependency Injection/Pasted image 20240403011545.png",
     "Dependency Injection/Pasted image 20240403011457.png",
     "Dependency Injection/Pasted image 20240403010516.png",
     "Dependency Injection/Pasted image 20240403010317.png",
