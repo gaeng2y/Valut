@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Trouble shooting/Swift Package에서 String Catalog 사용 시.md",
+                "file": "Trouble shooting/SwiftUI에서 NavigationSplitView를 사용 시.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Trouble shooting/Swift Package에서 String Catalog 사용 시.md",
+                "file": "Trouble shooting/SwiftUI에서 NavigationSplitView를 사용 시.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Trouble shooting/Swift Package에서 String Catalog 사용 시.md",
+                "file": "Trouble shooting/SwiftUI에서 NavigationSplitView를 사용 시.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Trouble shooting/Swift Package에서 String Catalog 사용 시.md"
+                "file": "Trouble shooting/SwiftUI에서 NavigationSplitView를 사용 시.md"
               }
             }
           }
@@ -149,8 +149,9 @@
   },
   "active": "d9f78a6b17b98256",
   "lastOpenFiles": [
-    "WWDC/WWDC 23/Discover String Catalogs/Discover String Catalogs.md",
     "Trouble shooting/Swift Package에서 String Catalog 사용 시.md",
+    "Trouble shooting/SwiftUI에서 NavigationSplitView를 사용 시.md",
+    "WWDC/WWDC 23/Discover String Catalogs/Discover String Catalogs.md",
     "Dependency Injection/Pasted image 20240403011545.png",
     "Dependency Injection/Pasted image 20240403011457.png",
     "Dependency Injection/Pasted image 20240403010516.png",
@@ -193,7 +194,6 @@
     "실전 리팩토링/2024 03 05 라이브세션.md",
     "SwiftUI 스터디/Backyard Birds/SwiftData/SwiftData.md",
     "SwiftUI 스터디/Backyard Birds/Documentation.md",
-    "SwiftUI 스터디/Backyard Birds/SwiftData/Model your schema with SwiftData.md",
-    "Trouble shooting/커뮤니티 화면 리팩토링.md"
+    "SwiftUI 스터디/Backyard Birds/SwiftData/Model your schema with SwiftData.md"
   ]
 }
