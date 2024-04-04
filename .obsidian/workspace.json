@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Trouble shooting/Access Token 관련.md",
+                "file": "Trouble shooting/Swift Package에서 String Catalog 사용 시.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Trouble shooting/Access Token 관련.md",
+                "file": "Trouble shooting/Swift Package에서 String Catalog 사용 시.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Trouble shooting/Access Token 관련.md",
+                "file": "Trouble shooting/Swift Package에서 String Catalog 사용 시.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Trouble shooting/Access Token 관련.md"
+                "file": "Trouble shooting/Swift Package에서 String Catalog 사용 시.md"
               }
             }
           }
@@ -149,6 +149,7 @@
   },
   "active": "2be71224aa03bdd7",
   "lastOpenFiles": [
+    "Trouble shooting/Access Token 관련.md",
     "Trouble shooting/AVAsset 만지기.md",
     "Trouble shooting/ContentsDetailViewerViewController.md",
     "Trouble shooting/Jenkins + Fastlane을 통한 CI,CD 적용.md",
@@ -194,7 +195,6 @@
     "WWDC/WWDC 15/Building Better Apps with Value Types in Swift/ref.md",
     "WWDC/WWDC 15/Building Better Apps with Value Types in Swift/Building Better Apps with Value Types in Swift.md",
     "Swift/무제 파일.md",
-    "Swift/self vs Self.md",
     "Design System/FlexLayout/무제 파일.canvas"
   ]
 }
