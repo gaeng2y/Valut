@@ -1,4 +1,4 @@
-Swift package에 xcsstrings 파일을 만들어서 사용할 때 제대로 가져오지 못하는 문제가 있었다.
+Pokedex 프로젝트 진행 중에 [Region](https://github.com/gaeng2y/Pokedex/blob/main/PokedexKit/Sources/Region.swift)이라는 열거형을 만들어서 사용하고 있는 중에 PokedexKit이라는 Swift package에 xcsstrings 파일을 만들어서 사용할 때 제대로 가져오지 못하는 문제가 있었다.
 
 ```swift
 public var regionName: String {
