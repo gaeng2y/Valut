@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Trouble shooting/Swift Package에서 String Catalog 사용 시.md",
+                "file": "Trouble shooting/SwiftUI에서 NavigationSplitView를 사용 시.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Trouble shooting/Swift Package에서 String Catalog 사용 시.md",
+                "file": "Trouble shooting/SwiftUI에서 NavigationSplitView를 사용 시.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Trouble shooting/Swift Package에서 String Catalog 사용 시.md",
+                "file": "Trouble shooting/SwiftUI에서 NavigationSplitView를 사용 시.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Trouble shooting/Swift Package에서 String Catalog 사용 시.md"
+                "file": "Trouble shooting/SwiftUI에서 NavigationSplitView를 사용 시.md"
               }
             }
           }
@@ -149,13 +149,13 @@
   },
   "active": "2be71224aa03bdd7",
   "lastOpenFiles": [
+    "Trouble shooting/Swift Package에서 String Catalog 사용 시.md",
     "Trouble shooting/Access Token 관련.md",
     "Trouble shooting/AVAsset 만지기.md",
     "Trouble shooting/ContentsDetailViewerViewController.md",
     "Trouble shooting/Jenkins + Fastlane을 통한 CI,CD 적용.md",
     "Trouble shooting/SLComposeServiceViewController 커스텀하기.md",
     "Trouble shooting/Swift Date타입 뽀개보기.md",
-    "Trouble shooting/Swift Package에서 String Catalog 사용 시.md",
     "Trouble shooting/SwiftUI에서 NavigationSplitView를 사용 시.md",
     "Swift Concurrency/Chapter 6/Introducing Actors.md",
     "Swift Concurrency/Chapter 6/Actors and Detached Tasks.md",
