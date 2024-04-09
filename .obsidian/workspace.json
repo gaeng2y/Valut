@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WWDC/WWDC 16/Understanding Swift Performance/Understanding Swift Performance.md",
+                "file": "Swift/RunLoop.main과 DispatchQueue.main의 차이.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "WWDC/WWDC 16/Understanding Swift Performance/Understanding Swift Performance.md",
+                "file": "Swift/RunLoop.main과 DispatchQueue.main의 차이.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "WWDC/WWDC 16/Understanding Swift Performance/Understanding Swift Performance.md",
+                "file": "Swift/RunLoop.main과 DispatchQueue.main의 차이.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WWDC/WWDC 16/Understanding Swift Performance/Understanding Swift Performance.md"
+                "file": "Swift/RunLoop.main과 DispatchQueue.main의 차이.md"
               }
             }
           }
@@ -149,8 +149,9 @@
   },
   "active": "2be71224aa03bdd7",
   "lastOpenFiles": [
-    "WWDC/추천 WWDC.md",
     "WWDC/WWDC 16/Understanding Swift Performance/Understanding Swift Performance.md",
+    "Swift/RunLoop.main과 DispatchQueue.main의 차이.md",
+    "WWDC/추천 WWDC.md",
     "WWDC/WWDC 16/Understanding Swift Performance",
     "Swift/무제 파일.md",
     "Swift/self vs Self.md",
@@ -194,7 +195,6 @@
     "Test-Driven Development/3부 - 테스트 주도 개발의 패턴",
     "Test-Driven Development/2부 - xUnit 예시",
     "Test-Driven Development/1부 - 화폐 예제",
-    "Dependency Injection/Section 3/Cotents.md",
     "Design System/FlexLayout/무제 파일.canvas"
   ]
 }
