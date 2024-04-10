@@ -37,3 +37,29 @@ public var regionName: String {
 ```
 
 위와같이 bundle 파라미터를 적용한 메소드를 이용하여 인스턴스를 생성해주면 정상적으로 들어간다.
+
+4월 10일 수정내용
+이렇게 사용했었는데 앱 언어를 변경 시 제대로 적용되지 않아
+
+```swift
+private var regionNameResource: LocalizedStringResource {
+        let region: String = switch self {
+        case .kanto: "Kanto"
+        case .johto: "Johto"
+        case .hoenn: "Hoenn"
+        case .sinnoh: "Sinnoh"
+        case .unova: "Unova"
+        case .kalos: "Kalos"
+        case .alola: "Alola"
+        case .galar: "Galar"
+        case .paldea: "Paldea"
+        }
+        return LocalizedStringResource(stringLiteral: region)
+    }
+    
+    public var regionName: String {
+        String(localized: regionNameResource)
+    }
+```
+
+이렇게 private 프로터리를 `LocalizedStringResource` 으로 만들어 사용
