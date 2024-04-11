@@ -25,3 +25,15 @@ DispatchQueue는 관련된 스레드에서 직렬 혹은 병렬로 작업을 실
 `Runloop`는 여러개의 모드를 사용한다. 아래중에서 iOS는 common, default, traking 모드만 지원을 한다.
 
 ![[Pasted image 20240411092806.png]]
+
+유저 이벤트가 발생하면 non-default모드로 변경된다. 
+
+그러나 RunLoop.main은 오직 `.default`에서만 실행(active)된다. 달리 말하면, 유저 이벤트가 끝날 때 `.default`로 바뀌게 되고 closure가 실행된다.
+
+Default로 `DispatchQueue.main`을 사용하면 될 것 같다.
+
+UI를 업데이트하기 전에 처리해야할 유저 이벤트가 있다면 RunLoop.main
+
+스크롤하는동안 UI를 업데이트하면 Frame per second(FPS)에 영향을 주고 스크롤하는데 영향을 줄 것이다.
+
+스크롤 할 때 UI업데이트가 필요하지 않을 수도 있다. 이경우엔 RunLoop.main
