@@ -1,4 +1,5 @@
 {
-  "attachmentFolderPath": "Dependency Injection",
-  "promptDelete": false
+  "attachmentFolderPath": "Resources",
+  "promptDelete": false,
+  "useMarkdownLinks": true
 }

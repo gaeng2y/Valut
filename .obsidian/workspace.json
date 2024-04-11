@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "1b394fbdd8eb4f08",
+        "id": "3467406ac98e2436",
         "type": "tabs",
         "children": [
           {
-            "id": "d9f78a6b17b98256",
+            "id": "2be71224aa03bdd7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Trouble shooting/Swift Package에서 String Catalog 사용 시.md",
+                "file": "Swift/RunLoop.main과 DispatchQueue.main의 차이.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 298.5
+    "width": 232.5
   },
   "right": {
     "id": "9843e891487ed6f6",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Trouble shooting/Swift Package에서 String Catalog 사용 시.md",
+                "file": "Swift/RunLoop.main과 DispatchQueue.main의 차이.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Trouble shooting/Swift Package에서 String Catalog 사용 시.md",
+                "file": "Swift/RunLoop.main과 DispatchQueue.main의 차이.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Trouble shooting/Swift Package에서 String Catalog 사용 시.md"
+                "file": "Swift/RunLoop.main과 DispatchQueue.main의 차이.md"
               }
             }
           }
@@ -139,61 +139,61 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "command-palette:명령어 팔레트 열기": false,
       "switcher:퀵 스위처 열기": false,
       "graph:그래프 뷰 열기": false,
       "canvas:새 캔버스 만들기": false,
       "daily-notes:오늘의 데일리 노트 열기": false,
-      "templates:템플릿 삽입": false
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "d9f78a6b17b98256",
+  "active": "2be71224aa03bdd7",
   "lastOpenFiles": [
-    "Trouble shooting/Swift Date타입 뽀개보기.md",
-    "Trouble shooting/SwiftUI에서 NavigationSplitView를 사용 시.md",
-    "WWDC/WWDC 16/Understanding Swift Performance/Understanding Swift Performance.md",
-    "WWDC/WWDC 16/Understanding Swift Performance",
-    "Trouble shooting/Python 가상환경 적용.md",
-    "Swift/RunLoop.main과 DispatchQueue.main의 차이.md",
+    "Swift/무제 파일.md",
     "Resources/Pasted image 20240403011545.png",
     "Resources/Pasted image 20240403011457.png",
+    "Resources/Pasted image 20240411092806.png",
+    "Swift/RunLoop.main과 DispatchQueue.main의 차이.md",
+    "Dependency Injection/Pasted image 20240411093446.png",
+    "WWDC/WWDC 16/Understanding Swift Performance/Understanding Swift Performance.md",
+    "WWDC/추천 WWDC.md",
+    "WWDC/WWDC 16/Understanding Swift Performance",
+    "Swift/self vs Self.md",
+    "Swift/Xcode Link.md",
+    "Trouble shooting/Python 가상환경 적용.md",
+    "Trouble shooting/SwiftUI에서 NavigationSplitView를 사용 시.md",
+    "Trouble shooting/Swift Package에서 String Catalog 사용 시.md",
+    "Trouble shooting/Access Token 관련.md",
+    "Trouble shooting/AVAsset 만지기.md",
+    "Trouble shooting/ContentsDetailViewerViewController.md",
+    "Trouble shooting/Jenkins + Fastlane을 통한 CI,CD 적용.md",
+    "Trouble shooting/SLComposeServiceViewController 커스텀하기.md",
+    "Trouble shooting/Swift Date타입 뽀개보기.md",
+    "Swift Concurrency/Chapter 6/Introducing Actors.md",
+    "Swift Concurrency/Chapter 6/Actors and Detached Tasks.md",
+    "Swift Concurrency/Chapter 6/Actor Reentrancy.md",
+    "Swift Concurrency/Chapter 5/Unstructured Concurrency in Action.md",
+    "Dependency Injection/Pasted image 20240403011545.png",
+    "Dependency Injection/Pasted image 20240403011457.png",
     "Resources/Pasted image 20240403010516.png",
     "Resources/Pasted image 20240403010317.png",
     "Resources/Pasted image 20240403010204.png",
     "Resources/Pasted image 20240403010150.png",
-    "Resources/Pasted image 20240403010145.png",
-    "Resources/Pasted image 20240403010027.png",
-    "Resources/Pasted image 20240403005901.png",
-    "Resources/Pasted image 20240403005815.png",
     "Resources",
-    "Trouble shooting/Swift Package에서 String Catalog 사용 시.md",
-    "WWDC/WWDC 23/Discover String Catalogs/Discover String Catalogs.md",
-    "WWDC/WWDC 23",
-    "WWDC/무제 파일.md",
-    "WWDC/WWDC 16/Protocol and Value Oriented Programming in UIKit Apps/Protocol and Value Oriented Programming in UIKit Apps.md",
-    "WWDC/WWDC 23/Discover String Catalogs",
+    "untitled folder",
     "Dependency Injection/DI & IOC Container/DI Container.md",
-    "Dependency Injection/DI & IOC Container",
-    "SwiftUI 스터디/Backyard Birds/SwiftData/Build an app with SwiftData.md",
-    "Test-Driven Development/1부 - 화폐 예제/1장.md",
+    "WWDC/WWDC 23/Discover String Catalogs/Discover String Catalogs.md",
+    "WWDC/WWDC 23/Discover String Catalogs",
+    "WWDC/WWDC 23",
+    "conflict-files-obsidian-git.md",
+    "WWDC/WWDC 16/Protocol and Value Oriented Programming in UIKit Apps/Protocol and Value Oriented Programming in UIKit Apps.md",
+    "WWDC/WWDC 16/Protocol and Value Oriented Programming in UIKit Apps",
+    "WWDC/WWDC 16",
     "Test-Driven Development/3부 - 테스트 주도 개발의 패턴/25장.md",
     "Test-Driven Development/2부 - xUnit 예시/18장.md",
-    "TIL/231123.md",
     "Test-Driven Development/3부 - 테스트 주도 개발의 패턴",
     "Test-Driven Development/2부 - xUnit 예시",
     "Test-Driven Development/1부 - 화폐 예제",
-    "Test-Driven Development",
-    "WWDC/추천 WWDC.md",
-    "WWDC/WWDC 16/Protocol and Value Oriented Programming in UIKit Apps",
-    "WWDC/WWDC 15/Building Better Apps with Value Types in Swift/Building Better Apps with Value Types in Swift.md",
-    "Trouble shooting/Jenkins + Fastlane을 통한 CI,CD 적용.md",
-    "WWDC/WWDC 15/Building Better Apps with Value Types in Swift/ref.md",
-    "Swift/무제 파일.md",
-    "Swift/Xcode Link.md",
-    "WWDC/WWDC 15/Protocol-Oriented Programming in Swift/Protocol-Oriented Programming in Swift.md",
-    "Swift/self vs Self.md",
-    "실전 리팩토링/2024 03 12 라이브세션.md",
-    "conflict-files-obsidian-git.md",
-    "Trouble shooting/viewDidLoad() vs loadView().md"
+    "Design System/FlexLayout/무제 파일.canvas"
   ]
 }

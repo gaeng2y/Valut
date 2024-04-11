@@ -20,3 +20,8 @@ DispatchQueue는 관련된 스레드에서 직렬 혹은 병렬로 작업을 실
 반면에 `RunLoop.main`은 스크롤이 마친 이후에 UI가 업데이트 된다.
 
 즉, main run loop에 의해 scheduled된 클로저는 유저 Interation이 발생하면 즉시 실행되지 않고 끝나야 실행된다.
+
+## main Runloop의 행동 이해하기
+`Runloop`는 여러개의 모드를 사용한다. 아래중에서 iOS는 common, default, traking 모드만 지원을 한다.
+
+![[Pasted image 20240411092806.png]]
