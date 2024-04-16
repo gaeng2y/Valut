@@ -85,7 +85,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Trouble shooting/SwiftUI에서 AsyncImage 사용 시 회색 배경 문제.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +101,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Trouble shooting/SwiftUI에서 AsyncImage 사용 시 회색 배경 문제.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Trouble shooting/SwiftUI에서 AsyncImage 사용 시 회색 배경 문제.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           }
@@ -147,11 +145,13 @@
       "templates:템플릿 삽입": false
     }
   },
-  "active": "d9f78a6b17b98256",
+  "active": "160736a19be9866b",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "Trouble shooting/SwiftUI에서 AsyncImage 사용 시 회색 배경 문제.md",
+    "Resources/Pasted image 20240411092806.png",
     "Dependency Injection/Simulator Screen Recording - iPhone 15 Pro - 2024-04-12 at 01.02.43.mp4",
     "Trouble shooting/Swift Package에서 String Catalog 사용 시.md",
-    "Trouble shooting/SwiftUI에서 AsyncImage 사용 시 회색 배경 문제.md",
     "Trouble shooting/Swift Date타입 뽀개보기.md",
     "Trouble shooting/SwiftUI에서 NavigationSplitView를 사용 시.md",
     "WWDC/WWDC 16/Understanding Swift Performance/Understanding Swift Performance.md",
@@ -167,7 +167,6 @@
     "Resources/Pasted image 20240403010145.png",
     "Resources/Pasted image 20240403010027.png",
     "Resources/Pasted image 20240403005901.png",
-    "Resources/Pasted image 20240403005815.png",
     "Resources",
     "WWDC/WWDC 23/Discover String Catalogs/Discover String Catalogs.md",
     "WWDC/WWDC 23",
@@ -186,7 +185,6 @@
     "Test-Driven Development/1부 - 화폐 예제",
     "Test-Driven Development",
     "WWDC/추천 WWDC.md",
-    "WWDC/WWDC 16/Protocol and Value Oriented Programming in UIKit Apps",
     "WWDC/WWDC 15/Building Better Apps with Value Types in Swift/Building Better Apps with Value Types in Swift.md",
     "Trouble shooting/Jenkins + Fastlane을 통한 CI,CD 적용.md",
     "WWDC/WWDC 15/Building Better Apps with Value Types in Swift/ref.md",
