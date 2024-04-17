@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d19e0fff12a7daf9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Trouble shooting/UIColor 관련.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Trouble shooting/UIColor 관련.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Trouble shooting/UIColor 관련.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           }
@@ -147,10 +160,13 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "2be71224aa03bdd7",
+  "active": "d19e0fff12a7daf9",
   "lastOpenFiles": [
-    "Swift/RunLoop.main과 DispatchQueue.main의 차이.md",
+    "Trouble shooting/SwiftUI에서 AsyncImage 사용 시 회색 배경 문제.md",
+    "Dependency Injection/Simulator Screen Recording - iPhone 15 Pro - 2024-04-12 at 01.02.43.mp4",
     "Trouble shooting/UIColor 관련.md",
+    "conflict-files-obsidian-git.md",
+    "Swift/RunLoop.main과 DispatchQueue.main의 차이.md",
     "Swift/무제 파일.md",
     "Resources/Pasted image 20240403011545.png",
     "Resources/Pasted image 20240403011457.png",
@@ -186,15 +202,12 @@
     "WWDC/WWDC 23/Discover String Catalogs/Discover String Catalogs.md",
     "WWDC/WWDC 23/Discover String Catalogs",
     "WWDC/WWDC 23",
-    "conflict-files-obsidian-git.md",
     "WWDC/WWDC 16/Protocol and Value Oriented Programming in UIKit Apps/Protocol and Value Oriented Programming in UIKit Apps.md",
     "WWDC/WWDC 16/Protocol and Value Oriented Programming in UIKit Apps",
     "WWDC/WWDC 16",
     "Test-Driven Development/3부 - 테스트 주도 개발의 패턴/25장.md",
-    "Test-Driven Development/2부 - xUnit 예시/18장.md",
     "Test-Driven Development/3부 - 테스트 주도 개발의 패턴",
     "Test-Driven Development/2부 - xUnit 예시",
-    "Test-Driven Development/1부 - 화폐 예제",
     "Design System/FlexLayout/무제 파일.canvas"
   ]
 }
