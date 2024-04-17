@@ -18,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "d19e0fff12a7daf9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "Trouble shooting/UIColor 관련.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "Trouble shooting/UIColor 관련.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "conflict-files-obsidian-git.md"
+                "file": "Trouble shooting/UIColor 관련.md"
               }
             }
           }
@@ -160,12 +147,12 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "d19e0fff12a7daf9",
+  "active": "2be71224aa03bdd7",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
     "Trouble shooting/SwiftUI에서 AsyncImage 사용 시 회색 배경 문제.md",
     "Dependency Injection/Simulator Screen Recording - iPhone 15 Pro - 2024-04-12 at 01.02.43.mp4",
     "Trouble shooting/UIColor 관련.md",
-    "conflict-files-obsidian-git.md",
     "Swift/RunLoop.main과 DispatchQueue.main의 차이.md",
     "Swift/무제 파일.md",
     "Resources/Pasted image 20240403011545.png",
