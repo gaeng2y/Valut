@@ -33,10 +33,10 @@ extension Int {
 2.incr().square() // 9
 ```
 
-이는 왼쪽에서 오른쪽으로 잘 읽히는 반면 자유 함수는 안쪽에서 바깥쪽으로 읽혀지며, `square`를 호출하기 전에 `incr`을 호출하는지 확인하려면 더 많은 정신 작업이 필요합니다. 이것이 아마도 Swift에서 free function이 덜 일반적인 이유일 것입니다.
-## Introducing |>
-free function을 가지고 있지만 함수 적용을 위해 중위 연산자를 사용하여 이러한 종류의 가독성을 유지하는 여러 언어가 있다.
-여기서는 "파이프 전달" 연산자를 정의합니다. 이는 이전 기술을 기반으로 합니다. F#, Elixir 및 Elm은 모두 함수 적용을 위해 이 연산자를 사용합니다.
+이는 왼쪽에서 오른쪽으로 자연스럽게 읽히기 떄문이다.
+### Introducing |>
+다른 언어에서도 free function임에도 메소드와 같이 자연스럽게 적용할 수 언어들이 있다.
+이를 Swift에서도 만들어보자.
 
 ```swift
 infix operator |>
@@ -49,9 +49,41 @@ func |> <A, B>(a: A, f: (A) -> B) -> B {
 2 |> incr |> square // Compile Error: Adjacent operators are in non-associative precedence group 'DefaultPrecedence'
 ```
 
-연산자가 한 줄에 여러번 쓰이면, 스위프트는 어떤 연산자를 먼저 평가해야 될 지 알 수 없다. 그래서 이를 알려줘야 한다.
+연산자가 한 줄에 여러번 쓰이면, Swift는 어떤 연산자를 먼저 평가해야 될 지 알 수 없다. 그래서 이를 알려줘야 한다.
 - 방법 1. 괄호를 친다.
 ```swift
 (2 |> incr) |> square // 9
 ```
 - 방법2. precedencegroup을 지정한다.
+```swift
+precedencegroup ForwardApplication {
+  associativity: left
+}
+
+infix operator |>: ForwardApplication
+
+2 |> incr |> square // 9
+```
+### Operator interlude
+중첩된 함수의 가독성 문제를 해결했지만 새로운 문제가 생겼습니다. 바로 커스텀 연산자입니다. 커스텀 연산자는 그다지 일반적이지 않고 평가가 나쁘다. 
+
+예를 들어, C++에서는 새로운 연산자를 선언할 수 없고, 선언된 연산자만 오버로딩이 가능하다.  
+|> 연산자가 Swift 개발자는 모르는 연산자라 주장할 수 있지만 다른 언어에서는 친숙한 연산자이다.
+### What about autocompletion?
+연산자는 가독성을 제공하지만 메소드에 있는 자동 완성 기능을 지원하지 않는다. 안되는 건 아니지만 타입에 의한 범위 제한이 되지 않기 때문이다.
+
+하지만 free function은 메소드로 불가능한 함수 합성이 가능하다. 타입으로 가져올 수도 있지만, 이건 사실상 free function이다.
+### Introduce >>>
+**함수 합성**은 한 함수의 출력이 다른 함수의 입력과 일치하는 두 가지 함수를 취하여 서로 연결하여 완전히 새로운 함수를 얻는 기능이다. 이를 만들어 보기 위해 >>> 연산자를 새로 정의해보자.
+
+```swift
+infix operator >>>
+
+func >>> <A, B, C>(f: @escaping (A) -> B, g: @escaping (B) -> C) -> ((A) -> C) {
+  return { a in
+    g(f(a))
+  }
+}
+```
+
+A, B 그리고 C를 제네릭 파라미터로 받는다. 
