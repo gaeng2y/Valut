@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Swift/RunLoop.main과 DispatchQueue.main의 차이.md",
+                "file": "Trouble shooting/UIColor 관련.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Swift/RunLoop.main과 DispatchQueue.main의 차이.md",
+                "file": "Trouble shooting/UIColor 관련.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Swift/RunLoop.main과 DispatchQueue.main의 차이.md",
+                "file": "Trouble shooting/UIColor 관련.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Swift/RunLoop.main과 DispatchQueue.main의 차이.md"
+                "file": "Trouble shooting/UIColor 관련.md"
               }
             }
           }
@@ -149,11 +149,12 @@
   },
   "active": "2be71224aa03bdd7",
   "lastOpenFiles": [
+    "Swift/RunLoop.main과 DispatchQueue.main의 차이.md",
+    "Trouble shooting/UIColor 관련.md",
     "Swift/무제 파일.md",
     "Resources/Pasted image 20240403011545.png",
     "Resources/Pasted image 20240403011457.png",
     "Resources/Pasted image 20240411092806.png",
-    "Swift/RunLoop.main과 DispatchQueue.main의 차이.md",
     "Dependency Injection/Pasted image 20240411093446.png",
     "WWDC/WWDC 16/Understanding Swift Performance/Understanding Swift Performance.md",
     "WWDC/추천 WWDC.md",
