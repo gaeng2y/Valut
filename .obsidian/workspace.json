@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "1b394fbdd8eb4f08",
+        "id": "846c295e871c0d44",
         "type": "tabs",
         "children": [
           {
-            "id": "d9f78a6b17b98256",
+            "id": "0d593d4f6ef07611",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Point-Free/1 ~ 10/Episode 1. Function.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Point-Free/1 ~ 10/Episode 1. Function.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Point-Free/1 ~ 10/Episode 1. Function.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Point-Free/1 ~ 10/Episode 1. Function.md"
+              }
             }
           }
         ],
@@ -139,8 +147,12 @@
       "templates:템플릿 삽입": false
     }
   },
-  "active": "160736a19be9866b",
+  "active": "0d593d4f6ef07611",
   "lastOpenFiles": [
+    "Point-Free/1 ~ 10/Episode 1. Function.md",
+    "Point-Free/1 ~ 10",
+    "Computational Thinking/무제 파일.canvas",
+    "Modular programming/Library, Framework, Swift Package 차이점.md",
     "Point-Free",
     "Trouble shooting/UIColor 관련.md",
     "Trouble shooting/UICollectionView 이슈.md",
@@ -180,12 +192,9 @@
     "TIL/231123.md",
     "Test-Driven Development/3부 - 테스트 주도 개발의 패턴",
     "Test-Driven Development/2부 - xUnit 예시",
-    "Test-Driven Development/1부 - 화폐 예제",
-    "Test-Driven Development",
     "WWDC/추천 WWDC.md",
     "WWDC/WWDC 15/Building Better Apps with Value Types in Swift/Building Better Apps with Value Types in Swift.md",
     "Trouble shooting/Jenkins + Fastlane을 통한 CI,CD 적용.md",
-    "WWDC/WWDC 15/Building Better Apps with Value Types in Swift/ref.md",
-    "Swift/무제 파일.md"
+    "WWDC/WWDC 15/Building Better Apps with Value Types in Swift/ref.md"
   ]
 }
