@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "f3536065521153ca",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Trouble shooting/UICollectionView 이슈.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Trouble shooting/UICollectionView 이슈.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Trouble shooting/UICollectionView 이슈.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           }
@@ -147,8 +160,13 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "1379a4cac9021bbb",
+  "active": "f3536065521153ca",
   "lastOpenFiles": [
+    "Trouble shooting/UICollectionView 이슈.md",
+    "conflict-files-obsidian-git.md",
+    "Point-Free/1 ~ 10/Episode 1. Function.md",
+    "Point-Free/1 ~ 10",
+    "Point-Free",
     "𐂮 Resources/Simulator Screen Recording - iPhone 15 Pro - 2024-04-12 at 01.02.43.mp4",
     "𐂮 Resources/Pasted image 20240417143700.png",
     "𐂮 Resources/Pasted image 20240411092806.png",
@@ -162,7 +180,6 @@
     "𐂮 Resources/Pasted image 20240403010027.png",
     "𐂮 Resources",
     "Trouble shooting/Access Token 관련.md",
-    "Trouble shooting/UICollectionView 이슈.md",
     "Trouble shooting/Xcode Configuration.md",
     "Trouble shooting/UITableView Sticky Header 만들기.md",
     "Trouble shooting/UIColor 관련.md",
@@ -171,7 +188,6 @@
     "Trouble shooting/ContentsDetailViewerViewController.md",
     "Swift/UICollectionView 톺아보기.md",
     "Swift/무제 파일 1.md",
-    "conflict-files-obsidian-git.md",
     "Trouble shooting/SwiftUI에서 AsyncImage 사용 시 회색 배경 문제.md",
     "Dependency Injection/Simulator Screen Recording - iPhone 15 Pro - 2024-04-12 at 01.02.43.mp4",
     "Swift/RunLoop.main과 DispatchQueue.main의 차이.md",
@@ -192,9 +208,6 @@
     "untitled folder",
     "WWDC/WWDC 23/Discover String Catalogs",
     "WWDC/WWDC 23",
-    "WWDC/WWDC 16/Protocol and Value Oriented Programming in UIKit Apps",
-    "WWDC/WWDC 16",
-    "Test-Driven Development/3부 - 테스트 주도 개발의 패턴",
     "Design System/FlexLayout/무제 파일.canvas"
   ]
 }
