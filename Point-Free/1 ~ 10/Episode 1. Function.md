@@ -87,3 +87,16 @@ func >>> <A, B, C>(f: @escaping (A) -> B, g: @escaping (B) -> C) -> ((A) -> C) {
 ```
 
 A, B 그리고 C를 제네릭 파라미터로 받는다. 
+
+합성을 통해서 작은 파츠들을 쉽게 조합하여 재사용성을 증대시킬 수 있다.
+
+```swift
+incr >>> square >>> String.init // (Int) -> String
+
+String(2.incr().square())
+```
+
+스위프트에는 네임스페이스가 없기 때문에, 최상단에 함수를 정의하는 게 부담될 수 있다.
+- file에 private하게 정의하거나
+- struct나 enum의 static 함수로 정의하거나
+- 모듈 내에서만 쓸 수 있도록 하거나
