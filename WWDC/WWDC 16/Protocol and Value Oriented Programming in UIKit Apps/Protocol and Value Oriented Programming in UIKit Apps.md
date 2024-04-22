@@ -213,5 +213,77 @@ struct DecoratingLayout<Child: Layout, Decoration: Layout
 앱의 실행 취소 기능  
 (Dream에 대한 실행취소 기능은 구현했지만 FavoritCreature에 대한 실행 취소를 구현하지 않은 버그 상황)
 
+![](Pasted%20image%2020240422231900.png)
+
+이렇게 dream.last가 사라지면 removeLast()를 통해 스택에서 하나씩 지워진다. 이렇게 하면 모델에서 하나씩 지우며 독립된 모델 프로퍼티가 업데이트를 하게되면 뷰에서도 업데이트를 해줘야하는데 각각이 독립적으로 이루어져있다보니 매치시키는 것에 어려움이 존재하며 이는 버그가 발생할 수 있다.
+
+![](Pasted%20image%2020240422232125.png)
+
 FavoritCreature와 관련된 실행 취소 구조를 추가할 수 있지만 다른 코드 경로 추가로 유지보수의 어려움 발생
+
+![](Pasted%20image%2020240422232238.png)
+
+undo할 수 있는 변화에 대해서는 순서가 중요하다.
+
+앱이 이런 요소들을 넣으면 실수를 유발할 수 있는 기회가 늘어난다.
+
+하지만 이렇게 복잡하게 되어있으면 뷰와 모델의 일치성을 유지하기가 매우 어렵다.
+
+이제 ViewController에서 모델이 변할 때 어떻게 처리하는지 볼 수 있다.
+
+![](Pasted%20image%2020240422232312.png)
 ### Model 분리
+
+```swift
+class DreamListViewController: UITableViewController {
+	//var dreams: [Dream]
+    //var favoritCreature: Creature
+--> var model: Model 
+}
+
+struct Model: Equatable {
+	var dreams: [Dream]
+    var favoritCreature: Creature
+}
+```
+
+old, new를 통해 새로운 것과 예전거를 비교해서 섹션을 리로드해주고 있다.
+
+그 다음으로 undo에 대해서 old model를 넣어둔다.
+
+![](Pasted%20image%2020240422232446.png)
+### Benefit
+* Single code path
+	* Better local reasoning
+* Value compose well with other values
+## UI State
+여기에 ViewController에서 UI State 관련되어 있는 것이 있다.
+
+UI State와 관련된 다이어그램이 있다.
+
+![](Pasted%20image%2020240422232615.png)
+
+`viewing`에서 공유 아이콘을 누르면 `selecting`이 되며
+
+![](Pasted%20image%2020240422232741.png)
+
+선택을 후 공유하기를 누르면 `sharing` 상태가 된다.
+
+![](Pasted%20image%2020240422232752.png)
+
+만약 중간에 selecting에서 cancel 버튼을 누르게 되면 다시 뒤로 가게 된다. (viewing state)
+
+![](Pasted%20image%2020240422232825.png)
+
+하지만 UI 관련 불일치가 일어난다!
+
+그림에서 보듯이 여러 프로퍼티가 존재하는데 하나의 프로퍼티가 변하면 다른 프로퍼티도 clear해주어야한다!  
+하나라도 해주지 않으면 불일치가 일어난다.
+
+enum를 활용해서 해결해볼 수 있다.
+
+![](Pasted%20image%2020240422233023.png)
+
+![](Pasted%20image%2020240422233119.png)
+## Wrap-up
+![](Pasted%20image%2020240422233151.png)

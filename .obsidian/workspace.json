@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WWDC/WWDC 16/Protocol and Value Oriented Programming in UIKit Apps/Protocol and Value Oriented Programming in UIKit Apps.md",
+                "file": "WWDC/추천 WWDC.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "WWDC/WWDC 16/Protocol and Value Oriented Programming in UIKit Apps/Protocol and Value Oriented Programming in UIKit Apps.md",
+                "file": "WWDC/추천 WWDC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "WWDC/WWDC 16/Protocol and Value Oriented Programming in UIKit Apps/Protocol and Value Oriented Programming in UIKit Apps.md",
+                "file": "WWDC/추천 WWDC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WWDC/WWDC 16/Protocol and Value Oriented Programming in UIKit Apps/Protocol and Value Oriented Programming in UIKit Apps.md"
+                "file": "WWDC/추천 WWDC.md"
               }
             }
           }
@@ -162,11 +162,20 @@
   },
   "active": "483ae869a9e09248",
   "lastOpenFiles": [
-    "𐂮 Resources/Pasted image 20240422103225.png",
+    "WWDC/WWDC 16/Protocol and Value Oriented Programming in UIKit Apps/Protocol and Value Oriented Programming in UIKit Apps.md",
+    "𐂮 Resources/Pasted image 20240422233151.png",
+    "𐂮 Resources/Pasted image 20240422233119.png",
+    "𐂮 Resources/Pasted image 20240422233023.png",
+    "𐂮 Resources/Pasted image 20240422232931.png",
+    "𐂮 Resources/Pasted image 20240422232825.png",
+    "𐂮 Resources/Pasted image 20240422232752.png",
+    "𐂮 Resources/Pasted image 20240422232741.png",
+    "𐂮 Resources/Pasted image 20240422232615.png",
+    "𐂮 Resources/Pasted image 20240422232446.png",
+    "𐂮 Resources/Pasted image 20240422232312.png",
     "Swift/UITraitChangeObservable.md",
     "WWDC/WWDC 16/Understanding Swift Performance/Understanding Swift Performance.md",
     "WWDC/WWDC 15/Protocol-Oriented Programming in Swift/Protocol-Oriented Programming in Swift.md",
-    "WWDC/WWDC 15/Protocol-Oriented Programming in Swift/Screenshot 2024-03-12 at 10.53.15 PM.png",
     "Swift/self vs Self.md",
     "Swift/RunLoop.main과 DispatchQueue.main의 차이.md",
     "Point-Free/1 ~ 10/Episode 2. Side Effects.md",
@@ -180,27 +189,17 @@
     "Trouble shooting/UIColor 관련.md",
     "Trouble shooting/UICollectionView 이슈.md",
     "Swift/UICollectionView 톺아보기.md",
-    "𐂮 Resources/Pasted image 20240417143700.png",
     "Trouble shooting/SwiftUI에서 AsyncImage 사용 시 회색 배경 문제.md",
-    "𐂮 Resources/Pasted image 20240411092806.png",
     "𐂮 Resources/Simulator Screen Recording - iPhone 15 Pro - 2024-04-12 at 01.02.43.mp4",
     "Trouble shooting/Swift Package에서 String Catalog 사용 시.md",
     "Trouble shooting/Swift Date타입 뽀개보기.md",
     "Trouble shooting/SwiftUI에서 NavigationSplitView를 사용 시.md",
     "WWDC/WWDC 16/Understanding Swift Performance",
     "Trouble shooting/Python 가상환경 적용.md",
-    "𐂮 Resources/Pasted image 20240403011545.png",
-    "𐂮 Resources/Pasted image 20240403011457.png",
-    "𐂮 Resources/Pasted image 20240403010516.png",
-    "𐂮 Resources/Pasted image 20240403010317.png",
-    "𐂮 Resources/Pasted image 20240403010204.png",
-    "𐂮 Resources/Pasted image 20240403010150.png",
-    "𐂮 Resources/Pasted image 20240403010145.png",
     "𐂮 Resources",
     "WWDC/WWDC 23/Discover String Catalogs/Discover String Catalogs.md",
     "WWDC/WWDC 23",
     "WWDC/무제 파일.md",
-    "WWDC/WWDC 16/Protocol and Value Oriented Programming in UIKit Apps/Protocol and Value Oriented Programming in UIKit Apps.md",
     "WWDC/WWDC 23/Discover String Catalogs",
     "Dependency Injection/DI & IOC Container/DI Container.md",
     "Dependency Injection/DI & IOC Container",
