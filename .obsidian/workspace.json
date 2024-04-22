@@ -4,22 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "07c77e63b0441e34",
+        "id": "846c295e871c0d44",
         "type": "tabs",
         "children": [
           {
-            "id": "1379a4cac9021bbb",
+            "id": "0d593d4f6ef07611",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Trouble shooting/UICollectionView 이슈.md",
+                "file": "Point-Free/1 ~ 10/Episode 1. Function.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "483ae869a9e09248",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "WWDC/WWDC 16/Protocol and Value Oriented Programming in UIKit Apps/Protocol and Value Oriented Programming in UIKit Apps.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,7 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 232.5
+    "width": 298.5
   },
   "right": {
     "id": "9843e891487ed6f6",
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Trouble shooting/UICollectionView 이슈.md",
+                "file": "WWDC/WWDC 16/Protocol and Value Oriented Programming in UIKit Apps/Protocol and Value Oriented Programming in UIKit Apps.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Trouble shooting/UICollectionView 이슈.md",
+                "file": "WWDC/WWDC 16/Protocol and Value Oriented Programming in UIKit Apps/Protocol and Value Oriented Programming in UIKit Apps.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Trouble shooting/UICollectionView 이슈.md"
+                "file": "WWDC/WWDC 16/Protocol and Value Oriented Programming in UIKit Apps/Protocol and Value Oriented Programming in UIKit Apps.md"
               }
             }
           }
@@ -139,31 +152,43 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "command-palette:명령어 팔레트 열기": false,
       "switcher:퀵 스위처 열기": false,
       "graph:그래프 뷰 열기": false,
       "canvas:새 캔버스 만들기": false,
       "daily-notes:오늘의 데일리 노트 열기": false,
-      "templates:템플릿 삽입": false,
-      "command-palette:명령어 팔레트 열기": false
+      "templates:템플릿 삽입": false
     }
   },
-  "active": "1379a4cac9021bbb",
+  "active": "483ae869a9e09248",
   "lastOpenFiles": [
-    "Swift/UITraitChangeObservable.md",
     "𐂮 Resources/Pasted image 20240422103225.png",
+    "Swift/UITraitChangeObservable.md",
     "WWDC/WWDC 16/Understanding Swift Performance/Understanding Swift Performance.md",
-    "Swift/무제 폴더",
-    "conflict-files-obsidian-git.md",
+    "WWDC/WWDC 15/Protocol-Oriented Programming in Swift/Protocol-Oriented Programming in Swift.md",
+    "WWDC/WWDC 15/Protocol-Oriented Programming in Swift/Screenshot 2024-03-12 at 10.53.15 PM.png",
+    "Swift/self vs Self.md",
+    "Swift/RunLoop.main과 DispatchQueue.main의 차이.md",
     "Point-Free/1 ~ 10/Episode 2. Side Effects.md",
-    "Point-Free/1 ~ 10/Episode 1. Function.md",
+    "conflict-files-obsidian-git.md",
     "Trouble shooting/Privacy manifest files.md",
-    "Trouble shooting/UICollectionView 이슈.md",
-    "Trouble shooting/무제 폴더",
+    "Point-Free/1 ~ 10/Episode 1. Function.md",
     "Point-Free/1 ~ 10",
+    "Computational Thinking/무제 파일.canvas",
+    "Modular programming/Library, Framework, Swift Package 차이점.md",
     "Point-Free",
-    "𐂮 Resources/Simulator Screen Recording - iPhone 15 Pro - 2024-04-12 at 01.02.43.mp4",
+    "Trouble shooting/UIColor 관련.md",
+    "Trouble shooting/UICollectionView 이슈.md",
+    "Swift/UICollectionView 톺아보기.md",
     "𐂮 Resources/Pasted image 20240417143700.png",
+    "Trouble shooting/SwiftUI에서 AsyncImage 사용 시 회색 배경 문제.md",
     "𐂮 Resources/Pasted image 20240411092806.png",
+    "𐂮 Resources/Simulator Screen Recording - iPhone 15 Pro - 2024-04-12 at 01.02.43.mp4",
+    "Trouble shooting/Swift Package에서 String Catalog 사용 시.md",
+    "Trouble shooting/Swift Date타입 뽀개보기.md",
+    "Trouble shooting/SwiftUI에서 NavigationSplitView를 사용 시.md",
+    "WWDC/WWDC 16/Understanding Swift Performance",
+    "Trouble shooting/Python 가상환경 적용.md",
     "𐂮 Resources/Pasted image 20240403011545.png",
     "𐂮 Resources/Pasted image 20240403011457.png",
     "𐂮 Resources/Pasted image 20240403010516.png",
@@ -172,28 +197,17 @@
     "𐂮 Resources/Pasted image 20240403010150.png",
     "𐂮 Resources/Pasted image 20240403010145.png",
     "𐂮 Resources",
-    "Trouble shooting/Access Token 관련.md",
-    "Trouble shooting/Xcode Configuration.md",
-    "Trouble shooting/UITableView Sticky Header 만들기.md",
-    "Trouble shooting/UIColor 관련.md",
-    "Trouble shooting/Swift Date타입 뽀개보기.md",
-    "Trouble shooting/AVAsset 만지기.md",
-    "Trouble shooting/ContentsDetailViewerViewController.md",
-    "Swift/UICollectionView 톺아보기.md",
-    "Swift/무제 파일 1.md",
-    "Trouble shooting/SwiftUI에서 AsyncImage 사용 시 회색 배경 문제.md",
-    "Dependency Injection/Simulator Screen Recording - iPhone 15 Pro - 2024-04-12 at 01.02.43.mp4",
-    "Swift/RunLoop.main과 DispatchQueue.main의 차이.md",
-    "WWDC/추천 WWDC.md",
-    "WWDC/WWDC 16/Understanding Swift Performance",
-    "Swift/self vs Self.md",
-    "Swift/Xcode Link.md",
-    "Trouble shooting/Python 가상환경 적용.md",
-    "Trouble shooting/SwiftUI에서 NavigationSplitView를 사용 시.md",
-    "Trouble shooting/Swift Package에서 String Catalog 사용 시.md",
-    "Trouble shooting/Jenkins + Fastlane을 통한 CI,CD 적용.md",
-    "Resources",
-    "untitled folder",
-    "Design System/FlexLayout/무제 파일.canvas"
+    "WWDC/WWDC 23/Discover String Catalogs/Discover String Catalogs.md",
+    "WWDC/WWDC 23",
+    "WWDC/무제 파일.md",
+    "WWDC/WWDC 16/Protocol and Value Oriented Programming in UIKit Apps/Protocol and Value Oriented Programming in UIKit Apps.md",
+    "WWDC/WWDC 23/Discover String Catalogs",
+    "Dependency Injection/DI & IOC Container/DI Container.md",
+    "Dependency Injection/DI & IOC Container",
+    "SwiftUI 스터디/Backyard Birds/SwiftData/Build an app with SwiftData.md",
+    "Test-Driven Development/1부 - 화폐 예제/1장.md",
+    "Test-Driven Development/3부 - 테스트 주도 개발의 패턴/25장.md",
+    "Test-Driven Development/3부 - 테스트 주도 개발의 패턴",
+    "Test-Driven Development/2부 - xUnit 예시"
   ]
 }

@@ -214,3 +214,4 @@ struct DecoratingLayout<Child: Layout, Decoration: Layout
 (Dream에 대한 실행취소 기능은 구현했지만 FavoritCreature에 대한 실행 취소를 구현하지 않은 버그 상황)
 
 FavoritCreature와 관련된 실행 취소 구조를 추가할 수 있지만 다른 코드 경로 추가로 유지보수의 어려움 발생
+### Model 분리
