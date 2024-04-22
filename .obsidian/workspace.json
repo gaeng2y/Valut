@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Swift/UITraitChangeObservable.md",
+                "file": "Trouble shooting/UICollectionView 이슈.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Swift/UITraitChangeObservable.md",
+                "file": "Trouble shooting/UICollectionView 이슈.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Swift/UITraitChangeObservable.md",
+                "file": "Trouble shooting/UICollectionView 이슈.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Swift/UITraitChangeObservable.md"
+                "file": "Trouble shooting/UICollectionView 이슈.md"
               }
             }
           }
@@ -149,9 +149,9 @@
   },
   "active": "1379a4cac9021bbb",
   "lastOpenFiles": [
+    "Swift/UITraitChangeObservable.md",
     "𐂮 Resources/Pasted image 20240422103225.png",
     "WWDC/WWDC 16/Understanding Swift Performance/Understanding Swift Performance.md",
-    "Swift/UITraitChangeObservable.md",
     "Swift/무제 폴더",
     "conflict-files-obsidian-git.md",
     "Point-Free/1 ~ 10/Episode 2. Side Effects.md",
@@ -171,7 +171,6 @@
     "𐂮 Resources/Pasted image 20240403010204.png",
     "𐂮 Resources/Pasted image 20240403010150.png",
     "𐂮 Resources/Pasted image 20240403010145.png",
-    "𐂮 Resources/Pasted image 20240403010027.png",
     "𐂮 Resources",
     "Trouble shooting/Access Token 관련.md",
     "Trouble shooting/Xcode Configuration.md",
