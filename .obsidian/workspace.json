@@ -18,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "106b179b1cbd39ac",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "WWDC/WWDC 16/Understanding Swift Performance/Understanding Swift Performance.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "WWDC/WWDC 16/Understanding Swift Performance/Understanding Swift Performance.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "conflict-files-obsidian-git.md"
+                "file": "WWDC/WWDC 16/Understanding Swift Performance/Understanding Swift Performance.md"
               }
             }
           }
@@ -160,11 +147,11 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "106b179b1cbd39ac",
+  "active": "1379a4cac9021bbb",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
     "Point-Free/1 ~ 10/Episode 2. Side Effects.md",
     "WWDC/WWDC 16/Understanding Swift Performance/Understanding Swift Performance.md",
-    "conflict-files-obsidian-git.md",
     "Point-Free/1 ~ 10/Episode 1. Function.md",
     "Trouble shooting/Privacy manifest files.md",
     "Trouble shooting/UICollectionView 이슈.md",
