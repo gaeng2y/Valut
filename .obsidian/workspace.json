@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Trouble shooting/Privacy manifest files.md",
+                "file": "WWDC/WWDC 16/Understanding Swift Performance/Understanding Swift Performance.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Trouble shooting/Privacy manifest files.md",
+                "file": "WWDC/WWDC 16/Understanding Swift Performance/Understanding Swift Performance.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Trouble shooting/Privacy manifest files.md",
+                "file": "WWDC/WWDC 16/Understanding Swift Performance/Understanding Swift Performance.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Trouble shooting/Privacy manifest files.md"
+                "file": "WWDC/WWDC 16/Understanding Swift Performance/Understanding Swift Performance.md"
               }
             }
           }
@@ -149,6 +149,8 @@
   },
   "active": "1379a4cac9021bbb",
   "lastOpenFiles": [
+    "Trouble shooting/SnapKit 트러블 슈팅.md",
+    "Trouble shooting/Privacy manifest files.md",
     "Trouble shooting/Python 가상환경 적용.md",
     "Trouble shooting/SLComposeServiceViewController 커스텀하기.md",
     "Trouble shooting/Swift Date타입 뽀개보기.md",
@@ -181,7 +183,6 @@
     "conflict-files-obsidian-git.md",
     "Point-Free/1 ~ 10/Episode 2. Side Effects.md",
     "Point-Free/1 ~ 10/Episode 1. Function.md",
-    "Trouble shooting/Privacy manifest files.md",
     "Trouble shooting/무제 폴더",
     "Point-Free/1 ~ 10",
     "Point-Free",
@@ -190,7 +191,6 @@
     "Trouble shooting/AVAsset 만지기.md",
     "Trouble shooting/ContentsDetailViewerViewController.md",
     "Swift/UICollectionView 톺아보기.md",
-    "Swift/무제 파일 1.md",
     "Dependency Injection/Simulator Screen Recording - iPhone 15 Pro - 2024-04-12 at 01.02.43.mp4",
     "WWDC/WWDC 16/Understanding Swift Performance",
     "Resources",
