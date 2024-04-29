@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WWDC/WWDC 16/Understanding Swift Performance/Understanding Swift Performance.md",
+                "file": "WWDC/WWDC 15/Protocol-Oriented Programming in Swift/Protocol-Oriented Programming in Swift.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "WWDC/WWDC 16/Understanding Swift Performance/Understanding Swift Performance.md",
+                "file": "WWDC/WWDC 15/Protocol-Oriented Programming in Swift/Protocol-Oriented Programming in Swift.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "WWDC/WWDC 16/Understanding Swift Performance/Understanding Swift Performance.md",
+                "file": "WWDC/WWDC 15/Protocol-Oriented Programming in Swift/Protocol-Oriented Programming in Swift.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WWDC/WWDC 16/Understanding Swift Performance/Understanding Swift Performance.md"
+                "file": "WWDC/WWDC 15/Protocol-Oriented Programming in Swift/Protocol-Oriented Programming in Swift.md"
               }
             }
           }
@@ -149,6 +149,8 @@
   },
   "active": "483ae869a9e09248",
   "lastOpenFiles": [
+    "WWDC/WWDC 15/Protocol-Oriented Programming in Swift/Screenshot 2024-03-12 at 10.53.15 PM.png",
+    "WWDC/WWDC 16/Understanding Swift Performance/Understanding Swift Performance.md",
     "Trouble shooting/UIScrollView에서 contentLayoutGuide.md",
     "𐂮 Resources/Pasted image 20240426003311.png",
     "𐂮 Resources/Pasted image 20240426003232.png",
@@ -157,7 +159,6 @@
     "𐂮 Resources/Pasted image 20240426002003.png",
     "𐂮 Resources/Pasted image 20240426001330.png",
     "𐂮 Resources/Pasted image 20240426001112.png",
-    "WWDC/WWDC 16/Understanding Swift Performance/Understanding Swift Performance.md",
     "𐂮 Resources/Pasted image 20240425232846.png",
     "𐂮 Resources/Pasted image 20240425232835.png",
     "𐂮 Resources/Pasted image 20240425232833 1.png",
@@ -193,7 +194,6 @@
     "WWDC/WWDC 23/Discover String Catalogs",
     "Dependency Injection/DI & IOC Container/DI Container.md",
     "Dependency Injection/DI & IOC Container",
-    "SwiftUI 스터디/Backyard Birds/SwiftData/Build an app with SwiftData.md",
     "Test-Driven Development/3부 - 테스트 주도 개발의 패턴",
     "Test-Driven Development/2부 - xUnit 예시"
   ]
