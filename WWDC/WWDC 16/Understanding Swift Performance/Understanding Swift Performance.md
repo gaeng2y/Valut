@@ -1,4 +1,5 @@
 Session: https://developer.apple.com/videos/play/wwdc2016/416/
+Slide: https://devstreaming-cdn.apple.com/videos/wwdc/2016/416k7f0xkmz28rvlvwb/416/416_understanding_swift_performance.pdf
 Ref: https://zeddios.tistory.com/596#recentComments
 ## Dimensions of Performance
 ![](Pasted%20image%2020240423001321.png)
@@ -221,4 +222,8 @@ iOS6 부터, UUID라는 구조체 타입이 추가되었는데, 고유하게 식
 
 ![](Pasted%20image%2020240426003311.png)
 
-이제 for loop를 순회하면서 `Drawable`의 `draw()`를 호출하게 된다. 컴파일러가 여기서 정확히 어떤 구현을 실행해야하는지, 즉 `Line`의 `draw()`인지 `Point`의 `draw()`인지를 알기 위해서는 런타임에 알 수 있게 된다는 것이다. 
+이제 for loop를 순회하면서 `Drawable`의 `draw()`를 호출하게 된다. 컴파일러가 여기서 정확히 어떤 구현을 실행해야하는지, 즉 `Line`의 `draw()`인지 `Point`의 `draw()`인지를 알기 위해서는 런타임에 알 수 있게 된다는 것이다. 그럼 컴파일러는 어떤 `draw()`를 호출해야하는지 어떻게 결정하는가
+컴파일러는 그 클래스 타입 정보에 대한 것을 정적 메모리에 저장하고, 실제로 `draw()`를 호출할 때, 컴파일러가 실제로 생성하는 것은 타입 및 정적 메모리의 가상 메소드 테이블이라고 하는 것(== vtable)을 조회한다. 그리고 실행하기에 적합한 `draw()`를 찾고, 그리고 나서 파라미터로 실제 인스턴스를 전달한다.
+
+그러면 결과적으로 우리는 클래스가 기본적으로 동적 디스패치를 한다는 것을 알고있습니다. 자체적으로 큰 차이를 만들지는 않지만, 메소드 체인, 인라인과 같은 최적화를 막을 수 있다. 하지만 모든 클래스가 이 동적 디스패치를 사용할 필요는 없는데 바로 final로 명시하여 상속받지 못하게 하면된다. 컴파일러는 이를 보고 정적 디스패치를 하게 될 것이다.
+또한 컴파일러가 앱에서 클래스를 상속하지 않을 것이라는 추론을 입증 할 수 있다면, 기회를 보고 동적 디스패치 대신 정적 디스패치를 하게 된다.
