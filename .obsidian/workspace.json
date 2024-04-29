@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Trouble shooting/UICollectionView 이슈.md",
+                "file": "Trouble shooting/UIScrollView에서 contentLayoutGuide.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Trouble shooting/UICollectionView 이슈.md",
+                "file": "Trouble shooting/UIScrollView에서 contentLayoutGuide.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Trouble shooting/UICollectionView 이슈.md",
+                "file": "Trouble shooting/UIScrollView에서 contentLayoutGuide.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Trouble shooting/UICollectionView 이슈.md"
+                "file": "Trouble shooting/UIScrollView에서 contentLayoutGuide.md"
               }
             }
           }
@@ -149,6 +149,8 @@
   },
   "active": "1379a4cac9021bbb",
   "lastOpenFiles": [
+    "Trouble shooting/UICollectionView 이슈.md",
+    "Trouble shooting/UIScrollView에서 contentLayoutGuide.md",
     "WWDC/WWDC 16/Understanding Swift Performance/Understanding Swift Performance.md",
     "𐂮 Resources/Pasted image 20240426003311.png",
     "𐂮 Resources/Pasted image 20240426003232.png",
@@ -168,7 +170,6 @@
     "Trouble shooting/Swift Package에서 String Catalog 사용 시.md",
     "Trouble shooting/SwiftUI에서 AsyncImage 사용 시 회색 배경 문제.md",
     "Trouble shooting/SwiftUI에서 NavigationSplitView를 사용 시.md",
-    "Trouble shooting/UICollectionView 이슈.md",
     "Trouble shooting/UIColor 관련.md",
     "Trouble shooting/UITableView Sticky Header 만들기.md",
     "Trouble shooting/viewDidLoad() vs loadView().md",
