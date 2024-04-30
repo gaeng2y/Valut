@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Design Pattern/Behavior/Null Object/코드 예제.md",
+                "file": "Trouble shooting/최상단에 뷰 띄우기.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Design Pattern/Behavior/Null Object/코드 예제.md",
+                "file": "Trouble shooting/최상단에 뷰 띄우기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Design Pattern/Behavior/Null Object/코드 예제.md",
+                "file": "Trouble shooting/최상단에 뷰 띄우기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Design Pattern/Behavior/Null Object/코드 예제.md"
+                "file": "Trouble shooting/최상단에 뷰 띄우기.md"
               }
             }
           }
@@ -149,6 +149,8 @@
   },
   "active": "1379a4cac9021bbb",
   "lastOpenFiles": [
+    "Design Pattern/Behavior/Null Object/코드 예제.md",
+    "Trouble shooting/최상단에 뷰 띄우기.md",
     "Trouble shooting/UIScrollView에서 contentLayoutGuide.md",
     "Trouble shooting/UICollectionView 이슈.md",
     "WWDC/WWDC 16/Understanding Swift Performance/Understanding Swift Performance.md",
@@ -189,8 +191,6 @@
     "Point-Free",
     "𐂮 Resources/Simulator Screen Recording - iPhone 15 Pro - 2024-04-12 at 01.02.43.mp4",
     "𐂮 Resources",
-    "Trouble shooting/AVAsset 만지기.md",
-    "Trouble shooting/ContentsDetailViewerViewController.md",
     "Dependency Injection/Simulator Screen Recording - iPhone 15 Pro - 2024-04-12 at 01.02.43.mp4",
     "WWDC/WWDC 16/Understanding Swift Performance",
     "Resources",
