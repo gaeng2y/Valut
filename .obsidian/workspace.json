@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Trouble shooting/최상단에 뷰 띄우기.md",
+                "file": "Trouble shooting/Push된 UIViewController 스와이프 백이 안되는 이슈.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 232.5
+    "width": 200
   },
   "right": {
     "id": "9843e891487ed6f6",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Trouble shooting/최상단에 뷰 띄우기.md",
+                "file": "Trouble shooting/Push된 UIViewController 스와이프 백이 안되는 이슈.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Trouble shooting/최상단에 뷰 띄우기.md",
+                "file": "Trouble shooting/Push된 UIViewController 스와이프 백이 안되는 이슈.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Trouble shooting/최상단에 뷰 띄우기.md"
+                "file": "Trouble shooting/Push된 UIViewController 스와이프 백이 안되는 이슈.md"
               }
             }
           }
@@ -149,10 +149,14 @@
   },
   "active": "1379a4cac9021bbb",
   "lastOpenFiles": [
-    "Design Pattern/Behavior/Null Object/코드 예제.md",
-    "Trouble shooting/최상단에 뷰 띄우기.md",
-    "Trouble shooting/UIScrollView에서 contentLayoutGuide.md",
+    "Trouble shooting/SwiftUI에서 NavigationSplitView를 사용 시.md",
+    "Trouble shooting/Push된 UIViewController 스와이프 백이 안되는 이슈.md",
+    "Trouble shooting/SwiftUI에서 AsyncImage 사용 시 회색 배경 문제.md",
     "Trouble shooting/UICollectionView 이슈.md",
+    "Trouble shooting/UIColor 관련.md",
+    "Trouble shooting/최상단에 뷰 띄우기.md",
+    "Design Pattern/Behavior/Null Object/코드 예제.md",
+    "Trouble shooting/UIScrollView에서 contentLayoutGuide.md",
     "WWDC/WWDC 16/Understanding Swift Performance/Understanding Swift Performance.md",
     "𐂮 Resources/Pasted image 20240426003311.png",
     "𐂮 Resources/Pasted image 20240426003232.png",
@@ -170,9 +174,6 @@
     "Trouble shooting/SLComposeServiceViewController 커스텀하기.md",
     "Trouble shooting/Swift Date타입 뽀개보기.md",
     "Trouble shooting/Swift Package에서 String Catalog 사용 시.md",
-    "Trouble shooting/SwiftUI에서 AsyncImage 사용 시 회색 배경 문제.md",
-    "Trouble shooting/SwiftUI에서 NavigationSplitView를 사용 시.md",
-    "Trouble shooting/UIColor 관련.md",
     "Trouble shooting/UITableView Sticky Header 만들기.md",
     "Trouble shooting/viewDidLoad() vs loadView().md",
     "Trouble shooting/Xcode Configuration.md",
@@ -185,7 +186,6 @@
     "Swift/무제 폴더",
     "conflict-files-obsidian-git.md",
     "Point-Free/1 ~ 10/Episode 2. Side Effects.md",
-    "Point-Free/1 ~ 10/Episode 1. Function.md",
     "Trouble shooting/무제 폴더",
     "Point-Free/1 ~ 10",
     "Point-Free",
