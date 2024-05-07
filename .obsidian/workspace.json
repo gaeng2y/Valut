@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "07c77e63b0441e34",
+        "id": "846c295e871c0d44",
         "type": "tabs",
         "children": [
           {
-            "id": "1379a4cac9021bbb",
+            "id": "483ae869a9e09248",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Trouble shooting/로또 번호 만들기.md",
+                "file": "WWDC/WWDC 18/iOS Memory Deep Dive/iOS Memory Deep Dive.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 298.5
   },
   "right": {
     "id": "9843e891487ed6f6",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Trouble shooting/로또 번호 만들기.md",
+                "file": "WWDC/WWDC 18/iOS Memory Deep Dive/iOS Memory Deep Dive.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Trouble shooting/로또 번호 만들기.md",
+                "file": "WWDC/WWDC 18/iOS Memory Deep Dive/iOS Memory Deep Dive.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Trouble shooting/로또 번호 만들기.md"
+                "file": "WWDC/WWDC 18/iOS Memory Deep Dive/iOS Memory Deep Dive.md"
               }
             }
           }
@@ -139,30 +139,18 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "command-palette:명령어 팔레트 열기": false,
       "switcher:퀵 스위처 열기": false,
       "graph:그래프 뷰 열기": false,
       "canvas:새 캔버스 만들기": false,
       "daily-notes:오늘의 데일리 노트 열기": false,
-      "templates:템플릿 삽입": false,
-      "command-palette:명령어 팔레트 열기": false
+      "templates:템플릿 삽입": false
     }
   },
-  "active": "1379a4cac9021bbb",
+  "active": "483ae869a9e09248",
   "lastOpenFiles": [
-    "Trouble shooting/Xcode Configuration.md",
-    "Trouble shooting/viewDidLoad() vs loadView().md",
-    "Trouble shooting/UIScrollView에서 contentLayoutGuide.md",
-    "Trouble shooting/SwiftUI에서 NavigationSplitView를 사용 시.md",
-    "Trouble shooting/SwiftUI에서 AsyncImage 사용 시 회색 배경 문제.md",
-    "Trouble shooting/Swift Package에서 String Catalog 사용 시.md",
-    "Trouble shooting/SnapKit 트러블 슈팅.md",
-    "Trouble shooting/Python 가상환경 적용.md",
-    "Trouble shooting/Push된 UIViewController 스와이프 백이 안되는 이슈.md",
-    "Trouble shooting/커뮤니티 화면 리팩토링.md",
-    "Trouble shooting/iOS Shadow 살펴보기.md",
     "𐂮 Resources/Pasted image 20240508120301.png",
     "𐂮 Resources/Pasted image 20240508114925.png",
-    "WWDC/WWDC 23/Discover String Catalogs/Discover String Catalogs.md",
     "𐂮 Resources/Pasted image 20240507134435.png",
     "𐂮 Resources/Pasted image 20240507134427.png",
     "𐂮 Resources/Pasted image 20240507134416.png",
@@ -171,29 +159,42 @@
     "𐂮 Resources/Pasted image 20240507121953.png",
     "𐂮 Resources/Pasted image 20240507121941.png",
     "𐂮 Resources/Pasted image 20240507121931.png",
-    "Trouble shooting/UICollectionView 이슈.md",
-    "Trouble shooting/UIColor 관련.md",
-    "Trouble shooting/최상단에 뷰 띄우기.md",
-    "Design Pattern/Behavior/Null Object/코드 예제.md",
+    "𐂮 Resources/Pasted image 20240507121923.png",
+    "Trouble shooting/iOS Shadow 살펴보기.md",
+    "conflict-files-obsidian-git.md",
+    "WWDC/WWDC 18/iOS Memory Deep Dive/iOS Memory Deep Dive.md",
+    "WWDC/WWDC 18/iOS Memory Deep Dive",
+    "WWDC/추천 WWDC.md",
+    "WWDC/WWDC 18",
     "WWDC/WWDC 16/Understanding Swift Performance/Understanding Swift Performance.md",
+    "WWDC/WWDC 15/Protocol-Oriented Programming in Swift/Protocol-Oriented Programming in Swift.md",
+    "Trouble shooting/최상단에 뷰 띄우기.md",
+    "Trouble shooting/Push된 UIViewController 스와이프 백이 안되는 이슈.md",
+    "Trouble shooting/UIScrollView에서 contentLayoutGuide.md",
+    "Trouble shooting/SnapKit 트러블 슈팅.md",
+    "Point-Free/1 ~ 10/Episode 1. Function.md",
+    "WWDC/WWDC 16/Protocol and Value Oriented Programming in UIKit Apps/Protocol and Value Oriented Programming in UIKit Apps.md",
+    "Swift/UITraitChangeObservable.md",
+    "Swift/self vs Self.md",
+    "Swift/RunLoop.main과 DispatchQueue.main의 차이.md",
+    "Point-Free/1 ~ 10/Episode 2. Side Effects.md",
     "Trouble shooting/Privacy manifest files.md",
-    "Trouble shooting/SLComposeServiceViewController 커스텀하기.md",
-    "Trouble shooting/Swift Date타입 뽀개보기.md",
-    "Trouble shooting/UITableView Sticky Header 만들기.md",
-    "Trouble shooting/로또 번호 만들기.md",
-    "Trouble shooting/이미지 스크롤 뷰.md",
-    "Trouble shooting/Access Token 관련.md",
-    "Trouble shooting/Jenkins + Fastlane을 통한 CI,CD 적용.md",
-    "Swift/무제 폴더",
-    "Trouble shooting/무제 폴더",
     "Point-Free/1 ~ 10",
+    "Computational Thinking/무제 파일.canvas",
+    "Modular programming/Library, Framework, Swift Package 차이점.md",
     "Point-Free",
+    "Trouble shooting/UIColor 관련.md",
+    "Trouble shooting/UICollectionView 이슈.md",
+    "Swift/UICollectionView 톺아보기.md",
+    "Trouble shooting/SwiftUI에서 AsyncImage 사용 시 회색 배경 문제.md",
     "𐂮 Resources/Simulator Screen Recording - iPhone 15 Pro - 2024-04-12 at 01.02.43.mp4",
-    "𐂮 Resources",
-    "Dependency Injection/Simulator Screen Recording - iPhone 15 Pro - 2024-04-12 at 01.02.43.mp4",
+    "Trouble shooting/Swift Package에서 String Catalog 사용 시.md",
+    "Trouble shooting/Swift Date타입 뽀개보기.md",
+    "Trouble shooting/SwiftUI에서 NavigationSplitView를 사용 시.md",
     "WWDC/WWDC 16/Understanding Swift Performance",
-    "Resources",
-    "untitled folder",
-    "Design System/FlexLayout/무제 파일.canvas"
+    "𐂮 Resources",
+    "WWDC/WWDC 23",
+    "WWDC/WWDC 23/Discover String Catalogs",
+    "Dependency Injection/DI & IOC Container"
   ]
 }
