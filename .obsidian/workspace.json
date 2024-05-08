@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WWDC/WWDC 23/Discover String Catalogs/Discover String Catalogs.md",
+                "file": "Trouble shooting/iOS Shadow 살펴보기.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "WWDC/WWDC 23/Discover String Catalogs/Discover String Catalogs.md",
+                "file": "Trouble shooting/iOS Shadow 살펴보기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "WWDC/WWDC 23/Discover String Catalogs/Discover String Catalogs.md",
+                "file": "Trouble shooting/iOS Shadow 살펴보기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WWDC/WWDC 23/Discover String Catalogs/Discover String Catalogs.md"
+                "file": "Trouble shooting/iOS Shadow 살펴보기.md"
               }
             }
           }
@@ -149,6 +149,10 @@
   },
   "active": "1379a4cac9021bbb",
   "lastOpenFiles": [
+    "𐂮 Resources/Pasted image 20240508120301.png",
+    "𐂮 Resources/Pasted image 20240508114925.png",
+    "WWDC/WWDC 23/Discover String Catalogs/Discover String Catalogs.md",
+    "Trouble shooting/iOS Shadow 살펴보기.md",
     "𐂮 Resources/Pasted image 20240507134435.png",
     "𐂮 Resources/Pasted image 20240507134427.png",
     "𐂮 Resources/Pasted image 20240507134416.png",
@@ -158,9 +162,6 @@
     "𐂮 Resources/Pasted image 20240507121941.png",
     "𐂮 Resources/Pasted image 20240507121931.png",
     "𐂮 Resources/Pasted image 20240507121923.png",
-    "𐂮 Resources/Pasted image 20240507121914.png",
-    "𐂮 Resources/Pasted image 20240507121904.png",
-    "WWDC/WWDC 23/Discover String Catalogs/Discover String Catalogs.md",
     "Trouble shooting/Push된 UIViewController 스와이프 백이 안되는 이슈.md",
     "Trouble shooting/SwiftUI에서 NavigationSplitView를 사용 시.md",
     "Trouble shooting/SwiftUI에서 AsyncImage 사용 시 회색 배경 문제.md",
@@ -184,7 +185,6 @@
     "Trouble shooting/커뮤니티 화면 리팩토링.md",
     "Trouble shooting/Access Token 관련.md",
     "Trouble shooting/Jenkins + Fastlane을 통한 CI,CD 적용.md",
-    "Swift/UITraitChangeObservable.md",
     "Swift/무제 폴더",
     "Trouble shooting/무제 폴더",
     "Point-Free/1 ~ 10",
