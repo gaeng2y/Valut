@@ -48,7 +48,7 @@ String Catalog로 모든 문자열을 한 곳에서 쉽게 관리할 수 있고 
 
 여기선 `LocalizedStringResource`를 문자열 유형으로 사용한다. Xcode는 호출 사이트에서 문자열 리터럴이 `LocalizedStringResource`의 인스턴스화에 사용됨을 확인하면 현지화 가능한 문자열임을 인식한다. 
 
-![](Pasted%20image%2020240507121513.png)
+![](Pasted%20image%2020240509153112.png)
 
 `LocalizedStringResource`는 현지화 가능한 문자열의 표현과 전달에 권장되는 유형이다. 문자열 리터럴을 사용한 초기화를 지원하면서도 주석과 테이블 이름은 물론 문자열 키와 다른 기본값을 제공할 수도 있다.
 
