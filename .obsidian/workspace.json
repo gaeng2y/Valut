@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Trouble shooting/로또 번호 만들기.md",
+                "file": "Trouble shooting/Pull to Refresh.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Trouble shooting/로또 번호 만들기.md",
+                "file": "Trouble shooting/Pull to Refresh.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Trouble shooting/로또 번호 만들기.md",
+                "file": "Trouble shooting/Pull to Refresh.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Trouble shooting/로또 번호 만들기.md"
+                "file": "Trouble shooting/Pull to Refresh.md"
               }
             }
           }
@@ -149,6 +149,8 @@
   },
   "active": "1379a4cac9021bbb",
   "lastOpenFiles": [
+    "Trouble shooting/로또 번호 만들기.md",
+    "Trouble shooting/Pull to Refresh.md",
     "WWDC/WWDC 18/iOS Memory Deep Dive/iOS Memory Deep Dive.md",
     "WWDC/WWDC 18/iOS Memory Deep Dive",
     "WWDC/WWDC 18",
@@ -183,10 +185,8 @@
     "Trouble shooting/SLComposeServiceViewController 커스텀하기.md",
     "Trouble shooting/Swift Date타입 뽀개보기.md",
     "Trouble shooting/UITableView Sticky Header 만들기.md",
-    "Trouble shooting/로또 번호 만들기.md",
     "Trouble shooting/이미지 스크롤 뷰.md",
     "Trouble shooting/Access Token 관련.md",
-    "Trouble shooting/Jenkins + Fastlane을 통한 CI,CD 적용.md",
     "Swift/무제 폴더",
     "Trouble shooting/무제 폴더",
     "Point-Free/1 ~ 10",
