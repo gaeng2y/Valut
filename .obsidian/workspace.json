@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WWDC/WWDC 23/Discover String Catalogs/Discover String Catalogs.md",
+                "file": "Trouble shooting/UISegmentedControl 커스텀하기.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "WWDC/WWDC 23/Discover String Catalogs/Discover String Catalogs.md",
+                "file": "Trouble shooting/UISegmentedControl 커스텀하기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "WWDC/WWDC 23/Discover String Catalogs/Discover String Catalogs.md",
+                "file": "Trouble shooting/UISegmentedControl 커스텀하기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WWDC/WWDC 23/Discover String Catalogs/Discover String Catalogs.md"
+                "file": "Trouble shooting/UISegmentedControl 커스텀하기.md"
               }
             }
           }
@@ -149,12 +149,13 @@
   },
   "active": "1379a4cac9021bbb",
   "lastOpenFiles": [
+    "WWDC/WWDC 18/iOS Memory Deep Dive/iOS Memory Deep Dive.md",
+    "Trouble shooting/UISegmentedControl 커스텀하기.md",
+    "WWDC/WWDC 23/Discover String Catalogs/Discover String Catalogs.md",
     "𐂮 Resources/Pasted image 20240509153112.png",
     "𐂮 Resources/Pasted image 20240507121651.png",
-    "WWDC/WWDC 23/Discover String Catalogs/Discover String Catalogs.md",
     "Trouble shooting/Pull to Refresh.md",
     "Trouble shooting/로또 번호 만들기.md",
-    "WWDC/WWDC 18/iOS Memory Deep Dive/iOS Memory Deep Dive.md",
     "WWDC/WWDC 18/iOS Memory Deep Dive",
     "WWDC/WWDC 18",
     "Trouble shooting/Xcode Configuration.md",
@@ -176,7 +177,6 @@
     "𐂮 Resources/Pasted image 20240507134408.png",
     "𐂮 Resources/Pasted image 20240507122013.png",
     "𐂮 Resources/Pasted image 20240507121953.png",
-    "𐂮 Resources/Pasted image 20240507121941.png",
     "Trouble shooting/UICollectionView 이슈.md",
     "Trouble shooting/UIColor 관련.md",
     "Trouble shooting/최상단에 뷰 띄우기.md",
