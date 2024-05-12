@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e51cdcf5bfc20cc8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "WWDC/WWDC 18/iOS Memory Deep Dive/iOS Memory Deep Dive.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "WWDC/WWDC 18/iOS Memory Deep Dive/iOS Memory Deep Dive.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WWDC/WWDC 18/iOS Memory Deep Dive/iOS Memory Deep Dive.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           }
@@ -147,10 +160,11 @@
       "templates:템플릿 삽입": false
     }
   },
-  "active": "483ae869a9e09248",
+  "active": "e51cdcf5bfc20cc8",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
+    "Trouble shooting/UISegmentedControl 커스텀하기.md",
     "WWDC/WWDC 18/iOS Memory Deep Dive/iOS Memory Deep Dive.md",
+    "conflict-files-obsidian-git.md",
     "𐂮 Resources/Pasted image 20240509153112.png",
     "Trouble shooting/Pull to Refresh.md",
     "WWDC/WWDC 16/Protocol and Value Oriented Programming in UIKit Apps/Protocol and Value Oriented Programming in UIKit Apps.md",
