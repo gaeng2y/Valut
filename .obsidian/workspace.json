@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Trouble shooting/UISegmentedControl 커스텀하기.md",
+                "file": "WWDC/추천 WWDC.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Trouble shooting/UISegmentedControl 커스텀하기.md",
+                "file": "WWDC/추천 WWDC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Trouble shooting/UISegmentedControl 커스텀하기.md",
+                "file": "WWDC/추천 WWDC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Trouble shooting/UISegmentedControl 커스텀하기.md"
+                "file": "WWDC/추천 WWDC.md"
               }
             }
           }
@@ -149,8 +149,8 @@
   },
   "active": "1379a4cac9021bbb",
   "lastOpenFiles": [
-    "Trouble shooting/Custom UITableView.md",
     "Trouble shooting/UISegmentedControl 커스텀하기.md",
+    "Trouble shooting/Custom UITableView.md",
     "𐂮 Resources/Screenshot 2024-03-12 at 10.53.15 PM.png",
     "WWDC/WWDC 18/iOS Memory Deep Dive/iOS Memory Deep Dive.md",
     "WWDC/WWDC 23/Discover String Catalogs/Discover String Catalogs.md",
