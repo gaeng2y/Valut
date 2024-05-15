@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "웹, 네트워크/Chapter 2.md",
+                "file": "The RED 슈퍼앱 운영을 위한 확장성 높은 앱 아키텍처 구축/Composition.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "웹, 네트워크/Chapter 2.md",
+                "file": "The RED 슈퍼앱 운영을 위한 확장성 높은 앱 아키텍처 구축/Composition.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "웹, 네트워크/Chapter 2.md",
+                "file": "The RED 슈퍼앱 운영을 위한 확장성 높은 앱 아키텍처 구축/Composition.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "웹, 네트워크/Chapter 2.md"
+                "file": "The RED 슈퍼앱 운영을 위한 확장성 높은 앱 아키텍처 구축/Composition.md"
               }
             }
           }
@@ -149,6 +149,9 @@
   },
   "active": "483ae869a9e09248",
   "lastOpenFiles": [
+    "웹, 네트워크/Chapter 2.md",
+    "The RED 슈퍼앱 운영을 위한 확장성 높은 앱 아키텍처 구축/Composition.md",
+    "The RED 슈퍼앱 운영을 위한 확장성 높은 앱 아키텍처 구축",
     "WWDC/WWDC 18/iOS Memory Deep Dive/iOS Memory Deep Dive.md",
     "conflict-files-obsidian-git.md",
     "Trouble shooting/UISegmentedControl 커스텀하기.md",
@@ -188,13 +191,10 @@
     "Trouble shooting/UIColor 관련.md",
     "Trouble shooting/UICollectionView 이슈.md",
     "Swift/UICollectionView 톺아보기.md",
-    "Trouble shooting/SwiftUI에서 AsyncImage 사용 시 회색 배경 문제.md",
     "𐂮 Resources/Simulator Screen Recording - iPhone 15 Pro - 2024-04-12 at 01.02.43.mp4",
-    "Trouble shooting/Swift Package에서 String Catalog 사용 시.md",
     "WWDC/WWDC 16/Understanding Swift Performance",
     "𐂮 Resources",
     "WWDC/WWDC 23",
-    "WWDC/WWDC 23/Discover String Catalogs",
-    "Dependency Injection/DI & IOC Container"
+    "WWDC/WWDC 23/Discover String Catalogs"
   ]
 }
