@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "앱과 비즈니스 로직.md",
+                "file": "웹, 네트워크/Chatper 3.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "앱과 비즈니스 로직.md",
+                "file": "웹, 네트워크/Chatper 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "앱과 비즈니스 로직.md",
+                "file": "웹, 네트워크/Chatper 3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "앱과 비즈니스 로직.md"
+                "file": "웹, 네트워크/Chatper 3.md"
               }
             }
           }
@@ -160,13 +160,13 @@
       "templates:템플릿 삽입": false
     }
   },
-  "active": "3bfeb7202dd1dd2e",
+  "active": "160736a19be9866b",
   "lastOpenFiles": [
-    "The RED 슈퍼앱 운영을 위한 확장성 높은 앱 아키텍처 구축/Composition.md",
     "앱과 비즈니스 로직.md",
+    "The RED 슈퍼앱 운영을 위한 확장성 높은 앱 아키텍처 구축/Composition.md",
     "웹, 네트워크/Chatper 3.md",
     "웹, 네트워크/Chapter 2.md",
-    "웹, 네트워크/Chatper 1.md",
+    "웹, 네트워크/Chapter 1.md",
     "conflict-files-obsidian-git.md",
     "The RED 슈퍼앱 운영을 위한 확장성 높은 앱 아키텍처 구축",
     "WWDC/WWDC 18/iOS Memory Deep Dive/iOS Memory Deep Dive.md",
