@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "846c295e871c0d44",
+        "id": "497474d2b234b710",
         "type": "tabs",
         "children": [
           {
-            "id": "483ae869a9e09248",
+            "id": "477f62534f08260b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "The RED 슈퍼앱 운영을 위한 확장성 높은 앱 아키텍처 구축/Composition.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3bfeb7202dd1dd2e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "웹, 네트워크/Chatper 3.md",
+                "file": "The RED 슈퍼앱 운영을 위한 확장성 높은 앱 아키텍처 구축/RIBs.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "웹, 네트워크/Chatper 3.md",
+                "file": "The RED 슈퍼앱 운영을 위한 확장성 높은 앱 아키텍처 구축/RIBs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "웹, 네트워크/Chatper 3.md",
+                "file": "The RED 슈퍼앱 운영을 위한 확장성 높은 앱 아키텍처 구축/RIBs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "웹, 네트워크/Chatper 3.md"
+                "file": "The RED 슈퍼앱 운영을 위한 확장성 높은 앱 아키텍처 구축/RIBs.md"
               }
             }
           }
@@ -160,11 +147,12 @@
       "templates:템플릿 삽입": false
     }
   },
-  "active": "160736a19be9866b",
+  "active": "477f62534f08260b",
   "lastOpenFiles": [
-    "앱과 비즈니스 로직.md",
+    "The RED 슈퍼앱 운영을 위한 확장성 높은 앱 아키텍처 구축/RIBs.md",
     "The RED 슈퍼앱 운영을 위한 확장성 높은 앱 아키텍처 구축/Composition.md",
     "웹, 네트워크/Chatper 3.md",
+    "앱과 비즈니스 로직.md",
     "웹, 네트워크/Chapter 2.md",
     "웹, 네트워크/Chapter 1.md",
     "conflict-files-obsidian-git.md",
@@ -202,7 +190,6 @@
     "Trouble shooting/Privacy manifest files.md",
     "Point-Free/1 ~ 10",
     "Computational Thinking/무제 파일.canvas",
-    "Modular programming/Library, Framework, Swift Package 차이점.md",
     "Point-Free",
     "𐂮 Resources/Simulator Screen Recording - iPhone 15 Pro - 2024-04-12 at 01.02.43.mp4",
     "WWDC/WWDC 16/Understanding Swift Performance",
