@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "F-lab 멘토링/1주차/Autoreleasepool.md",
+                "file": "F-lab 멘토링/1주차/AutoReleasePool.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "F-lab 멘토링/1주차/Autoreleasepool.md",
+                "file": "F-lab 멘토링/1주차/AutoReleasePool.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "F-lab 멘토링/1주차/Autoreleasepool.md",
+                "file": "F-lab 멘토링/1주차/AutoReleasePool.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "F-lab 멘토링/1주차/Autoreleasepool.md"
+                "file": "F-lab 멘토링/1주차/AutoReleasePool.md"
               }
             }
           }
@@ -150,7 +150,7 @@
   "active": "477f62534f08260b",
   "lastOpenFiles": [
     "Trouble shooting/무제 파일.md",
-    "F-lab 멘토링/1주차/Autoreleasepool.md",
+    "F-lab 멘토링/1주차/AutoReleasePool.md",
     "F-lab 멘토링/1주차",
     "F-lab 멘토링",
     "The RED 슈퍼앱 운영을 위한 확장성 높은 앱 아키텍처 구축/RIBs.md",
