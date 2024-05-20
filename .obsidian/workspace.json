@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Trouble shooting/무제 파일.md",
+                "file": "F-lab 멘토링/1주차/Autoreleasepool.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Trouble shooting/무제 파일.md",
+                "file": "F-lab 멘토링/1주차/Autoreleasepool.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Trouble shooting/무제 파일.md",
+                "file": "F-lab 멘토링/1주차/Autoreleasepool.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Trouble shooting/무제 파일.md"
+                "file": "F-lab 멘토링/1주차/Autoreleasepool.md"
               }
             }
           }
@@ -149,8 +149,11 @@
   },
   "active": "477f62534f08260b",
   "lastOpenFiles": [
-    "The RED 슈퍼앱 운영을 위한 확장성 높은 앱 아키텍처 구축/RIBs.md",
     "Trouble shooting/무제 파일.md",
+    "F-lab 멘토링/1주차/Autoreleasepool.md",
+    "F-lab 멘토링/1주차",
+    "F-lab 멘토링",
+    "The RED 슈퍼앱 운영을 위한 확장성 높은 앱 아키텍처 구축/RIBs.md",
     "The RED 슈퍼앱 운영을 위한 확장성 높은 앱 아키텍처 구축/Composition.md",
     "웹, 네트워크/Chatper 3.md",
     "앱과 비즈니스 로직.md",
@@ -187,14 +190,11 @@
     "Swift/UITraitChangeObservable.md",
     "Swift/self vs Self.md",
     "Swift/RunLoop.main과 DispatchQueue.main의 차이.md",
-    "Point-Free/1 ~ 10/Episode 2. Side Effects.md",
     "Point-Free/1 ~ 10",
     "Computational Thinking/무제 파일.canvas",
     "Point-Free",
     "𐂮 Resources/Simulator Screen Recording - iPhone 15 Pro - 2024-04-12 at 01.02.43.mp4",
     "WWDC/WWDC 16/Understanding Swift Performance",
-    "𐂮 Resources",
-    "WWDC/WWDC 23",
-    "WWDC/WWDC 23/Discover String Catalogs"
+    "𐂮 Resources"
   ]
 }
