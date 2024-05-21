@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "The RED 슈퍼앱 운영을 위한 확장성 높은 앱 아키텍처 구축/RIBs.md",
+                "file": "F-lab 멘토링/1달-1주차/Choosing Between Structures and Classes.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "The RED 슈퍼앱 운영을 위한 확장성 높은 앱 아키텍처 구축/RIBs.md",
+                "file": "F-lab 멘토링/1달-1주차/Choosing Between Structures and Classes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "The RED 슈퍼앱 운영을 위한 확장성 높은 앱 아키텍처 구축/RIBs.md",
+                "file": "F-lab 멘토링/1달-1주차/Choosing Between Structures and Classes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "The RED 슈퍼앱 운영을 위한 확장성 높은 앱 아키텍처 구축/RIBs.md"
+                "file": "F-lab 멘토링/1달-1주차/Choosing Between Structures and Classes.md"
               }
             }
           }
@@ -149,11 +149,13 @@
   },
   "active": "477f62534f08260b",
   "lastOpenFiles": [
+    "F-lab 멘토링/1달-1주차/Objective-C vs Swift differences.md",
+    "F-lab 멘토링/1달-1주차/Choosing Between Structures and Classes.md",
     "F-lab 멘토링/1달-1주차/AutoReleasePool.md",
+    "The RED 슈퍼앱 운영을 위한 확장성 높은 앱 아키텍처 구축/RIBs.md",
     "Trouble shooting/무제 파일.md",
     "F-lab 멘토링/1달-1주차",
     "F-lab 멘토링",
-    "The RED 슈퍼앱 운영을 위한 확장성 높은 앱 아키텍처 구축/RIBs.md",
     "The RED 슈퍼앱 운영을 위한 확장성 높은 앱 아키텍처 구축/Composition.md",
     "웹, 네트워크/Chatper 3.md",
     "앱과 비즈니스 로직.md",
@@ -188,8 +190,6 @@
     "Trouble shooting/SnapKit 트러블 슈팅.md",
     "Point-Free/1 ~ 10/Episode 1. Function.md",
     "Swift/UITraitChangeObservable.md",
-    "Swift/self vs Self.md",
-    "Swift/RunLoop.main과 DispatchQueue.main의 차이.md",
     "Point-Free/1 ~ 10",
     "Computational Thinking/무제 파일.canvas",
     "Point-Free",
