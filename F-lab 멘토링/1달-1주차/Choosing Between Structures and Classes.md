@@ -24,6 +24,23 @@ Swift의 클래스는 참조 유형이기 때문에 identify 개념이 내장되
 > [!warning]
 > 신원을 주의 깊게 다루십시오. 앱 전체에서 클래스 인스턴스를 광범위하게 공유하면 논리 오류가 발생할 가능성이 높아집니다. 많이 공유되는 인스턴스를 변경하면 어떤 결과가 나올지 예상하지 못할 수도 있으므로 이러한 코드를 올바르게 작성하는 것이 더 많은 작업입니다.
 
+### Use Structres When You Don't Control Identify
+
+제어할 수 없는 ID를 가진 엔터티에 대한 정보가 포함된 데이터를 모델링할 때 구조를 사용합니다.
+
+예를 들어, 원격 데이터베이스를 참조하는 앱에서 인스턴스의 ID는 외부 엔터티가 완전히 소유하고 식별자를 통해 전달될 수 있습니다. 앱 모델의 일관성이 서버에 저장되어 있는 경우 레코드를 식별자가 있는 구조체로 모델링할 수 있습니다. 아래 예에서 jsonResponse에는 서버의 인코딩된 PenPalRecord 인스턴스가 포함되어 있습니다.
+
+```swift
+struct PenPalRecord {
+    let myID: Int
+    var myNickname: String
+    var recommendedPenPalID: Int
+}
+
+
+var myRecord = try JSONDecoder().decode(PenPalRecord.self, from: jsonResponse)
+```
+
 
 
 ### Reference
