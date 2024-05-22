@@ -41,7 +41,11 @@ struct PenPalRecord {
 var myRecord = try JSONDecoder().decode(PenPalRecord.self, from: jsonResponse)
 ```
 
+`PenPalRecord`와 같은 모델 유형에 대한 로컬 변경이 유용합니다. 예를 들어 앱은 사용자 피드백에 대한 응답으로 여러 다른 펜팔을 추천할 수 있습니다. `PenPalRecord` 구조체는 기본 데이터베이스 레코드의 ID를 제어하지 않기 때문에 로컬 `PenPalRecord` 인스턴스에 대한 변경 사항이 실수로 데이터베이스의 값을 변경할 위험이 없습니다. 앱의 다른 부분에서 `myNickname`을 변경하고 서버에 변경 요청을 다시 제출하는 경우 가장 최근에 거부된 펜팔 추천이 변경 사항으로 인해 실수로 선택되지 않습니다. `myID` 속성은 상수로 선언되므로 로컬에서 변경할 수 없습니다. 결과적으로 데이터베이스에 대한 요청으로 인해 실수로 잘못된 레코드가 변경되지 않습니다.
 
+### Use Structures and Protocols to Model Inheritance and Share Behavior
+
+구조체와 클래스는 모두 상속 형식을 지원합니다. 구조체와 프로토콜은 프로토콜만 채택할 수 있습니다. 클래스에서 상속할 수 없습니다. 그러나 클래스 상속으로 구축할 수 있는 상속 계층의 종류는 프로토콜 상속 및 구조를 사용하여 모델링할 수도 있습니다. 상속 관계를 처음부터 구축하는 경우 프로토콜 상속을 선호하세요. 프로토콜은 클래스, 구조체 및 열거형이 상속에 참여할 수 있도록 허용하는 반면, 클래스 상속은 다른 클래스하고만 호환됩니다. 데이터 모델링 방법을 선택할 때 먼저 프로토콜 상속을 사용하여 데이터 유형의 계층 구조를 구축한 다음 해당 프로토콜을 구조에 채택하십시오.
 
 ### Reference
 https://developer.apple.com/documentation/swift/choosing-between-structures-and-classes
