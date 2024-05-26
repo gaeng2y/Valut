@@ -50,3 +50,90 @@ print(paragraph!.asHTML())
 paragraph = nil  // 강한 참조 순환으로 인해 메모리에서 해제되지 않음
 ```
 
+위 예제에서 `asHTML` 클로저는 `self`를 강한 참조로 캡쳐하여, `HTMLElement` 인스턴스가 해제되지 않습니다.
+
+#### 예시: 캡쳐 리스트로 강한 참조 순환 해결
+
+위의 강한 참조 순환 문제를 캡쳐 리스트를 사용하여 해결할 수 있습니다.
+
+```swift
+class HTMLElement {
+    let name: String
+    let text: String?
+    
+    lazy var asHTML: () -> String = { [weak self] in
+        guard let self = self else {
+            return ""
+        }
+        if let text = self.text {
+            return "<\(self.name)>\(text)</\(self.name)>"
+        } else {
+            return "<\(self.name) />"
+        }
+    }
+    
+    init(name: String, text: String? = nil) {
+        self.name = name
+        self.text = text
+    }
+    
+    deinit {
+        print("\(name) is being deinitialized")
+    }
+}
+
+var paragraph: HTMLElement? = HTMLElement(name: "p", text: "Hello, world!")
+print(paragraph!.asHTML())
+paragraph = nil  // 약한 참조로 인해 메모리에서 해제됨
+```
+
+이 예제에서는 캡쳐 리스트를 사용하여 `self`를 약한 참조로 캡쳐함으로써, `HTMLElement` 인스턴스가 더 이상 필요 없을 때 메모리에서 해제될 수 있도록 합니다.
+
+### 캡쳐 리스트의 종류
+
+캡쳐 리스트에는 두 가지 주요 종류가 있습니다:
+
+1. **약한 참조 (weak)**: 캡쳐된 객체가 더 이상 필요 없을 때 nil로 설정됩니다. 옵셔널 타입이어야 합니다.
+2. **비소유 참조 (unowned)**: 캡쳐된 객체가 항상 메모리에 존재한다고 가정합니다. 옵셔널이 아니어도 됩니다.
+
+#### 비소유 참조 사용 예시
+
+```swift
+class Customer {
+    let name: String
+    var creditCard: CreditCard?
+    
+    init(name: String) {
+        self.name = name
+    }
+    
+    deinit {
+        print("\(name) is being deinitialized")
+    }
+}
+
+class CreditCard {
+    let number: String
+    unowned let customer: Customer
+    
+    init(number: String, customer: Customer) {
+        self.number = number
+        self.customer = customer
+    }
+    
+    deinit {
+        print("Card \(number) is being deinitialized")
+    }
+}
+
+var john: Customer? = Customer(name: "John Appleseed")
+john?.creditCard = CreditCard(number: "1234 5678 9012 3456", customer: john!)
+
+john = nil  // Customer와 CreditCard 객체가 해제됨
+```
+
+여기서는 `CreditCard` 클래스의 `customer` 프로퍼티를 비소유 참조로 설정하여 강한 참조 순환을 방지합니다.
+
+### 결론
+
+Swift에서 클로저가 외부 변수를 강하게 참조함으로써 발생할 수 있는 retain cycle 문제를 해결하기 위해 캡쳐 리스트를 사용합니다. 캡쳐 리스트를 사용하여 약한 참조(`weak`) 또는 비소유 참조(`unowned`)로 변수를 캡쳐함으로써, 메모리 누수를 방지하고 클로저와 객체 간의 순환 참조 문제를 해결할 수 있습니다.
