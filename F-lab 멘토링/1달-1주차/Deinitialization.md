@@ -66,3 +66,86 @@ Swift에서는 순환 참조 문제를 해결하기 위해 **약한 참조(Weak 
 #### 약한 참조(Weak Reference)
 
 약한 참조는 참조하고 있는 객체가 더 이상 사용되지 않을 때 nil로 설정됩니다. 약한 참조는 옵셔널 타입이어야 합니다.
+
+```swift
+class Person {
+    let name: String
+    var apartment: Apartment?
+    
+    init(name: String) {
+        self.name = name
+    }
+    
+    deinit {
+        print("\(name) is being deinitialized")
+    }
+}
+
+class Apartment {
+    let unit: String
+    weak var tenant: Person?  // 약한 참조로 변경
+    
+    init(unit: String) {
+        self.unit = unit
+    }
+    
+    deinit {
+        print("Apartment \(unit) is being deinitialized")
+    }
+}
+
+var john: Person? = Person(name: "John Appleseed")
+var unit4A: Apartment? = Apartment(unit: "4A")
+
+john?.apartment = unit4A
+unit4A?.tenant = john
+
+john = nil  // Person 객체가 해제됨
+unit4A = nil  // Apartment 객체가 해제됨\
+```
+
+이 예제에서는 `Apartment` 클래스의 `tenant` 프로퍼티를 약한 참조로 변경했습니다. 이제 `john`과 `unit4A`를 nil로 설정하면 순환 참조가 발생하지 않으며, `Person`과 `Apartment` 객체는 메모리에서 올바르게 해제됩니다.
+
+#### 비소유 참조(Unowned Reference)
+
+비소유 참조는 참조하고 있는 객체가 더 이상 사용되지 않을 때도 nil로 설정되지 않습니다. 비소유 참조는 참조하고 있는 객체가 항상 메모리에 존재할 것이라는 가정하에 사용됩니다.
+
+```swift
+class Customer {
+    let name: String
+    var creditCard: CreditCard?
+    
+    init(name: String) {
+        self.name = name
+    }
+    
+    deinit {
+        print("\(name) is being deinitialized")
+    }
+}
+
+class CreditCard {
+    let number: String
+    unowned let customer: Customer  // 비소유 참조로 변경
+    
+    init(number: String, customer: Customer) {
+        self.number = number
+        self.customer = customer
+    }
+    
+    deinit {
+        print("Card \(number) is being deinitialized")
+    }
+}
+
+var john: Customer? = Customer(name: "John Appleseed")
+john?.creditCard = CreditCard(number: "1234 5678 9012 3456", customer: john!)
+
+john = nil  // Customer와 CreditCard 객체가 해제됨
+```
+
+이 예제에서는 `CreditCard` 클래스의 `customer` 프로퍼티를 비소유 참조로 변경했습니다. 이로 인해 `john`을 nil로 설정하면 `Customer`와 `CreditCard` 객체는 메모리에서 올바르게 해제됩니다.
+
+### 결론
+
+Swift에서 Retain Cycle은 두 객체가 서로를 강한 참조로 참조할 때 발생하는 메모리 누수 문제입니다. 이를 해결하기 위해 약한 참조(weak)와 비소유 참조(unowned)를 사용하여 순환 참조를 방지할 수 있습니다. 상황에 맞게 약한 참조와 비소유 참조를 사용하면 메모리 관리가 용이해집니다.
