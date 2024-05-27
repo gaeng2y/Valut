@@ -85,3 +85,5 @@ https://developer.apple.com/documentation/swift/choosing-between-structures-and-
 
 - **프로토콜 상속**: 프로토콜 상속을 사용하여 구조체, 클래스, 열거형 모두 상속 계층에 참여할 수 있도록 합니다.
 - **구조체 채택**: 데이터 유형의 계층 구조를 구축할 때 프로토콜 상속을 선호하고, 해당 프로토콜을 구조체에 채택합니다.
+
+ID -> 인스턴스 구분이 필요한가 안필요한가

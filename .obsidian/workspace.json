@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 344.5
   },
   "right": {
     "id": "9843e891487ed6f6",
@@ -149,19 +149,19 @@
   },
   "active": "477f62534f08260b",
   "lastOpenFiles": [
-    "F-lab 멘토링/1달-1주차/Swift Data Structure.md",
+    "F-lab 멘토링/1달-1주차/유니코드 문자열과 기본 문자열의 성능 차이.md",
     "F-lab 멘토링/1달-1주차/웹 뷰에서 자바스크립트와 상호작용.md",
+    "F-lab 멘토링/1달-1주차/Swift Data Structure.md",
     "F-lab 멘토링/1달-1주차/Choosing Between Structures and Classes.md",
+    "F-lab 멘토링/1달-1주차/AutoReleasePool.md",
+    "F-lab 멘토링/1달-1주차/POP.md",
+    "F-lab 멘토링/1달-1주차/Swift의 캡쳐 리스트.md",
     "F-lab 멘토링/1달-1주차/Deinitialization.md",
     "F-lab 멘토링/1달-1주차/Single Source of truth.md",
     "F-lab 멘토링/1달-1주차/Notification Center VS Delegate Pattern.md",
-    "F-lab 멘토링/1달-1주차/POP.md",
     "WWDC/WWDC 15/Protocol-Oriented Programming in Swift/Protocol-Oriented Programming in Swift.md",
-    "F-lab 멘토링/1달-1주차/Swift의 캡쳐 리스트.md",
     "F-lab 멘토링/1달-1주차/Swift 지정, 편의 생성자.md",
-    "F-lab 멘토링/1달-1주차/유니코드 문자열과 기본 문자열의 성능 차이.md",
     "F-lab 멘토링/1달-1주차/Objective-C vs Swift differences.md",
-    "F-lab 멘토링/1달-1주차/AutoReleasePool.md",
     "The RED 슈퍼앱 운영을 위한 확장성 높은 앱 아키텍처 구축/RIBs.md",
     "Trouble shooting/무제 파일.md",
     "F-lab 멘토링/1달-1주차",

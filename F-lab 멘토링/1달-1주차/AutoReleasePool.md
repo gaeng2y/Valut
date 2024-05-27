@@ -61,3 +61,5 @@ func useManyImages() {
 AutoReleasePool의 블럭이 종료됨과 동시에 풀 안의 AutoRelease 객체들의 메모리가 모두 해제된다.
 
 ![](https://i.sstatic.net/O69I7.png)
+
+### 순수 스위프트 객체에서의 어떨지 찾아보기
