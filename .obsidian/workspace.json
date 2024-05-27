@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "F-lab 멘토링/1달-1주차/Notification Center VS Delegate Pattern.md",
+                "file": "F-lab 멘토링/1달-1주차/Swift의 캡쳐 리스트.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "F-lab 멘토링/1달-1주차/Notification Center VS Delegate Pattern.md",
+                "file": "F-lab 멘토링/1달-1주차/Swift의 캡쳐 리스트.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "F-lab 멘토링/1달-1주차/Notification Center VS Delegate Pattern.md",
+                "file": "F-lab 멘토링/1달-1주차/Swift의 캡쳐 리스트.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "F-lab 멘토링/1달-1주차/Notification Center VS Delegate Pattern.md"
+                "file": "F-lab 멘토링/1달-1주차/Swift의 캡쳐 리스트.md"
               }
             }
           }
@@ -149,16 +149,18 @@
   },
   "active": "477f62534f08260b",
   "lastOpenFiles": [
+    "F-lab 멘토링/1달-1주차/Swift Data Structure.md",
+    "F-lab 멘토링/1달-1주차/웹 뷰에서 자바스크립트와 상호작용.md",
+    "F-lab 멘토링/1달-1주차/Choosing Between Structures and Classes.md",
+    "F-lab 멘토링/1달-1주차/Deinitialization.md",
     "F-lab 멘토링/1달-1주차/Single Source of truth.md",
     "F-lab 멘토링/1달-1주차/Notification Center VS Delegate Pattern.md",
     "F-lab 멘토링/1달-1주차/POP.md",
     "WWDC/WWDC 15/Protocol-Oriented Programming in Swift/Protocol-Oriented Programming in Swift.md",
     "F-lab 멘토링/1달-1주차/Swift의 캡쳐 리스트.md",
-    "F-lab 멘토링/1달-1주차/Deinitialization.md",
     "F-lab 멘토링/1달-1주차/Swift 지정, 편의 생성자.md",
     "F-lab 멘토링/1달-1주차/유니코드 문자열과 기본 문자열의 성능 차이.md",
     "F-lab 멘토링/1달-1주차/Objective-C vs Swift differences.md",
-    "F-lab 멘토링/1달-1주차/Choosing Between Structures and Classes.md",
     "F-lab 멘토링/1달-1주차/AutoReleasePool.md",
     "The RED 슈퍼앱 운영을 위한 확장성 높은 앱 아키텍처 구축/RIBs.md",
     "Trouble shooting/무제 파일.md",
@@ -186,9 +188,7 @@
     "𐂮 Resources/Pasted image 20240507122013.png",
     "𐂮 Resources/Pasted image 20240507121953.png",
     "𐂮 Resources/Pasted image 20240507121941.png",
-    "Trouble shooting/iOS Shadow 살펴보기.md",
     "WWDC/WWDC 18/iOS Memory Deep Dive",
-    "WWDC/추천 WWDC.md",
     "WWDC/WWDC 18",
     "Point-Free/1 ~ 10",
     "Computational Thinking/무제 파일.canvas",
