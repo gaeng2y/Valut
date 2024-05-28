@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "F-lab 멘토링/1달-2주차/cpu.land.md",
+                "file": "F-lab 멘토링/1달-2주차/Hash Collision.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "F-lab 멘토링/1달-2주차/cpu.land.md",
+                "file": "F-lab 멘토링/1달-2주차/Hash Collision.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "F-lab 멘토링/1달-2주차/cpu.land.md",
+                "file": "F-lab 멘토링/1달-2주차/Hash Collision.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "F-lab 멘토링/1달-2주차/cpu.land.md"
+                "file": "F-lab 멘토링/1달-2주차/Hash Collision.md"
               }
             }
           }
@@ -150,6 +150,7 @@
   "active": "477f62534f08260b",
   "lastOpenFiles": [
     "F-lab 멘토링/1달-2주차/CPU 스케쥴링.md",
+    "F-lab 멘토링/1달-2주차/Hash Collision.md",
     "F-lab 멘토링/1달-2주차/cpu.land.md",
     "F-lab 멘토링/1달-1주차/Swift 지정, 편의 생성자.md",
     "F-lab 멘토링/1달-2주차",
@@ -179,7 +180,6 @@
     "WWDC/WWDC 18/iOS Memory Deep Dive/iOS Memory Deep Dive.md",
     "Trouble shooting/UISegmentedControl 커스텀하기.md",
     "𐂮 Resources/Pasted image 20240509153112.png",
-    "Trouble shooting/Pull to Refresh.md",
     "𐂮 Resources/Pasted image 20240508120301.png",
     "𐂮 Resources/Pasted image 20240508114925.png",
     "𐂮 Resources/Pasted image 20240507134435.png",
