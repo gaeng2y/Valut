@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "F-lab 멘토링/1달-2주차/GeeksForGeeks.org.md",
+                "file": "F-lab 멘토링/1달-2주차/운영 체제의 CPU 스케줄링.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "F-lab 멘토링/1달-2주차/GeeksForGeeks.org.md",
+                "file": "F-lab 멘토링/1달-2주차/운영 체제의 CPU 스케줄링.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "F-lab 멘토링/1달-2주차/GeeksForGeeks.org.md",
+                "file": "F-lab 멘토링/1달-2주차/운영 체제의 CPU 스케줄링.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "F-lab 멘토링/1달-2주차/GeeksForGeeks.org.md"
+                "file": "F-lab 멘토링/1달-2주차/운영 체제의 CPU 스케줄링.md"
               }
             }
           }
@@ -150,6 +150,7 @@
   "active": "477f62534f08260b",
   "lastOpenFiles": [
     "F-lab 멘토링/1달-2주차/CPU 스케쥴링.md",
+    "F-lab 멘토링/1달-2주차/운영 체제의 CPU 스케줄링.md",
     "F-lab 멘토링/1달-2주차/GeeksForGeeks.org.md",
     "F-lab 멘토링/1달-2주차/Hash Collision.md",
     "F-lab 멘토링/1달-2주차/cpu.land.md",
@@ -178,7 +179,6 @@
     "웹, 네트워크/Chapter 1.md",
     "conflict-files-obsidian-git.md",
     "The RED 슈퍼앱 운영을 위한 확장성 높은 앱 아키텍처 구축",
-    "WWDC/WWDC 18/iOS Memory Deep Dive/iOS Memory Deep Dive.md",
     "𐂮 Resources/Pasted image 20240509153112.png",
     "𐂮 Resources/Pasted image 20240508120301.png",
     "𐂮 Resources/Pasted image 20240508114925.png",
