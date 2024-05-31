@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "606f562646bfdf9e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "F-lab 멘토링/1달-2주차/운영 체제의 CPU 스케줄링.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "F-lab 멘토링/1달-2주차/운영 체제의 CPU 스케줄링.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "F-lab 멘토링/1달-2주차/운영 체제의 CPU 스케줄링.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           }
@@ -147,10 +160,13 @@
       "templates:템플릿 삽입": false
     }
   },
-  "active": "477f62534f08260b",
+  "active": "606f562646bfdf9e",
   "lastOpenFiles": [
-    "F-lab 멘토링/1달-2주차/CPU 스케쥴링.md",
     "F-lab 멘토링/1달-2주차/운영 체제의 CPU 스케줄링.md",
+    "conflict-files-obsidian-git.md",
+    "Trouble shooting/하트픽 투표 관련.md",
+    "F-lab 멘토링/1달-1주차/??.md",
+    "F-lab 멘토링/1달-2주차/CPU 스케쥴링.md",
     "F-lab 멘토링/1달-2주차/GeeksForGeeks.org.md",
     "F-lab 멘토링/1달-2주차/Hash Collision.md",
     "F-lab 멘토링/1달-2주차/cpu.land.md",
@@ -175,9 +191,6 @@
     "The RED 슈퍼앱 운영을 위한 확장성 높은 앱 아키텍처 구축/Composition.md",
     "웹, 네트워크/Chatper 3.md",
     "앱과 비즈니스 로직.md",
-    "웹, 네트워크/Chapter 2.md",
-    "웹, 네트워크/Chapter 1.md",
-    "conflict-files-obsidian-git.md",
     "The RED 슈퍼앱 운영을 위한 확장성 높은 앱 아키텍처 구축",
     "𐂮 Resources/Pasted image 20240509153112.png",
     "𐂮 Resources/Pasted image 20240508120301.png",
