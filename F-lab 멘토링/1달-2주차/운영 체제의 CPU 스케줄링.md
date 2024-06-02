@@ -11,3 +11,17 @@
 - 데이터 **클래스는** 전역 변수와 정적 변수로 구성되며 주요 작업 이전에 배포 및 실행됩니다.
 - [힙은](http://www.geeksforgeeks.org/binary-heap/) 유연하거나 동적 메모리 할당에 사용되며 new, delete, malloc, free 등에 대한 호출로 관리됩니다.
 - 스택 [은](https://www.geeksforgeeks.org/stack-data-structure/) 지역 변수에 사용됩니다. 스택의 공간은 선언될 때 지역 변수를 위해 예약되어 있습니다.
+
+![image1](https://media.geeksforgeeks.org/wp-content/uploads/memoryLayoutC.jpg)
+
+## 프로세스 스케줄링이란 무엇입니까?
+프로세스 스케줄링은 **프로세스 관리자가 CPU에서 활성 프로세스를 제거하고 특정 전략에 따라 다른 프로세스를 선택하는 프로세스**다.
+
+프로세스 스케줄링은 다중 프로그래밍 애플리케이션의 필수적인 부분이다. 이러한 운영 체제에서는 한 번에 둘 이상의 프로세스를 사용 가능한 메모리에 로드할 수 있으며 로드된 공유 CPU 프로세스는 반복 시간을 사용한다.
+
+[프로세스 스케줄러](https://www.geeksforgeeks.org/process-schedulers-in-operating-system/) 에는 세 가지 유형이 있습니다 .
+
+- 장기 또는 작업 스케줄러
+- 단기 또는 CPU 스케줄러 
+- 중기 스케줄러
+
