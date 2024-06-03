@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "F-lab 멘토링/1달-2주차/Instruments.md",
+                "file": "F-lab 멘토링/1달-2주차/cpu.land.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "F-lab 멘토링/1달-2주차/Instruments.md",
+                "file": "F-lab 멘토링/1달-2주차/cpu.land.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "F-lab 멘토링/1달-2주차/Instruments.md",
+                "file": "F-lab 멘토링/1달-2주차/cpu.land.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "F-lab 멘토링/1달-2주차/Instruments.md"
+                "file": "F-lab 멘토링/1달-2주차/cpu.land.md"
               }
             }
           }
@@ -149,25 +149,26 @@
   },
   "active": "477f62534f08260b",
   "lastOpenFiles": [
-    "F-lab 멘토링/1달-2주차/Mutax, lock, semaphore 특징.md",
-    "F-lab 멘토링/1달-2주차/Instruments들 훑어보기.md",
-    "F-lab 멘토링/1달-2주차/컨텍스트 스위칭.md",
-    "F-lab 멘토링/1달-2주차/프로세스 관리.md",
+    "F-lab 멘토링/1달-2주차/Hash Collision.md",
+    "F-lab 멘토링/1달-2주차/CPU 스케쥴링.md",
+    "F-lab 멘토링/1달-2주차/TCP, UDP 차이.md",
     "F-lab 멘토링/1달-2주차/Instruments.md",
+    "F-lab 멘토링/1달-2주차/Mutax, lock, semaphore 특징.md",
+    "F-lab 멘토링/1달-2주차/cpu.land.md",
+    "F-lab 멘토링/1달-2주차/컨텍스트 스위칭.md",
+    "F-lab 멘토링/1달-2주차/운영 체제의 CPU 스케줄링.md",
+    "F-lab 멘토링/1달-2주차/프로세스와 스레드 차이.md",
+    "F-lab 멘토링/1달-2주차/Instruments들 훑어보기.md",
+    "F-lab 멘토링/1달-2주차/프로세스 관리.md",
     "𐂮 Resources/Pasted image 20240603204810.png",
     "𐂮 Resources/Pasted image 20240603204114.png",
     "𐂮 Resources/Pasted image 20240603204111.png",
     "𐂮 Resources/Pasted image 20240603204109.png",
     "F-lab 멘토링/1달-2주차/OS의 스레드.md",
-    "F-lab 멘토링/1달-2주차/운영 체제의 CPU 스케줄링.md",
-    "F-lab 멘토링/1달-2주차/cpu.land.md",
-    "F-lab 멘토링/1달-2주차/TCP, UDP 차이.md",
     "conflict-files-obsidian-git.md",
     "Trouble shooting/하트픽 투표 관련.md",
     "F-lab 멘토링/1달-1주차/??.md",
-    "F-lab 멘토링/1달-2주차/CPU 스케쥴링.md",
     "F-lab 멘토링/1달-2주차/GeeksForGeeks.org.md",
-    "F-lab 멘토링/1달-2주차/Hash Collision.md",
     "F-lab 멘토링/1달-1주차/Swift 지정, 편의 생성자.md",
     "F-lab 멘토링/1달-2주차",
     "F-lab 멘토링/1달-1주차/웹 뷰에서 자바스크립트와 상호작용.md",
@@ -179,7 +180,6 @@
     "F-lab 멘토링/1달-1주차/유니코드 문자열과 기본 문자열의 성능 차이.md",
     "F-lab 멘토링/1달-1주차/Swift Data Structure.md",
     "F-lab 멘토링/1달-1주차/Choosing Between Structures and Classes.md",
-    "F-lab 멘토링/1달-1주차/AutoReleasePool.md",
     "F-lab 멘토링/1달-1주차",
     "F-lab 멘토링",
     "The RED 슈퍼앱 운영을 위한 확장성 높은 앱 아키텍처 구축",
