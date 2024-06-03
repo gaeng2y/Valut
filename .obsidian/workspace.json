@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Trouble shooting/하트픽 투표 관련.md",
+                "file": "F-lab 멘토링/1달-2주차/운영 체제의 CPU 스케줄링.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Trouble shooting/하트픽 투표 관련.md",
+                "file": "F-lab 멘토링/1달-2주차/운영 체제의 CPU 스케줄링.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Trouble shooting/하트픽 투표 관련.md",
+                "file": "F-lab 멘토링/1달-2주차/운영 체제의 CPU 스케줄링.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Trouble shooting/하트픽 투표 관련.md"
+                "file": "F-lab 멘토링/1달-2주차/운영 체제의 CPU 스케줄링.md"
               }
             }
           }
@@ -149,13 +149,13 @@
   },
   "active": "477f62534f08260b",
   "lastOpenFiles": [
+    "Trouble shooting/하트픽 투표 관련.md",
     "F-lab 멘토링/1달-2주차/TCP, UDP 차이.md",
     "F-lab 멘토링/1달-2주차/Instruments들 훑어보기.md",
     "F-lab 멘토링/1달-2주차/운영 체제의 CPU 스케줄링.md",
     "F-lab 멘토링/1달-1주차/??.md",
     "Trouble shooting/이미지 스크롤 뷰.md",
     "Trouble shooting/Access Token 관련.md",
-    "Trouble shooting/하트픽 투표 관련.md",
     "F-lab 멘토링/1달-1주차/유니코드 문자열과 기본 문자열의 성능 차이.md",
     "F-lab 멘토링/1달-2주차/cpu.land.md",
     "F-lab 멘토링/1달-2주차/Hash Collision.md",
