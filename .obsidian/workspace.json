@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "a7f5b91308d068ed",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "F-lab 멘토링/1달-2주차/CPU 스케줄링 기준.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "F-lab 멘토링/1달-2주차/CPU 스케줄링 기준.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "F-lab 멘토링/1달-2주차/CPU 스케줄링 기준.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           }
@@ -147,10 +160,11 @@
       "templates:템플릿 삽입": false
     }
   },
-  "active": "477f62534f08260b",
+  "active": "a7f5b91308d068ed",
   "lastOpenFiles": [
-    "F-lab 멘토링/1달-2주차/운영 체제의 CPU 스케줄링.md",
+    "conflict-files-obsidian-git.md",
     "F-lab 멘토링/1달-2주차/CPU 스케줄링 기준.md",
+    "F-lab 멘토링/1달-2주차/운영 체제의 CPU 스케줄링.md",
     "F-lab 멘토링/1달-2주차/CPU 스케쥴링.md",
     "F-lab 멘토링/1달-2주차/OS의 스레드.md",
     "F-lab 멘토링/1달-2주차/컨텍스트 스위칭.md",
@@ -167,7 +181,6 @@
     "𐂮 Resources/Pasted image 20240603204114.png",
     "𐂮 Resources/Pasted image 20240603204111.png",
     "𐂮 Resources/Pasted image 20240603204109.png",
-    "conflict-files-obsidian-git.md",
     "Trouble shooting/하트픽 투표 관련.md",
     "F-lab 멘토링/1달-1주차/??.md",
     "F-lab 멘토링/1달-2주차/GeeksForGeeks.org.md",
