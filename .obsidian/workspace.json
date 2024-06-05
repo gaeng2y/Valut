@@ -13,13 +13,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "F-lab 멘토링/1달-2주차/CPU 스케줄링 기준.md",
+                "file": "F-lab 멘토링/3주차/1달-3주차.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e9d8cd6532f2389d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "F-lab 멘토링/3주차/1달-3주차.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "dc63ca0513fb7ca8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "F-lab 멘토링/3주차/Priority Inversion.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -85,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "F-lab 멘토링/1달-2주차/CPU 스케줄링 기준.md",
+                "file": "F-lab 멘토링/3주차/Priority Inversion.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "F-lab 멘토링/1달-2주차/CPU 스케줄링 기준.md",
+                "file": "F-lab 멘토링/3주차/Priority Inversion.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "F-lab 멘토링/1달-2주차/CPU 스케줄링 기준.md"
+                "file": "F-lab 멘토링/3주차/Priority Inversion.md"
               }
             }
           }
@@ -147,10 +172,13 @@
       "templates:템플릿 삽입": false
     }
   },
-  "active": "477f62534f08260b",
+  "active": "dc63ca0513fb7ca8",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
+    "F-lab 멘토링/3주차/1달-3주차.md",
+    "F-lab 멘토링/3주차/Priority Inversion.md",
+    "F-lab 멘토링/3주차",
     "F-lab 멘토링/1달-2주차/CPU 스케줄링 기준.md",
+    "conflict-files-obsidian-git.md",
     "F-lab 멘토링/1달-2주차/운영 체제의 CPU 스케줄링.md",
     "F-lab 멘토링/1달-2주차/CPU 스케쥴링.md",
     "F-lab 멘토링/1달-2주차/OS의 스레드.md",
@@ -158,7 +186,6 @@
     "F-lab 멘토링/1달-2주차/Mutax, lock, semaphore 특징.md",
     "F-lab 멘토링/1달-2주차/cpu.land.md",
     "F-lab 멘토링/1달-2주차/프로세스 관리.md",
-    "F-lab 멘토링/1달-3주차.md",
     "F-lab 멘토링/1달-2주차/Hash Collision.md",
     "F-lab 멘토링/1달-2주차/TCP, UDP 차이.md",
     "F-lab 멘토링/1달-2주차/Instruments.md",
@@ -179,7 +206,6 @@
     "F-lab 멘토링/1달-1주차/POP.md",
     "F-lab 멘토링/1달-1주차/Deinitialization.md",
     "F-lab 멘토링/1달-1주차/Swift의 캡쳐 리스트.md",
-    "F-lab 멘토링/1달-1주차/유니코드 문자열과 기본 문자열의 성능 차이.md",
     "F-lab 멘토링/1달-1주차",
     "F-lab 멘토링",
     "The RED 슈퍼앱 운영을 위한 확장성 높은 앱 아키텍처 구축",
@@ -194,7 +220,6 @@
     "Point-Free/1 ~ 10",
     "Computational Thinking/무제 파일.canvas",
     "Point-Free",
-    "𐂮 Resources/Simulator Screen Recording - iPhone 15 Pro - 2024-04-12 at 01.02.43.mp4",
-    "WWDC/WWDC 16/Understanding Swift Performance"
+    "𐂮 Resources/Simulator Screen Recording - iPhone 15 Pro - 2024-04-12 at 01.02.43.mp4"
   ]
 }
