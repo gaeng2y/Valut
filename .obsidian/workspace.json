@@ -8,43 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "477f62534f08260b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "F-lab 멘토링/3주차/1달-3주차.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e9d8cd6532f2389d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "F-lab 멘토링/3주차/1달-3주차.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "dc63ca0513fb7ca8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "F-lab 멘토링/3주차/Priority Inversion.md",
+                "file": "F-lab 멘토링/3주차/Understanding Auto Layout.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "F-lab 멘토링/3주차/Priority Inversion.md",
+                "file": "F-lab 멘토링/3주차/Understanding Auto Layout.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "F-lab 멘토링/3주차/Priority Inversion.md",
+                "file": "F-lab 멘토링/3주차/Understanding Auto Layout.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "F-lab 멘토링/3주차/Priority Inversion.md"
+                "file": "F-lab 멘토링/3주차/Understanding Auto Layout.md"
               }
             }
           }
@@ -174,9 +149,10 @@
   },
   "active": "dc63ca0513fb7ca8",
   "lastOpenFiles": [
+    "F-lab 멘토링/3주차/Priority Inversion.md",
+    "F-lab 멘토링/3주차/Understanding Auto Layout.md",
     "𐂮 Resources/Pasted image 20240606234452.png",
     "F-lab 멘토링/3주차/1달-3주차.md",
-    "F-lab 멘토링/3주차/Priority Inversion.md",
     "F-lab 멘토링/3주차",
     "F-lab 멘토링/1달-2주차/CPU 스케줄링 기준.md",
     "conflict-files-obsidian-git.md",
@@ -214,7 +190,6 @@
     "𐂮 Resources/Pasted image 20240508114925.png",
     "𐂮 Resources/Pasted image 20240507134435.png",
     "𐂮 Resources/Pasted image 20240507134427.png",
-    "𐂮 Resources/Pasted image 20240507134416.png",
     "WWDC/WWDC 18/iOS Memory Deep Dive",
     "WWDC/WWDC 18",
     "Point-Free/1 ~ 10",
