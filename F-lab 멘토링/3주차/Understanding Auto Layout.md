@@ -37,3 +37,29 @@
 셋째, 언어를 변경하는 것은 텍스트의 크기뿐만 아니라 레이아웃의 구성에도 영향을 미칠 수 있다. 다른 언어는 다른 레이아웃 방향을 사용한다. 예를 들어, 영어는 왼쪽에서 오른쪽 레이아웃 방향을 사용하고, 아랍어와 히브리어는 오른쪽에서 왼쪽 레이아웃 방향을 사용합니다. 일반적으로, 사용자 인터페이스 요소의 순서는 레이아웃 방향과 일치해야 한다. 버튼이 영어로 보기의 오른쪽 하단 모서리에 있다면, 아랍어로 왼쪽 하단에 있어야 합니다.
 
 마지막으로, iOS 앱이 동적 유형을 지원하는 경우, 사용자는 앱에서 사용되는 글꼴 크기를 변경할 수 있습니다. 이렇게 하면 사용자 인터페이스의 모든 텍스트 요소의 높이와 너비를 모두 변경할 수 있습니다. 앱이 실행되는 동안 사용자가 글꼴 크기를 변경하면, 글꼴과 레이아웃이 모두 조정되어야 합니다.
+
+### 자동 레이아웃 대 프레임 기반 레이아웃
+
+사용자 인터페이스를 배치하기 위한 세 가지 주요 접근 방식이 있다. 사용자 인터페이스를 프로그래밍 방식으로 배치할 수 있고, 자동 크기 조정 마스크를 사용하여 외부 변경에 대한 일부 응답을 자동화하거나, 자동 레이아웃을 사용할 수 있습니다.
+
+전통적으로, 앱은 뷰 계층 구조에서 각 뷰의 프레임을 프로그래밍 방식으로 설정하여 사용자 인터페이스를 배치했다. 프레임은 슈퍼뷰의 좌표계에서 뷰의 원점, 높이 및 너비를 정의했다.
+
+![](Pasted%20image%2020240608015031.png)
+
+사용자 인터페이스를 배치하려면, 보기 계층 구조의 모든 보기의 크기와 위치를 계산해야 했습니다. 그런 다음, 변경이 발생하면, 영향을 받은 모든 뷰에 대한 프레임을 다시 계산해야 했습니다.
+
+여러 면에서, 뷰의 프레임을 프로그래밍 방식으로 정의하는 것은 가장 유연성과 힘을 제공한다. 변화가 일어날 때, 당신은 말 그대로 당신이 원하는 변화를 만들 수 있습니다. 그러나 모든 변경 사항을 직접 관리해야 하기 때문에 간단한 사용자 인터페이스를 설계, 디버그 및 유지하는 데 상당한 노력이 필요합니다. 진정으로 적응력 있는 사용자 인터페이스를 만드는 것은 난이도를 한 단계씩 증가시킨다.
+
+이러한 노력의 일부를 완화하기 위해 자동 크기 조정 마스크를 사용할 수 있습니다. 자동 크기 조정 마스크는 슈퍼뷰의 프레임이 바뀔 때 뷰의 프레임이 어떻게 변하는지 정의합니다. 이것은 외부 변화에 적응하는 레이아웃의 생성을 단순화한다.
+
+그러나, 자동 조정 마스크는 가능한 레이아웃의 상대적으로 작은 하위 집합을 지원한다. 복잡한 사용자 인터페이스의 경우, 일반적으로 자체 프로그래밍 변경으로 자동 조정 마스크를 보강해야 합니다. 게다가, 자동 조정 마스크는 외부 변화에만 적응한다. 그들은 내부 변화를 지지하지 않는다.
+
+자동 조정 마스크는 프로그래밍 레이아웃의 반복적인 개선일 뿐이지만, 자동 레이아웃은 완전히 새로운 패러다임을 나타낸다. 뷰의 틀에 대해 생각하는 대신, 당신은 그 관계에 대해 생각합니다.
+
+자동 레이아웃은 일련의 제약 조건을 사용하여 사용자 인터페이스를 정의합니다. 제약은 일반적으로 두 견해 사이의 관계를 나타낸다. 그런 다음 자동 레이아웃은 이러한 제약 조건에 따라 각 뷰의 크기와 위치를 계산합니다. 이것은 내부 및 외부 변화에 동적으로 반응하는 레이아웃을 생성합니다.
+
+![](Pasted%20image%2020240608015043.png)
+
+특정 동작을 만들기 위해 일련의 제약 조건을 설계하는 데 사용되는 논리는 절차적 또는 객체 지향 코드를 작성하는 데 사용되는 논리와 매우 다르다. 다행히도, 자동 레이아웃을 마스터하는 것은 다른 프로그래밍 작업을 마스터하는 것과 다르지 않다. 두 가지 기본 단계가 있습니다: 먼저 제약 기반 레이아웃의 논리를 이해한 다음 API를 배워야 합니다. 다른 프로그래밍 작업을 배울 때 이러한 단계를 성공적으로 수행했습니다. 자동 레이아웃도 예외는 아니다.
+
+이 가이드의 나머지 부분은 자동 레이아웃으로 쉽게 전환할 수 있도록 설계되었습니다. [제약 없는 자동 레이아웃](https://developer.apple.com/library/archive/documentation/UserExperience/Conceptual/AutolayoutPG/AutoLayoutWithoutConstraints.html#//apple_ref/doc/uid/TP40010853-CH8-SW1) 장은 자동 레이아웃 지원 사용자 인터페이스의 생성을 단순화하는 높은 수준의 추상화를 설명합니다. [제약의 해부학](https://developer.apple.com/library/archive/documentation/UserExperience/Conceptual/AutolayoutPG/AnatomyofaConstraint.html#//apple_ref/doc/uid/TP40010853-CH9-SW1) 장은 자동 레이아웃과 성공적으로 상호 작용하기 위해 이해해야 할 배경 이론을 제공합니다. [인터페이스 빌더에서 제약 조건을 사용하는 것은](https://developer.apple.com/library/archive/documentation/UserExperience/Conceptual/AutolayoutPG/WorkingwithConstraintsinInterfaceBuidler.html#//apple_ref/doc/uid/TP40010853-CH10-SW1) 자동 레이아웃을 설계하기 위한 도구를 설명하고, [프로그래밍 방식으로 제약 조건](https://developer.apple.com/library/archive/documentation/UserExperience/Conceptual/AutolayoutPG/ProgrammaticallyCreatingConstraints.html#//apple_ref/doc/uid/TP40010853-CH16-SW1) 및 [자동 레이아웃](https://developer.apple.com/library/archive/documentation/UserExperience/Conceptual/AutolayoutPG/LayoutUsingStackViews.html#//apple_ref/doc/uid/TP40010853-CH3-SW1) [만들기](https://developer.apple.com/library/archive/documentation/UserExperience/Conceptual/AutolayoutPG/ProgrammaticallyCreatingConstraints.html#//apple_ref/doc/uid/TP40010853-CH16-SW1) [요리책](https://developer.apple.com/library/archive/documentation/UserExperience/Conceptual/AutolayoutPG/LayoutUsingStackViews.html#//apple_ref/doc/uid/TP40010853-CH3-SW1) 장은 API를 자세히 설명합니다. 마지막으로, [자동 레이아웃 요리책은](https://developer.apple.com/library/archive/documentation/UserExperience/Conceptual/AutolayoutPG/LayoutUsingStackViews.html#//apple_ref/doc/uid/TP40010853-CH3-SW1) 다양한 수준의 복잡성의 다양한 샘플 레이아웃을 제공하며, 자신의 프로젝트에서 연구하고 사용할 수 있으며, [자동 레이아웃 디버깅은](https://developer.apple.com/library/archive/documentation/UserExperience/Conceptual/AutolayoutPG/TypesofErrors.html#//apple_ref/doc/uid/TP40010853-CH22-SW1) 문제가 발생할 경우 문제를 해결하기 위한 조언과 도구를 제공합니다.
