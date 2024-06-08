@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "F-lab 멘토링/3주차/Understanding Auto Layout.md",
+                "file": "F-lab 멘토링/3주차/Priority Inversion.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "F-lab 멘토링/3주차/Understanding Auto Layout.md",
+                "file": "F-lab 멘토링/3주차/Priority Inversion.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "F-lab 멘토링/3주차/Understanding Auto Layout.md",
+                "file": "F-lab 멘토링/3주차/Priority Inversion.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "F-lab 멘토링/3주차/Understanding Auto Layout.md"
+                "file": "F-lab 멘토링/3주차/Priority Inversion.md"
               }
             }
           }
@@ -147,12 +147,12 @@
       "templates:템플릿 삽입": false
     }
   },
-  "active": "dc63ca0513fb7ca8",
+  "active": "160736a19be9866b",
   "lastOpenFiles": [
+    "F-lab 멘토링/3주차/Understanding Auto Layout.md",
     "𐂮 Resources/Pasted image 20240608015043.png",
     "𐂮 Resources/Pasted image 20240608015031.png",
     "F-lab 멘토링/3주차/Priority Inversion.md",
-    "F-lab 멘토링/3주차/Understanding Auto Layout.md",
     "𐂮 Resources/Pasted image 20240606234452.png",
     "F-lab 멘토링/3주차/1달-3주차.md",
     "F-lab 멘토링/3주차",
@@ -189,7 +189,6 @@
     "𐂮 Resources/Pasted image 20240509153112.png",
     "𐂮 Resources/Pasted image 20240508120301.png",
     "𐂮 Resources/Pasted image 20240508114925.png",
-    "𐂮 Resources/Pasted image 20240507134435.png",
     "WWDC/WWDC 18/iOS Memory Deep Dive",
     "WWDC/WWDC 18",
     "Point-Free/1 ~ 10",
