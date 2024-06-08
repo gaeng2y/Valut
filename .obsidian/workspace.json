@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "F-lab 멘토링/3주차/비연속 메모리 할당.md",
+                "file": "F-lab 멘토링/3주차/페이징.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "F-lab 멘토링/3주차/비연속 메모리 할당.md",
+                "file": "F-lab 멘토링/3주차/페이징.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "F-lab 멘토링/3주차/비연속 메모리 할당.md",
+                "file": "F-lab 멘토링/3주차/페이징.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "F-lab 멘토링/3주차/비연속 메모리 할당.md"
+                "file": "F-lab 멘토링/3주차/페이징.md"
               }
             }
           }
@@ -149,8 +149,10 @@
   },
   "active": "dc63ca0513fb7ca8",
   "lastOpenFiles": [
-    "F-lab 멘토링/3주차/연속 메모리 관리 기술의 구현.md",
+    "F-lab 멘토링/3주차/OS의 압축.md",
+    "F-lab 멘토링/3주차/페이징.md",
     "F-lab 멘토링/3주차/비연속 메모리 할당.md",
+    "F-lab 멘토링/3주차/연속 메모리 관리 기술의 구현.md",
     "F-lab 멘토링/3주차/OS에서의 메모리 관리.md",
     "F-lab 멘토링/3주차/Priority Inversion.md",
     "F-lab 멘토링/3주차/Context Switching.md",
@@ -181,9 +183,7 @@
     "Trouble shooting/하트픽 투표 관련.md",
     "F-lab 멘토링/1달-1주차/??.md",
     "F-lab 멘토링/1달-2주차/GeeksForGeeks.org.md",
-    "F-lab 멘토링/1달-1주차/Swift 지정, 편의 생성자.md",
     "F-lab 멘토링/1달-2주차",
-    "F-lab 멘토링/1달-1주차/웹 뷰에서 자바스크립트와 상호작용.md",
     "F-lab 멘토링/1달-1주차",
     "F-lab 멘토링",
     "The RED 슈퍼앱 운영을 위한 확장성 높은 앱 아키텍처 구축",
