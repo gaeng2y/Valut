@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "F-lab 멘토링/3주차/페이징.md",
+                "file": "F-lab 멘토링/3주차/물리미 UML.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "F-lab 멘토링/3주차/페이징.md",
+                "file": "F-lab 멘토링/3주차/물리미 UML.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "F-lab 멘토링/3주차/페이징.md",
+                "file": "F-lab 멘토링/3주차/물리미 UML.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "F-lab 멘토링/3주차/페이징.md"
+                "file": "F-lab 멘토링/3주차/물리미 UML.md"
               }
             }
           }
@@ -149,8 +149,10 @@
   },
   "active": "dc63ca0513fb7ca8",
   "lastOpenFiles": [
-    "F-lab 멘토링/3주차/OS의 압축.md",
+    "𐂮 Resources/UML.png",
     "F-lab 멘토링/3주차/페이징.md",
+    "F-lab 멘토링/3주차/물리미 UML.md",
+    "F-lab 멘토링/3주차/OS의 압축.md",
     "F-lab 멘토링/3주차/비연속 메모리 할당.md",
     "F-lab 멘토링/3주차/연속 메모리 관리 기술의 구현.md",
     "F-lab 멘토링/3주차/OS에서의 메모리 관리.md",
@@ -181,8 +183,6 @@
     "𐂮 Resources/Pasted image 20240603204111.png",
     "𐂮 Resources/Pasted image 20240603204109.png",
     "Trouble shooting/하트픽 투표 관련.md",
-    "F-lab 멘토링/1달-1주차/??.md",
-    "F-lab 멘토링/1달-2주차/GeeksForGeeks.org.md",
     "F-lab 멘토링/1달-2주차",
     "F-lab 멘토링/1달-1주차",
     "F-lab 멘토링",
