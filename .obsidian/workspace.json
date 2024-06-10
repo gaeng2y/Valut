@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "F-lab 멘토링/1달-2주차/운영 체제의 CPU 스케줄링.md",
+                "file": "F-lab 멘토링/3주차/WidgetKit.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "F-lab 멘토링/1달-2주차/운영 체제의 CPU 스케줄링.md",
+                "file": "F-lab 멘토링/3주차/WidgetKit.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "F-lab 멘토링/1달-2주차/운영 체제의 CPU 스케줄링.md",
+                "file": "F-lab 멘토링/3주차/WidgetKit.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "F-lab 멘토링/1달-2주차/운영 체제의 CPU 스케줄링.md"
+                "file": "F-lab 멘토링/3주차/WidgetKit.md"
               }
             }
           }
@@ -149,6 +149,10 @@
   },
   "active": "477f62534f08260b",
   "lastOpenFiles": [
+    "F-lab 멘토링/3주차/App Intent Framework.md",
+    "𐂮 Resources/Pasted image 20240610154516.png",
+    "F-lab 멘토링/3주차/WidgetKit.md",
+    "F-lab 멘토링/1달-2주차/운영 체제의 CPU 스케줄링.md",
     "F-lab 멘토링/1달-3주차.md",
     "𐂮 Resources/UML.png",
     "𐂮 Resources/Pasted image 20240608015043.png",
@@ -165,7 +169,6 @@
     "F-lab 멘토링/3주차/1달-3주차.md",
     "F-lab 멘토링/3주차",
     "F-lab 멘토링/1달-2주차/CPU 스케줄링 기준.md",
-    "F-lab 멘토링/1달-2주차/운영 체제의 CPU 스케줄링.md",
     "conflict-files-obsidian-git.md",
     "F-lab 멘토링/1달-2주차/프로세스와 스레드 차이.md",
     "F-lab 멘토링/1달-2주차/Mutax, lock, semaphore 특징.md",
@@ -176,19 +179,16 @@
     "𐂮 Resources/Pasted image 20240603204109.png",
     "F-lab 멘토링/1달-2주차/프로세스 관리.md",
     "F-lab 멘토링/1달-2주차/컨텍스트 스위칭.md",
-    "F-lab 멘토링/1달-2주차/무제 파일.md",
     "F-lab 멘토링/1달-2주차/OS의 스레드.md",
     "Trouble shooting/하트픽 투표 관련.md",
     "F-lab 멘토링/1달-2주차/TCP, UDP 차이.md",
     "F-lab 멘토링/1달-2주차/Instruments들 훑어보기.md",
     "F-lab 멘토링/1달-1주차/??.md",
-    "Trouble shooting/이미지 스크롤 뷰.md",
     "F-lab 멘토링/1달-2주차",
     "F-lab 멘토링/1달-1주차",
     "F-lab 멘토링",
     "The RED 슈퍼앱 운영을 위한 확장성 높은 앱 아키텍처 구축",
     "𐂮 Resources/Pasted image 20240509153112.png",
-    "𐂮 Resources/Pasted image 20240508120301.png",
     "WWDC/WWDC 18/iOS Memory Deep Dive",
     "WWDC/WWDC 18",
     "Point-Free/1 ~ 10",
