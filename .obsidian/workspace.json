@@ -13,7 +13,7 @@
             "state": {
               "type": "image",
               "state": {
-                "file": "𐂮 Resources/UML.png"
+                "file": "𐂮 Resources/UML2.png"
               }
             }
           }
@@ -83,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "𐂮 Resources/UML.png",
+                "file": "𐂮 Resources/UML2.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "𐂮 Resources/UML.png",
+                "file": "𐂮 Resources/UML2.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "𐂮 Resources/UML.png"
+                "file": "𐂮 Resources/UML2.png"
               }
             }
           }
@@ -145,10 +145,10 @@
       "templates:템플릿 삽입": false
     }
   },
-  "active": "dc63ca0513fb7ca8",
+  "active": "160736a19be9866b",
   "lastOpenFiles": [
     "F-lab 멘토링/3주차/물리미 UML.md",
-    "𐂮 Resources/UML.png",
+    "𐂮 Resources/UML2.png",
     "F-lab 멘토링/3주차/Tuist Survey.md",
     "F-lab 멘토링/3주차/HealthKit.md",
     "𐂮 Resources/Pasted image 20240610222120.png",
