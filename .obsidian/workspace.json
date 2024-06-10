@@ -11,9 +11,11 @@
             "id": "dc63ca0513fb7ca8",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "𐂮 Resources/UML2.png"
+                "file": "F-lab 멘토링/3주차/물리미 UML.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "𐂮 Resources/UML2.png",
+                "file": "F-lab 멘토링/3주차/물리미 UML.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "𐂮 Resources/UML2.png",
+                "file": "F-lab 멘토링/3주차/물리미 UML.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "𐂮 Resources/UML2.png"
+                "file": "F-lab 멘토링/3주차/물리미 UML.md"
               }
             }
           }
@@ -145,10 +147,10 @@
       "templates:템플릿 삽입": false
     }
   },
-  "active": "160736a19be9866b",
+  "active": "dc63ca0513fb7ca8",
   "lastOpenFiles": [
-    "F-lab 멘토링/3주차/물리미 UML.md",
     "𐂮 Resources/UML2.png",
+    "F-lab 멘토링/3주차/물리미 UML.md",
     "F-lab 멘토링/3주차/Tuist Survey.md",
     "F-lab 멘토링/3주차/HealthKit.md",
     "𐂮 Resources/Pasted image 20240610222120.png",

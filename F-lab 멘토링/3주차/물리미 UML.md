@@ -1,4 +1,4 @@
-![](https://github.com/gaeng2y/Valut/blob/main/%F0%90%82%AE%20Resources/UML.png?raw=true)
+![](https://github.com/gaeng2y/Valut/blob/main/%F0%90%82%AE%20Resources/UML2.png?raw=true)
 
 ### 설명
 
