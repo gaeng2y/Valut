@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "30a06dd1c5f65190",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "F-lab 멘토링/3주차/Tuist Survey.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "F-lab 멘토링/3주차/Tuist Survey.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "F-lab 멘토링/3주차/Tuist Survey.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           }
@@ -147,8 +160,18 @@
       "templates:템플릿 삽입": false
     }
   },
-  "active": "477f62534f08260b",
+  "active": "30a06dd1c5f65190",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "F-lab 멘토링/3주차/Tuist Survey.md",
+    "𐂮 Resources/UML2.png",
+    "𐂮 Resources/Pasted image 20240610222120.png",
+    "𐂮 Resources/Pasted image 20240610222050.png",
+    "𐂮 Resources/Pasted image 20240610222014.png",
+    "F-lab 멘토링/4주차/컨텍스트 스위칭.md",
+    "F-lab 멘토링/4주차/준비 내용.md",
+    "F-lab 멘토링/4주차/Network.md",
+    "F-lab 멘토링/4주차",
     "F-lab 멘토링/3주차/HealthKit.md",
     "F-lab 멘토링/3주차/물리미 UML.md",
     "F-lab 멘토링/3주차/비연속 메모리 할당.md",
@@ -156,7 +179,6 @@
     "F-lab 멘토링/3주차/페이징.md",
     "F-lab 멘토링/3주차/Mutax, lock, semaphore 특징.md",
     "F-lab 멘토링/1달-2주차/프로세스와 스레드 차이.md",
-    "F-lab 멘토링/3주차/Tuist Survey.md",
     "F-lab 멘토링/3주차/WidgetKit Survey.md",
     "F-lab 멘토링/3주차/Understanding Auto Layout.md",
     "F-lab 멘토링/3주차/App Intent Framework.md",
@@ -173,28 +195,18 @@
     "F-lab 멘토링/3주차/1달-3주차.md",
     "F-lab 멘토링/3주차",
     "F-lab 멘토링/1달-2주차/CPU 스케줄링 기준.md",
-    "conflict-files-obsidian-git.md",
     "F-lab 멘토링/1달-2주차/Instruments.md",
     "𐂮 Resources/Pasted image 20240603204810.png",
-    "𐂮 Resources/Pasted image 20240603204114.png",
-    "𐂮 Resources/Pasted image 20240603204111.png",
-    "𐂮 Resources/Pasted image 20240603204109.png",
     "F-lab 멘토링/1달-2주차/프로세스 관리.md",
     "F-lab 멘토링/1달-2주차/컨텍스트 스위칭.md",
-    "F-lab 멘토링/1달-2주차/OS의 스레드.md",
-    "Trouble shooting/하트픽 투표 관련.md",
-    "F-lab 멘토링/1달-2주차/TCP, UDP 차이.md",
-    "F-lab 멘토링/1달-2주차/Instruments들 훑어보기.md",
     "F-lab 멘토링/1달-2주차",
     "F-lab 멘토링/1달-1주차",
     "F-lab 멘토링",
     "The RED 슈퍼앱 운영을 위한 확장성 높은 앱 아키텍처 구축",
-    "𐂮 Resources/Pasted image 20240509153112.png",
     "WWDC/WWDC 18/iOS Memory Deep Dive",
     "WWDC/WWDC 18",
     "Point-Free/1 ~ 10",
     "Computational Thinking/무제 파일.canvas",
-    "Point-Free",
-    "𐂮 Resources/Simulator Screen Recording - iPhone 15 Pro - 2024-04-12 at 01.02.43.mp4"
+    "Point-Free"
   ]
 }
