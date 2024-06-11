@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "F-lab 멘토링/4주차/Network.md",
+                "file": "F-lab 멘토링/4주차/Context Switching.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "F-lab 멘토링/4주차/Network.md",
+                "file": "F-lab 멘토링/4주차/Context Switching.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "F-lab 멘토링/4주차/Network.md",
+                "file": "F-lab 멘토링/4주차/Context Switching.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "F-lab 멘토링/4주차/Network.md"
+                "file": "F-lab 멘토링/4주차/Context Switching.md"
               }
             }
           }
@@ -149,8 +149,10 @@
   },
   "active": "dc63ca0513fb7ca8",
   "lastOpenFiles": [
-    "F-lab 멘토링/4주차/컨텍스트 스위칭.md",
+    "F-lab 멘토링/4주차/무제 파일.md",
     "F-lab 멘토링/4주차/Network.md",
+    "F-lab 멘토링/4주차/준비 내용.md",
+    "F-lab 멘토링/4주차/Context Switching.md",
     "F-lab 멘토링/3주차/페이징.md",
     "F-lab 멘토링/3주차/연속 메모리 관리 기술의 구현.md",
     "F-lab 멘토링/3주차/비연속 메모리 할당.md",
@@ -163,7 +165,6 @@
     "F-lab 멘토링/3주차/물리미 UML.md",
     "F-lab 멘토링/3주차/OS의 압축.md",
     "F-lab 멘토링/3주차/Tuist Survey.md",
-    "F-lab 멘토링/4주차/준비 내용.md",
     "F-lab 멘토링/3주차/HealthKit.md",
     "F-lab 멘토링/4주차",
     "𐂮 Resources/UML2.png",
@@ -184,7 +185,6 @@
     "F-lab 멘토링/1달-2주차/CPU 스케쥴링.md",
     "F-lab 멘토링/1달-2주차/OS의 스레드.md",
     "F-lab 멘토링/1달-2주차/Mutax, lock, semaphore 특징.md",
-    "F-lab 멘토링/1달-2주차/cpu.land.md",
     "𐂮 Resources/Pasted image 20240603204810.png",
     "𐂮 Resources/Pasted image 20240603204114.png",
     "F-lab 멘토링/1달-2주차",
