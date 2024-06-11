@@ -18,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "30a06dd1c5f65190",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "F-lab 멘토링/3주차/Tuist Survey.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "F-lab 멘토링/3주차/Tuist Survey.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "conflict-files-obsidian-git.md"
+                "file": "F-lab 멘토링/3주차/Tuist Survey.md"
               }
             }
           }
@@ -160,7 +147,7 @@
       "templates:템플릿 삽입": false
     }
   },
-  "active": "30a06dd1c5f65190",
+  "active": "477f62534f08260b",
   "lastOpenFiles": [
     "conflict-files-obsidian-git.md",
     "F-lab 멘토링/3주차/Tuist Survey.md",
