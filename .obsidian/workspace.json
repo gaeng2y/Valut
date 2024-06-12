@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "F-lab 멘토링/4주차/스핀락.md",
+                "file": "F-lab 멘토링/4주차/준비 내용.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "F-lab 멘토링/4주차/스핀락.md",
+                "file": "F-lab 멘토링/4주차/준비 내용.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "F-lab 멘토링/4주차/스핀락.md",
+                "file": "F-lab 멘토링/4주차/준비 내용.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "F-lab 멘토링/4주차/스핀락.md"
+                "file": "F-lab 멘토링/4주차/준비 내용.md"
               }
             }
           }
@@ -149,9 +149,9 @@
   },
   "active": "dc63ca0513fb7ca8",
   "lastOpenFiles": [
+    "F-lab 멘토링/4주차/스핀락.md",
     "F-lab 멘토링/4주차/준비 내용.md",
     "F-lab 멘토링/4주차/Priority Inversion.md",
-    "F-lab 멘토링/4주차/스핀락.md",
     "F-lab 멘토링/4주차/Context Switching.md",
     "conflict-files-obsidian-git.md",
     "F-lab 멘토링/4주차/Network.md",
