@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "dc63ca0513fb7ca8",
+            "id": "477f62534f08260b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "F-lab 멘토링/4주차/MVC 다이어그램.md",
+                "file": "WWDC/WWDC 15/Protocol-Oriented Programming in Swift/Protocol-Oriented Programming in Swift.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 344.5
+    "width": 200
   },
   "right": {
     "id": "9843e891487ed6f6",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "F-lab 멘토링/4주차/MVC 다이어그램.md",
+                "file": "WWDC/WWDC 15/Protocol-Oriented Programming in Swift/Protocol-Oriented Programming in Swift.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "F-lab 멘토링/4주차/MVC 다이어그램.md",
+                "file": "WWDC/WWDC 15/Protocol-Oriented Programming in Swift/Protocol-Oriented Programming in Swift.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "F-lab 멘토링/4주차/MVC 다이어그램.md"
+                "file": "WWDC/WWDC 15/Protocol-Oriented Programming in Swift/Protocol-Oriented Programming in Swift.md"
               }
             }
           }
@@ -147,46 +147,46 @@
       "templates:템플릿 삽입": false
     }
   },
-  "active": "dc63ca0513fb7ca8",
+  "active": "477f62534f08260b",
   "lastOpenFiles": [
-    "F-lab 멘토링/4주차/준비 내용.md",
     "F-lab 멘토링/4주차/MVC 다이어그램.md",
-    "F-lab 멘토링/4주차/OS에서의 메모리 관리.md",
     "WWDC/WWDC 15/Protocol-Oriented Programming in Swift/POP 공유자료.md",
+    "WWDC/WWDC 15/Protocol-Oriented Programming in Swift/Protocol-Oriented Programming in Swift.md",
+    "WWDC/WWDC 16/Protocol and Value Oriented Programming in UIKit Apps/Protocol and Value Oriented Programming in UIKit Apps.md",
+    "WWDC/WWDC 16/Understanding Swift Performance/Understanding Swift Performance.md",
+    "F-lab 멘토링/4주차/OS에서의 메모리 관리.md",
+    "F-lab 멘토링/3주차/연속 메모리 관리 기술의 구현.md",
+    "F-lab 멘토링/3주차/Tuist Survey.md",
     "F-lab 멘토링/4주차/스핀락.md",
     "F-lab 멘토링/4주차/Priority Inversion.md",
     "F-lab 멘토링/4주차/Context Switching.md",
     "conflict-files-obsidian-git.md",
-    "F-lab 멘토링/4주차/Network.md",
-    "F-lab 멘토링/3주차/페이징.md",
-    "F-lab 멘토링/3주차/연속 메모리 관리 기술의 구현.md",
-    "F-lab 멘토링/3주차/비연속 메모리 할당.md",
-    "F-lab 멘토링/3주차/OS에서의 메모리 관리.md",
-    "F-lab 멘토링/3주차/Mutax, lock, semaphore 특징.md",
-    "F-lab 멘토링/1달-2주차/컨텍스트 스위칭.md",
-    "F-lab 멘토링/3주차/Priority Inversion.md",
-    "F-lab 멘토링/3주차/WidgetKit Survey.md",
-    "F-lab 멘토링/3주차/Understanding Auto Layout.md",
-    "F-lab 멘토링/3주차/물리미 UML.md",
-    "F-lab 멘토링/3주차/OS의 압축.md",
-    "F-lab 멘토링/3주차/Tuist Survey.md",
-    "F-lab 멘토링/3주차/HealthKit.md",
-    "F-lab 멘토링/4주차",
     "𐂮 Resources/UML2.png",
     "𐂮 Resources/Pasted image 20240610222120.png",
     "𐂮 Resources/Pasted image 20240610222050.png",
     "𐂮 Resources/Pasted image 20240610222014.png",
-    "𐂮 Resources/Pasted image 20240610154516.png",
+    "F-lab 멘토링/4주차/컨텍스트 스위칭.md",
+    "F-lab 멘토링/4주차/준비 내용.md",
+    "F-lab 멘토링/4주차/Network.md",
+    "F-lab 멘토링/4주차",
+    "F-lab 멘토링/3주차/HealthKit.md",
+    "F-lab 멘토링/3주차/물리미 UML.md",
+    "F-lab 멘토링/3주차/비연속 메모리 할당.md",
+    "F-lab 멘토링/3주차/페이징.md",
+    "F-lab 멘토링/3주차/Mutax, lock, semaphore 특징.md",
+    "F-lab 멘토링/1달-2주차/프로세스와 스레드 차이.md",
+    "F-lab 멘토링/3주차/WidgetKit Survey.md",
+    "F-lab 멘토링/3주차/Understanding Auto Layout.md",
     "F-lab 멘토링/3주차/App Intent Framework.md",
-    "F-lab 멘토링/3주차/Context Switching.md",
+    "𐂮 Resources/Pasted image 20240610154516.png",
+    "F-lab 멘토링/1달-2주차/운영 체제의 CPU 스케줄링.md",
+    "F-lab 멘토링/1달-3주차.md",
+    "𐂮 Resources/UML.png",
     "𐂮 Resources/Pasted image 20240608015043.png",
     "𐂮 Resources/Pasted image 20240608015031.png",
     "𐂮 Resources/Pasted image 20240606234452.png",
-    "F-lab 멘토링/3주차/1달-3주차.md",
     "F-lab 멘토링/3주차",
-    "F-lab 멘토링/1달-2주차/CPU 스케줄링 기준.md",
     "𐂮 Resources/Pasted image 20240603204810.png",
-    "𐂮 Resources/Pasted image 20240603204114.png",
     "F-lab 멘토링/1달-2주차",
     "F-lab 멘토링/1달-1주차",
     "F-lab 멘토링",
