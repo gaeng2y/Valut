@@ -277,3 +277,4 @@ struct FadeInOutView: View {
 
 -> 
 
+![](MVC-DrinkView.png)

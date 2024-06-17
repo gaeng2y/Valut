@@ -228,4 +228,6 @@ class DrinkViewController: UIViewController {
 }
 ```
 
-In this version, the `WaterIntakeIntent` acts as the bridge between the `WaterIntakeModel` and the view, managing the state and handling actions. This eliminates the need for a separate ViewModel class, adhering to the MVI (Model-View-Intent) pattern more closely.
+
+
+![](MVI.png)
