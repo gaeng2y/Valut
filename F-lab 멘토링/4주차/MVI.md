@@ -50,15 +50,24 @@ class WaterIntakeModel {
 }
 ```
 
-### ViewModel
+### Intent
 
 ```swift
 import Foundation
 import Combine
 
-class DrinkViewModel: ObservableObject {
-    @Published private(set) var state: WaterIntakeState
+class WaterIntakeIntent {
     private let model: WaterIntakeModel
+    private(set) var state: WaterIntakeState {
+        didSet {
+            stateSubject.send(state)
+        }
+    }
+    private let stateSubject = PassthroughSubject<WaterIntakeState, Never>()
+
+    var statePublisher: AnyPublisher<WaterIntakeState, Never> {
+        stateSubject.eraseToAnyPublisher()
+    }
 
     init(model: WaterIntakeModel) {
         self.model = model
@@ -90,9 +99,9 @@ class DrinkView: UIView {
     let resetButton = UIButton(type: .system)
     private var cancellables: Set<AnyCancellable> = []
     
-    var viewModel: DrinkViewModel! {
+    var intent: WaterIntakeIntent! {
         didSet {
-            bindViewModel()
+            bindIntent()
         }
     }
     
@@ -164,13 +173,13 @@ class DrinkView: UIView {
         ])
     }
     
-    private func bindViewModel() {
-        viewModel.$state
+    private func bindIntent() {
+        intent.statePublisher
             .receive(on: RunLoop.main)
             .sink { [weak self] state in
                 self?.counterLabel.text = "\(state.counter)잔"
                 self?.progressView.progress = Float(state.progress)
-                self?.literLabel.text = "(\(self?.viewModel.getLiter() ?? ""))"
+                self?.literLabel.text = "(\(self?.intent.getLiter() ?? ""))"
             }
             .store(in: &cancellables)
     }
@@ -185,7 +194,7 @@ import UIKit
 class DrinkViewController: UIViewController {
     
     private let model = WaterIntakeModel()
-    private var viewModel: DrinkViewModel!
+    private var intent: WaterIntakeIntent!
     private var drinkView: DrinkView!
     
     override func loadView() {
@@ -196,17 +205,17 @@ class DrinkViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        viewModel = DrinkViewModel(model: model)
-        drinkView.viewModel = viewModel
+        intent = WaterIntakeIntent(model: model)
+        drinkView.intent = intent
         
         drinkView.drinkButton.addTarget(self, action: #selector(didTapDrinkButton), for: .touchUpInside)
         drinkView.resetButton.addTarget(self, action: #selector(didTapResetButton), for: .touchUpInside)
     }
     
     @objc private func didTapDrinkButton() {
-        viewModel.send(action: .increment)
+        intent.send(action: .increment)
         
-        if viewModel.state.counter >= 8 {
+        if intent.state.counter >= 8 {
             let alert = UIAlertController(title: "", message: "지금은 8잔까지만 설정 가능합니다 ㅜㅜ", preferredStyle: .alert)
             alert.addAction(UIAlertAction(title: "OK", style: .default))
             present(alert, animated: true)
@@ -214,9 +223,9 @@ class DrinkViewController: UIViewController {
     }
     
     @objc private func didTapResetButton() {
-        viewModel.send(action: .reset)
+        intent.send(action: .reset)
     }
 }
 ```
 
-This implementation uses the MVI (Model-View-Intent) pattern, where the `WaterIntakeModel` handles state and business logic, the `DrinkViewModel` serves as an intermediary for state management, and the `DrinkView` and `DrinkViewController` handle the UI and user interactions.
+In this version, the `WaterIntakeIntent` acts as the bridge between the `WaterIntakeModel` and the view, managing the state and handling actions. This eliminates the need for a separate ViewModel class, adhering to the MVI (Model-View-Intent) pattern more closely.
