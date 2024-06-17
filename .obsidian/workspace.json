@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b89df7476325e662",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "F-lab 멘토링/4주차/MVI.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "F-lab 멘토링/4주차/MVVM.md",
+                "file": "F-lab 멘토링/4주차/MVI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "F-lab 멘토링/4주차/MVVM.md",
+                "file": "F-lab 멘토링/4주차/MVI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "F-lab 멘토링/4주차/MVVM.md"
+                "file": "F-lab 멘토링/4주차/MVI.md"
               }
             }
           }
@@ -147,10 +160,12 @@
       "templates:템플릿 삽입": false
     }
   },
-  "active": "dc63ca0513fb7ca8",
+  "active": "b89df7476325e662",
   "lastOpenFiles": [
-    "F-lab 멘토링/4주차/MVC 다이어그램.md",
+    "F-lab 멘토링/4주차/Network.md",
+    "F-lab 멘토링/4주차/MVI.md",
     "F-lab 멘토링/4주차/MVVM.md",
+    "F-lab 멘토링/4주차/MVC 다이어그램.md",
     "F-lab 멘토링/4주차/준비 내용.md",
     "F-lab 멘토링/4주차/OS에서의 메모리 관리.md",
     "WWDC/WWDC 15/Protocol-Oriented Programming in Swift/POP 공유자료.md",
@@ -158,7 +173,6 @@
     "F-lab 멘토링/4주차/Priority Inversion.md",
     "F-lab 멘토링/4주차/Context Switching.md",
     "conflict-files-obsidian-git.md",
-    "F-lab 멘토링/4주차/Network.md",
     "F-lab 멘토링/3주차/페이징.md",
     "F-lab 멘토링/3주차/연속 메모리 관리 기술의 구현.md",
     "F-lab 멘토링/3주차/비연속 메모리 할당.md",
@@ -183,7 +197,6 @@
     "𐂮 Resources/Pasted image 20240608015043.png",
     "𐂮 Resources/Pasted image 20240608015031.png",
     "𐂮 Resources/Pasted image 20240606234452.png",
-    "F-lab 멘토링/3주차/1달-3주차.md",
     "F-lab 멘토링/3주차",
     "𐂮 Resources/Pasted image 20240603204810.png",
     "𐂮 Resources/Pasted image 20240603204114.png",
