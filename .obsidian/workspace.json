@@ -11,8 +11,12 @@
             "id": "8fd318f3fa66c261",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "F-lab 멘토링/5주차/MVI.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "F-lab 멘토링/5주차/MVI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "F-lab 멘토링/5주차/MVI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "F-lab 멘토링/5주차/MVI.md"
+              }
             }
           }
         ],
@@ -141,6 +149,8 @@
   },
   "active": "8fd318f3fa66c261",
   "lastOpenFiles": [
+    "𐂮 Resources/diagram.png",
+    "F-lab 멘토링/4주차/MVI.md",
     "F-lab 멘토링/4주차/MVC 다이어그램.md",
     "F-lab 멘토링/4주차/Network.md",
     "𐂮 Resources/MVi.drawio.png",
@@ -156,7 +166,6 @@
     "F-lab 멘토링/3주차/HealthKit.md",
     "F-lab 멘토링/3주차/Mutax, lock, semaphore 특징.md",
     "F-lab 멘토링/3주차/WidgetKit Survey.md",
-    "F-lab 멘토링/4주차/MVI.md",
     "F-lab 멘토링/4주차/MVVM.md",
     "𐂮 Resources/MVVM 1.jpg",
     "𐂮 Resources/MVVM.jpg",
