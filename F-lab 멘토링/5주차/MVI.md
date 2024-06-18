@@ -25,4 +25,4 @@ MVI에서 가장 중요한 것은 단방향 아키텍쳐라는 점이다.
 Soruce Code: https://github.com/gaeng2y/MVI-Pattern/tree/main/MVI-example/CounterApp
 
 #### UML diagram
-![](diagram.png)
+![](diagram%20(1).png)
