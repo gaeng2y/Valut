@@ -231,3 +231,6 @@ class DrinkViewController: UIViewController {
 
 
 ![](MVI.png)
+
+MVI , Redux/Flux 
+Redux 기반 찾아보기 -> async 처리 어디서 ? 아닐 경우(sync) 어디서 처리하는지
