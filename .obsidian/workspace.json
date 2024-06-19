@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "F-lab 멘토링/5주차/Flux, Redux.md",
+                "file": "F-lab 멘토링/1달-1주차/Swift Data Structure.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "F-lab 멘토링/5주차/Flux, Redux.md",
+                "file": "F-lab 멘토링/1달-1주차/Swift Data Structure.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "F-lab 멘토링/5주차/Flux, Redux.md",
+                "file": "F-lab 멘토링/1달-1주차/Swift Data Structure.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "F-lab 멘토링/5주차/Flux, Redux.md"
+                "file": "F-lab 멘토링/1달-1주차/Swift Data Structure.md"
               }
             }
           }
@@ -149,8 +149,10 @@
   },
   "active": "477f62534f08260b",
   "lastOpenFiles": [
-    "F-lab 멘토링/5주차/MVI.md",
+    "F-lab 멘토링/1달-1주차/Choosing Between Structures and Classes.md",
+    "WWDC/WWDC 16/Protocol and Value Oriented Programming in UIKit Apps/Protocol and Value Oriented Programming in UIKit Apps.md",
     "F-lab 멘토링/5주차/Flux, Redux.md",
+    "F-lab 멘토링/5주차/MVI.md",
     "𐂮 Resources/diagram (1).png",
     "𐂮 Resources/MVi.drawio.png",
     "WWDC/WWDC 15/Protocol-Oriented Programming in Swift/Protocol-Oriented Programming in Swift.md",
@@ -163,7 +165,6 @@
     "F-lab 멘토링/4주차/MVI.md",
     "F-lab 멘토링/4주차/MVC 다이어그램.md",
     "WWDC/WWDC 15/Protocol-Oriented Programming in Swift/POP 공유자료.md",
-    "WWDC/WWDC 16/Protocol and Value Oriented Programming in UIKit Apps/Protocol and Value Oriented Programming in UIKit Apps.md",
     "WWDC/WWDC 16/Understanding Swift Performance/Understanding Swift Performance.md",
     "F-lab 멘토링/4주차/OS에서의 메모리 관리.md",
     "F-lab 멘토링/3주차/연속 메모리 관리 기술의 구현.md",
@@ -186,7 +187,6 @@
     "F-lab 멘토링/3주차/페이징.md",
     "F-lab 멘토링/3주차/Mutax, lock, semaphore 특징.md",
     "F-lab 멘토링/1달-2주차/프로세스와 스레드 차이.md",
-    "F-lab 멘토링/3주차/WidgetKit Survey.md",
     "F-lab 멘토링/3주차",
     "F-lab 멘토링/1달-2주차",
     "F-lab 멘토링/1달-1주차",
