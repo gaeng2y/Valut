@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "4a26cb17f19e4ef6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "WWDC/WWDC 16/Understanding Swift Performance/Understanding Swift Performance.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "WWDC/WWDC 16/Understanding Swift Performance/Understanding Swift Performance.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WWDC/WWDC 16/Understanding Swift Performance/Understanding Swift Performance.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           }
@@ -147,8 +160,11 @@
       "templates:템플릿 삽입": false
     }
   },
-  "active": "160736a19be9866b",
+  "active": "4a26cb17f19e4ef6",
   "lastOpenFiles": [
+    "WWDC/WWDC 16/Understanding Swift Performance/Understanding Swift Performance.md",
+    "conflict-files-obsidian-git.md",
+    "F-lab 멘토링/5주차/Flux, Redux.md",
     "WWDC/WWDC 16/Protocol and Value Oriented Programming in UIKit Apps/Protocol and Value Oriented Programming in UIKit Apps.md",
     "WWDC/WWDC 15/Protocol-Oriented Programming in Swift/Protocol-Oriented Programming in Swift.md",
     "WWDC/WWDC 15/Protocol-Oriented Programming in Swift/POP 공유자료.md",
@@ -177,12 +193,9 @@
     "𐂮 Resources/MVI.png",
     "F-lab 멘토링/3주차/Priority Inversion.md",
     "F-lab 멘토링/1달-1주차/Choosing Between Structures and Classes.md",
-    "conflict-files-obsidian-git.md",
     "F-lab 멘토링/3주차/비연속 메모리 할당.md",
     "F-lab 멘토링/3주차/OS에서의 메모리 관리.md",
     "F-lab 멘토링/1달-2주차/컨텍스트 스위칭.md",
-    "F-lab 멘토링/3주차/Understanding Auto Layout.md",
-    "F-lab 멘토링/3주차/물리미 UML.md",
     "F-lab 멘토링/4주차",
     "𐂮 Resources/UML2.png",
     "𐂮 Resources/Pasted image 20240610222120.png",
