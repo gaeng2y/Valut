@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "F-lab 멘토링/5주차/MVI.md",
+                "file": "WWDC/WWDC 16/Understanding Swift Performance/Understanding Swift Performance.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "F-lab 멘토링/5주차/MVI.md",
+                "file": "WWDC/WWDC 16/Understanding Swift Performance/Understanding Swift Performance.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "F-lab 멘토링/5주차/MVI.md",
+                "file": "WWDC/WWDC 16/Understanding Swift Performance/Understanding Swift Performance.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "F-lab 멘토링/5주차/MVI.md"
+                "file": "WWDC/WWDC 16/Understanding Swift Performance/Understanding Swift Performance.md"
               }
             }
           }
@@ -147,12 +147,15 @@
       "templates:템플릿 삽입": false
     }
   },
-  "active": "8fd318f3fa66c261",
+  "active": "160736a19be9866b",
   "lastOpenFiles": [
+    "WWDC/WWDC 16/Protocol and Value Oriented Programming in UIKit Apps/Protocol and Value Oriented Programming in UIKit Apps.md",
+    "WWDC/WWDC 15/Protocol-Oriented Programming in Swift/Protocol-Oriented Programming in Swift.md",
+    "WWDC/WWDC 15/Protocol-Oriented Programming in Swift/POP 공유자료.md",
+    "F-lab 멘토링/5주차/MVI.md",
     "𐂮 Resources/diagram (1).png",
     "𐂮 Resources/MVC-DrinkView.png",
     "𐂮 Resources/diagram.png",
-    "F-lab 멘토링/5주차/MVI.md",
     "F-lab 멘토링/4주차/MVI.md",
     "F-lab 멘토링/4주차/MVC 다이어그램.md",
     "F-lab 멘토링/4주차/Network.md",
@@ -174,19 +177,16 @@
     "𐂮 Resources/MVI.png",
     "F-lab 멘토링/3주차/Priority Inversion.md",
     "F-lab 멘토링/1달-1주차/Choosing Between Structures and Classes.md",
-    "WWDC/WWDC 15/Protocol-Oriented Programming in Swift/POP 공유자료.md",
     "conflict-files-obsidian-git.md",
     "F-lab 멘토링/3주차/비연속 메모리 할당.md",
     "F-lab 멘토링/3주차/OS에서의 메모리 관리.md",
     "F-lab 멘토링/1달-2주차/컨텍스트 스위칭.md",
     "F-lab 멘토링/3주차/Understanding Auto Layout.md",
     "F-lab 멘토링/3주차/물리미 UML.md",
-    "F-lab 멘토링/3주차/OS의 압축.md",
     "F-lab 멘토링/4주차",
     "𐂮 Resources/UML2.png",
     "𐂮 Resources/Pasted image 20240610222120.png",
     "𐂮 Resources/Pasted image 20240610222050.png",
-    "𐂮 Resources/Pasted image 20240610222014.png",
     "F-lab 멘토링/3주차",
     "F-lab 멘토링/1달-2주차",
     "F-lab 멘토링/1달-1주차",
