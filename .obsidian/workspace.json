@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "F-lab 멘토링/1달-1주차/Choosing Between Structures and Classes.md",
+                "file": "F-lab 멘토링/5주차/MVI.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "F-lab 멘토링/1달-1주차/Choosing Between Structures and Classes.md",
+                "file": "F-lab 멘토링/5주차/MVI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "F-lab 멘토링/1달-1주차/Choosing Between Structures and Classes.md",
+                "file": "F-lab 멘토링/5주차/MVI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "F-lab 멘토링/1달-1주차/Choosing Between Structures and Classes.md"
+                "file": "F-lab 멘토링/5주차/MVI.md"
               }
             }
           }
@@ -147,12 +147,13 @@
       "templates:템플릿 삽입": false
     }
   },
-  "active": "160736a19be9866b",
+  "active": "8fd318f3fa66c261",
   "lastOpenFiles": [
+    "F-lab 멘토링/5주차/Flux, Redux.md",
+    "F-lab 멘토링/1달-1주차/Choosing Between Structures and Classes.md",
     "iOS Architecture Patterns",
     "WWDC/WWDC 16/Understanding Swift Performance/Understanding Swift Performance.md",
     "conflict-files-obsidian-git.md",
-    "F-lab 멘토링/5주차/Flux, Redux.md",
     "WWDC/WWDC 16/Protocol and Value Oriented Programming in UIKit Apps/Protocol and Value Oriented Programming in UIKit Apps.md",
     "WWDC/WWDC 15/Protocol-Oriented Programming in Swift/Protocol-Oriented Programming in Swift.md",
     "WWDC/WWDC 15/Protocol-Oriented Programming in Swift/POP 공유자료.md",
@@ -180,7 +181,6 @@
     "𐂮 Resources/MVVM.jpg",
     "𐂮 Resources/MVI.png",
     "F-lab 멘토링/3주차/Priority Inversion.md",
-    "F-lab 멘토링/1달-1주차/Choosing Between Structures and Classes.md",
     "F-lab 멘토링/3주차/비연속 메모리 할당.md",
     "F-lab 멘토링/3주차/OS에서의 메모리 관리.md",
     "F-lab 멘토링/4주차",
@@ -194,7 +194,6 @@
     "The RED 슈퍼앱 운영을 위한 확장성 높은 앱 아키텍처 구축",
     "WWDC/WWDC 18/iOS Memory Deep Dive",
     "WWDC/WWDC 18",
-    "Point-Free/1 ~ 10",
     "Computational Thinking/무제 파일.canvas"
   ]
 }
