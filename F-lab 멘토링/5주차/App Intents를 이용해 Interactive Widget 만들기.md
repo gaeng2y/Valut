@@ -4,3 +4,18 @@ iOS 16 에서 등장한 앱 인텐트는, 쉽게 표현하면 **'앱의 기능�
 
 인터랙티브 위젯은 App Intents 로 만들어진 앱의 기능을 **위젯 버튼**에 연결한 것 뿐입니다.
 ## 앱
+```swift
+struct DrinkWaterIntent: AppIntent {
+    
+    static var title: LocalizedStringResource = "Drink Water"
+    static var description = IntentDescription("Glasses of Today counter")
+    
+    func perform() async throws -> some IntentResult {
+        GlassesCounter.countUp()
+        return .result()
+    }
+}
+```
+
+라는 `AppIntent` 프로토콜을 채택한 타입을 만든다. 그 후 `perform` 메소드에 내가 원하는 구현을 한다.
+
