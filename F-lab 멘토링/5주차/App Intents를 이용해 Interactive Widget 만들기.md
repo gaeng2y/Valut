@@ -19,3 +19,15 @@ struct DrinkWaterIntent: AppIntent {
 
 라는 `AppIntent` 프로토콜을 채택한 타입을 만든다. 그 후 `perform` 메소드에 내가 원하는 구현을 한다.
 
+그 후 Widget에 버튼을 연결한다면
+```swift
+Button(intent: DrinkWaterIntent()) {
+	Text("마시기")
+	.font(.system(size: 10))
+	.foregroundColor(.white)
+}
+```
+
+이런 형태로 생성자로 intent를 할당할 수 있다.
+
+그런 후 위젯에서 버튼을 실행한다면 perform 메소드가 호출이된다.
