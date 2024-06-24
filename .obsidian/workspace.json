@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "05d7497f17b8fdde",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "F-lab 멘토링/5주차/Network Address Translation.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "F-lab 멘토링/5주차/Network Address Translation.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "F-lab 멘토링/5주차/Network Address Translation.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           }
@@ -147,10 +160,13 @@
       "templates:템플릿 삽입": false
     }
   },
-  "active": "8fd318f3fa66c261",
+  "active": "05d7497f17b8fdde",
   "lastOpenFiles": [
-    "F-lab 멘토링/5주차/Swift Concurrency.md",
+    "Trouble shooting/PrivateSettableMacro.md",
+    "Trouble shooting/CocoaAsyncSocket 마이그레이션.md",
     "F-lab 멘토링/5주차/Network Address Translation.md",
+    "conflict-files-obsidian-git.md",
+    "F-lab 멘토링/5주차/Swift Concurrency.md",
     "F-lab 멘토링/5주차/HealthKit 서베이.md",
     "F-lab 멘토링/5주차/Flux, Redux.md",
     "F-lab 멘토링/5주차/App Intents를 이용해 Interactive Widget 만들기.md",
@@ -161,7 +177,6 @@
     "F-lab 멘토링/1달-1주차/Choosing Between Structures and Classes.md",
     "iOS Architecture Patterns",
     "WWDC/WWDC 16/Understanding Swift Performance/Understanding Swift Performance.md",
-    "conflict-files-obsidian-git.md",
     "WWDC/WWDC 16/Protocol and Value Oriented Programming in UIKit Apps/Protocol and Value Oriented Programming in UIKit Apps.md",
     "WWDC/WWDC 15/Protocol-Oriented Programming in Swift/Protocol-Oriented Programming in Swift.md",
     "WWDC/WWDC 15/Protocol-Oriented Programming in Swift/POP 공유자료.md",
@@ -180,8 +195,6 @@
     "F-lab 멘토링/4주차/스핀락.md",
     "F-lab 멘토링/4주차/Context Switching.md",
     "F-lab 멘토링/4주차/Priority Inversion.md",
-    "F-lab 멘토링/3주차/Mutax, lock, semaphore 특징.md",
-    "F-lab 멘토링/3주차/WidgetKit Survey.md",
     "𐂮 Resources/MVVM 1.jpg",
     "𐂮 Resources/MVVM.jpg",
     "𐂮 Resources/MVI.png",
