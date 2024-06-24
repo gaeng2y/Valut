@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Trouble shooting/CocoaAsyncSocket 마이그레이션.md",
+                "file": "Trouble shooting/PrivateSettableMacro.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Trouble shooting/CocoaAsyncSocket 마이그레이션.md",
+                "file": "Trouble shooting/PrivateSettableMacro.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Trouble shooting/CocoaAsyncSocket 마이그레이션.md",
+                "file": "Trouble shooting/PrivateSettableMacro.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Trouble shooting/CocoaAsyncSocket 마이그레이션.md"
+                "file": "Trouble shooting/PrivateSettableMacro.md"
               }
             }
           }
@@ -149,8 +149,9 @@
   },
   "active": "477f62534f08260b",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "Trouble shooting/CocoaAsyncSocket 마이그레이션.md",
+    "Trouble shooting/PrivateSettableMacro.md",
+    "conflict-files-obsidian-git.md",
     "F-lab 멘토링/1달-1주차/Choosing Between Structures and Classes.md",
     "𐂮 Resources/Pasted image 20240624003010.png",
     "F-lab 멘토링/5주차/HealthKit 서베이.md",
@@ -186,7 +187,6 @@
     "F-lab 멘토링/4주차/Network.md",
     "F-lab 멘토링/4주차",
     "F-lab 멘토링/3주차/HealthKit.md",
-    "F-lab 멘토링/3주차/물리미 UML.md",
     "F-lab 멘토링/3주차",
     "F-lab 멘토링/1달-2주차",
     "F-lab 멘토링/1달-1주차",
