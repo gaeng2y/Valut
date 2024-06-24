@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "F-lab 멘토링/1달-1주차/Choosing Between Structures and Classes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4a754a60f1e2a3ba",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "Trouble shooting/CocoaAsyncSocket 마이그레이션.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "Trouble shooting/CocoaAsyncSocket 마이그레이션.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "Trouble shooting/CocoaAsyncSocket 마이그레이션.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "conflict-files-obsidian-git.md"
+                "file": "Trouble shooting/CocoaAsyncSocket 마이그레이션.md"
               }
             }
           }
@@ -160,10 +147,11 @@
       "templates:템플릿 삽입": false
     }
   },
-  "active": "160736a19be9866b",
+  "active": "477f62534f08260b",
   "lastOpenFiles": [
-    "F-lab 멘토링/1달-1주차/Choosing Between Structures and Classes.md",
     "conflict-files-obsidian-git.md",
+    "Trouble shooting/CocoaAsyncSocket 마이그레이션.md",
+    "F-lab 멘토링/1달-1주차/Choosing Between Structures and Classes.md",
     "𐂮 Resources/Pasted image 20240624003010.png",
     "F-lab 멘토링/5주차/HealthKit 서베이.md",
     "F-lab 멘토링/5주차/App Intents를 이용해 Interactive Widget 만들기.md",
