@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "3b7ba46233f62c2f",
+        "id": "4a60ef94557c0648",
         "type": "tabs",
         "children": [
           {
-            "id": "8fd318f3fa66c261",
+            "id": "280c3b192a685dc5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "F-lab 멘토링/5주차/Network Address Translation.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "05d7497f17b8fdde",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "F-lab 멘토링/5주차/App Intents를 이용해 Interactive Widget 만들기.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "F-lab 멘토링/5주차/App Intents를 이용해 Interactive Widget 만들기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "F-lab 멘토링/5주차/App Intents를 이용해 Interactive Widget 만들기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "conflict-files-obsidian-git.md"
+                "file": "F-lab 멘토링/5주차/App Intents를 이용해 Interactive Widget 만들기.md"
               }
             }
           }
@@ -160,20 +147,22 @@
       "templates:템플릿 삽입": false
     }
   },
-  "active": "05d7497f17b8fdde",
+  "active": "280c3b192a685dc5",
   "lastOpenFiles": [
-    "Trouble shooting/PrivateSettableMacro.md",
-    "Trouble shooting/CocoaAsyncSocket 마이그레이션.md",
+    "F-lab 멘토링/5주차/App Intents를 이용해 Interactive Widget 만들기.md",
+    "F-lab 멘토링/5주차/Flux, Redux.md",
+    "F-lab 멘토링/5주차/HealthKit 서베이.md",
+    "F-lab 멘토링/5주차/MVI.md",
+    "F-lab 멘토링/4주차/MVI.md",
+    "F-lab 멘토링/1달-2주차/CPU 스케줄링 기준.md",
     "F-lab 멘토링/5주차/Network Address Translation.md",
     "conflict-files-obsidian-git.md",
+    "Trouble shooting/PrivateSettableMacro.md",
+    "Trouble shooting/CocoaAsyncSocket 마이그레이션.md",
     "F-lab 멘토링/5주차/Swift Concurrency.md",
-    "F-lab 멘토링/5주차/HealthKit 서베이.md",
-    "F-lab 멘토링/5주차/Flux, Redux.md",
-    "F-lab 멘토링/5주차/App Intents를 이용해 Interactive Widget 만들기.md",
     "F-lab 멘토링/3주차/App Intent Framework.md",
     "𐂮 Resources/Pasted image 20240624003010.png",
     "F-lab 멘토링/3주차/HealthKit.md",
-    "F-lab 멘토링/5주차/MVI.md",
     "F-lab 멘토링/1달-1주차/Choosing Between Structures and Classes.md",
     "iOS Architecture Patterns",
     "WWDC/WWDC 16/Understanding Swift Performance/Understanding Swift Performance.md",
@@ -183,7 +172,6 @@
     "𐂮 Resources/diagram (1).png",
     "𐂮 Resources/MVC-DrinkView.png",
     "𐂮 Resources/diagram.png",
-    "F-lab 멘토링/4주차/MVI.md",
     "F-lab 멘토링/4주차/MVC 다이어그램.md",
     "F-lab 멘토링/4주차/Network.md",
     "𐂮 Resources/MVi.drawio.png",
@@ -194,7 +182,6 @@
     "F-lab 멘토링/4주차/준비 내용.md",
     "F-lab 멘토링/4주차/스핀락.md",
     "F-lab 멘토링/4주차/Context Switching.md",
-    "F-lab 멘토링/4주차/Priority Inversion.md",
     "𐂮 Resources/MVVM 1.jpg",
     "𐂮 Resources/MVVM.jpg",
     "𐂮 Resources/MVI.png",
