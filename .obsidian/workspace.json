@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "F-lab 멘토링/5주차/Flux, Redux.md",
+                "file": "F-lab 멘토링/5주차/MVVM 패턴.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "F-lab 멘토링/5주차/Flux, Redux.md",
+                "file": "F-lab 멘토링/5주차/MVVM 패턴.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "F-lab 멘토링/5주차/Flux, Redux.md",
+                "file": "F-lab 멘토링/5주차/MVVM 패턴.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "F-lab 멘토링/5주차/Flux, Redux.md"
+                "file": "F-lab 멘토링/5주차/MVVM 패턴.md"
               }
             }
           }
@@ -147,8 +147,11 @@
       "templates:템플릿 삽입": false
     }
   },
-  "active": "160736a19be9866b",
+  "active": "280c3b192a685dc5",
   "lastOpenFiles": [
+    "F-lab 멘토링/5주차/MVI.md",
+    "F-lab 멘토링/5주차/MVVM 패턴.md",
+    "F-lab 멘토링/5주차/Flux, Redux.md",
     "F-lab 멘토링/6weeks",
     "F-lab 멘토링/4주차/스핀락.md",
     "F-lab 멘토링/5주차/App Intents를 이용해 Interactive Widget 만들기.md",
@@ -157,9 +160,7 @@
     "웹, 네트워크/Chatper 3.md",
     "F-lab 멘토링/5주차/Network Address Translation.md",
     "F-lab 멘토링/5주차/Swift Concurrency.md",
-    "F-lab 멘토링/5주차/Flux, Redux.md",
     "F-lab 멘토링/5주차/HealthKit 서베이.md",
-    "F-lab 멘토링/5주차/MVI.md",
     "F-lab 멘토링/4주차/MVI.md",
     "F-lab 멘토링/1달-2주차/CPU 스케줄링 기준.md",
     "conflict-files-obsidian-git.md",
@@ -194,7 +195,6 @@
     "F-lab 멘토링",
     "The RED 슈퍼앱 운영을 위한 확장성 높은 앱 아키텍처 구축",
     "WWDC/WWDC 18/iOS Memory Deep Dive",
-    "WWDC/WWDC 18",
     "Computational Thinking/무제 파일.canvas"
   ]
 }
