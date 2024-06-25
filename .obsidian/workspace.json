@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "F-lab 멘토링/5주차/App Intents를 이용해 Interactive Widget 만들기.md",
+                "file": "F-lab 멘토링/5주차/Flux, Redux.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "F-lab 멘토링/5주차/App Intents를 이용해 Interactive Widget 만들기.md",
+                "file": "F-lab 멘토링/5주차/Flux, Redux.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "F-lab 멘토링/5주차/App Intents를 이용해 Interactive Widget 만들기.md",
+                "file": "F-lab 멘토링/5주차/Flux, Redux.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "F-lab 멘토링/5주차/App Intents를 이용해 Interactive Widget 만들기.md"
+                "file": "F-lab 멘토링/5주차/Flux, Redux.md"
               }
             }
           }
@@ -147,19 +147,24 @@
       "templates:템플릿 삽입": false
     }
   },
-  "active": "280c3b192a685dc5",
+  "active": "160736a19be9866b",
   "lastOpenFiles": [
+    "F-lab 멘토링/6weeks",
+    "F-lab 멘토링/4주차/스핀락.md",
     "F-lab 멘토링/5주차/App Intents를 이용해 Interactive Widget 만들기.md",
+    "웹, 네트워크/Chapter 1.md",
+    "웹, 네트워크/Chapter 2.md",
+    "웹, 네트워크/Chatper 3.md",
+    "F-lab 멘토링/5주차/Network Address Translation.md",
+    "F-lab 멘토링/5주차/Swift Concurrency.md",
     "F-lab 멘토링/5주차/Flux, Redux.md",
     "F-lab 멘토링/5주차/HealthKit 서베이.md",
     "F-lab 멘토링/5주차/MVI.md",
     "F-lab 멘토링/4주차/MVI.md",
     "F-lab 멘토링/1달-2주차/CPU 스케줄링 기준.md",
-    "F-lab 멘토링/5주차/Network Address Translation.md",
     "conflict-files-obsidian-git.md",
     "Trouble shooting/PrivateSettableMacro.md",
     "Trouble shooting/CocoaAsyncSocket 마이그레이션.md",
-    "F-lab 멘토링/5주차/Swift Concurrency.md",
     "F-lab 멘토링/3주차/App Intent Framework.md",
     "𐂮 Resources/Pasted image 20240624003010.png",
     "F-lab 멘토링/3주차/HealthKit.md",
@@ -177,11 +182,6 @@
     "𐂮 Resources/MVi.drawio.png",
     "F-lab 멘토링/5주차",
     "F-lab 멘토링/3주차/페이징.md",
-    "F-lab 멘토링/3주차/연속 메모리 관리 기술의 구현.md",
-    "F-lab 멘토링/4주차/OS에서의 메모리 관리.md",
-    "F-lab 멘토링/4주차/준비 내용.md",
-    "F-lab 멘토링/4주차/스핀락.md",
-    "F-lab 멘토링/4주차/Context Switching.md",
     "𐂮 Resources/MVVM 1.jpg",
     "𐂮 Resources/MVVM.jpg",
     "𐂮 Resources/MVI.png",
