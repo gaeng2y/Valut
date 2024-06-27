@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Swift Macros/SwiftSyntax/동작 방식.md",
+                "file": "Swift Macros/SwiftSyntax/Example.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Swift Macros/SwiftSyntax/동작 방식.md",
+                "file": "Swift Macros/SwiftSyntax/Example.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Swift Macros/SwiftSyntax/동작 방식.md",
+                "file": "Swift Macros/SwiftSyntax/Example.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Swift Macros/SwiftSyntax/동작 방식.md"
+                "file": "Swift Macros/SwiftSyntax/Example.md"
               }
             }
           }
@@ -149,8 +149,9 @@
   },
   "active": "7ee810eb64509b84",
   "lastOpenFiles": [
-    "Swift Macros/SwiftSyntax/동작 방식.md",
     "Swift Macros/SwiftSyntax/정의.md",
+    "Swift Macros/SwiftSyntax/Example.md",
+    "Swift Macros/SwiftSyntax/동작 방식.md",
     "Swift Macros/SwiftSyntax",
     "Swift Macros",
     "Trouble shooting/UDP 리팩토링.md",
@@ -184,7 +185,6 @@
     "WWDC/WWDC 16/Understanding Swift Performance/Understanding Swift Performance.md",
     "F-lab 멘토링/4주차/OS에서의 메모리 관리.md",
     "F-lab 멘토링/3주차/연속 메모리 관리 기술의 구현.md",
-    "F-lab 멘토링/3주차/Tuist Survey.md",
     "𐂮 Resources/UML2.png",
     "𐂮 Resources/Pasted image 20240610222120.png",
     "𐂮 Resources/Pasted image 20240610222050.png",
