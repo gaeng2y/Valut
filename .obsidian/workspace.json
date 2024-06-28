@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "4a60ef94557c0648",
+        "id": "d801ae5464b0ef21",
         "type": "tabs",
         "children": [
           {
-            "id": "280c3b192a685dc5",
+            "id": "7ee810eb64509b84",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Swift Concurrency/Reference/레퍼런스.md",
+                "file": "Swift/가변 파라미터.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 344.5
+    "width": 200
   },
   "right": {
     "id": "9843e891487ed6f6",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Swift Concurrency/Reference/레퍼런스.md",
+                "file": "Swift/가변 파라미터.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Swift Concurrency/Reference/레퍼런스.md",
+                "file": "Swift/가변 파라미터.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Swift Concurrency/Reference/레퍼런스.md"
+                "file": "Swift/가변 파라미터.md"
               }
             }
           }
@@ -147,11 +147,13 @@
       "templates:템플릿 삽입": false
     }
   },
-  "active": "280c3b192a685dc5",
+  "active": "7ee810eb64509b84",
   "lastOpenFiles": [
-    "WWDC/WWDC 16/Understanding Swift Performance/Allocation.md",
-    "Swift Concurrency/Reference/레퍼런스.md",
-    "Swift Concurrency/Reference",
+    "Combine Study/짜투리/receive(on)과 subscribe(on)의 차이.md",
+    "Swift/가변 파라미터.md",
+    "Swift Macros/SwiftSyntax/Example.md",
+    "Combine Study/짜투리",
+    "Combine Study",
     "𐂮 Resources/Pasted image 20240627193752.png",
     "𐂮 Resources/Pasted image 20240627193744.png",
     "𐂮 Resources/Pasted image 20240627193659.png",
@@ -159,38 +161,36 @@
     "𐂮 Resources/Pasted image 20240627193502.png",
     "𐂮 Resources/Pasted image 20240627193447.png",
     "𐂮 Resources/Pasted image 20240627193414.png",
-    "𐂮 Resources/Pasted image 20240627193412 1.png",
     "𐂮 Resources/Pasted image 20240627193412.png",
-    "WWDC/WWDC 16/Understanding Swift Performance/Understanding Swift Performance.md",
+    "𐂮 Resources/Pasted image 20240627193412 1.png",
     "𐂮 Resources/Pasted image 20240627193312.png",
+    "Swift Concurrency/Reference/레퍼런스.md",
+    "Swift Concurrency/Reference",
     "Swift Macros/SwiftSyntax/정의.md",
     "Swift Macros/SwiftSyntax/동작 방식.md",
-    "Swift Macros/SwiftSyntax/Example.md",
     "Swift Macros/SwiftSyntax",
     "Swift Macros",
-    "conflict-files-obsidian-git.md",
     "Trouble shooting/UDP 리팩토링.md",
-    "F-lab 멘토링/5주차/MVVM 패턴.md",
-    "F-lab 멘토링/5주차/MVI.md",
-    "F-lab 멘토링/5주차/Flux, Redux.md",
-    "F-lab 멘토링/6weeks",
-    "F-lab 멘토링/4주차/스핀락.md",
-    "F-lab 멘토링/5주차/App Intents를 이용해 Interactive Widget 만들기.md",
-    "웹, 네트워크/Chapter 1.md",
-    "웹, 네트워크/Chapter 2.md",
-    "웹, 네트워크/Chatper 3.md",
-    "F-lab 멘토링/5주차/Network Address Translation.md",
-    "F-lab 멘토링/5주차/Swift Concurrency.md",
-    "F-lab 멘토링/5주차/HealthKit 서베이.md",
-    "F-lab 멘토링/4주차/MVI.md",
-    "F-lab 멘토링/1달-2주차/CPU 스케줄링 기준.md",
+    "WWDC/WWDC 16/Understanding Swift Performance/Allocation.md",
     "Trouble shooting/PrivateSettableMacro.md",
+    "F-lab 멘토링/5주차/Swift Concurrency.md",
+    "F-lab 멘토링/5주차/Network Address Translation.md",
+    "F-lab 멘토링/5주차/MVVM 패턴.md",
     "Trouble shooting/CocoaAsyncSocket 마이그레이션.md",
-    "F-lab 멘토링/3주차/App Intent Framework.md",
-    "F-lab 멘토링/3주차/HealthKit.md",
+    "conflict-files-obsidian-git.md",
     "F-lab 멘토링/1달-1주차/Choosing Between Structures and Classes.md",
-    "iOS Architecture Patterns",
+    "F-lab 멘토링/5주차/HealthKit 서베이.md",
+    "F-lab 멘토링/5주차/App Intents를 이용해 Interactive Widget 만들기.md",
+    "F-lab 멘토링/1달-1주차/Swift Data Structure.md",
+    "WWDC/WWDC 16/Protocol and Value Oriented Programming in UIKit Apps/Protocol and Value Oriented Programming in UIKit Apps.md",
+    "F-lab 멘토링/5주차/Flux, Redux.md",
+    "F-lab 멘토링/5주차/MVI.md",
+    "WWDC/WWDC 15/Protocol-Oriented Programming in Swift/Protocol-Oriented Programming in Swift.md",
     "F-lab 멘토링/5주차",
+    "F-lab 멘토링/4주차/MVVM.md",
+    "F-lab 멘토링/4주차/MVI.md",
+    "F-lab 멘토링/4주차/MVC 다이어그램.md",
+    "WWDC/WWDC 15/Protocol-Oriented Programming in Swift/POP 공유자료.md",
     "F-lab 멘토링/4주차",
     "F-lab 멘토링/3주차",
     "F-lab 멘토링/1달-2주차",
