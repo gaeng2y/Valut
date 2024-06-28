@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Swift/가변 파라미터.md",
+                "file": "Swift Macros/SwiftSyntax/Example.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Swift/가변 파라미터.md",
+                "file": "Swift Macros/SwiftSyntax/Example.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Swift/가변 파라미터.md",
+                "file": "Swift Macros/SwiftSyntax/Example.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Swift/가변 파라미터.md"
+                "file": "Swift Macros/SwiftSyntax/Example.md"
               }
             }
           }
@@ -147,10 +147,13 @@
       "templates:템플릿 삽입": false
     }
   },
-  "active": "7ee810eb64509b84",
+  "active": "160736a19be9866b",
   "lastOpenFiles": [
-    "Combine Study/짜투리/receive(on)과 subscribe(on)의 차이.md",
+    "Swift Macros/SwiftSyntax/정의.md",
+    "Swift Macros/SwiftSyntax/동작 방식.md",
+    "Trouble shooting/PrivateSettableMacro.md",
     "Swift/가변 파라미터.md",
+    "Combine Study/짜투리/receive(on)과 subscribe(on)의 차이.md",
     "Swift Macros/SwiftSyntax/Example.md",
     "Combine Study/짜투리",
     "Combine Study",
@@ -166,13 +169,10 @@
     "𐂮 Resources/Pasted image 20240627193312.png",
     "Swift Concurrency/Reference/레퍼런스.md",
     "Swift Concurrency/Reference",
-    "Swift Macros/SwiftSyntax/정의.md",
-    "Swift Macros/SwiftSyntax/동작 방식.md",
     "Swift Macros/SwiftSyntax",
     "Swift Macros",
     "Trouble shooting/UDP 리팩토링.md",
     "WWDC/WWDC 16/Understanding Swift Performance/Allocation.md",
-    "Trouble shooting/PrivateSettableMacro.md",
     "F-lab 멘토링/5주차/Swift Concurrency.md",
     "F-lab 멘토링/5주차/Network Address Translation.md",
     "F-lab 멘토링/5주차/MVVM 패턴.md",
