@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SwiftUI/SwiftUI Documentation/Model Data.md",
+                "file": "SwiftUI/Navigation.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SwiftUI/SwiftUI Documentation/Model Data.md",
+                "file": "SwiftUI/Navigation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SwiftUI/SwiftUI Documentation/Model Data.md",
+                "file": "SwiftUI/Navigation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SwiftUI/SwiftUI Documentation/Model Data.md"
+                "file": "SwiftUI/Navigation.md"
               }
             }
           }
@@ -147,8 +147,10 @@
       "templates:템플릿 삽입": false
     }
   },
-  "active": "160736a19be9866b",
+  "active": "280c3b192a685dc5",
   "lastOpenFiles": [
+    "SwiftUI/Navigation.md",
+    "SwiftUI/SwiftUI Documentation/Model Data.md",
     "Computer Science",
     "Combine",
     "iOS",
@@ -193,8 +195,6 @@
     "F-lab 멘토링/4주차/MVI.md",
     "F-lab 멘토링/1달-2주차/CPU 스케줄링 기준.md",
     "Trouble shooting/PrivateSettableMacro.md",
-    "Trouble shooting/CocoaAsyncSocket 마이그레이션.md",
-    "iOS/iOS Architecture Patterns",
     "Computational Thinking/무제 파일.canvas"
   ]
 }
