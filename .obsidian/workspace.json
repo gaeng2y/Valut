@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "iOS/실전 리팩토링/2024 03 05 라이브세션.md",
+                "file": "Computer Science/Design Pattern/Repository Pattern.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "9843e891487ed6f6",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "iOS/실전 리팩토링/2024 03 05 라이브세션.md",
+                "file": "Computer Science/Design Pattern/Repository Pattern.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "iOS/실전 리팩토링/2024 03 05 라이브세션.md",
+                "file": "Computer Science/Design Pattern/Repository Pattern.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "iOS/실전 리팩토링/2024 03 05 라이브세션.md"
+                "file": "Computer Science/Design Pattern/Repository Pattern.md"
               }
             }
           }
@@ -147,10 +148,13 @@
       "templates:템플릿 삽입": false
     }
   },
-  "active": "160736a19be9866b",
+  "active": "8ee36578db88f0eb",
   "lastOpenFiles": [
-    "원티드 커리어/20231218.md",
+    "Computer Science/Design Pattern/패턴 순위.md",
+    "Computer Science/Design Pattern/Repository Pattern.md",
     "iOS/실전 리팩토링/2024 03 05 라이브세션.md",
+    "Computer Science/Design Pattern/무제 폴더",
+    "원티드 커리어/20231218.md",
     "iOS/실전 리팩토링/2024 03 12 라이브세션.md",
     "Test-Driven Development/XCTests/UnitTets/라이브러리.md",
     "Test-Driven Development/XCTests/UnitTets/샘플 포스팅.md",
@@ -177,14 +181,11 @@
     "SwiftUI/SwiftUI 스터디/Food Truck/App.md",
     "SwiftUI/SwiftUI 스터디/Backyard Birds/구조.md",
     "SwiftUI/SwiftUI 스터디/Backyard Birds/SwiftData",
-    "SwiftUI/SwiftUI 스터디/Backyard Birds/Documentation.md",
     "SwiftUI/SwiftUI 스터디/Food Truck",
     "SwiftUI/SwiftUI 스터디/Backyard Birds",
-    "SwiftUI/SwiftUI Documentation/Model Data.md",
     "SwiftUI/SwiftUI 스터디",
     "SwiftUI/SwiftUI Documentation",
     "SwiftUI",
-    "Swift/Swift Macros/SwiftSyntax",
     "Swift/Swift Concurrency/Chapter 1/Pasted image 20231002190800.png",
     "Swift/Swift Concurrency/Chapter 1/Pasted image 20231002190737.png",
     "Computer Science/Design Pattern/Structural/Proxy/Pasted image 20231019231727.png",
