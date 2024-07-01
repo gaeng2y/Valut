@@ -31,5 +31,17 @@ Data Access Class를 통해 API/CoreData에 접근하고 있다.
 그리고 여기서 CRUD되는 데이터들을 직접 각각의 ViewModel과 ViewController에서 사용하게 되는 예시다.
 
 ### Domain Object와 Repository 분리
+###### Domain Object
+해당 앱에서 정의하는 데이터 구조
+도메인 객체는 앱에서 정말 보여질 때 사용하는 객체라고 생각해도 무방
 
+Repository를 사용하여 도메인 객체에 Mapping
 
+위에서 제시한 여러가지 문제상황들이 왔을 때, Repository 부분만 바꿔주면 되고, 이것을 우리가 정의해 놓았던 Domain Objects에 Mapping만 해주면 되는 일
+
+> 이게 바로 Repository Pattern의 핵심
+
+##### 요약 
+Repository는 데이터 소스에 접근하기 위해 캡슐화된 구성요소. 데이터에 접근하는 기능을 한군데에 집중시켜서, 유지보수에 용이하고, 데이터 구조에 대한 의존성 낮춤. 이로써 앱이 데이터를 다루는 곳과 이 데이터를 표현하는 곳으로 명확하게 나뉘게 됨
+
+![repository-pattern-uml](https://miro.medium.com/v2/resize:fit:4800/format:webp/1*6M0WnNJpaKKSccN4ICI1MA.png)
