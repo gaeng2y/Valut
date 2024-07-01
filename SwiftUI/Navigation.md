@@ -67,3 +67,69 @@ NavigationStack(path: $path) {
 
 이제 `NavigationStack`과 `NavigationPath`를 이용해서 앱에서 다양한 화면을 쉽게 탐색할 수 있어!
 
+### 그래서 View? ViewModel?
+
+`NavigationPath`는 네비게이션 경로를 관리하는 데 사용되므로, 상태(state)를 관리해야 할 때는 보통 `ViewModel`에 위치시키는 것이 좋습니다. 이렇게 하면 네비게이션 상태를 중앙에서 관리하고, 뷰가 이를 참조할 수 있게 됩니다.
+
+### Coordinator랑은?
+`Coordinator` 패턴은 뷰 컨트롤러 사이의 네비게이션을 관리하는 데 자주 사용됩니다. SwiftUI에서 이 패턴을 사용할 때는 `NavigationPath`와 결합하여 네비게이션 흐름을 더 유연하게 관리할 수 있습니다.
+
+#### Coordinator 정의하기
+
+1. **Coordinator 클래스 정의**: 네비게이션 흐름을 관리하는 `Coordinator` 클래스를 정의합니다.
+```swift
+class Coordinator: ObservableObject {
+    @Published var path = NavigationPath()
+
+    func goToDetail() {
+        path.append("DetailView")
+    }
+}
+```
+
+2. **ViewModel에 Coordinator 사용하기**: `ViewModel`에서 `Coordinator`를 초기화하고, 이를 통해 네비게이션을 제어합니다.
+```swift
+class MyViewModel: ObservableObject {
+    @Published var path = NavigationPath()
+    var coordinator: Coordinator
+
+    init() {
+        coordinator = Coordinator()
+        coordinator.$path.assign(to: &$path)
+    }
+
+    func navigateToDetail() {
+        coordinator.goToDetail()
+    }
+}
+```
+
+3. **View에서 Coordinator와 ViewModel 사용하기**: 뷰에서 `ViewModel`과 `Coordinator`를 사용하여 네비게이션을 제어합니다.
+```swift
+struct ContentView: View {
+    @StateObject private var viewModel = MyViewModel()
+
+    var body: some View {
+        NavigationStack(path: $viewModel.path) {
+            VStack {
+                Button("Go to Detail") {
+                    viewModel.navigateToDetail()
+                }
+
+                .navigationDestination(for: String.self) { value in
+                    if value == "DetailView" {
+                        DetailView()
+                    }
+                }
+            }
+        }
+    }
+}
+
+struct DetailView: View {
+    var body: some View {
+        Text("This is the detail view.")
+    }
+}
+```
+
