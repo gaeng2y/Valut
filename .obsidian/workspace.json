@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Test-Driven Development/XCTests/UnitTets/라이브러리.md",
+                "file": "iOS/실전 리팩토링/2024 03 05 라이브세션.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Test-Driven Development/XCTests/UnitTets/라이브러리.md",
+                "file": "iOS/실전 리팩토링/2024 03 05 라이브세션.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Test-Driven Development/XCTests/UnitTets/라이브러리.md",
+                "file": "iOS/실전 리팩토링/2024 03 05 라이브세션.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Test-Driven Development/XCTests/UnitTets/라이브러리.md"
+                "file": "iOS/실전 리팩토링/2024 03 05 라이브세션.md"
               }
             }
           }
@@ -149,11 +149,15 @@
   },
   "active": "160736a19be9866b",
   "lastOpenFiles": [
+    "원티드 커리어/20231218.md",
+    "iOS/실전 리팩토링/2024 03 05 라이브세션.md",
+    "iOS/실전 리팩토링/2024 03 12 라이브세션.md",
+    "Test-Driven Development/XCTests/UnitTets/라이브러리.md",
     "Test-Driven Development/XCTests/UnitTets/샘플 포스팅.md",
     "Test-Driven Development/XCTests/UITests/샘플 포스팅.md",
     "Test-Driven Development/XCTests/UITests/라이브러리.md",
-    "Trouble shooting/UIKit에서 Preview 사용하기.md",
-    "Trouble shooting/UIKit에서 SwiftUI 사용하기.md",
+    "TIL/Trouble shooting/UIKit에서 Preview 사용하기.md",
+    "TIL/Trouble shooting/UIKit에서 SwiftUI 사용하기.md",
     "Design System/FlexLayout/FlexLayout (1).md",
     "Combine/Combine Study/짜투리/receive(on)과 subscribe(on)의 차이.md",
     "Swift Macros/SwiftSyntax/Example.md",
@@ -179,11 +183,7 @@
     "SwiftUI/SwiftUI Documentation/Model Data.md",
     "SwiftUI/SwiftUI 스터디",
     "SwiftUI/SwiftUI Documentation",
-    "SwiftUI/Navigation.md",
     "SwiftUI",
-    "Swift/Swift Macros/SwiftSyntax/정의.md",
-    "Swift/Swift Macros/SwiftSyntax/동작 방식.md",
-    "Swift/Swift Macros/SwiftSyntax/Example.md",
     "Swift/Swift Macros/SwiftSyntax",
     "Swift/Swift Concurrency/Chapter 1/Pasted image 20231002190800.png",
     "Swift/Swift Concurrency/Chapter 1/Pasted image 20231002190737.png",
