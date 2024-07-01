@@ -66,3 +66,4 @@ NavigationStack(path: $path) {
 - **`NavigationPath`**: 우리가 지나온 화면들을 기억해주는 목록.
 
 이제 `NavigationStack`과 `NavigationPath`를 이용해서 앱에서 다양한 화면을 쉽게 탐색할 수 있어!
+

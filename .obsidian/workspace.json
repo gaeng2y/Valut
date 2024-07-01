@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "52c8ce49041e649d",
+        "id": "4a60ef94557c0648",
         "type": "tabs",
         "children": [
           {
-            "id": "8ee36578db88f0eb",
+            "id": "280c3b192a685dc5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Science/Design Pattern/Repository Pattern.md",
+                "file": "SwiftUI/Navigation.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 344.5
   },
   "right": {
     "id": "9843e891487ed6f6",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Science/Design Pattern/Repository Pattern.md",
+                "file": "SwiftUI/Navigation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Science/Design Pattern/Repository Pattern.md",
+                "file": "SwiftUI/Navigation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Science/Design Pattern/Repository Pattern.md"
+                "file": "SwiftUI/Navigation.md"
               }
             }
           }
@@ -148,54 +147,54 @@
       "templates:템플릿 삽입": false
     }
   },
-  "active": "8ee36578db88f0eb",
+  "active": "280c3b192a685dc5",
   "lastOpenFiles": [
-    "Computer Science/Design Pattern/패턴 순위.md",
-    "Computer Science/Design Pattern/Repository Pattern.md",
-    "iOS/실전 리팩토링/2024 03 05 라이브세션.md",
-    "Computer Science/Design Pattern/무제 폴더",
-    "원티드 커리어/20231218.md",
     "iOS/실전 리팩토링/2024 03 12 라이브세션.md",
-    "Test-Driven Development/XCTests/UnitTets/라이브러리.md",
-    "Test-Driven Development/XCTests/UnitTets/샘플 포스팅.md",
-    "Test-Driven Development/XCTests/UITests/샘플 포스팅.md",
-    "Test-Driven Development/XCTests/UITests/라이브러리.md",
-    "TIL/Trouble shooting/UIKit에서 Preview 사용하기.md",
-    "TIL/Trouble shooting/UIKit에서 SwiftUI 사용하기.md",
-    "Design System/FlexLayout/FlexLayout (1).md",
-    "Combine/Combine Study/짜투리/receive(on)과 subscribe(on)의 차이.md",
-    "Swift Macros/SwiftSyntax/Example.md",
-    "iOS/The RED 슈퍼앱 운영을 위한 확장성 높은 앱 아키텍처 구축/RIBs.md",
-    "iOS/The RED 슈퍼앱 운영을 위한 확장성 높은 앱 아키텍처 구축/Composition.md",
-    "iOS/MVVM/Input - Ouput 패턴.md",
-    "iOS/The RED 슈퍼앱 운영을 위한 확장성 높은 앱 아키텍처 구축",
-    "iOS/MVVM",
-    "iOS",
-    "SwiftUI/SwiftUI 스터디/Backyard Birds/SwiftData/SwiftData.md",
-    "SwiftUI/SwiftUI 스터디/Backyard Birds/SwiftData/Model your schema with SwiftData.md",
-    "SwiftUI/SwiftUI 스터디/Backyard Birds/SwiftData/Build an app with SwiftData.md",
-    "SwiftUI/SwiftUI 스터디/Food Truck/코드 분석.md",
-    "SwiftUI/SwiftUI 스터디/Food Truck/WeatherKit 사용해보기.md",
-    "SwiftUI/SwiftUI 스터디/Food Truck/FoodTruckKit.md",
-    "SwiftUI/SwiftUI 스터디/Food Truck/Documentation.md",
-    "SwiftUI/SwiftUI 스터디/Food Truck/App.md",
-    "SwiftUI/SwiftUI 스터디/Backyard Birds/구조.md",
-    "SwiftUI/SwiftUI 스터디/Backyard Birds/SwiftData",
-    "SwiftUI/SwiftUI 스터디/Food Truck",
-    "SwiftUI/SwiftUI 스터디/Backyard Birds",
-    "SwiftUI/SwiftUI 스터디",
-    "SwiftUI/SwiftUI Documentation",
-    "SwiftUI",
-    "Swift/Swift Concurrency/Chapter 1/Pasted image 20231002190800.png",
-    "Swift/Swift Concurrency/Chapter 1/Pasted image 20231002190737.png",
-    "Computer Science/Design Pattern/Structural/Proxy/Pasted image 20231019231727.png",
-    "Computer Science/Dependency Injection/Section 3/Pasted image 20231018161012.png",
-    "Computer Science/Dependency Injection/Section 1/Pasted image 20231018134446.png",
+    "iOS/실전 리팩토링/2024 03 05 라이브세션.md",
+    "iOS/실전 리팩토링",
+    "iOS/F-lab 멘토링/5주차/Swift Concurrency.md",
+    "iOS/F-lab 멘토링/5주차/Network Address Translation.md",
+    "iOS/F-lab 멘토링/5주차/MVVM 패턴.md",
+    "iOS/F-lab 멘토링/5주차/MVI.md",
+    "iOS/F-lab 멘토링/5주차/HealthKit 서베이.md",
+    "iOS/F-lab 멘토링/5주차/Flux, Redux.md",
+    "iOS/F-lab 멘토링/5주차/App Intents를 이용해 Interactive Widget 만들기.md",
+    "iOS/F-lab 멘토링/4주차/준비 내용.md",
+    "iOS/F-lab 멘토링/4주차/스핀락.md",
+    "iOS/F-lab 멘토링/4주차/Priority Inversion.md",
+    "iOS/F-lab 멘토링/4주차/OS에서의 메모리 관리.md",
+    "iOS/F-lab 멘토링/4주차/Network.md",
+    "iOS/F-lab 멘토링/4주차/MVVM.md",
+    "iOS/F-lab 멘토링/4주차/MVI.md",
+    "iOS/F-lab 멘토링/4주차/MVC 다이어그램.md",
+    "iOS/F-lab 멘토링/4주차/Context Switching.md",
+    "iOS/F-lab 멘토링/3주차/페이징.md",
+    "iOS/F-lab 멘토링/3주차/연속 메모리 관리 기술의 구현.md",
+    "iOS/F-lab 멘토링/3주차/비연속 메모리 할당.md",
+    "iOS/F-lab 멘토링/3주차/WidgetKit Survey.md",
+    "iOS/F-lab 멘토링/3주차/물리미 UML.md",
+    "iOS/F-lab 멘토링/3주차/Understanding Auto Layout.md",
+    "iOS/F-lab 멘토링/3주차/Tuist Survey.md",
+    "iOS/F-lab 멘토링/3주차/Priority Inversion.md",
+    "iOS/F-lab 멘토링/5주차",
+    "iOS/F-lab 멘토링/4주차",
+    "iOS/F-lab 멘토링/3주차",
+    "iOS/F-lab 멘토링/1달-2주차",
+    "iOS/F-lab 멘토링/1달-1주차",
+    "iOS/F-lab 멘토링",
+    "Test-Driven Development/XCTests/UnitTets",
+    "Test-Driven Development/XCTests/UITests",
+    "Test-Driven Development/XCTests",
     "𐂮 Resources/Pasted image 20240627193752.png",
     "𐂮 Resources/Pasted image 20240627193744.png",
     "𐂮 Resources/Pasted image 20240627193659.png",
     "𐂮 Resources/Pasted image 20240627193629.png",
     "𐂮 Resources/Pasted image 20240627193502.png",
+    "𐂮 Resources/Pasted image 20240627193447.png",
+    "𐂮 Resources/Pasted image 20240627193414.png",
+    "𐂮 Resources/Pasted image 20240627193412 1.png",
+    "𐂮 Resources/Pasted image 20240627193412.png",
+    "𐂮 Resources/Pasted image 20240627193312.png",
     "Computational Thinking/무제 파일.canvas"
   ]
 }
