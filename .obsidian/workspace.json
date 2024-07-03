@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SwiftUI/Navigation.md",
+                "file": "Swift/Actor/Actor.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 344.5,
-    "collapsed": true
+    "width": 344.5
   },
   "right": {
     "id": "9843e891487ed6f6",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SwiftUI/Navigation.md",
+                "file": "Swift/Actor/Actor.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SwiftUI/Navigation.md",
+                "file": "Swift/Actor/Actor.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SwiftUI/Navigation.md"
+                "file": "Swift/Actor/Actor.md"
               }
             }
           }
@@ -150,6 +149,11 @@
   },
   "active": "280c3b192a685dc5",
   "lastOpenFiles": [
+    "Swift/Swift Concurrency/Chapter 6/Actor Reentrancy.md",
+    "Swift/Actor/Actor.md",
+    "Swift/Actor",
+    "Swift/Swift Concurrency/Chapter 6/Actors.md",
+    "SwiftUI/Navigation.md",
     "iOS/실전 리팩토링/2024 03 12 라이브세션.md",
     "iOS/실전 리팩토링/2024 03 05 라이브세션.md",
     "iOS/실전 리팩토링",
@@ -173,10 +177,6 @@
     "iOS/F-lab 멘토링/3주차/연속 메모리 관리 기술의 구현.md",
     "iOS/F-lab 멘토링/3주차/비연속 메모리 할당.md",
     "iOS/F-lab 멘토링/3주차/WidgetKit Survey.md",
-    "iOS/F-lab 멘토링/3주차/물리미 UML.md",
-    "iOS/F-lab 멘토링/3주차/Understanding Auto Layout.md",
-    "iOS/F-lab 멘토링/3주차/Tuist Survey.md",
-    "iOS/F-lab 멘토링/3주차/Priority Inversion.md",
     "iOS/F-lab 멘토링/5주차",
     "iOS/F-lab 멘토링/4주차",
     "iOS/F-lab 멘토링/3주차",
@@ -185,7 +185,6 @@
     "iOS/F-lab 멘토링",
     "Test-Driven Development/XCTests/UnitTets",
     "Test-Driven Development/XCTests/UITests",
-    "Test-Driven Development/XCTests",
     "𐂮 Resources/Pasted image 20240627193752.png",
     "𐂮 Resources/Pasted image 20240627193744.png",
     "𐂮 Resources/Pasted image 20240627193659.png",
