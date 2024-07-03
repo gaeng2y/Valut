@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Swift/Actor/Actor.md",
+                "file": "iOS/F-lab 멘토링/7주차/@ObservedObject vs @StateObject.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Swift/Actor/Actor.md",
+                "file": "iOS/F-lab 멘토링/7주차/@ObservedObject vs @StateObject.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Swift/Actor/Actor.md",
+                "file": "iOS/F-lab 멘토링/7주차/@ObservedObject vs @StateObject.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Swift/Actor/Actor.md"
+                "file": "iOS/F-lab 멘토링/7주차/@ObservedObject vs @StateObject.md"
               }
             }
           }
@@ -149,10 +149,13 @@
   },
   "active": "280c3b192a685dc5",
   "lastOpenFiles": [
+    "iOS/F-lab 멘토링/7주차/Actor의 종류.md",
+    "Swift/Actor/Actor.md",
     "iOS/F-lab 멘토링/6주차/Navigation.md",
+    "iOS/F-lab 멘토링/7주차",
+    "iOS/F-lab 멘토링/7주차/@ObservedObject vs @StateObject.md",
     "iOS/F-lab 멘토링/6주차",
     "Swift/Swift Concurrency/Chapter 6/Actor Reentrancy.md",
-    "Swift/Actor/Actor.md",
     "Swift/Actor",
     "Swift/Swift Concurrency/Chapter 6/Actors.md",
     "SwiftUI/Navigation.md",
@@ -176,15 +179,12 @@
     "iOS/F-lab 멘토링/4주차/MVC 다이어그램.md",
     "iOS/F-lab 멘토링/4주차/Context Switching.md",
     "iOS/F-lab 멘토링/3주차/페이징.md",
-    "iOS/F-lab 멘토링/3주차/연속 메모리 관리 기술의 구현.md",
-    "iOS/F-lab 멘토링/3주차/비연속 메모리 할당.md",
     "iOS/F-lab 멘토링/5주차",
     "iOS/F-lab 멘토링/4주차",
     "iOS/F-lab 멘토링/3주차",
     "iOS/F-lab 멘토링/1달-2주차",
     "iOS/F-lab 멘토링/1달-1주차",
     "iOS/F-lab 멘토링",
-    "Test-Driven Development/XCTests/UnitTets",
     "𐂮 Resources/Pasted image 20240627193752.png",
     "𐂮 Resources/Pasted image 20240627193744.png",
     "𐂮 Resources/Pasted image 20240627193659.png",
