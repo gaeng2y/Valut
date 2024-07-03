@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 344.5
+    "width": 344.5,
+    "collapsed": true
   },
   "right": {
     "id": "9843e891487ed6f6",
@@ -149,11 +150,9 @@
   },
   "active": "280c3b192a685dc5",
   "lastOpenFiles": [
-    "Swift/Swift Concurrency/Chapter 6/Actor Reentrancy.md",
+    "SwiftUI/Navigation.md",
     "Swift/Actor/Actor.md",
     "Swift/Actor",
-    "Swift/Swift Concurrency/Chapter 6/Actors.md",
-    "SwiftUI/Navigation.md",
     "iOS/실전 리팩토링/2024 03 12 라이브세션.md",
     "iOS/실전 리팩토링/2024 03 05 라이브세션.md",
     "iOS/실전 리팩토링",
@@ -177,6 +176,8 @@
     "iOS/F-lab 멘토링/3주차/연속 메모리 관리 기술의 구현.md",
     "iOS/F-lab 멘토링/3주차/비연속 메모리 할당.md",
     "iOS/F-lab 멘토링/3주차/WidgetKit Survey.md",
+    "iOS/F-lab 멘토링/3주차/물리미 UML.md",
+    "iOS/F-lab 멘토링/3주차/Understanding Auto Layout.md",
     "iOS/F-lab 멘토링/5주차",
     "iOS/F-lab 멘토링/4주차",
     "iOS/F-lab 멘토링/3주차",

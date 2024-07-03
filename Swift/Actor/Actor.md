@@ -83,3 +83,68 @@ class UserManager {
 ---
 
 ## Actor
+
+액터는 스위프트에 도입된 새로운 유형의 **참조 유형**으로 **새로운 동시성 모델**을 지원한다.
+
+액터는 **자신의 상태를 나머지 프로그램으로부터 격리**하고, 변경 가능한 상태에 대한 동기화된 액세스를 제공한다.
+
+변경 가능한 상태에 대한 모든 액세스는 액터를 통해 이루어진다. 액터는 참조 타입으로 클래스와 많은 기능이 유사하다. 클래스와 액터의 중요한 차이점은 **자신의 상태를 격리**한다는 점이다. 
+
+아래와 같이 `VideogameLibrary` 라는 이름의 액터를 선언했다.
+
+```swift
+actor VideogameLibrary {
+	var videogames: [Videogame] = []
+	func fetchGames(by company: String) -> [Videogame] {
+		let games = videogames
+		.filter { $0.title.caseInsensitiveCompare(company) == .orderedSame }
+		return games
+	}
+	
+	func countGames(by company: String) -> Int {
+		let games = fetchGames(by: company)
+		return games.count
+	}
+    
+	func add(games: [Videogame]) {
+		self.videogames.append(contentsOf: games)
+	}
+
+    func fetchGames(by year: Int) -> [Videogame] {
+		let games = videogames.filter { $0.releaseYear == year }
+		return games
+    }
+}
+
+struct Videogame {
+	let title: String
+	let releaseYear: Int
+	let company: String
+}
+```
+
+여기서 액터가 왜 값 유형이 아니고 참조 유형일지에 대한 의문이 생길 것이다. 그 이유는 간단하다: 액터는 **공유된 변경 가능한 상태를 캡슐화**하기 때문이다.
+
+### 액터와 상호작용
+
+**액터에 대한 모든 호출은 비동기적**으로 수행되어야 하므로 `awiat` 키워드가 필요하다. 이는 액터가 **자신의 상태를 동기화하고 동시 변이를 방지**하는 메커니즘이다. 왜냐하면 `await` 키워드로 액터를 호출하게되면 다른 호출자들은 일시 중단되어 접근하기 위해 자신의 차례를 기다린다.
+
+```swift
+let library = VideogameLibrary()
+    
+func addGames(to library: VideogameLibrary) async {
+    let zelda5 = Videogame(title: "The Legend of Zelda: Ocarina of Time", releaseYear: 1998, company: "Nintendo")
+    let zelda6 = Videogame(title: "The Legend of Zelda: Majora's Mask", releaseYear: 2020, company: "Nintendo")
+    let tales1 = Videogame(title: "Tales of Symphonia", releaseYear: 2004, company: "Namco")
+    let tales2 = Videogame(title: "Tales of the Abyss", releaseYear: 2005, company: "Namco")
+    let eternalSonata = Videogame(title: "Eternal Sonata", releaseYear: 2008, company: "tri-Crescendo")
+    
+    let games = [zelda5, zelda6, tales1, tales2, eternalSonata]
+    
+    await library.add(games: games)
+}
+```
+
+
+
+
