@@ -1,4 +1,4 @@
-
+ObservableObject는 [@Published](http://twitter.com/Published) 속성이 변경되기 전에 변경된 값을 내보냅니다.(ObjectWillChange).
 ### @ObservedObject
 
 - observable 객체를 구독하는 property wrapper
@@ -34,4 +34,8 @@
 - 둘 다 ObservableObject를 구독하여, 이 값이 변경되면 뷰에 반영해주는 property wrapper 형태
 - 상태 변경이 있을땐 @ObservedObject는 뷰를 다시 생성해서 그리지만, @StateObject는 뷰를 다시 생성하지 않고 항상 동일한 뷰가 사용 (효율)
 - 기본적으로 @StateObject를 사용하되, 해당 프로퍼티를 subview에게도 주입시켜야 한다면, @ObservedObject로 선언하여 사용할것
-    - subview에 @StateObject 프로퍼티를 주입하면, 해당 @StateObject의 수명 주기가 두 곳에서 관리가 되므로 의존성을 줄이기 위해 @ObservedObejct를 사용
+    - subview에 @StateObject 프로퍼티를 주입하면, 해당 @StateObject의 수명 주기가 두 곳에서 관리가 되므로 의존성을 줄이기 위해 @ObservedObejct를 사용\\\
+
+- 쉽게 정리해보면
+    - 부모가 property을 소유 → @StateObject 
+    - 부모가 property을 소유하지 않음 → @ObservedObject
