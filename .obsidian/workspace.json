@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Swift/Actor/Actor.md",
+                "file": "iOS/F-lab 멘토링/7주차/SwiftUI Property Wrapper.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 344.5,
-    "collapsed": true
+    "width": 344.5
   },
   "right": {
     "id": "9843e891487ed6f6",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Swift/Actor/Actor.md",
+                "file": "iOS/F-lab 멘토링/7주차/SwiftUI Property Wrapper.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Swift/Actor/Actor.md",
+                "file": "iOS/F-lab 멘토링/7주차/SwiftUI Property Wrapper.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Swift/Actor/Actor.md"
+                "file": "iOS/F-lab 멘토링/7주차/SwiftUI Property Wrapper.md"
               }
             }
           }
@@ -150,17 +149,18 @@
   },
   "active": "280c3b192a685dc5",
   "lastOpenFiles": [
+    "iOS/F-lab 멘토링/7주차/Actor의 종류.md",
+    "iOS/F-lab 멘토링/7주차/SwiftUI Property Wrapper.md",
+    "Combine/Combine Study/Book/Chapter 1. Hello, Combine!.md",
+    "Combine/Combine Study/참고.md",
+    "Swift/Actor/Actor.md",
     "𐂮 Resources/Pasted image 20240703233438.png",
     "𐂮 Resources/Pasted image 20240703232401.png",
     "𐂮 Resources/Pasted image 20240703230110.png",
     "conflict-files-obsidian-git.md",
-    "Swift/Actor/Actor.md",
     "𐂮 Resources/Pasted image 20240703225012.png",
     "𐂮 Resources/Pasted image 20240703225000.png",
-    "iOS/F-lab 멘토링/7주차/SwiftUI Property Wrapper.md",
-    "Combine/Combine Study/Book/Chapter 1. Hello, Combine!.md",
     "Combine/Combine Study/Book",
-    "iOS/F-lab 멘토링/7주차/Actor의 종류.md",
     "iOS/F-lab 멘토링/7주차/@ObservedObject vs @StateObject.md",
     "iOS/F-lab 멘토링/7주차",
     "SwiftUI/Navigation.md",
@@ -195,7 +195,6 @@
     "𐂮 Resources/Pasted image 20240627193659.png",
     "𐂮 Resources/Pasted image 20240627193629.png",
     "𐂮 Resources/Pasted image 20240627193502.png",
-    "𐂮 Resources/Pasted image 20240627193447.png",
     "Computational Thinking/무제 파일.canvas"
   ]
 }
