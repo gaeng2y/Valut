@@ -43,7 +43,45 @@ struct ObservedObject<ObjectType> where ObjectType : ObservableObject
 - @State와 @Binding의 관계랑 비슷, @StateObject를 넘겨줄 때 $를 붙힐 필요가 없다.
 - 사용되는 뷰에 의해 ‘생성 또는 소유’되지 않은 ObservableObject instances를 wrap하는 데에 사용
 
-##  @Environment
+##  @EnvironmentObject
+
+```swift
+@MainActor @frozen @propertyWrapper @preconcurrency
+struct EnvironmentObject<ObjectType> where ObjectType : ObservableObject
+```
 
 - 초기화 시점에 넘겨주고 싶지 않은 경우 사용(자식 view, App Scene등에 의존성을 만들어 줄 수 있다)
-- 
+- 부모뷰가 @EnvironmentObject를 갖고있다면 하위 뷰에세 줄 때 따로 주입이 필요 없음
+
+![@ObjectBinding](https://miro.medium.com/v2/resize:fit:720/format:webp/1*gMoZEW7n_BnmfhTLI9LWbw.png)
+
+![@EnvironmentObject](https://miro.medium.com/v2/resize:fit:720/format:webp/1*u-LvPShO_SYtT9g6nhLTNQ.png)
+
+## @Environment
+
+```swift
+@frozen @propertyWrapper
+struct Environment<Value>
+```
+
+- `@EnvironmentObject` 와 비슷하지만, View의 환경변수를 읽는 데 사용
+- Environment가 변경되면, View는 fresh render됨
+- environment property를 읽기 전용의 특성을 가지며, set, modify 하는 데에는 쓸 수 없다.
+- 수정하고 싶다면 .environment 모디파이어 사용
+
+## @AppStorage
+
+```swift
+@frozen @propertyWrapper
+struct AppStorage<Value>
+```
+
+- UserDefaults에 대한 app-wide wrapper이다.
+- UserDefaults의 값이 변화하면, view는 fresh render가 된다.
+- `@AppStorage(<key>)`로 사용하면 된다.
+
+## 결론
+
+그러면 어떻게 선택할거야?
+
+![guide](https://miro.medium.com/v2/resize:fit:720/format:webp/1*v7Ktz4-VGErjZ02E4x4uVw.png)
