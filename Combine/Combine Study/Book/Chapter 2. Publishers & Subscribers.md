@@ -14,8 +14,6 @@ example(of: "Publisher") {
 }
 ```
 
-  
-
 Publisher는 두가지 이벤트를 emit 한다
 
 1. Value (element라고도 불리는)
