@@ -1,0 +1,4 @@
+- **Subject**: 직접 값을 생성하고 publish할 수 있는 `Publisher`로, 명령적 코드를 선언적 Combine 스트림과 연결합니다.
+- **Publisher**: 시간에 따른 일련의 값을 emit하는 타입으로, 두 가지 이벤트(값과 completion)를 emit하며 completion 이벤트 후 더 이상 값을 emit하지 않습니다.
+- **Subscriber**: `Publisher`로부터 값을 받아 처리하는 역할을 하며, `Publisher`에 의해 전달된 completion 이벤트를 처리합니다.
+- **Cancellable**: 더 이상 값을 받지 않도록 subscription을 취소하여 리소스를 해제하는 역할을 하며, `AnyCancellable` 인스턴스로 관리됩니다.
