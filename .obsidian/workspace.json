@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "iOS/F-lab 멘토링/7주차/Observation.md",
+                "file": "TIL/20240709.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 344.5
+    "width": 200
   },
   "right": {
     "id": "9843e891487ed6f6",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "iOS/F-lab 멘토링/7주차/Observation.md",
+                "file": "TIL/20240709.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "iOS/F-lab 멘토링/7주차/Observation.md",
+                "file": "TIL/20240709.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "iOS/F-lab 멘토링/7주차/Observation.md"
+                "file": "TIL/20240709.md"
               }
             }
           }
@@ -149,29 +149,27 @@
   },
   "active": "280c3b192a685dc5",
   "lastOpenFiles": [
-    "iOS/F-lab 멘토링/7주차/@ObservedObject vs @StateObject.md",
-    "iOS/F-lab 멘토링/7주차/Actor의 종류.md",
+    "TIL/Trouble shooting/TabBar Font 변경.md",
+    "TIL/20240709.md",
     "iOS/F-lab 멘토링/7주차/Combine Key feature.md",
     "iOS/F-lab 멘토링/7주차/SwiftUI Property Wrapper.md",
     "iOS/F-lab 멘토링/7주차/Observation.md",
     "Combine/Combine Study/Book/Chapter 2. Publishers & Subscribers.md",
-    "TIL/Trouble shooting/TabBar Font 변경.md",
+    "iOS/F-lab 멘토링/7주차/Actor의 종류.md",
+    "iOS/F-lab 멘토링/7주차/@ObservedObject vs @StateObject.md",
     "Combine/Combine Study/Book/Chapter 1. Hello, Combine!.md",
     "Combine/Combine Study/참고.md",
+    "Swift/Actor/Actor.md",
     "𐂮 Resources/Pasted image 20240703233438.png",
     "𐂮 Resources/Pasted image 20240703232401.png",
     "𐂮 Resources/Pasted image 20240703230110.png",
+    "conflict-files-obsidian-git.md",
     "𐂮 Resources/Pasted image 20240703225012.png",
     "𐂮 Resources/Pasted image 20240703225000.png",
     "Combine/Combine Study/Book",
-    "Swift/Actor/Actor.md",
-    "iOS/F-lab 멘토링/6주차/Navigation.md",
     "iOS/F-lab 멘토링/7주차",
-    "iOS/F-lab 멘토링/6주차",
-    "Swift/Swift Concurrency/Chapter 6/Actor Reentrancy.md",
-    "Swift/Actor",
-    "Swift/Swift Concurrency/Chapter 6/Actors.md",
     "SwiftUI/Navigation.md",
+    "Swift/Actor",
     "iOS/실전 리팩토링/2024 03 12 라이브세션.md",
     "iOS/실전 리팩토링/2024 03 05 라이브세션.md",
     "iOS/실전 리팩토링",
@@ -184,11 +182,14 @@
     "iOS/F-lab 멘토링/5주차/App Intents를 이용해 Interactive Widget 만들기.md",
     "iOS/F-lab 멘토링/4주차/준비 내용.md",
     "iOS/F-lab 멘토링/4주차/스핀락.md",
+    "iOS/F-lab 멘토링/4주차/Priority Inversion.md",
+    "iOS/F-lab 멘토링/4주차/OS에서의 메모리 관리.md",
     "iOS/F-lab 멘토링/5주차",
     "iOS/F-lab 멘토링/4주차",
     "iOS/F-lab 멘토링/3주차",
     "iOS/F-lab 멘토링/1달-2주차",
     "iOS/F-lab 멘토링/1달-1주차",
+    "iOS/F-lab 멘토링",
     "𐂮 Resources/Pasted image 20240627193752.png",
     "𐂮 Resources/Pasted image 20240627193744.png",
     "𐂮 Resources/Pasted image 20240627193659.png",
