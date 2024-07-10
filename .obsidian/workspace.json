@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TIL/20240709.md",
+                "file": "iOS/F-lab 멘토링/트러블슈팅/SwiftUI에서 구조.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TIL/20240709.md",
+                "file": "iOS/F-lab 멘토링/트러블슈팅/SwiftUI에서 구조.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TIL/20240709.md",
+                "file": "iOS/F-lab 멘토링/트러블슈팅/SwiftUI에서 구조.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TIL/20240709.md"
+                "file": "iOS/F-lab 멘토링/트러블슈팅/SwiftUI에서 구조.md"
               }
             }
           }
@@ -147,8 +147,10 @@
       "templates:템플릿 삽입": false
     }
   },
-  "active": "280c3b192a685dc5",
+  "active": "160736a19be9866b",
   "lastOpenFiles": [
+    "iOS/F-lab 멘토링/트러블슈팅",
+    "TIL/20240709.md",
     "iOS/F-lab 멘토링/2주차/프로세스와 스레드 차이.md",
     "iOS/F-lab 멘토링/2주차/프로세스 관리.md",
     "iOS/F-lab 멘토링/2주차/컨텍스트 스위칭.md",
@@ -174,9 +176,7 @@
     "iOS/F-lab 멘토링/1주차/AutoReleasePool.md",
     "iOS/F-lab 멘토링/1주차/??.md",
     "iOS/F-lab 멘토링/1주차",
-    "TIL/Trouble shooting/SwiftUI에서 구조.md",
-    "TIL/Trouble shooting/TabBar Font 변경.md",
-    "TIL/20240709.md",
+    "iOS/F-lab 멘토링/트러블슈팅/SwiftUI에서 구조.md",
     "𐂮 Resources/Pasted image 20240703233438.png",
     "𐂮 Resources/Pasted image 20240703232401.png",
     "𐂮 Resources/Pasted image 20240703230110.png",
