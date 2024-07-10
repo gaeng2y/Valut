@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "iOS/F-lab 멘토링/7주차/Observation.md",
+                "file": "Combine/Combine Study/Book/Chapter 2. Publishers & Subscribers.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "iOS/F-lab 멘토링/7주차/Observation.md",
+                "file": "Combine/Combine Study/Book/Chapter 2. Publishers & Subscribers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "iOS/F-lab 멘토링/7주차/Observation.md",
+                "file": "Combine/Combine Study/Book/Chapter 2. Publishers & Subscribers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "iOS/F-lab 멘토링/7주차/Observation.md"
+                "file": "Combine/Combine Study/Book/Chapter 2. Publishers & Subscribers.md"
               }
             }
           }
@@ -149,10 +149,10 @@
   },
   "active": "280c3b192a685dc5",
   "lastOpenFiles": [
+    "iOS/F-lab 멘토링/7주차/Observation.md",
     "TIL/Trouble shooting/SwiftUI에서 구조.md",
     "iOS/F-lab 멘토링/트러블슈팅/SwiftUI에서 구조.md",
     "iOS/F-lab 멘토링/트러블슈팅",
-    "iOS/F-lab 멘토링/7주차/Observation.md",
     "iOS/F-lab 멘토링/8주차",
     "TIL/20240709.md",
     "iOS/F-lab 멘토링/7주차/@ObservedObject vs @StateObject.md",
