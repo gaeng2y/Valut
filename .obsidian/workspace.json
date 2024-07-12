@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "0895907620d3aab7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "iOS/F-lab 멘토링/7주차/SwiftUI Property Wrapper.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "iOS/F-lab 멘토링/7주차/SwiftUI Property Wrapper.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "iOS/F-lab 멘토링/7주차/SwiftUI Property Wrapper.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           }
@@ -147,8 +160,13 @@
       "templates:템플릿 삽입": false
     }
   },
-  "active": "280c3b192a685dc5",
+  "active": "0895907620d3aab7",
   "lastOpenFiles": [
+    "iOS/F-lab 멘토링/7주차/SwiftUI Property Wrapper.md",
+    "conflict-files-obsidian-git.md",
+    "iOS/F-lab 멘토링/7주차/트러블슈팅/SwiftUI에서 구조.md",
+    "iOS/F-lab 멘토링/7주차/트러블슈팅",
+    "WWDC/WWDC 16/Understanding Swift Performance/Reference Counting.md",
     "Combine/Combine Study/Book/Chapter 2. Publishers & Subscribers.md",
     "iOS/F-lab 멘토링/7주차/Observation.md",
     "TIL/Trouble shooting/SwiftUI에서 구조.md",
@@ -159,7 +177,6 @@
     "iOS/F-lab 멘토링/7주차/@ObservedObject vs @StateObject.md",
     "iOS/F-lab 멘토링/7주차/Actor의 종류.md",
     "iOS/F-lab 멘토링/7주차/Combine Key feature.md",
-    "iOS/F-lab 멘토링/7주차/SwiftUI Property Wrapper.md",
     "TIL/Trouble shooting/TabBar Font 변경.md",
     "Combine/Combine Study/Book/Chapter 1. Hello, Combine!.md",
     "Combine/Combine Study/참고.md",
@@ -184,12 +201,8 @@
     "iOS/F-lab 멘토링/5주차/Network Address Translation.md",
     "iOS/F-lab 멘토링/5주차/MVVM 패턴.md",
     "iOS/F-lab 멘토링/5주차/MVI.md",
-    "iOS/F-lab 멘토링/5주차/HealthKit 서베이.md",
-    "iOS/F-lab 멘토링/5주차/Flux, Redux.md",
-    "iOS/F-lab 멘토링/5주차/App Intents를 이용해 Interactive Widget 만들기.md",
     "iOS/F-lab 멘토링/5주차",
     "iOS/F-lab 멘토링/4주차",
-    "iOS/F-lab 멘토링/3주차",
     "𐂮 Resources/Pasted image 20240627193752.png",
     "𐂮 Resources/Pasted image 20240627193744.png",
     "𐂮 Resources/Pasted image 20240627193659.png",
