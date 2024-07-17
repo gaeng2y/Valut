@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "6c08b5dc67b8204f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "WWDC/WWDC 16/Understanding Swift Performance/Understanding Swift Performance.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "WWDC/WWDC 16/Understanding Swift Performance/Understanding Swift Performance.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WWDC/WWDC 16/Understanding Swift Performance/Understanding Swift Performance.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           }
@@ -147,12 +160,16 @@
       "templates:템플릿 삽입": false
     }
   },
-  "active": "280c3b192a685dc5",
+  "active": "6c08b5dc67b8204f",
   "lastOpenFiles": [
+    "WWDC/WWDC 16/Understanding Swift Performance/Understanding Swift Performance.md",
+    "conflict-files-obsidian-git.md",
+    "𐂮 Resources/Pasted image 20240717113647.png",
+    "𐂮 Resources/Pasted image 20240717113641.png",
+    "Combine/Combine Study/Book/Chapter3. Transforming Operators.md",
     "TIL/Trouble shooting/WidgetKit 이슈.md",
     "iOS/F-lab 멘토링/8주차/Widget 설계서.md",
     "iOS/F-lab 멘토링/7주차/SwiftUI Property Wrapper.md",
-    "conflict-files-obsidian-git.md",
     "iOS/F-lab 멘토링/7주차/트러블슈팅/SwiftUI에서 구조.md",
     "iOS/F-lab 멘토링/7주차/트러블슈팅",
     "WWDC/WWDC 16/Understanding Swift Performance/Reference Counting.md",
@@ -186,15 +203,11 @@
     "iOS/실전 리팩토링/2024 03 12 라이브세션.md",
     "iOS/실전 리팩토링/2024 03 05 라이브세션.md",
     "iOS/실전 리팩토링",
-    "iOS/F-lab 멘토링/5주차/Swift Concurrency.md",
-    "iOS/F-lab 멘토링/5주차/Network Address Translation.md",
     "iOS/F-lab 멘토링/5주차",
     "iOS/F-lab 멘토링/4주차",
     "𐂮 Resources/Pasted image 20240627193752.png",
     "𐂮 Resources/Pasted image 20240627193744.png",
     "𐂮 Resources/Pasted image 20240627193659.png",
-    "𐂮 Resources/Pasted image 20240627193629.png",
-    "𐂮 Resources/Pasted image 20240627193502.png",
     "Computational Thinking/무제 파일.canvas"
   ]
 }
