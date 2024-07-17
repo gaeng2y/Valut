@@ -24,3 +24,10 @@ completion 될때까지의 값들을 모아서 배열로 만듦
 T는 주어진 키 경로에서 발견되는 값의 유형을 나타낸다.
 
 > in RxSwift -> map()
+
+### tryMap(_ :)
+map인데 안에서 에러 던질 수 있는 map completion에서 error를 잡을 수 있다.
+
+### Flattening publishers
+#### flatMap(maxPublishers:_ :)
+flatMap 연산자는 여러 업스트림 퍼블리셔를 단일 다운스트림 퍼블리셔로 평평하게 하거나, 더 구체적으로는 해당 퍼블리셔의 배출을 평평하게 하는 데 사용할 수 있습니다.
