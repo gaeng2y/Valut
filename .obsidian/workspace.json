@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TIL/Trouble shooting/WidgetKit 이슈.md",
+                "file": "WWDC/WWDC 16/Understanding Swift Performance/Understanding Swift Performance.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TIL/Trouble shooting/WidgetKit 이슈.md",
+                "file": "WWDC/WWDC 16/Understanding Swift Performance/Understanding Swift Performance.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TIL/Trouble shooting/WidgetKit 이슈.md",
+                "file": "WWDC/WWDC 16/Understanding Swift Performance/Understanding Swift Performance.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TIL/Trouble shooting/WidgetKit 이슈.md"
+                "file": "WWDC/WWDC 16/Understanding Swift Performance/Understanding Swift Performance.md"
               }
             }
           }
@@ -149,8 +149,8 @@
   },
   "active": "280c3b192a685dc5",
   "lastOpenFiles": [
-    "iOS/F-lab 멘토링/8주차/Widget 설계서.md",
     "TIL/Trouble shooting/WidgetKit 이슈.md",
+    "iOS/F-lab 멘토링/8주차/Widget 설계서.md",
     "iOS/F-lab 멘토링/7주차/SwiftUI Property Wrapper.md",
     "conflict-files-obsidian-git.md",
     "iOS/F-lab 멘토링/7주차/트러블슈팅/SwiftUI에서 구조.md",
