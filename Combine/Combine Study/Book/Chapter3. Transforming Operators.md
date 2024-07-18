@@ -68,6 +68,8 @@ nil 병합 연산자인 `??` 을 사용하는 것과 `replaceNil` 를 사용
 2. Publihser로 부터 각각의 값을 전달 받으면, 이전에 저장 해놓은 값에 더해서 저장하고, 결과를 emit 한다.
 
 - 에러를 던지는 `tryScan` operator 또한 있다. 클로저가 에러를 throw 하면, `tryScan` 은 해당 에러로 fail 된다.
+
+> [!info] RxSwift -> scan
 ## Wrap-up
 
 - Publihser의 output 대해 작업을 수행하는 메소드를 Operator 라 부른다.
@@ -78,4 +80,4 @@ nil 병합 연산자인 `??` 을 사용하는 것과 `replaceNil` 를 사용
 - Swift standard library 와 이름이 비슷 한 Combine operator는 비슷하지만 완전히 다른 방식으로 동작 한다.
 - 하나의 Subscription 에서 다수의 operator를 체이닝 할 수 있다.
 
-> [!info] RxSwift -> scan
+
