@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WWDC/WWDC 16/Understanding Swift Performance/Understanding Swift Performance.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6c08b5dc67b8204f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "Combine/Combine Study/Book/Chapter3. Transforming Operators.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "Combine/Combine Study/Book/Chapter3. Transforming Operators.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "Combine/Combine Study/Book/Chapter3. Transforming Operators.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "conflict-files-obsidian-git.md"
+                "file": "Combine/Combine Study/Book/Chapter3. Transforming Operators.md"
               }
             }
           }
@@ -160,13 +147,22 @@
       "templates:템플릿 삽입": false
     }
   },
-  "active": "6c08b5dc67b8204f",
+  "active": "280c3b192a685dc5",
   "lastOpenFiles": [
+    "𐂮 Resources/Pasted image 20240717214149.png",
+    "𐂮 Resources/Pasted image 20240717213511.png",
+    "𐂮 Resources/Pasted image 20240717213343.png",
+    "𐂮 Resources/Pasted image 20240717212916.png",
+    "𐂮 Resources/Pasted image 20240717212915.png",
+    "𐂮 Resources/Pasted image 20240717212913 1.png",
+    "𐂮 Resources/Pasted image 20240717212913.png",
+    "𐂮 Resources/Pasted image 20240717212912.png",
+    "Combine/Combine Study/참고.md",
+    "Combine/Combine Study/Book/Chapter3. Transforming Operators.md",
     "WWDC/WWDC 16/Understanding Swift Performance/Understanding Swift Performance.md",
     "conflict-files-obsidian-git.md",
     "𐂮 Resources/Pasted image 20240717113647.png",
     "𐂮 Resources/Pasted image 20240717113641.png",
-    "Combine/Combine Study/Book/Chapter3. Transforming Operators.md",
     "TIL/Trouble shooting/WidgetKit 이슈.md",
     "iOS/F-lab 멘토링/8주차/Widget 설계서.md",
     "iOS/F-lab 멘토링/7주차/SwiftUI Property Wrapper.md",
@@ -185,12 +181,7 @@
     "iOS/F-lab 멘토링/7주차/Combine Key feature.md",
     "TIL/Trouble shooting/TabBar Font 변경.md",
     "Combine/Combine Study/Book/Chapter 1. Hello, Combine!.md",
-    "Combine/Combine Study/참고.md",
     "𐂮 Resources/Pasted image 20240703233438.png",
-    "𐂮 Resources/Pasted image 20240703232401.png",
-    "𐂮 Resources/Pasted image 20240703230110.png",
-    "𐂮 Resources/Pasted image 20240703225012.png",
-    "𐂮 Resources/Pasted image 20240703225000.png",
     "Combine/Combine Study/Book",
     "Swift/Actor/Actor.md",
     "iOS/F-lab 멘토링/6주차/Navigation.md",
@@ -201,13 +192,9 @@
     "Swift/Swift Concurrency/Chapter 6/Actors.md",
     "SwiftUI/Navigation.md",
     "iOS/실전 리팩토링/2024 03 12 라이브세션.md",
-    "iOS/실전 리팩토링/2024 03 05 라이브세션.md",
     "iOS/실전 리팩토링",
     "iOS/F-lab 멘토링/5주차",
     "iOS/F-lab 멘토링/4주차",
-    "𐂮 Resources/Pasted image 20240627193752.png",
-    "𐂮 Resources/Pasted image 20240627193744.png",
-    "𐂮 Resources/Pasted image 20240627193659.png",
     "Computational Thinking/무제 파일.canvas"
   ]
 }
