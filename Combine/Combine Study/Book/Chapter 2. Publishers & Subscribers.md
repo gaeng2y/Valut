@@ -16,8 +16,8 @@ example(of: "Publisher") {
 
 Publisher는 두가지 이벤트를 emit 한다
 
-1. Value (element라고도 불리는)
-2. A completion event
+1. Value (element라고도 불리는) -> Output
+2. A completion event(error, completion)
 
 Publisher는 0개 이상의 값을 emit 할 수 있지만, completion event 는 하나만 emit 할 수 있다.
 Completion event는 normal comletion 이벤트 이거나 error이다.\
@@ -45,12 +45,12 @@ Completion event는 normal comletion 이벤트 이거나 error이다.\
 - `@Published` property wrapper 로 표시된 또 다른 property로 부터 Publisher에서 emit 된 값을 `republish` 하는데 확용 할 수 있는 `assign` Opreator 에 ~~변동이 있습니다~~
 - `assign(to:)` Operator 는 `AnyCancellable` 토큰을 리턴하지 않는다, 왜냐하면 그것은 내부적으로 lifecycle을 관리 하고 있고 `@Published` property가 deinitialize 될 때 Subscription을 취소 한다.
 
-`assign(to:on:)` 과 비교하면 `assign(to: \.word, on:self)` 는 `AnyCancellabel`의 결과를 strong reference cycle로 저장하고 있다. `assign(to: &$word)` 는 이 문제를 방지한다.
+`assign(to:on:)` 과 비교하면 `assign(to: \.word, on:self)` 는 `AnyCancellabe`의 결과를 strong reference cycle로 저장하고 있다. `assign(to: &$word)` 는 이 문제를 방지한다.
 ## Hello Cancellable
 
 - Subscriber가 완료 되고, Publisher로 부터 더이상 값을 받기를 원치 않는 경우, Subscription을 취소해 리소스를 해제하고 네트워크 콜 같은 액티비티에 응답하는 것이 좋다.
 - Subscription은 `AnyCancellable` 인스턴스인 "cancellation token"을 리턴하므로, 종료 되었을 때 Subscription을 취소할 수 있다.
-- `AnyCancellable` 는 그 목적을 위한 `cancle()` 메소드를 요구하는 `Cancellable` 프로토콜을 따른다.
+- `AnyCancellable` 는 그 목적을 위한 `cancel()` 메소드를 요구하는 `Cancellable` 프로토콜을 따른다.
 - Subscription에 명시적으로 `cancel()` 을 호출 하지 않으면, Publisher가 완료 될 때까지 지속 되거나, 일반적인 메모리 관리로 저장된 Subscription이 deinitialize 될 때까지 지속 된다.
 ## Understanding what's going on
 
