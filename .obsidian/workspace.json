@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Swift/Method Swizzling.md",
+                "file": "Combine/Combine Study/Book/Chapter3. Transforming Operators.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +61,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "9843e891487ed6f6",
@@ -77,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Swift/Method Swizzling.md",
+                "file": "Combine/Combine Study/Book/Chapter3. Transforming Operators.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Swift/Method Swizzling.md"
+                "file": "Combine/Combine Study/Book/Chapter3. Transforming Operators.md"
               }
             }
           },
@@ -115,12 +116,11 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -135,12 +135,13 @@
   },
   "active": "46dfc52678597c57",
   "lastOpenFiles": [
+    "Combine/Combine Study/Book/Chapter 2. Publishers & Subscribers.md",
+    "Combine/Combine Study/Book/Chapter3. Transforming Operators.md",
+    "Swift/Method Swizzling.md",
     "회고",
     "2024-07-18.md",
-    "Swift/Method Swizzling.md",
     "iOS/앱과 비즈니스 로직.md",
     "WWDC/WWDC 16/Understanding Swift Performance/Method Dispatch.md",
-    "Combine/Combine Study/Book/Chapter3. Transforming Operators.md",
     "𐂮 Resources/Pasted image 20240718095304.png",
     "𐂮 Resources/Pasted image 20240718095218.png",
     "𐂮 Resources/Pasted image 20240718095139.png",
@@ -148,7 +149,6 @@
     "𐂮 Resources/Pasted image 20240718095100.png",
     "Combine/Combine Study/참고.md",
     "Combine/Combine Study/짜투리/receive(on)과 subscribe(on)의 차이.md",
-    "Combine/Combine Study/Book/Chapter 2. Publishers & Subscribers.md",
     "𐂮 Resources/Pasted image 20240717113647.png",
     "𐂮 Resources/Pasted image 20240717113641.png",
     "WWDC/WWDC 16/Understanding Swift Performance/Reference Counting.md",
@@ -180,7 +180,6 @@
     "iOS/F-lab 멘토링/7주차",
     "Swift/Actor",
     "iOS/실전 리팩토링",
-    "iOS/F-lab 멘토링/5주차",
     "Computational Thinking/무제 파일.canvas"
   ]
 }
