@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Combine/Combine Study/Book/Chapter3. Transforming Operators.md",
+                "file": "Swift/🔀 Method Swizzling.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,8 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "9843e891487ed6f6",
@@ -78,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Combine/Combine Study/Book/Chapter3. Transforming Operators.md",
+                "file": "Swift/🔀 Method Swizzling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Combine/Combine Study/Book/Chapter3. Transforming Operators.md"
+                "file": "Swift/🔀 Method Swizzling.md"
               }
             }
           },
@@ -120,7 +119,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
@@ -136,8 +135,9 @@
   },
   "active": "46dfc52678597c57",
   "lastOpenFiles": [
-    "Combine/Combine Study/Book/Chapter 2. Publishers & Subscribers.md",
+    "Swift/DynamicMemberLookup.md",
     "Combine/Combine Study/Book/Chapter3. Transforming Operators.md",
+    "Combine/Combine Study/Book/Chapter 2. Publishers & Subscribers.md",
     "Combine/Combine Study/Resources/Pasted image 20240717113641.png",
     "Combine/Combine Study/Book/Chapter 1. Hello, Combine!.md",
     "𐂮 Resources/Pasted image 20240703233438.png",
@@ -150,7 +150,7 @@
     "𐂮 Resources/Screenshot 2024-03-12 at 10.53.15 PM.png",
     "𐂮 Resources/Simulator Screen Recording - iPhone 15 Pro - 2024-04-12 at 01.02.43.mp4",
     "Combine/Combine Study/Resources",
-    "Swift/Method Swizzling.md",
+    "Swift/🔀 Method Swizzling.md",
     "회고",
     "2024-07-18.md",
     "iOS/앱과 비즈니스 로직.md",
