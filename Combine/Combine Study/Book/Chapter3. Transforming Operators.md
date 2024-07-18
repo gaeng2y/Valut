@@ -5,7 +5,7 @@ Combine에서, 게시자로부터 오는 값에 대한 작업을 수행하는 �
 #### collect()
 수집 연산자는 게시자의 개별 값의 흐름을 해당 값의 배열로 변환하는 편리한 방법을 제공합니다.
 completion 될때까지의 값들을 모아서 배열로 만듦
-![collect](https://github.com/gaeng2y/Valut/Combine/Combine\ Study/Resources/Pasted\ image\ 20240717113641.png)
+![collect](https://github.com/gaeng2y/Valut/blob/main/Combine/Combine%20Study/Resources/Pasted%20image%2020240717113641.png?raw=true)
 
 > [!warning]
 > 카운트나 제한을 지정할 필요가 없는 collect() 및 기타 버퍼링 연산자로 작업할 때 주의하십시오. 그들은 수신된 값을 저장하기 위해 무제한의 메모리를 사용할 것이다.
@@ -15,7 +15,7 @@ completion 될때까지의 값들을 모아서 배열로 만듦
 ### **Mapping values**
 #### map(_ :)
 당신이 가장 먼저 배우게 될 것은 게시자로부터 방출된 값에 따라 작동한다는 점을 제외하고는 스위프트의 표준 `map`처럼 작동하는 `map`이다.
-![](Pasted%20image%2020240717113647.png)
+![map](https://github.com/gaeng2y/Valut/blob/main/Combine/Combine%20Study/Resources/Pasted%20image%2020240717113647.png?raw=true)
 #### Map key paths
 오퍼레이터의 `map` 제품군은 또한 주요 경로를 사용하여 값의 하나, 둘 또는 세 개의 속성으로 매핑할 수 있는 세 가지 버전을 포함한다. 시그니처는 이런 형태다.
 **• `map<T>(_:)`**
@@ -34,7 +34,7 @@ map인데 안에서 에러 던질 수 있는 map completion에서 error를 잡�
 - 더 정확히는, 해당 publihser 의 emission 들을 flatten 함
 - `flapMap` 에 의해 리턴되는 publisher는 종종 upstream publihser 와 다른 타입이다
 - 주로 하나의 publihser에서 emit 된 요소들을 publihser를 리턴하는 메소드에 전달 하고 싶을 때, 그리고 궁극적으로 다른 publisher 로 부터 emit 된 요소들을 subscribe 하고 싶을때 사용한다
-![](Pasted%20image%2020240718095100.png)
+![flatmap](https://github.com/gaeng2y/Valut/blob/main/Combine/Combine%20Study/Resources/Pasted%20image%2020240718095100.png?raw=true)
 
 1. 다이어그램에서, `flatMap` 은 P1, P2, P3 3 개의 publihser를 받는다.
 2. 각각의 publisher 들은 `value` 프로퍼티를 갖고 이것 역시 publihser이다.
@@ -45,7 +45,7 @@ map인데 안에서 에러 던질 수 있는 map completion에서 error를 잡�
 > - flatMap(maxPublishers:) -> merge(maxConcurrent:)
 ### **Replacing upstream output**
 #### replaceNil(with:)
-![](Pasted%20image%2020240718095139.png)
+![replaceNil](https://github.com/gaeng2y/Valut/blob/main/Combine/Combine%20Study/Resources/Pasted%20image%2020240718095138.png?raw=true)
 - optional 값을 전달 받고 `nil`을 특정 값으로 교체 해준다.
 
 nil 병합 연산자인 `??` 을 사용하는 것과 `replaceNil` 를 사용하는 것 사이에는 미묘하지만 중요한 차이가 있다.
