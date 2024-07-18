@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4a60ef94557c0648",
+        "id": "f55222b8e424ce2e",
         "type": "tabs",
         "children": [
           {
-            "id": "280c3b192a685dc5",
+            "id": "46dfc52678597c57",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -56,14 +56,6 @@
                 "sortOrder": "alphabetical"
               }
             }
-          },
-          {
-            "id": "b1e81fbdd975f898",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {}
-            }
           }
         ]
       }
@@ -97,29 +89,6 @@
             }
           },
           {
-            "id": "17fe9a2dfb041ffb",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "Swift/Method Swizzling.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "d2876114b2f4a8da",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              }
-            }
-          },
-          {
             "id": "55b4a66e0ca28465",
             "type": "leaf",
             "state": {
@@ -136,6 +105,14 @@
               "type": "calendar",
               "state": {}
             }
+          },
+          {
+            "id": "0bec98ac860c9a02",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
         ],
         "currentTab": 3
@@ -149,17 +126,19 @@
     "hiddenItems": {
       "command-palette:명령어 팔레트 열기": false,
       "switcher:퀵 스위처 열기": false,
-      "graph:그래프 뷰 열기": false,
-      "canvas:새 캔버스 만들기": false,
-      "daily-notes:오늘의 데일리 노트 열기": false,
       "templates:템플릿 삽입": false,
       "markdown-importer:마크다운 형식 가져오기 열기": false,
-      "publish:변경사항 출판": false
+      "callout-manager:Insert Callout": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "periodic-notes:Open today": false
     }
   },
-  "active": "280c3b192a685dc5",
+  "active": "46dfc52678597c57",
   "lastOpenFiles": [
+    "회고",
+    "2024-07-18.md",
     "Swift/Method Swizzling.md",
+    "iOS/앱과 비즈니스 로직.md",
     "WWDC/WWDC 16/Understanding Swift Performance/Method Dispatch.md",
     "Combine/Combine Study/Book/Chapter3. Transforming Operators.md",
     "𐂮 Resources/Pasted image 20240718095304.png",
@@ -193,9 +172,6 @@
     "iOS/F-lab 멘토링/2주차",
     "iOS/F-lab 멘토링/1주차/유니코드 문자열과 기본 문자열의 성능 차이.md",
     "iOS/F-lab 멘토링/1주차/웹 뷰에서 자바스크립트와 상호작용.md",
-    "iOS/F-lab 멘토링/1주차/Swift의 캡쳐 리스트.md",
-    "iOS/F-lab 멘토링/1주차/Swift 지정, 편의 생성자.md",
-    "iOS/F-lab 멘토링/1주차/Swift Data Structure.md",
     "iOS/F-lab 멘토링/1주차",
     "𐂮 Resources/Pasted image 20240703233438.png",
     "𐂮 Resources/Pasted image 20240703232401.png",
