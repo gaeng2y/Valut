@@ -5,7 +5,7 @@ Combine에서, 게시자로부터 오는 값에 대한 작업을 수행하는 �
 #### collect()
 수집 연산자는 게시자의 개별 값의 흐름을 해당 값의 배열로 변환하는 편리한 방법을 제공합니다.
 completion 될때까지의 값들을 모아서 배열로 만듦
-![](Pasted%20image%2020240717113641.png)
+![collect](https://github.com/gaeng2y/Valut/Combine/Combine\ Study/Resources/Pasted\ image\ 20240717113641.png)
 
 > [!warning]
 > 카운트나 제한을 지정할 필요가 없는 collect() 및 기타 버퍼링 연산자로 작업할 때 주의하십시오. 그들은 수신된 값을 저장하기 위해 무제한의 메모리를 사용할 것이다.
