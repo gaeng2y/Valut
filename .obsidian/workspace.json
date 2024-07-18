@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Combine/Combine Study/Book/Chapter3. Transforming Operators.md",
+                "file": "Swift/Method Swizzling.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Combine/Combine Study/Book/Chapter3. Transforming Operators.md",
+                "file": "Swift/Method Swizzling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Combine/Combine Study/Book/Chapter3. Transforming Operators.md",
+                "file": "Swift/Method Swizzling.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,8 +125,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Combine/Combine Study/Book/Chapter3. Transforming Operators.md"
+                "file": "Swift/Method Swizzling.md"
               }
+            }
+          },
+          {
+            "id": "66de6dae5d438184",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
             }
           }
         ],
@@ -144,11 +152,16 @@
       "graph:그래프 뷰 열기": false,
       "canvas:새 캔버스 만들기": false,
       "daily-notes:오늘의 데일리 노트 열기": false,
-      "templates:템플릿 삽입": false
+      "templates:템플릿 삽입": false,
+      "markdown-importer:마크다운 형식 가져오기 열기": false,
+      "publish:변경사항 출판": false
     }
   },
   "active": "280c3b192a685dc5",
   "lastOpenFiles": [
+    "Swift/Method Swizzling.md",
+    "WWDC/WWDC 16/Understanding Swift Performance/Method Dispatch.md",
+    "Combine/Combine Study/Book/Chapter3. Transforming Operators.md",
     "𐂮 Resources/Pasted image 20240718095304.png",
     "𐂮 Resources/Pasted image 20240718095218.png",
     "𐂮 Resources/Pasted image 20240718095139.png",
@@ -156,7 +169,6 @@
     "𐂮 Resources/Pasted image 20240718095100.png",
     "Combine/Combine Study/참고.md",
     "Combine/Combine Study/짜투리/receive(on)과 subscribe(on)의 차이.md",
-    "Combine/Combine Study/Book/Chapter3. Transforming Operators.md",
     "Combine/Combine Study/Book/Chapter 2. Publishers & Subscribers.md",
     "𐂮 Resources/Pasted image 20240717113647.png",
     "𐂮 Resources/Pasted image 20240717113641.png",
@@ -184,12 +196,10 @@
     "iOS/F-lab 멘토링/1주차/Swift의 캡쳐 리스트.md",
     "iOS/F-lab 멘토링/1주차/Swift 지정, 편의 생성자.md",
     "iOS/F-lab 멘토링/1주차/Swift Data Structure.md",
-    "iOS/F-lab 멘토링/1주차/Single Source of truth.md",
     "iOS/F-lab 멘토링/1주차",
     "𐂮 Resources/Pasted image 20240703233438.png",
     "𐂮 Resources/Pasted image 20240703232401.png",
     "𐂮 Resources/Pasted image 20240703230110.png",
-    "𐂮 Resources/Pasted image 20240703225012.png",
     "Combine/Combine Study/Book",
     "iOS/F-lab 멘토링/7주차",
     "Swift/Actor",
