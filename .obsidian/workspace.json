@@ -148,20 +148,21 @@
   "left-ribbon": {
     "hiddenItems": {
       "command-palette:명령어 팔레트 열기": false,
+      "switcher:퀵 스위처 열기": false,
+      "templates:템플릿 삽입": false,
+      "markdown-importer:마크다운 형식 가져오기 열기": false,
       "callout-manager:Insert Callout": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "markdown-importer:마크다운 형식 가져오기 열기": false,
-      "switcher:퀵 스위처 열기": false,
-      "periodic-notes:Open today": false,
-      "templates:템플릿 삽입": false
+      "periodic-notes:Open today": false
     }
   },
-  "active": "160736a19be9866b",
+  "active": "280c3b192a685dc5",
   "lastOpenFiles": [
+    "TIL/2024-07-19.md",
+    "SwiftUI/SwiftUI Documentation/Model Data.md",
     "SwiftUI/SwiftUI 스터디/Backyard Birds/SwiftData/Model your schema with SwiftData.md",
     "SwiftUI/SwiftUI 스터디/Backyard Birds/SwiftData/Build an app with SwiftData.md",
     "SwiftUI/SwiftUI 스터디/Backyard Birds/SwiftData/SwiftData.md",
-    "SwiftUI/SwiftUI Documentation/Model Data.md",
     "TIL/Trouble shooting/ContentsDetailViewerViewController.md",
     "TIL/Trouble shooting/PrivateSettableMacro.md",
     "TIL/Trouble shooting/Pull to Refresh.md",
@@ -183,7 +184,6 @@
     "TIL/Trouble shooting/최상단에 뷰 띄우기.md",
     "TIL/Trouble shooting/이미지 스크롤 뷰.md",
     "TIL/Trouble shooting/로또 번호 만들기.md",
-    "TIL/Trouble shooting/Xcode Configuration.md",
     "Combine/Combine Study/Resources/Pasted image 20240718095304.png",
     "Combine/Combine Study/Resources/Pasted image 20240718095218.png",
     "Combine/Combine Study/Resources/Pasted image 20240718095139.png",
