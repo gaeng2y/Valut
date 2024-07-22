@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "4a60ef94557c0648",
+        "id": "f55222b8e424ce2e",
         "type": "tabs",
         "children": [
           {
-            "id": "280c3b192a685dc5",
+            "id": "46dfc52678597c57",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SwiftUI/SwiftUI Documentation/Model Data.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "076c60626751689e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "iOS/F-lab 멘토링/9주차/SwiftData.md",
+                "file": "Combine/Combine Study/Book/Chapter 4. Filtering Operators.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -69,20 +56,12 @@
                 "sortOrder": "alphabetical"
               }
             }
-          },
-          {
-            "id": "b1e81fbdd975f898",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {}
-            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 344.5
+    "width": 200
   },
   "right": {
     "id": "9843e891487ed6f6",
@@ -98,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "iOS/F-lab 멘토링/9주차/SwiftData.md",
+                "file": "Combine/Combine Study/Book/Chapter 4. Filtering Operators.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,52 +89,37 @@
             }
           },
           {
-            "id": "17fe9a2dfb041ffb",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "WWDC/WWDC 16/Understanding Swift Performance/Reference Counting.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "d2876114b2f4a8da",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              }
-            }
-          },
-          {
             "id": "55b4a66e0ca28465",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "iOS/F-lab 멘토링/9주차/SwiftData.md"
+                "file": "Combine/Combine Study/Book/Chapter 4. Filtering Operators.md"
               }
             }
           },
           {
-            "id": "421fa6bc25d6c34a",
+            "id": "66de6dae5d438184",
             "type": "leaf",
             "state": {
               "type": "calendar",
               "state": {}
             }
+          },
+          {
+            "id": "0bec98ac860c9a02",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
@@ -169,54 +133,54 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "076c60626751689e",
+  "active": "160736a19be9866b",
   "lastOpenFiles": [
-    "iOS/F-lab 멘토링/1주차/??.md",
-    "iOS/F-lab 멘토링/9주차/SwiftData.md",
-    "iOS/F-lab 멘토링/9주차",
-    "iOS/The RED 슈퍼앱 운영을 위한 확장성 높은 앱 아키텍처 구축/RIBs.md",
-    "iOS/The RED 슈퍼앱 운영을 위한 확장성 높은 앱 아키텍처 구축/Composition.md",
-    "iOS/앱과 비즈니스 로직.md",
-    "TIL/2024-07-20.md",
-    "TIL/2024-07-19.md",
-    "SwiftUI/SwiftUI Documentation/Model Data.md",
-    "SwiftUI/SwiftUI 스터디/Backyard Birds/SwiftData/Model your schema with SwiftData.md",
-    "SwiftUI/SwiftUI 스터디/Backyard Birds/SwiftData/Build an app with SwiftData.md",
-    "SwiftUI/SwiftUI 스터디/Backyard Birds/SwiftData/SwiftData.md",
-    "TIL/Trouble shooting/ContentsDetailViewerViewController.md",
-    "TIL/Trouble shooting/PrivateSettableMacro.md",
-    "TIL/Trouble shooting/Pull to Refresh.md",
-    "TIL/Trouble shooting/커뮤니티 화면 리팩토링.md",
-    "TIL/20231219.md",
-    "TIL/20231212 TIL.md",
-    "TIL/231213 TIL.md",
-    "TIL/231208 TIL.md",
-    "TIL/231207 TIL.md",
-    "TIL/231205 TIL.md",
-    "TIL/231204 TIL.md",
-    "TIL/231202.md",
-    "TIL/231201.md",
-    "TIL/231129.md",
-    "TIL/231123.md",
-    "Combine/Combine Study/Resources/Pasted image 20240718095304.png",
-    "Combine/Combine Study/Resources/Pasted image 20240718095218.png",
-    "Combine/Combine Study/Resources/Pasted image 20240718095139.png",
-    "Combine/Combine Study/Resources/Pasted image 20240718095138.png",
-    "Combine/Combine Study/Resources/Pasted image 20240718095100.png",
-    "Combine/Combine Study/Resources/Pasted image 20240717113647.png",
-    "Combine/Combine Study/Resources/Pasted image 20240717113641.png",
-    "Combine/Combine Study/Resources",
+    "Combine/Combine Study/Resources/Pasted image 20240722153113.png",
+    "Combine/Combine Study/Book/Chapter 3. Transforming Operators.md",
+    "Combine/Combine Study/Book/Chapter 2. Publishers & Subscribers.md",
+    "Combine/Combine Study/Book/Chapter 1. Hello, Combine!.md",
+    "Combine/Combine Study/Resources/Pasted image 20240722152803.png",
+    "Combine/Combine Study/Book/Chapter 4. Filtering Operators.md",
+    "TIL/2024-07-22.md",
+    "Swift/🔀 Method Swizzling.md",
     "𐂮 Resources/Pasted image 20240717214149.png",
     "𐂮 Resources/Pasted image 20240717213511.png",
     "𐂮 Resources/Pasted image 20240717213343.png",
-    "iOS/F-lab 멘토링/7주차/트러블슈팅",
-    "iOS/F-lab 멘토링/트러블슈팅",
+    "𐂮 Resources/Pasted image 20240717212916.png",
+    "𐂮 Resources/Pasted image 20240717212915.png",
+    "𐂮 Resources/Pasted image 20240717212913.png",
+    "𐂮 Resources/Pasted image 20240717212913 1.png",
+    "𐂮 Resources/Pasted image 20240717212912.png",
+    "iOS/F-lab 멘토링/9주차/SwiftData.md",
+    "iOS/F-lab 멘토링/9주차",
+    "WWDC/WWDC 15/Protocol-Oriented Programming in Swift/Protocol and Value Oriented Programming in UIKit Apps/Protocol and Value Oriented Programming in UIKit Apps.md",
+    "WWDC/WWDC 15/Protocol-Oriented Programming in Swift/Protocol and Value Oriented Programming in UIKit Apps",
+    "TIL/2024-07-20.md",
+    "Swift/DynamicMemberLookup.md",
+    "Combine/Combine Study/Resources/Pasted image 20240717113641.png",
+    "𐂮 Resources/Simulator Screen Recording - iPhone 15 Pro - 2024-04-12 at 01.02.43.mp4",
+    "Combine/Combine Study/Resources",
+    "회고",
+    "2024-07-18.md",
+    "iOS/앱과 비즈니스 로직.md",
+    "WWDC/WWDC 16/Understanding Swift Performance/Method Dispatch.md",
+    "Combine/Combine Study/참고.md",
+    "Combine/Combine Study/짜투리/receive(on)과 subscribe(on)의 차이.md",
+    "WWDC/WWDC 16/Understanding Swift Performance/Reference Counting.md",
+    "Combine/Combine Study/Book/무제 폴더",
+    "iOS/F-lab 멘토링/8주차/Widget 설계서.md",
     "iOS/F-lab 멘토링/8주차",
-    "Combine/Combine Study/Book",
-    "iOS/F-lab 멘토링/7주차",
-    "iOS/F-lab 멘토링/6주차",
-    "Swift/Actor",
-    "iOS/실전 리팩토링",
+    "TIL/Trouble shooting/WidgetKit 이슈.md",
+    "iOS/F-lab 멘토링/7주차/트러블슈팅/SwiftUI에서 구조.md",
+    "iOS/F-lab 멘토링/7주차/트러블슈팅",
+    "TIL/20240709.md",
+    "iOS/F-lab 멘토링/2주차/프로세스와 스레드 차이.md",
+    "iOS/F-lab 멘토링/2주차/프로세스 관리.md",
+    "iOS/F-lab 멘토링/2주차/컨텍스트 스위칭.md",
+    "iOS/F-lab 멘토링/2주차/운영 체제의 CPU 스케줄링.md",
+    "iOS/F-lab 멘토링/2주차/cpu.land.md",
+    "iOS/F-lab 멘토링/2주차",
+    "iOS/F-lab 멘토링/1주차",
     "Computational Thinking/무제 파일.canvas"
   ]
 }
