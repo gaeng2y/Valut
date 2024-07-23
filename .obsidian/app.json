@@ -1,5 +1,5 @@
 {
-  "attachmentFolderPath": "𐂮 Resources",
+  "attachmentFolderPath": "Combine/Combine Study/Resources",
   "promptDelete": false,
   "useMarkdownLinks": true,
   "pdfExportSettings": {
@@ -8,5 +8,6 @@
     "landscape": false,
     "margin": "0",
     "downscalePercent": 100
-  }
+  },
+  "livePreview": true
 }
