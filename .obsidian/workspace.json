@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "iOS/F-lab 멘토링/10주차/iOS 프로젝트에 Firebase 적용하기.md",
+                "file": "Combine/Combine Study/Book/Chapter 4. Filtering Operators.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "iOS/F-lab 멘토링/10주차/iOS 프로젝트에 Firebase 적용하기.md",
+                "file": "Combine/Combine Study/Book/Chapter 4. Filtering Operators.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "iOS/F-lab 멘토링/10주차/iOS 프로젝트에 Firebase 적용하기.md"
+                "file": "Combine/Combine Study/Book/Chapter 4. Filtering Operators.md"
               }
             }
           },
@@ -171,8 +171,8 @@
   },
   "active": "076c60626751689e",
   "lastOpenFiles": [
-    "iOS/F-lab 멘토링/9주차/SwiftData.md",
     "iOS/F-lab 멘토링/10주차/iOS 프로젝트에 Firebase 적용하기.md",
+    "iOS/F-lab 멘토링/9주차/SwiftData.md",
     "iOS/F-lab 멘토링/10주차",
     "TIL/2024-07-22.md",
     "Combine/Combine Study/Resources/Pasted image 20240722160541.png",
