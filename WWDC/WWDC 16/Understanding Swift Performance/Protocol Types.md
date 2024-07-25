@@ -159,4 +159,24 @@ Line의 값을 읽으려고 할 때마다 storage안에 있는 값들을 읽을 
 
 값의 변화가 일어나면, (예를 들어 move()를 호출한다면?)
 
-그럼 move 메소드에서 isUniquelyReferencedNonObjc -> 이 레퍼런스가 유일
+그럼 move 메소드에서 isUniquelyReferencedNonObjc -> 이 레퍼런스가 유일한지 확인하는 거다.
+
+레퍼런스가 유일한게 아니라면 값이 변경되면 새로운 인스턴스를 만들어서 할당하는 것이다.
+
+## 그래서 성능은?
+
+![small](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Ft1.daumcdn.net%2Fcfile%2Ftistory%2F9919D9335BA8964727)
+
+![large](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Ft1.daumcdn.net%2Fcfile%2Ftistory%2F999DCD365BA8964F2E)
+
+![](https://github.com/gaeng2y/Valut/blob/main/Combine/Combine%20Study/Resources/Protocol4.png?raw=true)
+
+하지만, 이는 위에서 언급되었듯이 indirect storage를 사용한다면 이러한 값비싼 Heap할당을 줄일 수 있다. (대충 cow 쓰는거..)
+
+![indirect](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Ft1.daumcdn.net%2Fcfile%2Ftistory%2F996A65335BA8968D21)
+
+## Summary
+
+- Dynamic polymorphism
+- Indirection through Witness Tables and Existential Container
+- Copying of large values causes heap allocation
