@@ -1,12 +1,12 @@
 이제는 클래스가 아니고 프로토콜을 선언해서 만들었다.
 
-![protocol1](https://github.com/gaeng2y/Valut/blob/main/Combine/Combine%20Study/Resources/Protocol1.png?raw=true)
+![protocol1](https://github.com/gaeng2y/Valut/blob/main/WWDC/Resources/Protocol1.png?raw=true)
 
-![protocol2](https://github.com/gaeng2y/Valut/blob/main/Combine/Combine%20Study/Resources/Protocol2.png?raw=true)
+![protocol2](https://github.com/gaeng2y/Valut/blob/main/WWDC/Resources/Protocol2.png?raw=true)
 
 상속을 하지 않은 관계에서는 V-Table을 사용하지 않고 다이나믹 디스패치를 한다.
 
-![protocol3](https://github.com/gaeng2y/Valut/blob/main/Combine/Combine%20Study/Resources/Protocol3.png?raw=true)
+![protocol3](https://github.com/gaeng2y/Valut/blob/main/WWDC/Resources/Protocol3.png?raw=true)
 
 그렇다면 어떻게 찾아가는거임?
 
@@ -169,7 +169,7 @@ Line의 값을 읽으려고 할 때마다 storage안에 있는 값들을 읽을 
 
 ![large](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Ft1.daumcdn.net%2Fcfile%2Ftistory%2F999DCD365BA8964F2E)
 
-![](https://github.com/gaeng2y/Valut/blob/main/Combine/Combine%20Study/Resources/Protocol4.png?raw=true)
+![](https://github.com/gaeng2y/Valut/blob/main/WWDC/Resources/Protocol4.png?raw=true)
 
 하지만, 이는 위에서 언급되었듯이 indirect storage를 사용한다면 이러한 값비싼 Heap할당을 줄일 수 있다. (대충 cow 쓰는거..)
 
