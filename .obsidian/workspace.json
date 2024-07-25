@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "iOS/F-lab 멘토링/10주차/iOS 프로젝트에 Firebase 적용하기.md",
+                "file": "WWDC/WWDC 16/Understanding Swift Performance/Protocol Types.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "iOS/F-lab 멘토링/10주차/iOS 프로젝트에 Firebase 적용하기.md",
+                "file": "WWDC/WWDC 16/Understanding Swift Performance/Protocol Types.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "iOS/F-lab 멘토링/10주차/iOS 프로젝트에 Firebase 적용하기.md"
+                "file": "WWDC/WWDC 16/Understanding Swift Performance/Protocol Types.md"
               }
             }
           },
@@ -171,7 +171,14 @@
   },
   "active": "076c60626751689e",
   "lastOpenFiles": [
+    "WWDC/WWDC 16/Understanding Swift Performance/Reference Counting.md",
+    "WWDC/Resources/Protocol3.png",
+    "WWDC/WWDC 16/Understanding Swift Performance/Protocol Types.md",
+    "WWDC/Resources/Protocol2.png",
     "Combine/Combine Study/Book/Chapter 4. Filtering Operators.md",
+    "WWDC/Resources/Protocol1.png",
+    "WWDC/추천 WWDC.md",
+    "WWDC/Resources",
     "iOS/F-lab 멘토링/10주차/iOS 프로젝트에 Firebase 적용하기.md",
     "iOS/F-lab 멘토링/9주차/SwiftData.md",
     "iOS/F-lab 멘토링/10주차",
@@ -183,9 +190,6 @@
     "Combine/Combine Study/Resources/Pasted image 20240722160149.png",
     "Combine/Combine Study/Resources/Pasted image 20240722155519.png",
     "Combine/Combine Study/Resources/Pasted image 20240722155333.png",
-    "Combine/Combine Study/Resources/Pasted image 20240722154236.png",
-    "Combine/Combine Study/Resources/Pasted image 20240722154142.png",
-    "Combine/Combine Study/Resources/Pasted image 20240722153902.png",
     "Combine/Combine Study/Book/Chapter 3. Transforming Operators.md",
     "iOS/F-lab 멘토링/1주차/??.md",
     "iOS/F-lab 멘토링/9주차",
@@ -206,9 +210,6 @@
     "TIL/20231212 TIL.md",
     "TIL/231213 TIL.md",
     "TIL/231208 TIL.md",
-    "TIL/231207 TIL.md",
-    "TIL/231205 TIL.md",
-    "TIL/231204 TIL.md",
     "Combine/Combine Study/Resources",
     "iOS/F-lab 멘토링/7주차/트러블슈팅",
     "iOS/F-lab 멘토링/트러블슈팅",
@@ -216,7 +217,6 @@
     "Combine/Combine Study/Book",
     "iOS/F-lab 멘토링/7주차",
     "iOS/F-lab 멘토링/6주차",
-    "Swift/Actor",
     "Computational Thinking/무제 파일.canvas"
   ]
 }

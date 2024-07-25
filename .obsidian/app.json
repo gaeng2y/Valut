@@ -1,5 +1,5 @@
 {
-  "attachmentFolderPath": "Combine/Combine Study/Resources",
+  "attachmentFolderPath": "WWDC/Resources",
   "promptDelete": false,
   "useMarkdownLinks": true,
   "pdfExportSettings": {
@@ -9,5 +9,6 @@
     "margin": "0",
     "downscalePercent": 100
   },
-  "livePreview": true
+  "livePreview": true,
+  "alwaysUpdateLinks": true
 }
