@@ -8,4 +8,4 @@
 ## Trouble Shooting
 - trouble
 	- 앱은 firebase로 동작하게 만들었는데 위젯이 Firebase를 못써서 문제다.
-	- 그래서 gpt는 appgroup userdefault를 쓰라는데 publisher 붙여놓은데에 쓰면 되려나?
+	- 그래서 gpt는 appgroup userdefault를 쓰라는데 publisher 붙여놓은데에 쓰면 되려
