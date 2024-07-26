@@ -4,3 +4,7 @@
 2. [Firebase Console](https://console.firebase.google.com/project/_/firestore?authuser=0&hl=ko)의 **Cloud Firestore** 섹션으로 이동합니다. 기존 Firebase 프로젝트를 선택하라는 메시지가 표시됩니다. 데이터베이스 만들기 워크플로를 따릅니다.
     
 3. Cloud Firestore 보안 규칙의 시작 모드를 선택합니다.
+
+## Trouble Shooting
+- trouble
+	- 앱은 firebase로 동작하게 만들었는데 위젯이 Fir
