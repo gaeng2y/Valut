@@ -169,8 +169,9 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "160736a19be9866b",
+  "active": "076c60626751689e",
   "lastOpenFiles": [
+    "SwiftUI/SwiftUI Documentation/Model Data.md",
     "WWDC/WWDC 16/Understanding Swift Performance/Protocol Types.md",
     "WWDC/WWDC 16/Understanding Swift Performance/Allocation.md",
     "WWDC/Resources/Protocol4.png",
@@ -199,7 +200,6 @@
     "iOS/앱과 비즈니스 로직.md",
     "TIL/2024-07-20.md",
     "TIL/2024-07-19.md",
-    "SwiftUI/SwiftUI Documentation/Model Data.md",
     "SwiftUI/SwiftUI 스터디/Backyard Birds/SwiftData/Model your schema with SwiftData.md",
     "SwiftUI/SwiftUI 스터디/Backyard Birds/SwiftData/Build an app with SwiftData.md",
     "SwiftUI/SwiftUI 스터디/Backyard Birds/SwiftData/SwiftData.md",

@@ -8,4 +8,8 @@
 ## Trouble Shooting
 - trouble
 	- 앱은 firebase로 동작하게 만들었는데 위젯이 Firebase를 못써서 문제다.
-	- 그래서 gpt는 appgroup userdefault를 쓰라는데 publisher 붙여놓은데에 쓰면 되려
+* solution
+	- 그래서 gpt는 appgroup userdefault를 쓰라는데 publisher 붙여놓은데에 쓰면 되려나?
+	- 찾아보니 https://hixfield.medium.com/ios-wiget-with-firebase-auth-and-realtime-database-471a42377838 이런게 있었다.
+
+firestore ref:https://github.com/JK0369/ExFirestore/tree/main/ExFirestore
