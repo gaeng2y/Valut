@@ -11,7 +11,10 @@ HistoryView
 - list
 HistoryViewModel 
 - date
-- 
+- [liter]
 History
-- [water]
-HealthKit
+- waters
+HealthKitRepository
+- fetchWaters(date:)
+- setWater(date:)
+HealthKitService 
