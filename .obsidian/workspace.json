@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "iOS/F-lab 멘토링/10주차/HealthKit 설계.md",
+                "file": "Combine/Combine Study/Book/Chapter 5. Combining Operators.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "iOS/F-lab 멘토링/10주차/HealthKit 설계.md",
+                "file": "Combine/Combine Study/Book/Chapter 5. Combining Operators.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "iOS/F-lab 멘토링/10주차/HealthKit 설계.md"
+                "file": "Combine/Combine Study/Book/Chapter 5. Combining Operators.md"
               }
             }
           },
@@ -171,8 +171,18 @@
   },
   "active": "076c60626751689e",
   "lastOpenFiles": [
-    "iOS/F-lab 멘토링/10주차/iOS 프로젝트에 Firebase 적용하기.md",
     "iOS/F-lab 멘토링/10주차/HealthKit 설계.md",
+    "Combine/Combine Study/참고.md",
+    "Combine/Combine Study/Book/Chapter 5. Combining Operators.md",
+    "Combine/Combine Study/짜투리/receive(on)과 subscribe(on)의 차이.md",
+    "Combine/Combine Study/Resources/Pasted image 20240722153113.png",
+    "Combine/Combine Study/Resources/prepending1.png",
+    "Combine/Combine Study/Resources/prepending3.png",
+    "Combine/Combine Study/Resources/prepending2.png",
+    "Combine/Combine Study/Resources/Pasted image 20240722160541.png",
+    "Combine/Combine Study/Book/Chapter 4. Filtering Operators.md",
+    "Combine/Combine Study/Book/무제 폴더",
+    "iOS/F-lab 멘토링/10주차/iOS 프로젝트에 Firebase 적용하기.md",
     "SwiftUI/SwiftUI Documentation/Model Data.md",
     "WWDC/WWDC 16/Understanding Swift Performance/Protocol Types.md",
     "WWDC/WWDC 16/Understanding Swift Performance/Allocation.md",
@@ -180,19 +190,13 @@
     "WWDC/WWDC 16/Understanding Swift Performance/Reference Counting.md",
     "WWDC/Resources/Protocol3.png",
     "WWDC/Resources/Protocol2.png",
-    "Combine/Combine Study/Book/Chapter 4. Filtering Operators.md",
     "WWDC/Resources/Protocol1.png",
     "WWDC/추천 WWDC.md",
     "WWDC/Resources",
     "iOS/F-lab 멘토링/9주차/SwiftData.md",
     "iOS/F-lab 멘토링/10주차",
     "TIL/2024-07-22.md",
-    "Combine/Combine Study/Resources/Pasted image 20240722160541.png",
     "Combine/Combine Study/Resources/Pasted image 20240722160433.png",
-    "Combine/Combine Study/Resources/Pasted image 20240722160312.png",
-    "Combine/Combine Study/Resources/Pasted image 20240722160151.png",
-    "Combine/Combine Study/Resources/Pasted image 20240722160149.png",
-    "Combine/Combine Study/Resources/Pasted image 20240722155519.png",
     "Combine/Combine Study/Book/Chapter 3. Transforming Operators.md",
     "iOS/F-lab 멘토링/1주차/??.md",
     "iOS/F-lab 멘토링/9주차",
@@ -207,16 +211,12 @@
     "TIL/Trouble shooting/ContentsDetailViewerViewController.md",
     "TIL/Trouble shooting/PrivateSettableMacro.md",
     "TIL/Trouble shooting/Pull to Refresh.md",
-    "TIL/Trouble shooting/커뮤니티 화면 리팩토링.md",
-    "TIL/20231219.md",
-    "TIL/20231212 TIL.md",
     "Combine/Combine Study/Resources",
     "iOS/F-lab 멘토링/7주차/트러블슈팅",
     "iOS/F-lab 멘토링/트러블슈팅",
     "iOS/F-lab 멘토링/8주차",
     "Combine/Combine Study/Book",
     "iOS/F-lab 멘토링/7주차",
-    "iOS/F-lab 멘토링/6주차",
     "Computational Thinking/무제 파일.canvas"
   ]
 }
