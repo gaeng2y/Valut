@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "iOS/F-lab 멘토링/10주차/iOS 프로젝트에 Firebase 적용하기.md",
+                "file": "iOS/F-lab 멘토링/10주차/HealthKit 설계.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "iOS/F-lab 멘토링/10주차/iOS 프로젝트에 Firebase 적용하기.md",
+                "file": "iOS/F-lab 멘토링/10주차/HealthKit 설계.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "iOS/F-lab 멘토링/10주차/iOS 프로젝트에 Firebase 적용하기.md"
+                "file": "iOS/F-lab 멘토링/10주차/HealthKit 설계.md"
               }
             }
           },
@@ -171,6 +171,8 @@
   },
   "active": "076c60626751689e",
   "lastOpenFiles": [
+    "iOS/F-lab 멘토링/10주차/iOS 프로젝트에 Firebase 적용하기.md",
+    "iOS/F-lab 멘토링/10주차/HealthKit 설계.md",
     "SwiftUI/SwiftUI Documentation/Model Data.md",
     "WWDC/WWDC 16/Understanding Swift Performance/Protocol Types.md",
     "WWDC/WWDC 16/Understanding Swift Performance/Allocation.md",
@@ -182,7 +184,6 @@
     "WWDC/Resources/Protocol1.png",
     "WWDC/추천 WWDC.md",
     "WWDC/Resources",
-    "iOS/F-lab 멘토링/10주차/iOS 프로젝트에 Firebase 적용하기.md",
     "iOS/F-lab 멘토링/9주차/SwiftData.md",
     "iOS/F-lab 멘토링/10주차",
     "TIL/2024-07-22.md",
@@ -209,7 +210,6 @@
     "TIL/Trouble shooting/커뮤니티 화면 리팩토링.md",
     "TIL/20231219.md",
     "TIL/20231212 TIL.md",
-    "TIL/231213 TIL.md",
     "Combine/Combine Study/Resources",
     "iOS/F-lab 멘토링/7주차/트러블슈팅",
     "iOS/F-lab 멘토링/트러블슈팅",
