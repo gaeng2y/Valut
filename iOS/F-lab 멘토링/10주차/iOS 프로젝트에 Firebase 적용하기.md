@@ -12,4 +12,21 @@
 	- 그래서 gpt는 appgroup userdefault를 쓰라는데 publisher 붙여놓은데에 쓰면 되려나?
 	- 찾아보니 https://hixfield.medium.com/ios-wiget-with-firebase-auth-and-realtime-database-471a42377838 이런게 있었다.
 
+- trouble
+	```swift
+	func documentPublisher() -> AnyPublisher<Water, any Error> {
+        let collectionPath = "\(Constant.drink)/1/\(Constant.water)"
+        let collectionListner = Firestore.firestore().collection(collectionPath)
+        let documentPath = dateFormatter.string(from: .now)
+        
+        return collectionListner.document(documentPath)
+            .snapshotPublisher()
+            .tryMap { try $0.data(as: Water.self) }
+            .eraseToAnyPublisher()
+    }
+```
+로 만들었는데 document가 없으면 문제가 발생
+
+
+
 firestore ref:https://github.com/JK0369/ExFirestore/tree/main/ExFirestore
