@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "iOS/F-lab 멘토링/10주차/HealthKit 설계.md",
+                "file": "iOS/동시성 프로그래밍/동시성 프로그래밍/코어와 스레드.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "iOS/F-lab 멘토링/10주차/HealthKit 설계.md",
+                "file": "iOS/동시성 프로그래밍/동시성 프로그래밍/코어와 스레드.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "iOS/F-lab 멘토링/10주차/HealthKit 설계.md"
+                "file": "iOS/동시성 프로그래밍/동시성 프로그래밍/코어와 스레드.md"
               }
             }
           },
@@ -183,11 +183,16 @@
   },
   "active": "8825d42c45487382",
   "lastOpenFiles": [
+    "iOS/동시성 프로그래밍/동시성 프로그래밍",
+    "WWDC/WWDC 16/Understanding Swift Performance/Reference Counting.md",
+    "iOS/동시성 프로그래밍/동시성 프로그래밍/코어와 스레드.md",
+    "iOS/동시성 프로그래밍",
+    "Swift/self vs Self.md",
+    "iOS/F-lab 멘토링/10주차/HealthKit 설계.md",
     "iOS/F-lab 멘토링/10주차/Pasted image 20240801212105.png",
     "iOS/F-lab 멘토링/10주차/Pasted image 20240801212045.png",
     "iOS/F-lab 멘토링/10주차/Pasted image 20240801211145.png",
     "iOS/F-lab 멘토링/10주차/Pasted image 20240801211145 1.png",
-    "iOS/F-lab 멘토링/10주차/HealthKit 설계.md",
     "Combine/Combine Study/Resources/Pasted image 20240801211011.png",
     "iOS/F-lab 멘토링/4주차/OS에서의 메모리 관리.md",
     "iOS/F-lab 멘토링/4주차/Network.md",
@@ -211,14 +216,10 @@
     "Computer Science/Dependency Injection/DI & IOC Container/DI Container.md",
     "Swift/Xcode Link.md",
     "WWDC/추천 WWDC.md",
-    "WWDC/WWDC 15/Building Better Apps with Value Types in Swift/Building Better Apps with Value Types in Swift.md",
-    "WWDC/WWDC 15/Protocol-Oriented Programming in Swift/Protocol and Value Oriented Programming in UIKit Apps/Protocol and Value Oriented Programming in UIKit Apps.md",
-    "WWDC/WWDC 15/Protocol-Oriented Programming in Swift/Protocol-Oriented Programming in Swift.md",
     "Combine/Combine Study/Resources/Pasted image 20240722153113.png",
     "Combine/Combine Study/Resources/prepending1.png",
     "Combine/Combine Study/Resources/prepending3.png",
     "Combine/Combine Study/Resources/prepending2.png",
-    "Combine/Combine Study/Resources/Pasted image 20240722160541.png",
     "Combine/Combine Study/Book/무제 폴더",
     "WWDC/Resources",
     "iOS/F-lab 멘토링/10주차",
@@ -228,7 +229,6 @@
     "iOS/F-lab 멘토링/트러블슈팅",
     "iOS/F-lab 멘토링/8주차",
     "Combine/Combine Study/Book",
-    "iOS/F-lab 멘토링/7주차",
     "Computational Thinking/무제 파일.canvas"
   ]
 }
