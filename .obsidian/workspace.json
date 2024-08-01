@@ -4,22 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "f55222b8e424ce2e",
+        "id": "4a60ef94557c0648",
         "type": "tabs",
         "children": [
           {
-            "id": "46dfc52678597c57",
+            "id": "280c3b192a685dc5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Swift/Lazy stored properties.md",
+                "file": "SwiftUI/SwiftUI Documentation/Model Data.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "076c60626751689e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "WWDC/WWDC 16/Understanding Swift Performance/Generic Code.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -56,12 +69,20 @@
                 "sortOrder": "alphabetical"
               }
             }
+          },
+          {
+            "id": "b1e81fbdd975f898",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 344.5
   },
   "right": {
     "id": "9843e891487ed6f6",
@@ -77,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Swift/Lazy stored properties.md",
+                "file": "WWDC/WWDC 16/Understanding Swift Performance/Generic Code.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,37 +110,52 @@
             }
           },
           {
+            "id": "17fe9a2dfb041ffb",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "WWDC/WWDC 16/Understanding Swift Performance/Reference Counting.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d2876114b2f4a8da",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
             "id": "55b4a66e0ca28465",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Swift/Lazy stored properties.md"
+                "file": "WWDC/WWDC 16/Understanding Swift Performance/Generic Code.md"
               }
             }
           },
           {
-            "id": "66de6dae5d438184",
+            "id": "421fa6bc25d6c34a",
             "type": "leaf",
             "state": {
               "type": "calendar",
               "state": {}
             }
-          },
-          {
-            "id": "0bec98ac860c9a02",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 200,
+    "width": 300,
     "collapsed": true
   },
   "left-ribbon": {
@@ -133,54 +169,54 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "46dfc52678597c57",
+  "active": "076c60626751689e",
   "lastOpenFiles": [
-    "TIL/2024-07-22.md",
-    "Swift/Lazy stored properties.md",
-    "iOS/F-lab 멘토링/10주차/iOS 프로젝트에 Firebase 적용하기.md",
-    "iOS/F-lab 멘토링/10주차/HealthKit 설계.md",
-    "iOS/F-lab 멘토링/10주차",
     "WWDC/WWDC 16/Understanding Swift Performance/Protocol Types.md",
+    "WWDC/WWDC 16/Understanding Swift Performance/Generic Code.md",
+    "Swift/Lazy stored properties.md",
+    "Swift/self vs Self.md",
+    "Combine/Combine Study/Book/Chapter 5. Combining Operators.md",
+    "iOS/F-lab 멘토링/10주차/HealthKit 설계.md",
+    "Combine/Combine Study/참고.md",
+    "Combine/Combine Study/짜투리/receive(on)과 subscribe(on)의 차이.md",
+    "Combine/Combine Study/Resources/Pasted image 20240722153113.png",
+    "Combine/Combine Study/Resources/prepending1.png",
+    "Combine/Combine Study/Resources/prepending3.png",
+    "Combine/Combine Study/Resources/prepending2.png",
+    "Combine/Combine Study/Resources/Pasted image 20240722160541.png",
+    "Combine/Combine Study/Book/Chapter 4. Filtering Operators.md",
+    "Combine/Combine Study/Book/무제 폴더",
+    "iOS/F-lab 멘토링/10주차/iOS 프로젝트에 Firebase 적용하기.md",
+    "SwiftUI/SwiftUI Documentation/Model Data.md",
+    "WWDC/WWDC 16/Understanding Swift Performance/Allocation.md",
     "WWDC/Resources/Protocol4.png",
+    "WWDC/WWDC 16/Understanding Swift Performance/Reference Counting.md",
     "WWDC/Resources/Protocol3.png",
     "WWDC/Resources/Protocol2.png",
     "WWDC/Resources/Protocol1.png",
+    "WWDC/추천 WWDC.md",
     "WWDC/Resources",
-    "Combine/Combine Study/Book/Chapter 5. Combining Operators.md",
-    "Combine/Combine Study/Book/Chapter 4. Filtering Operators.md",
-    "Combine/Combine Study/Resources/Pasted image 20240722160541.png",
-    "Combine/Combine Study/Resources/Pasted image 20240722160433.png",
-    "Combine/Combine Study/Resources/Pasted image 20240722160312.png",
-    "Combine/Combine Study/Resources/Pasted image 20240722160151.png",
-    "Combine/Combine Study/Resources/Pasted image 20240722160149.png",
-    "Combine/Combine Study/Resources/Pasted image 20240722155519.png",
-    "Combine/Combine Study/Book/Chapter 3. Transforming Operators.md",
-    "Combine/Combine Study/Book/Chapter 2. Publishers & Subscribers.md",
-    "Combine/Combine Study/Book/Chapter 1. Hello, Combine!.md",
-    "Swift/🔀 Method Swizzling.md",
     "iOS/F-lab 멘토링/9주차/SwiftData.md",
+    "iOS/F-lab 멘토링/10주차",
+    "TIL/2024-07-22.md",
+    "Combine/Combine Study/Resources/Pasted image 20240722160433.png",
+    "Combine/Combine Study/Book/Chapter 3. Transforming Operators.md",
+    "iOS/F-lab 멘토링/1주차/??.md",
     "iOS/F-lab 멘토링/9주차",
-    "WWDC/WWDC 15/Protocol-Oriented Programming in Swift/Protocol and Value Oriented Programming in UIKit Apps/Protocol and Value Oriented Programming in UIKit Apps.md",
-    "WWDC/WWDC 15/Protocol-Oriented Programming in Swift/Protocol and Value Oriented Programming in UIKit Apps",
-    "TIL/2024-07-20.md",
-    "Swift/DynamicMemberLookup.md",
-    "𐂮 Resources/Simulator Screen Recording - iPhone 15 Pro - 2024-04-12 at 01.02.43.mp4",
-    "Combine/Combine Study/Resources",
-    "회고",
-    "2024-07-18.md",
+    "iOS/The RED 슈퍼앱 운영을 위한 확장성 높은 앱 아키텍처 구축/RIBs.md",
+    "iOS/The RED 슈퍼앱 운영을 위한 확장성 높은 앱 아키텍처 구축/Composition.md",
     "iOS/앱과 비즈니스 로직.md",
-    "WWDC/WWDC 16/Understanding Swift Performance/Method Dispatch.md",
-    "Combine/Combine Study/참고.md",
-    "Combine/Combine Study/짜투리/receive(on)과 subscribe(on)의 차이.md",
-    "WWDC/WWDC 16/Understanding Swift Performance/Reference Counting.md",
-    "Combine/Combine Study/Book/무제 폴더",
-    "iOS/F-lab 멘토링/8주차/Widget 설계서.md",
-    "iOS/F-lab 멘토링/8주차",
-    "TIL/Trouble shooting/WidgetKit 이슈.md",
-    "iOS/F-lab 멘토링/7주차/트러블슈팅/SwiftUI에서 구조.md",
+    "TIL/2024-07-20.md",
+    "TIL/2024-07-19.md",
+    "SwiftUI/SwiftUI 스터디/Backyard Birds/SwiftData/Model your schema with SwiftData.md",
+    "SwiftUI/SwiftUI 스터디/Backyard Birds/SwiftData/Build an app with SwiftData.md",
+    "SwiftUI/SwiftUI 스터디/Backyard Birds/SwiftData/SwiftData.md",
+    "Combine/Combine Study/Resources",
     "iOS/F-lab 멘토링/7주차/트러블슈팅",
-    "TIL/20240709.md",
-    "iOS/F-lab 멘토링/2주차/프로세스와 스레드 차이.md",
+    "iOS/F-lab 멘토링/트러블슈팅",
+    "iOS/F-lab 멘토링/8주차",
+    "Combine/Combine Study/Book",
+    "iOS/F-lab 멘토링/7주차",
     "Computational Thinking/무제 파일.canvas"
   ]
 }
