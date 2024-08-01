@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "iOS/동시성 프로그래밍/동시성 프로그래밍/코어와 스레드.md",
+                "file": "iOS/동시성 프로그래밍/Dispatch/기본/Dispatch 기본.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "iOS/동시성 프로그래밍/동시성 프로그래밍/코어와 스레드.md",
+                "file": "iOS/동시성 프로그래밍/Dispatch/기본/Dispatch 기본.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "iOS/동시성 프로그래밍/동시성 프로그래밍/코어와 스레드.md"
+                "file": "iOS/동시성 프로그래밍/Dispatch/기본/Dispatch 기본.md"
               }
             }
           },
@@ -183,9 +183,12 @@
   },
   "active": "8825d42c45487382",
   "lastOpenFiles": [
+    "iOS/동시성 프로그래밍/동시성 프로그래밍/코어와 스레드.md",
+    "iOS/동시성 프로그래밍/Dispatch/기본/Dispatch 기본.md",
+    "iOS/동시성 프로그래밍/Dispatch/기본",
+    "iOS/동시성 프로그래밍/Dispatch",
     "iOS/동시성 프로그래밍/동시성 프로그래밍",
     "WWDC/WWDC 16/Understanding Swift Performance/Reference Counting.md",
-    "iOS/동시성 프로그래밍/동시성 프로그래밍/코어와 스레드.md",
     "iOS/동시성 프로그래밍",
     "Swift/self vs Self.md",
     "iOS/F-lab 멘토링/10주차/HealthKit 설계.md",
@@ -226,9 +229,6 @@
     "iOS/F-lab 멘토링/9주차",
     "Combine/Combine Study/Resources",
     "iOS/F-lab 멘토링/7주차/트러블슈팅",
-    "iOS/F-lab 멘토링/트러블슈팅",
-    "iOS/F-lab 멘토링/8주차",
-    "Combine/Combine Study/Book",
     "Computational Thinking/무제 파일.canvas"
   ]
 }
