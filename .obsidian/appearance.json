@@ -2,6 +2,9 @@
   "accentColor": "",
   "theme": "moonstone",
   "baseFontSize": 17,
-  "cssTheme": "Minimal",
-  "textFontFamily": "Apple SD Gothic Neo"
+  "cssTheme": "",
+  "textFontFamily": "Apple SD Gothic Neo",
+  "interfaceFontFamily": "Apple SD Gothic Neo",
+  "monospaceFontFamily": "Apple SD Gothic Neo",
+  "showViewHeader": true
 }

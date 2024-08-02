@@ -10,5 +10,11 @@
     "downscalePercent": 100
   },
   "livePreview": true,
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "newLinkFormat": "absolute",
+  "readableLineLength": false,
+  "strictLineBreaks": true,
+  "foldHeading": false,
+  "foldIndent": false,
+  "showLineNumber": false
 }
