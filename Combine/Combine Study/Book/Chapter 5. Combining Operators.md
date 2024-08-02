@@ -10,13 +10,16 @@
 - publisher를 붙이면 merge랑 비슷하게 동작하되 뒤에 붙임
 
 > [!info]
-> RxSwift에서 concat으로 통일
+> RxSwift에서 concat으로 통일 
 ## Advanced combining
 ### switchToLatest
 - 보류 중인 게시자 구독을 취소하는 동안 전체 게시자 구독을 즉시 전환하여 최신 구독으로 전환할 수 있다.
 - 그림으로 보면 이해가 쉽다
 ![](https://github.com/HARlBO/Combine/raw/main/Combine/Section2_Operators/images/Chapter5_Combining_Operators/Untitled6.png)
 - 유저가 네트워크 요청을 트리거 하는 버튼을 탭한다. 그 즉시, 유저가 두번째 네트워크 요청을 트리거하는 그 버튼을 또 탭한다. 보류 중인 요청은 어떻게 제거하고 가장 최신 것만 사용 할 때 `switchToLatest` 를 사용 하면 된다.
+
+> [!info] RxSwift: flatMapLatest
+
 ### merge
 - 이 opreator 는 동일한 유형의 다른 publisher 로 부터 emission 값들을 상호 배치 한다(interleaves).
 ### combineLatest
