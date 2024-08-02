@@ -1,6 +1,6 @@
 {
-  "attachmentFolderPath": "Combine/Combine Study/Resources",
-  "promptDelete": false,
+  "attachmentFolderPath": "./",
+  "promptDelete": true,
   "useMarkdownLinks": true,
   "pdfExportSettings": {
     "includeName": true,
