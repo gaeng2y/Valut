@@ -135,13 +135,14 @@
   },
   "active": "46dfc52678597c57",
   "lastOpenFiles": [
+    "TIL/2024-08-02.md",
+    "Swift/UIBezierPath/UIBezierPath.md",
     "iOS/UITraitChangeObservable.md",
     "iOS/UICollectionView 톺아보기.md",
     "Swift/Misc/Compile, Link, Build.md",
     "Swift/Misc/🔀 Method Swizzling.md",
     "Swift/Misc",
     "Swift/Misc/DynamicMemberLookup.md",
-    "Swift/UIBezierPath/UIBezierPath.md",
     "Swift/UIBezierPath/define.png",
     "Swift/UIBezierPath",
     "Combine/Combine Study/Book/Chapter 5. Combining Operators.md",
@@ -179,7 +180,6 @@
     "WWDC/WWDC 15/Protocol-Oriented Programming in Swift/Protocol and Value Oriented Programming in UIKit Apps",
     "TIL/2024-07-20.md",
     "2024-07-18.md",
-    "iOS/앱과 비즈니스 로직.md",
     "Computational Thinking/무제 파일.canvas"
   ]
 }

@@ -32,3 +32,10 @@ path인데 CustomView에서 렌더링할 수 있는 직선과 곡선 세그먼�
 경로를 구성할 때 경로의 점을 원점(0, 0)을 기준으로 배치해야한다. 이렇게 하면 나중에 경로를 이동하기가 더 쉬워진다. 그리기 동안 경로의 점은 현재 그래픽 컨텍스트의 좌표계에 그대로 적용된다. 경로가 원점을 기준으로 배치된 경우, 현재 그래픽 컨텍스트에 평행 이동 인자가 있는 아핀 변환을 적용하기만 하면 경로를 재배치할 수 있다. 그래픽 컨텍스트를 수정하는 장점은 변환을 저장하고 그래픽 상태를 복원하여 쉽게 실행 취소할 수 있다는 것이다.
 
 경로 객체를 그리려면 `stroke` 및 `fill` 메서드를 사용한다. 이러한 메서드는 현재 그래픽 컨텍스트에서 경로의 선과 곡선 세그먼트를 렌더링한다. 렌더링 과정은 경로 객체의 속성을 사용하여 선과 곡선 세그먼트를 래스터화한다. 래스터화 과정은 경로 객체 자체를 수정하지 않는다. 따라서 동일한 경로 객체를 현재 컨텍스트나 다른 컨텍스트에서 여러 번 렌더링할 수 있다.
+
+# Reference
+https://developer.apple.com/documentation/uikit/uibezierpath
+
+https://developer.apple.com/library/archive/documentation/2DDrawing/Conceptual/DrawingPrintingiOS/BezierPaths/BezierPaths.html#//apple_ref/doc/uid/TP40010156-CH11-SW2
+
+https://zeddios.tistory.com/814
