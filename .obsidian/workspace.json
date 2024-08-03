@@ -4,22 +4,47 @@
     "type": "split",
     "children": [
       {
-        "id": "f55222b8e424ce2e",
+        "id": "4a60ef94557c0648",
         "type": "tabs",
         "children": [
           {
-            "id": "46dfc52678597c57",
+            "id": "280c3b192a685dc5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Swift/UIBezierPath/UIBezierPath.md",
+                "file": "SwiftUI/SwiftUI Documentation/Model Data.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "076c60626751689e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "iOS/F-lab 멘토링/10주차/HealthKit 설계.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8825d42c45487382",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "iOS/동시성 프로그래밍/Dispatch/기본/Dispatch 기본.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -56,6 +81,14 @@
                 "sortOrder": "alphabetical"
               }
             }
+          },
+          {
+            "id": "b1e81fbdd975f898",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
@@ -77,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Swift/UIBezierPath/UIBezierPath.md",
+                "file": "iOS/동시성 프로그래밍/Dispatch/기본/Dispatch 기본.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,37 +122,52 @@
             }
           },
           {
+            "id": "17fe9a2dfb041ffb",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "WWDC/WWDC 16/Understanding Swift Performance/Reference Counting.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d2876114b2f4a8da",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
             "id": "55b4a66e0ca28465",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Swift/UIBezierPath/UIBezierPath.md"
+                "file": "iOS/동시성 프로그래밍/Dispatch/기본/Dispatch 기본.md"
               }
             }
           },
           {
-            "id": "66de6dae5d438184",
+            "id": "421fa6bc25d6c34a",
             "type": "leaf",
             "state": {
               "type": "calendar",
               "state": {}
             }
-          },
-          {
-            "id": "0bec98ac860c9a02",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 200,
+    "width": 300,
     "collapsed": true
   },
   "left-ribbon": {
@@ -133,53 +181,54 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "46dfc52678597c57",
+  "active": "8825d42c45487382",
   "lastOpenFiles": [
-    "TIL/2024-08-02.md",
-    "Swift/UIBezierPath/UIBezierPath.md",
     "iOS/UITraitChangeObservable.md",
     "iOS/UICollectionView 톺아보기.md",
-    "Swift/Misc/Compile, Link, Build.md",
-    "Swift/Misc/🔀 Method Swizzling.md",
-    "Swift/Misc",
-    "Swift/Misc/DynamicMemberLookup.md",
+    "TIL/2024-08-02.md",
     "Swift/UIBezierPath/define.png",
+    "Swift/UIBezierPath/UIBezierPath.md",
     "Swift/UIBezierPath",
-    "Combine/Combine Study/Book/Chapter 5. Combining Operators.md",
-    "conflict-files-obsidian-git.md",
+    "Swift/Misc/🔀 Method Swizzling.md",
+    "Swift/Misc/가변 파라미터.md",
+    "Swift/Misc/self vs Self.md",
+    "Swift/Misc/RunLoop.main과 DispatchQueue.main의 차이.md",
+    "Swift/Misc/Lazy stored properties.md",
+    "Swift/Misc/DynamicMemberLookup.md",
+    "Swift/Misc/Compile, Link, Build.md",
+    "Swift/Misc",
+    "iOS/동시성 프로그래밍/동시성 프로그래밍/코어와 스레드.md",
     "iOS/동시성 프로그래밍/Dispatch/기본/Dispatch 기본.md",
     "iOS/동시성 프로그래밍/Dispatch/기본",
-    "iOS/동시성 프로그래밍/동시성 프로그래밍/코어와 스레드.md",
     "iOS/동시성 프로그래밍/Dispatch",
     "iOS/동시성 프로그래밍/동시성 프로그래밍",
+    "WWDC/WWDC 16/Understanding Swift Performance/Reference Counting.md",
     "iOS/동시성 프로그래밍",
+    "Swift/self vs Self.md",
+    "iOS/F-lab 멘토링/10주차/HealthKit 설계.md",
     "iOS/F-lab 멘토링/10주차/Pasted image 20240801212105.png",
     "iOS/F-lab 멘토링/10주차/Pasted image 20240801212045.png",
     "iOS/F-lab 멘토링/10주차/Pasted image 20240801211145.png",
-    "Combine/Combine Study/참고.md",
-    "Swift/Misc/Lazy stored properties.md",
-    "WWDC/WWDC 16/Understanding Swift Performance/Generic Code.md",
-    "TIL/2024-07-22.md",
-    "iOS/F-lab 멘토링/10주차/iOS 프로젝트에 Firebase 적용하기.md",
-    "iOS/F-lab 멘토링/10주차/HealthKit 설계.md",
-    "iOS/F-lab 멘토링/10주차",
-    "WWDC/WWDC 16/Understanding Swift Performance/Protocol Types.md",
-    "WWDC/Resources/Protocol4.png",
-    "WWDC/Resources/Protocol3.png",
-    "WWDC/Resources/Protocol2.png",
-    "WWDC/Resources/Protocol1.png",
+    "iOS/F-lab 멘토링/10주차/Pasted image 20240801211145 1.png",
+    "Combine/Combine Study/Resources/Pasted image 20240801211011.png",
+    "iOS/F-lab 멘토링/4주차/OS에서의 메모리 관리.md",
+    "iOS/F-lab 멘토링/4주차/Network.md",
+    "iOS/F-lab 멘토링/4주차/MVI.md",
+    "iOS/F-lab 멘토링/4주차/Context Switching.md",
+    "iOS/F-lab 멘토링/4주차/MVC 다이어그램.md",
+    "iOS/F-lab 멘토링/5주차/App Intents를 이용해 Interactive Widget 만들기.md",
+    "iOS/F-lab 멘토링/5주차/HealthKit 서베이.md",
+    "iOS/F-lab 멘토링/5주차/Flux, Redux.md",
+    "iOS/F-lab 멘토링/6주차/Navigation.md",
+    "iOS/F-lab 멘토링/7주차/트러블슈팅/SwiftUI에서 구조.md",
+    "Computer Science/Dependency Injection/Section 1/Pasted image 20231018134446.png",
+    "Combine/Combine Study/Resources/Pasted image 20240722153113.png",
+    "Combine/Combine Study/Resources/prepending1.png",
+    "Combine/Combine Study/Resources/prepending3.png",
+    "Combine/Combine Study/Book/무제 폴더",
     "WWDC/Resources",
-    "Combine/Combine Study/Book/Chapter 4. Filtering Operators.md",
-    "Combine/Combine Study/Resources/Pasted image 20240722160541.png",
-    "Combine/Combine Study/Book/Chapter 3. Transforming Operators.md",
-    "Combine/Combine Study/Book/Chapter 2. Publishers & Subscribers.md",
-    "Combine/Combine Study/Book/Chapter 1. Hello, Combine!.md",
-    "iOS/F-lab 멘토링/9주차/SwiftData.md",
+    "iOS/F-lab 멘토링/10주차",
     "iOS/F-lab 멘토링/9주차",
-    "WWDC/WWDC 15/Protocol-Oriented Programming in Swift/Protocol and Value Oriented Programming in UIKit Apps/Protocol and Value Oriented Programming in UIKit Apps.md",
-    "WWDC/WWDC 15/Protocol-Oriented Programming in Swift/Protocol and Value Oriented Programming in UIKit Apps",
-    "TIL/2024-07-20.md",
-    "2024-07-18.md",
     "Computational Thinking/무제 파일.canvas"
   ]
 }
