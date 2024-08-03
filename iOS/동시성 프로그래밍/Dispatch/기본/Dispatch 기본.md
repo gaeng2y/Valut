@@ -5,7 +5,7 @@
 class DispatchQueue : DispatchObject
 ```
 
-- Disaptch: 보내다(파견하다)
+- Dispatch: 보내다(파견하다)
 - Queue: 대기열
 
 DispatchQueue는 **대기열에 보내다**라는 뜻이다. DispatchQueue에 작업을 넘겨주기만 하면 알아서 동작한다. DispatchQueue는 GCD를 사용하기 위한 `대기열`로, GCD 기술의 일부다. 우리는 이 대기열 들에 작업을 추가해주기만 하면 시스템은 알아서 스레드를 관리하여 작업을 처리하도록 도와줄 것이다. DispatchQueue는 `FIFO(First In, First Out)`로 작업을 처리한다.
