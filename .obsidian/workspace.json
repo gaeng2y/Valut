@@ -42,9 +42,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "31ed155241588701",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "iOS/동시성 프로그래밍/Dispatch/심화/Dispatch 옵션.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "iOS/동시성 프로그래밍/Dispatch/기본/Dispatch 기본.md",
+                "file": "iOS/동시성 프로그래밍/Dispatch/심화/Dispatch 옵션.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "iOS/동시성 프로그래밍/Dispatch/기본/Dispatch 기본.md"
+                "file": "iOS/동시성 프로그래밍/Dispatch/심화/Dispatch 옵션.md"
               }
             }
           },
@@ -181,11 +193,14 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "8825d42c45487382",
+  "active": "31ed155241588701",
   "lastOpenFiles": [
+    "iOS/동시성 프로그래밍/Dispatch/기본/헷갈리는 개념 다시 잡기.md",
+    "iOS/동시성 프로그래밍/Dispatch/심화/Dispatch 옵션.md",
+    "iOS/동시성 프로그래밍/Dispatch/심화",
+    "iOS/동시성 프로그래밍/Dispatch/기본/Dispatch 기본.md",
     "iOS/동시성 프로그래밍/동시성 프로그래밍/코어와 스레드.md",
     "iOS/F-lab 멘토링/5주차/HealthKit 서베이.md",
-    "iOS/동시성 프로그래밍/Dispatch/기본/Dispatch 기본.md",
     "iOS/UITraitChangeObservable.md",
     "iOS/UICollectionView 톺아보기.md",
     "TIL/2024-08-02.md",
@@ -219,8 +234,6 @@
     "iOS/F-lab 멘토링/4주차/MVC 다이어그램.md",
     "iOS/F-lab 멘토링/5주차/App Intents를 이용해 Interactive Widget 만들기.md",
     "iOS/F-lab 멘토링/5주차/Flux, Redux.md",
-    "iOS/F-lab 멘토링/6주차/Navigation.md",
-    "iOS/F-lab 멘토링/7주차/트러블슈팅/SwiftUI에서 구조.md",
     "Computer Science/Dependency Injection/Section 1/Pasted image 20231018134446.png",
     "Combine/Combine Study/Resources/Pasted image 20240722153113.png",
     "Combine/Combine Study/Resources/prepending1.png",
@@ -228,7 +241,6 @@
     "Combine/Combine Study/Book/무제 폴더",
     "WWDC/Resources",
     "iOS/F-lab 멘토링/10주차",
-    "iOS/F-lab 멘토링/9주차",
     "Computational Thinking/무제 파일.canvas"
   ]
 }
