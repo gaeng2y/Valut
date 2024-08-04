@@ -4,47 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4a60ef94557c0648",
+        "id": "9f545e79cf163734",
         "type": "tabs",
         "children": [
           {
-            "id": "280c3b192a685dc5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SwiftUI/SwiftUI Documentation/Model Data.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "076c60626751689e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "iOS/F-lab 멘토링/10주차/HealthKit 설계.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8825d42c45487382",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "iOS/동시성 프로그래밍/Dispatch/기본/Dispatch 기본.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "31ed155241588701",
+            "id": "1ae18ca06db17c92",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -55,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -193,14 +156,24 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "31ed155241588701",
+  "active": "1ae18ca06db17c92",
   "lastOpenFiles": [
-    "iOS/동시성 프로그래밍/Dispatch/기본/헷갈리는 개념 다시 잡기.md",
-    "iOS/동시성 프로그래밍/Dispatch/심화/Dispatch 옵션.md",
-    "iOS/동시성 프로그래밍/Dispatch/심화",
-    "iOS/동시성 프로그래밍/Dispatch/기본/Dispatch 기본.md",
-    "iOS/동시성 프로그래밍/동시성 프로그래밍/코어와 스레드.md",
+    "iOS/F-lab 멘토링/5주차/Flux, Redux.md",
+    "iOS/F-lab 멘토링/5주차/MVI.md",
+    "iOS/F-lab 멘토링/4주차/MVI.md",
+    "iOS/F-lab 멘토링/4주차/MVVM.md",
     "iOS/F-lab 멘토링/5주차/HealthKit 서베이.md",
+    "iOS/F-lab 멘토링/5주차/MVVM 패턴.md",
+    "𐂮 Resources/MVI.png",
+    "𐂮 Resources/MVi.drawio.png",
+    "iOS/동시성 프로그래밍/Dispatch/심화/Dispatch 옵션.md",
+    "SwiftUI/SwiftUI Documentation/Model Data.md",
+    "iOS/F-lab 멘토링/10주차/HealthKit 설계.md",
+    "iOS/동시성 프로그래밍/Dispatch/기본/Dispatch 기본.md",
+    "무제 파일.md",
+    "iOS/동시성 프로그래밍/Dispatch/기본/헷갈리는 개념 다시 잡기.md",
+    "iOS/동시성 프로그래밍/Dispatch/심화",
+    "iOS/동시성 프로그래밍/동시성 프로그래밍/코어와 스레드.md",
     "iOS/UITraitChangeObservable.md",
     "iOS/UICollectionView 톺아보기.md",
     "TIL/2024-08-02.md",
@@ -221,23 +194,13 @@
     "WWDC/WWDC 16/Understanding Swift Performance/Reference Counting.md",
     "iOS/동시성 프로그래밍",
     "Swift/self vs Self.md",
-    "iOS/F-lab 멘토링/10주차/HealthKit 설계.md",
     "iOS/F-lab 멘토링/10주차/Pasted image 20240801212105.png",
     "iOS/F-lab 멘토링/10주차/Pasted image 20240801212045.png",
     "iOS/F-lab 멘토링/10주차/Pasted image 20240801211145.png",
     "iOS/F-lab 멘토링/10주차/Pasted image 20240801211145 1.png",
     "Combine/Combine Study/Resources/Pasted image 20240801211011.png",
-    "iOS/F-lab 멘토링/4주차/OS에서의 메모리 관리.md",
-    "iOS/F-lab 멘토링/4주차/Network.md",
-    "iOS/F-lab 멘토링/4주차/MVI.md",
-    "iOS/F-lab 멘토링/4주차/Context Switching.md",
-    "iOS/F-lab 멘토링/4주차/MVC 다이어그램.md",
-    "iOS/F-lab 멘토링/5주차/App Intents를 이용해 Interactive Widget 만들기.md",
-    "iOS/F-lab 멘토링/5주차/Flux, Redux.md",
     "Computer Science/Dependency Injection/Section 1/Pasted image 20231018134446.png",
     "Combine/Combine Study/Resources/Pasted image 20240722153113.png",
-    "Combine/Combine Study/Resources/prepending1.png",
-    "Combine/Combine Study/Resources/prepending3.png",
     "Combine/Combine Study/Book/무제 폴더",
     "WWDC/Resources",
     "iOS/F-lab 멘토링/10주차",

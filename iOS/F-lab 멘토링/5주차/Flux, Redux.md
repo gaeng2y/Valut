@@ -23,7 +23,7 @@ Flux, Redux 는 MVC 의 복잡성 증가로 인해 탄생한 것이다. 두 패�
    - 액션을 받아서 스토어에 전달하는 중앙 허브.
    - 예시:
 ```swift
- class Dispatcher {
+class Dispatcher {
 	 static let shared = Dispatcher()
 	 private init() {}
 	 
@@ -37,7 +37,7 @@ Flux, Redux 는 MVC 의 복잡성 증가로 인해 탄생한 것이다. 두 패�
    - 애플리케이션의 상태를 관리하고, 상태 변경을 처리.
    - 예시:
      ```swift
- class Store: ObservableObject {
+class Store: ObservableObject {
 	 static let shared = Store()
 	 @Published private(set) var todoItems: [String] = []
 	 
@@ -49,14 +49,14 @@ Flux, Redux 는 MVC 의 복잡성 증가로 인해 탄생한 것이다. 두 패�
 			 todoItems.remove(at: index)
 		 }
 	 }
- }
+}
      ```
 
 4. **View (뷰)**:
    - 상태를 바탕으로 UI를 업데이트하고, 사용자 입력을 받아 액션을 생성.
    - 예시:
 ```swift
- struct ContentView: View {
+struct ContentView: View {
 	 @ObservedObject var store = Store.shared
 	 @State private var newItemText: String = ""
 	 
@@ -80,7 +80,7 @@ Flux, Redux 는 MVC 의 복잡성 증가로 인해 탄생한 것이다. 두 패�
 			 }
 		 }
 	 }
- }
+}
 ```
 
 ## Redux
