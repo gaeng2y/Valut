@@ -13,4 +13,6 @@ convenience init(label: String,
 let queue = DispatchQueue(label: "customQueue")
 ```
 
-레이블의 이름을 만들어주는 것이다. 이렇게 만들면 글로벌 큐가 만들어지며 큐의 레이블은 디버깅 환경에서 추적하기 위해 작성하는 String 값이다.
+레이블의 이름을 만들어주는 것이다. 이렇게 만들면 글로벌 큐가 만들어지며 큐의 레이블은 디버깅 환경에서 추적하기 위해 작성하는 Identifier 같은 것이다.
+## 2. qos
+
