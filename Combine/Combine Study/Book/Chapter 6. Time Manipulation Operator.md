@@ -87,7 +87,7 @@ sourcePublisher.displayEvents(in: sourceTimeline)
 collectedPublisher.displayEvents(in: collectedTimeline)
 ```
 
-![](Combine/Combine%20Study/Book/Pasted%20image%2020240806165047.png)
+![](Combine/Combine%20Study/Resources/Pasted%20image%2020240806165047.png)
 
 Emitted values 타임라인에는 일정한 값이 emit 되고, 아래 Collected values 는 매 4초 마다 단일 값이 표시 된다.
 
@@ -101,7 +101,7 @@ let collectedPublisher = sourcePublisher
 
 `collect` 가 수집한 값의 그룹을 emit 할 때마다, `flatMap` 은 각각의 값으로 분해하고 즉시 바로 다음 값을 emit 한다. `publisher` extension 인 `Collection` 을 사용해 값의 시퀀스를 모든 시퀀스를 각각 개별 값으로 즉시 emit 하는 Pulisher 에게 보낸다.
 
-![](Combine/Combine%20Study/Book/Pasted%20image%2020240806165257.png)
+![](Combine/Combine%20Study/Resources/Pasted%20image%2020240806165257.png)
 
 이제 매 4초마다, `collect` 가 지난 시간 간격 동안 수집 된 값의 배열을 emit 하는 것을 볼 수 있다.
 # Collecting values (part 2)
@@ -144,5 +144,166 @@ collectedPublisher.displayEvents(in: collectedTimeline)
 collectedPublisher2.displayEvents(in: collectedTimeline2)
 ```
 
-![](Combine/Combine%20Study/Book/Pasted%20image%2020240806165401.png)
+![](Combine/Combine%20Study/Resources/Pasted%20image%2020240806165401.png)
 두번째 타임라인이 `collectMaxCount` 상수에 요구된 시간마다 두개의 값을 수집하도록 제한 하는 것을 볼 수 있다.
+# Holding off on events
+
+User interface 코딩을 하다 보면, text field 를 자주 다루게 된다. Text field 의 콘텐츠를 액션으로 연결 하는 것은 Combine 에서는 일반적인 작업이다.
+
+예를 들어, 텍스트필드에 입력된 내용과 일치 하는 아이템의 리스트를 리턴하는 검색 URL 요청을 보내고 싶을때.
+
+하지만 당연히 유저가 글자 하나씩 타이핑 할 때마다 요청을 보내고 싶진 않다. 유저가 잠시동안 타이핑을 끝냈을 때를 알아 낼 수 있는 매커니즘이 필요하다.
+## Debounce
+
+```swift
+let subject = PassthroughSubject<String, Never>()
+
+let debounced = subject
+    .debounce(for: .seconds(1.0), scheduler: DispatchQueue.main)
+    .share()
+
+let subjectTimeline = TimelineView(title: "Emitted values")
+let debouncedTimeline = TimelineView(title: "Debounced values")
+
+let view = VStack(spacing: 100) {
+    subjectTimeline
+    debouncedTimeline
+}
+
+PlaygroundPage.current.liveView = UIHostingController(rootView: view.frame(width: 375, height: 600))
+
+subject.displayEvents(in: subjectTimeline)
+debounced.displayEvents(in: debouncedTimeline)
+
+let subscription1 = subject
+    .sink { string in
+        print("+\(deltaTime)s : Subject emitted: \(string)")
+    }
+
+let subscription2 = debounced
+    .sink { string in
+        print("+\(deltaTime)s : Debounced emitted \(string)")
+    }
+
+subject.feed(with: typingHelloWorld)
+```
+
+- 결과의 일관성을 보장하기 위해, `share()` 를 사용하여 `debounce` 에 단일 subscription 지점을 생성해 모든 subscribers 에게 같은 시간에 같은 결과를 보여 줄 수 있게 한다.
+- `feed(with:)` 메소드는 data set 을 가지고 미리 정의된 시간 간격에 주어진 `subject` 에게 데이터를 전송한다.
+![](Combine/Combine%20Study/Book/Pasted%20image%2020240806171902.png)
+11 개의 string 이 `sourcePublisher` 에 푸시 되었다. 두 단어 사이에 유저가 `paused` 한것을 볼 수 있다. 이때가 `debounce` 가 captured input 을 emit 할 때이다.
+
+```
++0.0s: Subject emitted: H
++0.1s: Subject emitted: He
++0.2s: Subject emitted: Hel
++0.3s: Subject emitted: Hell
++0.5s: Subject emitted: Hello
++0.6s: Subject emitted: Hello
++1.6s: Debounced emitted: Hello
++2.1s: Subject emitted: Hello W
++2.1s: Subject emitted: Hello Wo
++2.4s: Subject emitted: Hello Wor
++2.4s: Subject emitted: Hello Worl
++2.7s: Subject emitted: Hello World
++3.7s: Debounced emitted: Hello World
+```
+
+0.6 초에 유저가 잠시 멈추고 2.1 초에 다시 타이핑을 재시작 했다. `debounce` 가 1초 정도 멈추고 기다리고, 전달 된 최신의 값을 emit 했다.
+
+2.7초에 종료되고 `debounce` 는 1초 뒤인 3.7초에 kick 하였다.
+
+> [!note]
+> Publihser 가 마지막 값이 emit 된 직후 바로 완료 되고, `debounce` 에게 설정된 시간이 지났다면, debounced publihser 의 마지막 값은 절대 볼 수 없을 것이다.
+
+## Throttle
+
+`debounce` 와 매우 유사하지만, 두개의 operator 가 필요 하다.
+
+```swift
+let throttleDelay = 1.0
+
+let subject = PassthroughSubject<String, Never>()
+
+let throttled = subject
+    .throttle(for: .seconds(throttleDelay), scheduler: DispatchQueue.main, latest: false)
+    .share()
+
+let subjectTimeline = TimelineView(title: "Emitted values")
+let throttledTimeline = TimelineView(title: "Throttled valuse")
+
+let view = VStack(spacing: 100) {
+    subjectTimeline
+    throttledTimeline
+}
+
+PlaygroundPage.current.liveView = UIHostingController(rootView: view.frame(width: 300, height: 600))
+
+subject.displayEvents(in: subjectTimeline)
+throttled.displayEvents(in: throttledTimeline)
+
+let subscription1 = subject
+    .sink { string in
+        print("+\(deltaTime)s: Subject emitted: \(string)")
+    }
+
+let subscription2 = throttled
+    .sink { string in
+        print("+\(deltaTime)s: Throttled emitted: \(string)")
+    }
+
+subject.feed(with: typingHelloWorld)
+```
+
+- `debounce` 처럼 모든 subscriber 가 같은 결과를 같은 시간에 볼 수 있게 보장 하기 위해 `share()` operator 를 사용한다.
+
+![](Combine/Combine%20Study/Book/Pasted%20image%2020240806172928.png)
+
+`throttle` 에 의해 emit 된 값들은 살짝 타이밍이 다르다.
+
+```
++0.0s: Subject emitted: H
++0.1s: Subject emitted: He
++0.2s: Subject emitted: Hel
++0.3s: Subject emitted: Hell
++0.5s: Subject emitted: Hello
++0.6s: Subject emitted: Hello
++1.0s: Throttled emitted: H
++2.2s: Subject emitted: Hello W
++2.2s: Subject emitted: Hello Wo
++2.2s: Subject emitted: Hello Wor
++2.4s: Subject emitted: Hello Worl
++2.7s: Subject emitted: Hello World
++3.0s: Throttled emitted: Hello W
+```
+
+- Subject 가 첫번째 값을 emit 할때, `throttle` 은 즉시 교체한다. 그리고 출력을 throttling 하기 시작한다.
+- 1.0 초에, `throttle` 은 "He" 를 emit 한다. 1초 후에 첫번째 값을 보내라고 요청 했던 것을 기억해라.
+- 2.2 초에, 타이핑이 다시 시작되었다. 이 시점에 `throttle` 은 아무것도 emit 하지 않았다. 왜냐하면 source publisher 로 부터 새로운 값을 전달 받지 않았기 때문이다.
+- 3.0 초에, 타이핑이 완료 된 후에, `throttle` 은 다시 시작 되었고, 2.2 초 값인 첫번재 값을 다시 출력했다.
+
+### `debounce` 와 `throttle` 의 차이
+
+- `debounce` 는 전달 받는 값의 일시 정지를 기다렸다가, 지정된 간격 후에 최신 값을 emit 한다
+- `throttle` 은 지정된 간격을 기다리고, 그 간격 동안 전달 받은 첫번째와 최신값 모두 emit 한다. 일시 정지에 대해서는 상관 하지 않는다.
+
+```swift
+let throttled = subject
+  .throttle(for: .seconds(throttleDelay), scheduler: DispatchQueue.main, latest: true)
+  .share()
+
++0.0s: Subject emitted: H
++0.0s: Throttled emitted: H
++0.1s: Subject emitted: He
++0.2s: Subject emitted: Hel
++0.3s: Subject emitted: Hell
++0.5s: Subject emitted: Hello
++0.6s: Subject emitted: Hello
++1.0s: Throttled emitted: Hello
++2.0s: Subject emitted: Hello W
++2.3s: Subject emitted: Hello Wo
++2.3s: Subject emitted: Hello Wor
++2.6s: Subject emitted: Hello Worl
++2.6s: Subject emitted: Hello World
++3.0s: Throttled emitted: Hello World
+```
