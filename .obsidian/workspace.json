@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "iOS/F-lab 멘토링/5주차/HealthKit 서베이.md",
+                "file": "Combine/Combine Study/Book/Chapter 5. Combining Operators.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e8168c88ee66685b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Combine/Combine Study/Book/Chapter 6. Time Manipulation Operator.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "iOS/F-lab 멘토링/5주차/HealthKit 서베이.md",
+                "file": "Combine/Combine Study/Book/Chapter 6. Time Manipulation Operator.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "iOS/F-lab 멘토링/5주차/HealthKit 서베이.md"
+                "file": "Combine/Combine Study/Book/Chapter 6. Time Manipulation Operator.md"
               }
             }
           },
@@ -156,8 +169,15 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "1ae18ca06db17c92",
+  "active": "e8168c88ee66685b",
   "lastOpenFiles": [
+    "Combine/Combine Study/Book/Pasted image 20240806165401.png",
+    "Combine/Combine Study/Book/Pasted image 20240806165257.png",
+    "Combine/Combine Study/Book/Pasted image 20240806165047.png",
+    "Combine/Combine Study/Resources/Pasted image 20240806164043.png",
+    "Combine/Combine Study/Book/Chapter 5. Combining Operators.md",
+    "Combine/Combine Study/Book/Chapter 6. Time Manipulation Operator.md",
+    "iOS/F-lab 멘토링/5주차/HealthKit 서베이.md",
     "iOS/F-lab 멘토링/10주차/HealthKit 설계.md",
     "iOS/동시성 프로그래밍/Dispatch/심화/Dispatch 옵션.md",
     "SwiftUI/TabView.md",
@@ -167,7 +187,6 @@
     "iOS/F-lab 멘토링/5주차/MVI.md",
     "iOS/F-lab 멘토링/4주차/MVI.md",
     "iOS/F-lab 멘토링/4주차/MVVM.md",
-    "iOS/F-lab 멘토링/5주차/HealthKit 서베이.md",
     "iOS/F-lab 멘토링/5주차/MVVM 패턴.md",
     "𐂮 Resources/MVI.png",
     "𐂮 Resources/MVi.drawio.png",
@@ -187,9 +206,6 @@
     "Swift/Misc/가변 파라미터.md",
     "Swift/Misc/self vs Self.md",
     "Swift/Misc/RunLoop.main과 DispatchQueue.main의 차이.md",
-    "Swift/Misc/Lazy stored properties.md",
-    "Swift/Misc/DynamicMemberLookup.md",
-    "Swift/Misc/Compile, Link, Build.md",
     "Swift/Misc",
     "iOS/동시성 프로그래밍/Dispatch/기본",
     "iOS/동시성 프로그래밍/Dispatch",
@@ -199,9 +215,6 @@
     "iOS/F-lab 멘토링/10주차/Pasted image 20240801212045.png",
     "iOS/F-lab 멘토링/10주차/Pasted image 20240801211145.png",
     "iOS/F-lab 멘토링/10주차/Pasted image 20240801211145 1.png",
-    "Combine/Combine Study/Resources/Pasted image 20240801211011.png",
-    "Computer Science/Dependency Injection/Section 1/Pasted image 20231018134446.png",
-    "Combine/Combine Study/Resources/Pasted image 20240722153113.png",
     "Combine/Combine Study/Book/무제 폴더",
     "WWDC/Resources",
     "Computational Thinking/무제 파일.canvas"
