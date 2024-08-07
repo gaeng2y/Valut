@@ -367,7 +367,7 @@ timedOutSubject.displayEvents(in: timeline)
 
 이제 버튼을 5초 동안 누르지 않으면, `timeOutSubject` 가 실패를 emit 하는 것을 볼 수 있다.
 
-![](Combine/Combine%20Study/Book/Pasted%20image%2020240807114529.png)
+![](Combine/Combine%20Study/Resources/Pasted%20image%2020240807114529.png)
 # Measuring time
 
 시간을 조작하지 않고 단지 측정만 한다
@@ -426,6 +426,80 @@ subject.feed(with: typingHelloWorld)
 +2.7s: Measure emitted: Stride(magnitude: 333195273)
 ```
 
+`measureInterval` 이 emit 하는 값의 타입은 "제공된 스케쥴러의 시간 간격" 이다. `DispatchQueue` 의 경우 `TimeInterval` 은 “A `DispatchTimeInterval` created with the value of this type in nanoseconds.” 라고 정의 되어 있다.
 
+  위에 결과는 나노세컨드동안 전달 받은 연속적인 값 사이의 개수이다. 값을 출력 하기 위해 코드를 수정하자.
 
+```swift
+let subject = PassthroughSubject<String, Never>()
+let measureSubject2 = subject.measureInterval(using: RunLoop.main)
 
+let measureSubject = subject.measureInterval(using: DispatchQueue.main)
+
+let subjectTimeline = TimelineView(title: "Emitted values")
+let measureTImeline = TimelineView(title: "Measured values")
+
+let view = VStack(spacing: 100) {
+    subjectTimeline
+    measureTImeline
+}
+
+PlaygroundPage.current.liveView = UIHostingController.init(rootView: view.frame(width: 375, height: 600))
+
+subject.displayEvents(in: subjectTimeline)
+measureSubject.displayEvents(in: measureTImeline)
+
+let subscription1 = subject.sink {
+    print("+\(deltaTime)s: Subject emitted: \($0)")
+}
+
+let subscription2 = measureSubject.sink {
+ print("+\(deltaTime)s: Measure emitted: \(Double($0.magnitude) / 1_000_000_000.0)")
+}
+let subscription3 = measureSubject2.sink {
+ print("+\(deltaTime)s: Measure2 emitted: \($0)")
+}
+
+subject.feed(with: typingHelloWorld)
+
++0.0s: Subject emitted: H
++0.0s: Measure emitted: 0.016503769
++0.0s: Measure2 emitted: Stride(magnitude: 0.015684008598327637)
++0.1s: Subject emitted: He
++0.1s: Measure emitted: 0.087991755
++0.1s: Measure2 emitted: Stride(magnitude: 0.08793699741363525)
++0.2s: Subject emitted: Hel
++0.2s: Measure emitted: 0.115842671
++0.2s: Measure2 emitted: Stride(magnitude: 0.11583995819091797)
+```
+
+이제 스케줄러가 우리가 원하던 대로 측정하는데에 사용 된다. 일반적으로 `DispatchQueue` 를 고수하는 것이 좋다.
+
+# Wrap up
+
+- 비동기 이벤트에 대한 Combine 의 처리는 스스로 시간을 조작하기로 확장된다.
+- 시간 여행 옵션을 제공하지는 않지만, 프레임워크는 단지 개별 이벤트를 처리하는 것 대신에, 장기간동안 작업을 추출할수 있게 해주는 operator 를 가지고 있다.
+- `delay` operator 로 시간을 옮길 수 있다.
+- `collect` 를 사용해서 시간의 지남에 따른 값의 흐름을 조절 할 수 있다.
+- `debounce` 와 `throttle` 을 사용하면 시간에 따라 개별 값을 쉽게 선택 할 수 있다.
+- `timeout` 은 시간이 다 지나버리지 않게 한다.
+- `measureInterval` 로 시간을 측정 할 수 있다.
+
+# ConnectablePublisher
+
+publication을 연결하고 취소하는 명시적인 방법을 제공하는 publisher.
+
+ConnectablePublisher는 아무리 구독을해도 connect() 메소드를 호출하지 않으면 값을 방출하지 않는다.
+
+autoConnect()를 호출해주면 구독하면 자동으로 connect() 메소드를 호출해주는 방식이다.
+
+그리고 publisher에 makeConnectable() 메소드를 호출해주면 ConnectablePublisher로 만들 수 있다.
+
+## 1. 애초에 ConnectablePublisher 타입인 경우
+
+![timier](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FVRAFL%2FbtqDF0bEcmZ%2FOl4xBokPwigKyLVkop4iy0%2Fimg.png)
+이럴 때 autoconnect()를 호출
+
+## 2. Hold Publishing
+
+말 그대로 Publishing을 홀딩시키고 싶으면 ConnectablePublisher을 사용하면 된다.

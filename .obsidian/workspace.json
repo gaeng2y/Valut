@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "iOS/TCA/The Composable Architectrue.md",
+                "file": "Combine/Combine Study/Book/Chapter 6. Time Manipulation Operator.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "iOS/TCA/The Composable Architectrue.md",
+                "file": "Combine/Combine Study/Book/Chapter 6. Time Manipulation Operator.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "iOS/TCA/The Composable Architectrue.md"
+                "file": "Combine/Combine Study/Book/Chapter 6. Time Manipulation Operator.md"
               }
             }
           },
@@ -158,8 +158,10 @@
   },
   "active": "1ae18ca06db17c92",
   "lastOpenFiles": [
-    "iOS/F-lab 멘토링/11주차/목.md",
+    "Combine/Combine Study/참고.md",
+    "Combine/Combine Study/Book/Chapter 6. Time Manipulation Operator.md",
     "iOS/TCA/The Composable Architectrue.md",
+    "iOS/F-lab 멘토링/11주차/목.md",
     "iOS/F-lab 멘토링/11주차",
     "conflict-files-obsidian-git.md",
     "iOS/TCA/튜토리얼/Your first feature.md",
@@ -175,8 +177,7 @@
     "Combine/Combine Study/Resources/Pasted image 20240806165257.png",
     "Combine/Combine Study/Resources/Pasted image 20240806165047.png",
     "Combine/Combine Study/Resources/Pasted image 20240806164043.png",
-    "Combine/Combine Study/Book/Pasted image 20240807114529.png",
-    "Combine/Combine Study/Book/Chapter 6. Time Manipulation Operator.md",
+    "Combine/Combine Study/Resources/Pasted image 20240807114529.png",
     "iOS/F-lab 멘토링/10주차/HealthKit 설계.md",
     "iOS/동시성 프로그래밍/Dispatch/심화/Dispatch 옵션.md",
     "SwiftUI/TabView.md",
@@ -199,7 +200,6 @@
     "Swift/UIBezierPath",
     "Swift/Misc/🔀 Method Swizzling.md",
     "Swift/Misc/가변 파라미터.md",
-    "Swift/Misc/self vs Self.md",
     "Swift/Misc",
     "iOS/동시성 프로그래밍/Dispatch/기본",
     "iOS/동시성 프로그래밍/Dispatch",
