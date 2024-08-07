@@ -190,7 +190,7 @@ subject.feed(with: typingHelloWorld)
 
 - 결과의 일관성을 보장하기 위해, `share()` 를 사용하여 `debounce` 에 단일 subscription 지점을 생성해 모든 subscribers 에게 같은 시간에 같은 결과를 보여 줄 수 있게 한다.
 - `feed(with:)` 메소드는 data set 을 가지고 미리 정의된 시간 간격에 주어진 `subject` 에게 데이터를 전송한다.
-![](Combine/Combine%20Study/Book/Pasted%20image%2020240806171902.png)
+![](Combine/Combine%20Study/Resources/Pasted%20image%2020240806171902.png)
 11 개의 string 이 `sourcePublisher` 에 푸시 되었다. 두 단어 사이에 유저가 `paused` 한것을 볼 수 있다. 이때가 `debounce` 가 captured input 을 emit 할 때이다.
 
 ```
@@ -257,7 +257,7 @@ subject.feed(with: typingHelloWorld)
 
 - `debounce` 처럼 모든 subscriber 가 같은 결과를 같은 시간에 볼 수 있게 보장 하기 위해 `share()` operator 를 사용한다.
 
-![](Combine/Combine%20Study/Book/Pasted%20image%2020240806172928.png)
+![](Combine/Combine%20Study/Resources/Pasted%20image%2020240806172928.png)
 
 `throttle` 에 의해 emit 된 값들은 살짝 타이밍이 다르다.
 
@@ -307,3 +307,125 @@ let throttled = subject
 +2.6s: Subject emitted: Hello World
 +3.0s: Throttled emitted: Hello World
 ```
+
+`latest` 를 `true`로 바꾸면, throttled 출력은 정확히 1.0초와 3.0초에 시간 창의 최신 값이 아닌 가장 최신 값이 발생한다.
+
+`debounce` 와 비교 하면 출력은 같지만, `debounce` 는 일시 정시에 지연된다.
+# Timing out
+
+타임아웃 조건과 실제 타이머를 의미적으로 구별을 목적
+
+timeout operator 가 종료되면 publisher 가 완료 되거나 지정된 에러가 emit 된다.
+
+```swift
+let subject = PassthroughSubject<Void, Never>()
+
+let timedOutSubject = subject.timeout(.seconds(5), scheduler: DispatchQueue.main)
+
+let timeline = TimelineView(title: "Button taps")
+
+let view = VStack(spacing: 100) {
+    Button(action: { subject.send() }) {
+        Text("Press me within 5 seconds")
+    }
+    timeline
+}
+
+PlaygroundPage.current.liveView = UIHostingController(rootView: view.frame(width: 375, height: 600))
+
+timedOutSubject.displayEvents(in: timeline)
+```
+
+> [!note]
+> `Void` 값을 emit 하는 subject 를 사용하는 것은 무언가 발생하지만, 처리할 특정 값이 없다는 것이다. `Subject` 에는 `Output` 타입이 `Void`인, 파라미터를 사용하지 않는 `send()` 함수가 있는 extension 이 있다. 이것은 `subject.send(())` 같은 이상한 구문을 쓰지 않게 해준다.
+
+![](Combine/Combine%20Study/Resources/Pasted%20image%2020240807114451.png)
+정확히 액션을 취하기 위해, 실패를 전송하기 위해 `timeout` publisher 를 만들어 보자.
+
+```swift
+enum TimeoutError: Error {
+    case timeOut
+}
+
+let subject = PassthroughSubject<Void, TimeoutError>()
+
+let timedOutSubject = subject.timeout(.seconds(5), scheduler: DispatchQueue.main, customError: { .timeOut })
+
+let timeline = TimelineView(title: "Button taps")
+
+let view = VStack(spacing: 100) {
+    Button(action: { subject.send() }) {
+        Text("Press me within 5 seconds")
+    }
+    timeline
+}
+
+PlaygroundPage.current.liveView = UIHostingController(rootView: view.frame(width: 375, height: 600))
+
+timedOutSubject.displayEvents(in: timeline)
+```
+
+이제 버튼을 5초 동안 누르지 않으면, `timeOutSubject` 가 실패를 emit 하는 것을 볼 수 있다.
+
+![](Combine/Combine%20Study/Book/Pasted%20image%2020240807114529.png)
+# Measuring time
+
+시간을 조작하지 않고 단지 측정만 한다
+
+`measuerInterval(using:)` operator 는 publisher 가 emit 한 두개의 연속적인 값 사이의 간격 시간을 알기 위해 사용
+
+```swift
+let subject = PassthroughSubject<String, Never>()
+
+let measureSubject = subject.measureInterval(using: DispatchQueue.main)
+
+let subjectTimeline = TimelineView(title: "Emitted values")
+let measureTImeline = TimelineView(title: "Measured values")
+
+let view = VStack(spacing: 100) {
+    subjectTimeline
+    measureTImeline
+}
+
+PlaygroundPage.current.liveView = UIHostingController.init(rootView: view.frame(width: 375, height: 600))
+
+subject.displayEvents(in: subjectTimeline)
+measureSubject.displayEvents(in: measureTImeline)
+
+let subscription1 = subject.sink {
+    print("+\(deltaTime)s: Subject emitted: \($0)")
+}
+
+let subscription2 = measureSubject.sink {
+    print("+\(deltaTime)s: Measure emitted: \($0)")
+}
+
+subject.feed(with: typingHelloWorld)
+
++0.0s: Subject emitted: H
++0.0s: Measure emitted: Stride(magnitude: 16818353)
++0.1s: Subject emitted: He
++0.1s: Measure emitted: Stride(magnitude: 87377323)
++0.2s: Subject emitted: Hel
++0.2s: Measure emitted: Stride(magnitude: 111515697)
++0.3s: Subject emitted: Hell
++0.3s: Measure emitted: Stride(magnitude: 105128640)
++0.5s: Subject emitted: Hello
++0.5s: Measure emitted: Stride(magnitude: 228804831)
++0.6s: Subject emitted: Hello
++0.6s: Measure emitted: Stride(magnitude: 104349343)
++2.2s: Subject emitted: Hello W
++2.2s: Measure emitted: Stride(magnitude: 1533804859)
++2.2s: Subject emitted: Hello Wo
++2.2s: Measure emitted: Stride(magnitude: 154602)
++2.4s: Subject emitted: Hello Wor
++2.4s: Measure emitted: Stride(magnitude: 228888306)
++2.4s: Subject emitted: Hello Worl
++2.4s: Measure emitted: Stride(magnitude: 138241)
++2.7s: Subject emitted: Hello World
++2.7s: Measure emitted: Stride(magnitude: 333195273)
+```
+
+
+
+
