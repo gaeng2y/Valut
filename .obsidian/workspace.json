@@ -158,8 +158,10 @@
   },
   "active": "1ae18ca06db17c92",
   "lastOpenFiles": [
-    "iOS/F-lab 멘토링/5주차/HealthKit 서베이.md",
+    "iOS/TCA/튜토리얼/Your first feature.md",
+    "iOS/TCA/튜토리얼",
     "iOS/TCA/The Composable Architectrue.md",
+    "iOS/F-lab 멘토링/5주차/HealthKit 서베이.md",
     "iOS/TCA",
     "Combine/Combine Study/Resources/Pasted image 20240807114451.png",
     "Combine/Combine Study/Resources/Pasted image 20240806172928.png",
@@ -196,14 +198,11 @@
     "Swift/Misc/🔀 Method Swizzling.md",
     "Swift/Misc/가변 파라미터.md",
     "Swift/Misc/self vs Self.md",
-    "Swift/Misc/RunLoop.main과 DispatchQueue.main의 차이.md",
-    "Swift/Misc/Lazy stored properties.md",
     "Swift/Misc",
     "iOS/동시성 프로그래밍/Dispatch/기본",
     "iOS/동시성 프로그래밍/Dispatch",
     "iOS/동시성 프로그래밍/동시성 프로그래밍",
     "iOS/동시성 프로그래밍",
-    "Combine/Combine Study/Book/무제 폴더",
     "Computational Thinking/무제 파일.canvas"
   ]
 }
