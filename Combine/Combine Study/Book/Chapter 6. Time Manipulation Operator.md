@@ -503,3 +503,5 @@ autoConnect()를 호출해주면 구독하면 자동으로 connect() 메소드�
 ## 2. Hold Publishing
 
 말 그대로 Publishing을 홀딩시키고 싶으면 ConnectablePublisher을 사용하면 된다.
+
+혹은 일반 Publisher를 hold 시키고싶으면 makeConnectable()로 만들어주고 여러군데서 구독이 다 연결된 뒤에 connect()를 호출하면 동시에 방출
