@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Combine/Combine Study/Book/Chapter 5. Combining Operators.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e8168c88ee66685b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Combine/Combine Study/Book/Chapter 6. Time Manipulation Operator.md",
+                "file": "iOS/TCA/튜토리얼/Adding side effects.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Combine/Combine Study/Book/Chapter 6. Time Manipulation Operator.md",
+                "file": "iOS/TCA/튜토리얼/Adding side effects.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Combine/Combine Study/Book/Chapter 6. Time Manipulation Operator.md"
+                "file": "iOS/TCA/튜토리얼/Adding side effects.md"
               }
             }
           },
@@ -169,33 +156,33 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "e8168c88ee66685b",
+  "active": "1ae18ca06db17c92",
   "lastOpenFiles": [
     "iOS/TCA/튜토리얼/Your first feature.md",
-    "iOS/TCA/튜토리얼",
+    "iOS/TCA/튜토리얼/Adding side effects.md",
+    "Combine/Combine Study/Book/Chapter 6. Time Manipulation Operator.md",
+    "Combine/Combine Study/참고.md",
+    "iOS/TCA/The Composable Architectrue.md",
     "iOS/F-lab 멘토링/11주차/목.md",
     "iOS/F-lab 멘토링/11주차",
-    "Combine/Combine Study/Resources/Pasted image 20240807114529.png",
-    "iOS/TCA/The Composable Architectrue.md",
+    "conflict-files-obsidian-git.md",
+    "iOS/TCA/튜토리얼",
+    "iOS/F-lab 멘토링/5주차/HealthKit 서베이.md",
     "iOS/TCA",
-    "Combine/Combine Study/Book/Pasted image 20240807114529.png",
-    "Combine/Combine Study/Resources/Pasted image 20240806171900.png",
-    "Combine/Combine Study/Book/Chapter 6. Time Manipulation Operator.md",
     "Combine/Combine Study/Resources/Pasted image 20240807114451.png",
     "Combine/Combine Study/Resources/Pasted image 20240806172928.png",
     "Combine/Combine Study/Resources/Pasted image 20240806171902.png",
     "Combine/Combine Study/Resources/Pasted image 20240806171901.png",
-    "Combine/Combine Study/Resources/Pasted image 20240806165047.png",
-    "Combine/Combine Study/Book/Chapter 3. Transforming Operators.md",
+    "Combine/Combine Study/Resources/Pasted image 20240806171900.png",
     "Combine/Combine Study/Resources/Pasted image 20240806165401.png",
     "Combine/Combine Study/Resources/Pasted image 20240806165257.png",
-    "Combine/Combine Study/Book/Chapter 5. Combining Operators.md",
-    "iOS/F-lab 멘토링/5주차/HealthKit 서베이.md",
+    "Combine/Combine Study/Resources/Pasted image 20240806165047.png",
+    "Combine/Combine Study/Resources/Pasted image 20240806164043.png",
+    "Combine/Combine Study/Resources/Pasted image 20240807114529.png",
     "iOS/F-lab 멘토링/10주차/HealthKit 설계.md",
     "iOS/동시성 프로그래밍/Dispatch/심화/Dispatch 옵션.md",
     "SwiftUI/TabView.md",
     "SwiftUI/TabView",
-    "conflict-files-obsidian-git.md",
     "iOS/F-lab 멘토링/5주차/Flux, Redux.md",
     "iOS/F-lab 멘토링/5주차/MVI.md",
     "iOS/F-lab 멘토링/4주차/MVI.md",
