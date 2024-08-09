@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Combine/Combine Study/Book/Chapter 6. Time Manipulation Operator.md",
+                "file": "Test-Driven Development/Mocking/OHHTTPStub.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Combine/Combine Study/Book/Chapter 6. Time Manipulation Operator.md",
+                "file": "Test-Driven Development/Mocking/OHHTTPStub.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Combine/Combine Study/Book/Chapter 6. Time Manipulation Operator.md"
+                "file": "Test-Driven Development/Mocking/OHHTTPStub.md"
               }
             }
           },
@@ -171,6 +171,9 @@
   },
   "active": "e8168c88ee66685b",
   "lastOpenFiles": [
+    "Combine/Combine Study/Book/Chapter 6. Time Manipulation Operator.md",
+    "Test-Driven Development/Mocking/OHHTTPStub.md",
+    "Test-Driven Development/Mocking",
     "iOS/TCA/튜토리얼/Adding side effects.md",
     "iOS/TCA/튜토리얼/Your first feature.md",
     "iOS/TCA/튜토리얼",
@@ -181,7 +184,6 @@
     "iOS/TCA",
     "Combine/Combine Study/Book/Pasted image 20240807114529.png",
     "Combine/Combine Study/Resources/Pasted image 20240806171900.png",
-    "Combine/Combine Study/Book/Chapter 6. Time Manipulation Operator.md",
     "Combine/Combine Study/Resources/Pasted image 20240807114451.png",
     "Combine/Combine Study/Resources/Pasted image 20240806172928.png",
     "Combine/Combine Study/Resources/Pasted image 20240806171902.png",
@@ -211,12 +213,10 @@
     "iOS/UITraitChangeObservable.md",
     "iOS/UICollectionView 톺아보기.md",
     "TIL/2024-08-02.md",
-    "Swift/UIBezierPath/UIBezierPath.md",
     "Swift/UIBezierPath",
     "Swift/Misc",
     "iOS/동시성 프로그래밍/Dispatch/기본",
     "iOS/동시성 프로그래밍/Dispatch",
-    "iOS/동시성 프로그래밍/동시성 프로그래밍",
     "Computational Thinking/무제 파일.canvas"
   ]
 }
