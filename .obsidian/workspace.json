@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "iOS/동시성 프로그래밍/Dispatch/심화/DispatchGroup.md",
+                "file": "iOS/동시성 프로그래밍/UI는 왜 Main Thread에서?.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "iOS/동시성 프로그래밍/Dispatch/심화/DispatchGroup.md",
+                "file": "iOS/동시성 프로그래밍/UI는 왜 Main Thread에서?.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "iOS/동시성 프로그래밍/Dispatch/심화/DispatchGroup.md"
+                "file": "iOS/동시성 프로그래밍/UI는 왜 Main Thread에서?.md"
               }
             }
           },
@@ -158,8 +158,12 @@
   },
   "active": "1ae18ca06db17c92",
   "lastOpenFiles": [
-    "iOS/동시성 프로그래밍/Dispatch/심화/Dispatch 옵션.md",
+    "iOS/동시성 프로그래밍/DispatchSemaphore.md",
+    "iOS/동시성 프로그래밍/UI는 왜 Main Thread에서?.md",
+    "iOS/동시성 프로그래밍/Race Condition과 Thread Safe.md",
+    "iOS/앱과 비즈니스 로직.md",
     "iOS/동시성 프로그래밍/Dispatch/심화/DispatchGroup.md",
+    "iOS/동시성 프로그래밍/Dispatch/심화/Dispatch 옵션.md",
     "iOS/TCA/튜토리얼/Adding side effects.md",
     "Test-Driven Development/Mocking/OHHTTPStub.md",
     "Test-Driven Development/Mocking",
@@ -198,10 +202,6 @@
     "iOS/F-lab 멘토링/5주차/Flux, Redux.md",
     "iOS/F-lab 멘토링/5주차/MVI.md",
     "iOS/F-lab 멘토링/4주차/MVI.md",
-    "iOS/F-lab 멘토링/4주차/MVVM.md",
-    "iOS/F-lab 멘토링/5주차/MVVM 패턴.md",
-    "SwiftUI/SwiftUI Documentation/Model Data.md",
-    "iOS/동시성 프로그래밍/Dispatch/기본/Dispatch 기본.md",
     "iOS/동시성 프로그래밍/Dispatch/심화",
     "Swift/UIBezierPath",
     "Computational Thinking/무제 파일.canvas"
