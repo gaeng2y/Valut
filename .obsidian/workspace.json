@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Combine/Combine Study/Book/Chapter 5. Combining Operators.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e8168c88ee66685b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TCA/도서.md",
+                "file": "iOS/동시성 프로그래밍/Dispatch/심화/DispatchGroup.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TCA/도서.md",
+                "file": "iOS/동시성 프로그래밍/Dispatch/심화/DispatchGroup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TCA/도서.md"
+                "file": "iOS/동시성 프로그래밍/Dispatch/심화/DispatchGroup.md"
               }
             }
           },
@@ -169,40 +156,45 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "e8168c88ee66685b",
+  "active": "1ae18ca06db17c92",
   "lastOpenFiles": [
-    "RxSwift/Scheduler.md",
-    "TCA/도서.md",
-    "RxSwift/subscribe, bind, drive.md",
+    "iOS/동시성 프로그래밍/Dispatch/심화/Dispatch 옵션.md",
+    "iOS/동시성 프로그래밍/Dispatch/심화/DispatchGroup.md",
+    "iOS/TCA/튜토리얼/Adding side effects.md",
     "Test-Driven Development/Mocking/OHHTTPStub.md",
-    "RxSwift",
-    "Combine/Combine Study/Book/Chapter 6. Time Manipulation Operator.md",
     "Test-Driven Development/Mocking",
-    "TCA/튜토리얼/Adding side effects.md",
     "TCA/튜토리얼/Your first feature.md",
+    "TCA/튜토리얼/Adding side effects.md",
     "TCA/튜토리얼",
-    "iOS/F-lab 멘토링/11주차/목.md",
-    "iOS/F-lab 멘토링/11주차",
-    "Combine/Combine Study/Resources/Pasted image 20240807114529.png",
+    "TCA/도서.md",
     "TCA/The Composable Architectrue.md",
     "TCA",
-    "Combine/Combine Study/Book/Pasted image 20240807114529.png",
-    "Combine/Combine Study/Resources/Pasted image 20240806171900.png",
+    "RxSwift/subscribe, bind, drive.md",
+    "RxSwift/Scheduler.md",
+    "RxSwift",
+    "iOS/TCA/튜토리얼/Your first feature.md",
+    "Combine/Combine Study/Book/Chapter 6. Time Manipulation Operator.md",
+    "Combine/Combine Study/참고.md",
+    "iOS/TCA/The Composable Architectrue.md",
+    "iOS/F-lab 멘토링/11주차/목.md",
+    "iOS/F-lab 멘토링/11주차",
+    "conflict-files-obsidian-git.md",
+    "iOS/TCA/튜토리얼",
+    "iOS/F-lab 멘토링/5주차/HealthKit 서베이.md",
+    "iOS/TCA",
     "Combine/Combine Study/Resources/Pasted image 20240807114451.png",
     "Combine/Combine Study/Resources/Pasted image 20240806172928.png",
     "Combine/Combine Study/Resources/Pasted image 20240806171902.png",
     "Combine/Combine Study/Resources/Pasted image 20240806171901.png",
-    "Combine/Combine Study/Resources/Pasted image 20240806165047.png",
-    "Combine/Combine Study/Book/Chapter 3. Transforming Operators.md",
+    "Combine/Combine Study/Resources/Pasted image 20240806171900.png",
     "Combine/Combine Study/Resources/Pasted image 20240806165401.png",
     "Combine/Combine Study/Resources/Pasted image 20240806165257.png",
-    "Combine/Combine Study/Book/Chapter 5. Combining Operators.md",
-    "iOS/F-lab 멘토링/5주차/HealthKit 서베이.md",
+    "Combine/Combine Study/Resources/Pasted image 20240806165047.png",
+    "Combine/Combine Study/Resources/Pasted image 20240806164043.png",
+    "Combine/Combine Study/Resources/Pasted image 20240807114529.png",
     "iOS/F-lab 멘토링/10주차/HealthKit 설계.md",
-    "iOS/동시성 프로그래밍/Dispatch/심화/Dispatch 옵션.md",
     "SwiftUI/TabView.md",
     "SwiftUI/TabView",
-    "conflict-files-obsidian-git.md",
     "iOS/F-lab 멘토링/5주차/Flux, Redux.md",
     "iOS/F-lab 멘토링/5주차/MVI.md",
     "iOS/F-lab 멘토링/4주차/MVI.md",
@@ -210,13 +202,8 @@
     "iOS/F-lab 멘토링/5주차/MVVM 패턴.md",
     "SwiftUI/SwiftUI Documentation/Model Data.md",
     "iOS/동시성 프로그래밍/Dispatch/기본/Dispatch 기본.md",
-    "무제 파일.md",
-    "iOS/동시성 프로그래밍/Dispatch/기본/헷갈리는 개념 다시 잡기.md",
     "iOS/동시성 프로그래밍/Dispatch/심화",
-    "iOS/동시성 프로그래밍/동시성 프로그래밍/코어와 스레드.md",
     "Swift/UIBezierPath",
-    "Swift/Misc",
-    "iOS/동시성 프로그래밍/Dispatch/기본",
     "Computational Thinking/무제 파일.canvas"
   ]
 }
