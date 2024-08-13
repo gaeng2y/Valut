@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "iOS/동시성 프로그래밍/UI는 왜 Main Thread에서?.md",
+                "file": "iOS/동시성 프로그래밍/Operation/Operation.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "iOS/동시성 프로그래밍/UI는 왜 Main Thread에서?.md",
+                "file": "iOS/동시성 프로그래밍/Operation/Operation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "iOS/동시성 프로그래밍/UI는 왜 Main Thread에서?.md"
+                "file": "iOS/동시성 프로그래밍/Operation/Operation.md"
               }
             }
           },
@@ -158,8 +158,11 @@
   },
   "active": "1ae18ca06db17c92",
   "lastOpenFiles": [
-    "iOS/동시성 프로그래밍/DispatchSemaphore.md",
+    "iOS/동시성 프로그래밍/코어와 스레드.md",
+    "iOS/동시성 프로그래밍/Operation/Operation.md",
     "iOS/동시성 프로그래밍/UI는 왜 Main Thread에서?.md",
+    "iOS/동시성 프로그래밍/Operation",
+    "iOS/동시성 프로그래밍/DispatchSemaphore.md",
     "iOS/동시성 프로그래밍/Race Condition과 Thread Safe.md",
     "iOS/앱과 비즈니스 로직.md",
     "iOS/동시성 프로그래밍/Dispatch/심화/DispatchGroup.md",
@@ -200,10 +203,7 @@
     "SwiftUI/TabView.md",
     "SwiftUI/TabView",
     "iOS/F-lab 멘토링/5주차/Flux, Redux.md",
-    "iOS/F-lab 멘토링/5주차/MVI.md",
-    "iOS/F-lab 멘토링/4주차/MVI.md",
     "iOS/동시성 프로그래밍/Dispatch/심화",
-    "Swift/UIBezierPath",
     "Computational Thinking/무제 파일.canvas"
   ]
 }
