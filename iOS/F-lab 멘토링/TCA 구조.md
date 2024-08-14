@@ -11,6 +11,4 @@ struct State {
 	}
 }
 ```
-### State
-- numberOfGlasses: Int
-- 
+### 
