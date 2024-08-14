@@ -1,5 +1,11 @@
 # Drink
 ## Store
+- var numberOfGlasses: Int
+- var liter: Double
+- var progress: CGFloat
+- var isDisableDrinkButton: Bool
+- var drinkButtonTtile: String
+- 
 ```swift
 struct State {
 	var numberOfGlasses = 0
@@ -11,4 +17,22 @@ struct State {
 	}
 }
 ```
-### 
+
+### Action
+
+
+### Reducer
+```swift
+var body: some Reducer<State, Action> {
+	Reduce
+}
+```
+
+### View
+```swift
+struct DrinkWaterView: View {
+	let store: StoreOf<DrinkWaterFeature>
+
+	var body: some View 
+}
+```
