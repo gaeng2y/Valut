@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "iOS/동시성 프로그래밍/Operation/Operation.md",
+                "file": "iOS/동시성 프로그래밍/Operation/Operation 심화.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "iOS/동시성 프로그래밍/Operation/Operation.md",
+                "file": "iOS/동시성 프로그래밍/Operation/Operation 심화.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "iOS/동시성 프로그래밍/Operation/Operation.md"
+                "file": "iOS/동시성 프로그래밍/Operation/Operation 심화.md"
               }
             }
           },
@@ -158,8 +158,9 @@
   },
   "active": "1ae18ca06db17c92",
   "lastOpenFiles": [
-    "iOS/동시성 프로그래밍/코어와 스레드.md",
     "iOS/동시성 프로그래밍/Operation/Operation.md",
+    "iOS/동시성 프로그래밍/Operation/Operation 심화.md",
+    "iOS/동시성 프로그래밍/코어와 스레드.md",
     "iOS/동시성 프로그래밍/UI는 왜 Main Thread에서?.md",
     "iOS/동시성 프로그래밍/Operation",
     "iOS/동시성 프로그래밍/DispatchSemaphore.md",
@@ -202,7 +203,6 @@
     "iOS/F-lab 멘토링/10주차/HealthKit 설계.md",
     "SwiftUI/TabView.md",
     "SwiftUI/TabView",
-    "iOS/F-lab 멘토링/5주차/Flux, Redux.md",
     "iOS/동시성 프로그래밍/Dispatch/심화",
     "Computational Thinking/무제 파일.canvas"
   ]

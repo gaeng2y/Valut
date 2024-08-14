@@ -94,5 +94,23 @@ operation.start()
 ```
 
 > [!info] Operation을 실행하면 어떤 스레드에서 실행될까?
-> 기본적으로 `start()` 메서드를 통해 직접 실행하면 Operation을 실행한 **현재 스레드에서** Operation을 실행하게 된다. 이 내용은 Operation이 동기냐, 비동기냐에 따라 조금 차이가 있는데, _비동기 Operation_ 의 경우에는 새로운 스레드를 만들어서 Operation을 처리한다. 
-그리고 Operation을 `OperationQueue`에 넣어서 실행하는 경우에는 Operation을 각각 **새로운 스레드를 만들어** 작업합니다.
+> 기본적으로 `start()` 메서드를 통해 직접 실행하면 Operation을 실행한 **현재 스레드에서** Operation을 실행하게 된다. 이 내용은 Operation이 동기냐, 비동기냐에 따라 조금 차이가 있는데, _비동기 Operation_ 의 경우에는 새로운 스레드를 만들어서 Operation을 처리한다. 그리고 Operation을 `OperationQueue`에 넣어서 실행하는 경우에는 Operation을 각각 **새로운 스레드를 만들어** 작업한다.
+
+### Operation의 프로퍼티
+
+```swift
+var isCancelled: Bool
+var isExecuting: Bool
+var isFinished: Bool
+var isConcurrent: Bool
+var isAsynchronous: Bool
+var isReady: Bool
+var name: String?
+```
+
+### Operation의 상태 변화
+![op](https://user-images.githubusercontent.com/73867548/153431140-fe224946-dbe3-4167-8569-0543a653308b.png)
+- **`isReady`**: Operation이 실행할 준비를 마치면 isReady 상태가 된다.
+- **`isExecuting`**: `Start`가 호출된 후(혹은 OperationQueue에 의해 실행된 후) isExecuting 상태가 된다.
+- **`isCancel`**: Operation을 cancel하게 되면 isCancel 상태가 된다.
+- **`isFinished`**: cancel하지 않고 동작을 모두 마쳤다면 isFinished 상태가 된다.
