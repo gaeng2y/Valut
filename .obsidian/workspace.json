@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "iOS/F-lab 멘토링/TCA 구조.md",
+                "file": "TCA/TCA 1.0/Chapter 2. TCA의 기본 개념.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "iOS/F-lab 멘토링/TCA 구조.md",
+                "file": "TCA/TCA 1.0/Chapter 2. TCA의 기본 개념.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "iOS/F-lab 멘토링/TCA 구조.md"
+                "file": "TCA/TCA 1.0/Chapter 2. TCA의 기본 개념.md"
               }
             }
           },
@@ -158,8 +158,12 @@
   },
   "active": "1ae18ca06db17c92",
   "lastOpenFiles": [
-    "iOS/동시성 프로그래밍/Operation/Operation 심화.md",
+    "TCA/TCA 1.0/도서.md",
+    "TCA/TCA 1.0/Chapter 2. TCA의 기본 개념.md",
+    "TCA/TCA 1.0",
+    "TCA/The Composable Architectrue.md",
     "iOS/F-lab 멘토링/TCA 구조.md",
+    "iOS/동시성 프로그래밍/Operation/Operation 심화.md",
     "iOS/동시성 프로그래밍/Operation/Operation.md",
     "iOS/동시성 프로그래밍/코어와 스레드.md",
     "iOS/동시성 프로그래밍/UI는 왜 Main Thread에서?.md",
@@ -175,8 +179,6 @@
     "TCA/튜토리얼/Your first feature.md",
     "TCA/튜토리얼/Adding side effects.md",
     "TCA/튜토리얼",
-    "TCA/도서.md",
-    "TCA/The Composable Architectrue.md",
     "TCA",
     "RxSwift/subscribe, bind, drive.md",
     "RxSwift/Scheduler.md",
@@ -201,9 +203,7 @@
     "Combine/Combine Study/Resources/Pasted image 20240806165047.png",
     "Combine/Combine Study/Resources/Pasted image 20240806164043.png",
     "Combine/Combine Study/Resources/Pasted image 20240807114529.png",
-    "iOS/F-lab 멘토링/10주차/HealthKit 설계.md",
     "SwiftUI/TabView",
-    "iOS/동시성 프로그래밍/Dispatch/심화",
     "Computational Thinking/무제 파일.canvas"
   ]
 }
