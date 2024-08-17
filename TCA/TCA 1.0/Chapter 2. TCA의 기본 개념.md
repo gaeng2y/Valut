@@ -96,3 +96,54 @@ struct CounterFeature: Reducer {
 
 # 2.4 변경을 처리한다: Reducer
 
+`Reducer`는 애플리케이션의 현재 `State`를 주어진 `Action`을 바탕으로 어떻게 다음 상태로 바꿀 것인지를 묘사하고, 어떤 결과(`Effect`)가 존재한다면 `Store`를 통해 어떻게 실행되어야 하는지를 설명하는 프로토콜이다. 애플리케이션의 현재 상태(`State`)를 함수형으로, 가독성이 좋게 작성하기 위해 고안된 개념이다.
+
+`Reducer`는 아래와 같이 프로토콜을 채택하는 형태로 이루어져있다.
+
+```swift
+// Reducer
+@Reducer
+struct Feature {
+    struct State: Equatable {
+		var count = 0
+    }
+    
+    enum Action: Equatable {
+		case decrementButtonTapped
+    }
+    
+    var body: some ReducerOf<Self> {
+        Reduce { state, action in
+            switch action {
+            case .decrementButtonTapped:
+                state.count -= 1
+                return .none
+            }
+        }
+    }
+//    위 body 클로저나 아래 reduce 함수 둘 중 한 가지 방법으로 구현.
+//    func reduce(into state: inout State, action: Action) -> Effect<Action> {
+//        switch action {
+//        case .decrementButtonTapped:
+//            state.count -= 1
+//            return .none
+//        }
+//    }
+}
+```
+
+`@Reducer` 매크로를 채택하게 되면 `State`와 `Action`를 만들도록 자동완성이 되고, `func reduce(into:action:)` 나 위 코드와 같은 `body` 클로저로 구현하는 두 가지 방법 중 한 가지를 채택하여 구현한다.
+
+## 2.4.1 `func reduce(into:action:)`와 body
+
+```swift
+// Reducer 프로토콜의 정의 중
+public protocol Reducer<State, Action> {
+  /* code */
+  func reduce(into state: inout State, action: Action) -> Effect<Action>
+
+  @ReducerBuilder<State, Action>
+  var body: Body { get }
+}
+```
+
