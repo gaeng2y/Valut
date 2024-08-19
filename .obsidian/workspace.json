@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TCA/TCA 1.0/Chapter 2. TCA의 기본 개념.md",
+                "file": "TCA/TCA 1.0/Chapter 3. TCA의 기본개념(2).md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TCA/TCA 1.0/Chapter 2. TCA의 기본 개념.md",
+                "file": "TCA/TCA 1.0/Chapter 3. TCA의 기본개념(2).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TCA/TCA 1.0/Chapter 2. TCA의 기본 개념.md"
+                "file": "TCA/TCA 1.0/Chapter 3. TCA의 기본개념(2).md"
               }
             }
           },
@@ -158,8 +158,9 @@
   },
   "active": "1ae18ca06db17c92",
   "lastOpenFiles": [
-    "TCA/TCA 1.0/도서.md",
     "TCA/TCA 1.0/Chapter 2. TCA의 기본 개념.md",
+    "TCA/TCA 1.0/Chapter 3. TCA의 기본개념(2).md",
+    "TCA/TCA 1.0/도서.md",
     "TCA/TCA 1.0",
     "TCA/The Composable Architectrue.md",
     "iOS/F-lab 멘토링/TCA 구조.md",
@@ -191,7 +192,6 @@
     "iOS/F-lab 멘토링/11주차",
     "conflict-files-obsidian-git.md",
     "iOS/TCA/튜토리얼",
-    "iOS/F-lab 멘토링/5주차/HealthKit 서베이.md",
     "iOS/TCA",
     "Combine/Combine Study/Resources/Pasted image 20240807114451.png",
     "Combine/Combine Study/Resources/Pasted image 20240806172928.png",

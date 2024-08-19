@@ -161,6 +161,36 @@ public protocol Reducer<State, Action> {
 예를 들어, 우리가 만든 카운터 앱에 자동 카운트 기능을 넣기 위해서 `Timer`가 필요하게 될 것이다. 이럴 땐 TCA에서 기본적으로 지원하는 `Timer`의 `Dependency`를 사용할 수 있다.
 
 ```swift
-@Dependency(\\.continuousClock) var clock
+@Dependency(\.continuousClock) var clock
+```
+
+또한, API를 포함하여 네트워크 코드들은 통신하는 Client와 의존성이 생기게 된다. 
+
+이렇게 `Dependency`로 의존성을 주입하게 되면, 우리는 `Reducer` 안에서 이 의존성을 활용하여, 위의 예를 이어서 빌려온다면 타이머 기능 및 네트워킹 함수들을 이용하여 더욱 복잡한 형태로 우리가 원하는 데이터를 편집하여 `Effect`로 방출이 될 것이다.
+
+```swift
+struct CounterFeature: Reducer {
+    @Dependency(\.continuousClock) var clock
+    var body: some ReducerOf<Self> {
+        Reduce { state, action in
+            switch action {
+            case .toggleTimerButtonTapped:
+                state.isTimerOn.toggle()
+                if state.isTimerOn {
+                    return .run { send in
+						// 주입된 의존성 활용
+                        for await _ in self.clock.timer(interval: .seconds(1)) {
+                          await send(.timerTicked)
+                        }
+                    }
+                    .cancellable(id: CancelID.timer)
+                } else {
+                    // Stop the timer
+                    return .cancel(id: CancelID.timer)
+                }
+            }
+        }
+    }
+}
 ```
 
