@@ -19,3 +19,16 @@ TCA의 가장 기본적인 바인딩은 `Binding(get:send:)` 형태다. 두 개�
 - **get**: State를 바인딩의 값으로 변환하도록 하는 클로저
 - **send**: 바인딩의 값을 다시 Store에 피드백 하는 Action으로 변환하는 클로저
 
+예시를 살펴보자. Reducer에는 사용자가 햅틱 피드백을 활성화 했는지 추적하는 도메인 기능이 있다고 가정하자. State에는 햅틱 피드백에 대한 Bool 프로퍼티를 정의할 수 있다.
+
+```swift
+struct Settings: Reducer {
+  struct State: Equatable {
+    var isHapticFeedbackEnabled = true
+    /* code */
+  }
+
+  /* code */
+}
+```
+
