@@ -237,3 +237,16 @@ struct Settings: Reducer {
 }
 ```
 
+이제 View에서는 Binding action을 직접 호출하지 않게된다. 기존 SwiftUI 바인딩처럼 SwiftUI UI 컨트롤에 State 필드 값을 바인딩 하여 사용하기 때문에 좀 더 **직관적인 장점이 있다**. 물론 기존 SwiftUI처럼 UI 컨트롤의 데이터 바인딩도 적용되기 때문에 `binding(get:send:)`를 사용할 때와 달리 Toggle의 변경, TextField의 입력 등과 같은 **기초적인 Action은 정의하지 않아도 된다**.
+
+따라서 Binding Action을 사용하면 기존 SwiftUI의 Binding을 사용할 때처럼 간단하게 표현이 가능하다.
+
+```swfit
+  Toggle(
+    "Haptic feedback",
+    isOn: viewStore.$isHapticFeedbackEnabled
+  )
+
+	TextField("Display name", text: viewStore.$displayName)
+```
+
