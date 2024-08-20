@@ -32,3 +32,195 @@ struct Settings: Reducer {
 }
 ```
 
+만약 View에서 토글을 사용하여 Store 외부에서 이 State를 조정할 수 있다면, Action의 형태를 정의할 수 있게 된다.
+
+```swift
+struct Settings: Reducer {
+  struct State: Equatable { /* code */ }
+
+  enum Action { 
+    case isHapticFeedbackEnabledChanged(Bool)
+    /* code */
+  }
+
+  /* code */
+}
+```
+
+이제 reducer에서 해당 Action을 조작할 수 있도록 하면 reducer에서 Action에 대한 결과로 State의 값이 변경된다.
+
+```swift
+struct Settings: Reducer {
+  struct State: Equatable { /* code */ }
+  enum Action { /* code */ }
+  
+  func reduce(
+    into state: inout State, action: Action
+  ) -> Effect<Action> {
+    switch action {
+    case let .isHapticFeedbackEnabledChanged(isEnabled):
+      state.isHapticFeedbackEnabled = isEnabled
+      return .none
+
+    /* code */
+    }
+  }
+}
+```
+
+이로서 SwiftUI UI 컨트롤의 이벤트를 단방향 통신으로 TCA에 반영할 수 있는 바인딩을 완료했다.
+
+```swift
+struct SettingsView: View {
+  let store: StoreOf<Settings>
+  
+  var body: some View {
+    WithViewStore(self.store, observe: { $0 }) { viewStore in
+      Form {
+        Toggle(
+          "Haptic feedback",
+          isOn: viewStore.binding(
+            get: \.isHapticFeedbackEnabled,
+            send: { .isHapticFeedbackEnabledChanged($0) }
+          )
+        )
+
+        /* code */
+      }
+    }
+  }
+}
+```
+
+Toggle 에서 isOn에는 바인딩 객체를 전달해야한다. `viewStore.binding(get:send:)`에서 get에 전달된 객체를 바인딩해서 `isOn`에 전달해주고, send에 전달된 Action을 **Store에 다시 피드백** 해줌으로써 해당 Action에 맞는 Reducer 로직이 실행되어 State의 값이 변경된다.
+
+정리하면, binding의 get을 통해 SwiftUI UI 컨트롤과 바인딩 통신을 하고, `send`를 통해 Store 내부에 바인딩된 값을 전달함으로써 비즈니스 로직이 수행되도록 하는데, 이것이 가장 기본적인 구조다.
+
+이제 추가로 Settings의 State를 작성해서 필요한 기능을 추가하면 어떤 문제점이 있는지 확인해보자.
+
+```swift
+struct Settings: Reducer {
+  struct State: Equatable {
+    var isHapticFeedbackEnabled = true
+    var digest = Digest.daily
+    var displayName = ""
+    var enableNotifications = false
+    var isLoading = false
+    var protectMyPosts = false
+    var sendEmailNotifications = false
+    var sendMobileNotifications = false
+  }
+
+  /* code */
+}
+```
+
+State의 각 프로퍼티는 대부분 View에서 편집할 수 있어야 하는데, View에서 프로퍼티를 편집할 때 프로퍼티를 편집하는 Action을 **열거형의 각 case로 정의**해야한다.
+
+```swift
+struct Settings: Reducer {
+  struct State: Equatable { /* code */ }
+
+  enum Action {
+    case isHapticFeedbackEnabledChanged(Bool)
+    case digestChanged(Digest)
+    case displayNameChanged(String)
+    case enableNotificationsChanged(Bool)
+    case protectMyPostsChanged(Bool)
+    case sendEmailNotificationsChanged(Bool)
+    case sendMobileNotificationsChanged(Bool)
+  }
+
+  /* code */
+}
+```
+
+이제 case로 선언된 **각 Action에 대한 비즈니스 로직**을 Reducer에 작성한다.
+
+```swift
+struct Settings: Reducer {
+  struct State: Equatable { /* code */ }
+  enum Action { /* code */ }
+
+  func reduce(
+    into state: inout State, action: Action
+  ) -> Effect<Action> {
+    switch action {
+    case let .isHapticFeedbackEnabledChanged(isEnabled):
+      state.isHapticFeedbackEnabled = isEnabled
+      return .none
+
+    case let digestChanged(digest):
+      state.digest = digest
+      return .none
+
+    case let displayNameChanged(displayName):
+      state.displayName = displayName
+      return .none
+
+    case let enableNotificationsChanged(isOn):
+      state.enableNotifications = isOn
+      return .none
+
+    case let protectMyPostsChanged(isOn):
+      state.protectMyPosts = isOn
+      return .none
+
+    case let sendEmailNotificationsChanged(isOn):
+      state.sendEmailNotifications = isOn
+      return .none
+
+    case let sendMobileNotificationsChanged(isOn):
+      state.sendMobileNotifications = isOn
+      return .none
+    }
+  }
+}
+```
+
+가장 기본적인 `binding(get:send)`를 사용할 때, get과 send에 **직접 State와 Action을 정의**하여 전달해야하는 작업이 필요하다. 하지만 Store에 State나 Action이 추가된다면 View에는 더 많은 바인딩 코드가 작성되어야하고, **Reducer의 관리도 복잡**해지는것을 확인할 수 있다.
+
+코드가 길어지고 복잡하면 가독성이 나빠지고 반복적인 작업이 필요하다. 따라서 TCA는 Reducer와 View에 이러한 불필요한 작업이 반복되지 않도록 하고 간단하게 **바인딩 관리할 수 있는 환경**을 제공한다.
+
+# 4.3 다양한 TCA의 Binding tools
+
+앞서 언급한 문제를 해결하기 위해서 TCA에서는 다양한 대안적인 Binding 도구들을 제공하고 있다. `@BindingState`, `@BindingAction`, `@BindingReducer` 등이 그러하다. 이 도구들은 프로퍼티 래퍼를 활용하여 선언이 되는데, 이를 통해 Binding이 개선되는 과정을 살펴보자.
+
+```swift
+struct Settings: Reducer {
+  struct State: Equatable {
+	@BindingState var isHapticFeedbackEnabled = true
+    @BindingState var digest = Digest.daily
+    @BindingState var displayName = ""
+    @BindingState var enableNotifications = false
+    var isLoading = false
+    @BindingState var protectMyPosts = false
+    @BindingState var sendEmailNotifications = false
+    @BindingState var sendMobileNotifications = false
+  }
+
+  /* code */
+}
+```
+
+State 구조체 필드에 프로퍼티 래퍼가 추가되면서 이제 해당 필드들은 SwiftUI의 UI 컨트롤에 바인딩이 가능하여 View에서 해당 필드 값을 조정할 수 있다.
+
+`isLoading` 은 프로퍼티 래퍼를 추가하지 않으므로 `View`에서 해당 필드 값을 변경할 수 없도록 강제하는 역할을 한다.
+
+> [!tip]
+> TCA 아키텍처는 모든 필드에 `@BindingState` 사용하는 것을 권장하지 않는다. 모든 필드에 표시하면 외부에서 즉시 변경할 수 있기 때문에 기능의 캡슐화가 손상될 수 있는데, 따라서 바인딩 프로퍼티 래퍼는 SwiftUI 컴포넌트에 전달하기 위한 필드에만 사용하는 것이 좋다. `@BindingState` 뿐만 아니라 다른 프로퍼티 래퍼를 사용할 때에도 꼭 필요한 경우에만 사용해야한다.
+
+다음으로 Action 열거형에 BindableAction 프로토콜을 채택함으로써, State의 모든 필드 Action을 하나의 case로 축소하는데 축소된 Action case는 제네릭 타입을 갖는 BindingAction을 associatedValue로 보유한다. (제네릭 타입은 reducer의 State로 결정)
+
+```swift
+ struct Settings: Reducer {
+  struct State: Equatable { /* code */ }
+
+  enum Action: BindableAction {
+    case binding(BindingAction<State>)
+  }
+
+  /* code */
+}
+```
+
