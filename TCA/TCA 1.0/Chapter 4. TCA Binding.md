@@ -224,3 +224,16 @@ State 구조체 필드에 프로퍼티 래퍼가 추가되면서 이제 해당 �
 }
 ```
 
+이제 Reducer는 `@BindingReducer`를 사용하여 State을 변경하는 비즈니스 로직을 간단하게 할 수 있는데, `@BindingReducer`는 `Binding action`이 수신된 경우, State를 업데이트 해주는 Reducer다.
+
+```swift
+struct Settings: Reducer {
+  struct State: Equatable { /* code */ }
+  enum Action: BindableAction { /* code */ }
+
+  var body: some Reducer<State, Action> {
+    BindingReducer()
+  }
+}
+```
+
