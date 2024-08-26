@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TCA/TCA 1.0/Chatper 5. Dependency.md",
+                "file": "Clean Architecture/Tuist/Tuist 훑어보기.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TCA/TCA 1.0/Chatper 5. Dependency.md",
+                "file": "Clean Architecture/Tuist/Tuist 훑어보기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TCA/TCA 1.0/Chatper 5. Dependency.md"
+                "file": "Clean Architecture/Tuist/Tuist 훑어보기.md"
               }
             }
           },
@@ -158,9 +158,13 @@
   },
   "active": "554c44933f88c727",
   "lastOpenFiles": [
+    "Clean Architecture/Understading Clean Architecture in iOS.md",
+    "Clean Architecture/Tuist/Tuist 훑어보기.md",
+    "Clean Architecture/Tuist",
+    "TCA/TCA 1.0/Chatper 5. Dependency.md",
+    "Clean Architecture",
     "TCA/TCA 1.0/Chapter 4. TCA Binding.md",
     "TCA/TCA 1.0/Chapter 3. TCA의 기본개념(2).md",
-    "TCA/TCA 1.0/Chatper 5. Dependency.md",
     "TCA/TCA 1.0/Chapter 2. TCA의 기본 개념.md",
     "TCA/TCA 1.0/도서.md",
     "TCA/TCA 1.0",
@@ -188,11 +192,8 @@
     "RxSwift",
     "iOS/TCA/튜토리얼/Your first feature.md",
     "Combine/Combine Study/Book/Chapter 6. Time Manipulation Operator.md",
-    "Combine/Combine Study/참고.md",
-    "iOS/TCA/The Composable Architectrue.md",
     "iOS/F-lab 멘토링/11주차",
     "iOS/TCA/튜토리얼",
-    "iOS/TCA",
     "Combine/Combine Study/Resources/Pasted image 20240807114451.png",
     "Combine/Combine Study/Resources/Pasted image 20240806172928.png",
     "Combine/Combine Study/Resources/Pasted image 20240806171902.png",
@@ -203,7 +204,6 @@
     "Combine/Combine Study/Resources/Pasted image 20240806165047.png",
     "Combine/Combine Study/Resources/Pasted image 20240806164043.png",
     "Combine/Combine Study/Resources/Pasted image 20240807114529.png",
-    "SwiftUI/TabView",
     "Computational Thinking/무제 파일.canvas"
   ]
 }
