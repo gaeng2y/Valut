@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Clean Architecture/Tuist/Tuist 훑어보기.md",
+                "file": "Clean Architecture/Clean Architecture.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Clean Architecture/Tuist/Tuist 훑어보기.md",
+                "file": "Clean Architecture/Clean Architecture.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Clean Architecture/Tuist/Tuist 훑어보기.md"
+                "file": "Clean Architecture/Clean Architecture.md"
               }
             }
           },
@@ -158,8 +158,9 @@
   },
   "active": "554c44933f88c727",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "Clean Architecture/Tuist/Tuist 훑어보기.md",
+    "Clean Architecture/Clean Architecture.md",
+    "conflict-files-obsidian-git.md",
     "Clean Architecture/Tuist.md",
     "Clean Architecture/Understading Clean Architecture in iOS.md",
     "Clean Architecture/Tuist",
@@ -190,7 +191,6 @@
     "TCA/튜토리얼",
     "TCA",
     "RxSwift/subscribe, bind, drive.md",
-    "RxSwift/Scheduler.md",
     "RxSwift",
     "iOS/F-lab 멘토링/11주차",
     "iOS/TCA/튜토리얼",
