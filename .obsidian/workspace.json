@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Clean Architecture/Understading Clean Architecture in iOS.md",
+                "file": "Clean Architecture/Tuist/Tuist 훑어보기.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Clean Architecture/Understading Clean Architecture in iOS.md",
+                "file": "Clean Architecture/Tuist/Tuist 훑어보기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Clean Architecture/Understading Clean Architecture in iOS.md"
+                "file": "Clean Architecture/Tuist/Tuist 훑어보기.md"
               }
             }
           },
@@ -158,8 +158,8 @@
   },
   "active": "554c44933f88c727",
   "lastOpenFiles": [
-    "Clean Architecture/Tuist.md",
     "Clean Architecture/Understading Clean Architecture in iOS.md",
+    "Clean Architecture/Tuist.md",
     "Clean Architecture/Clean Architecture.md",
     "Clean Architecture/Tuist/Tuist 훑어보기.md",
     "conflict-files-obsidian-git.md",

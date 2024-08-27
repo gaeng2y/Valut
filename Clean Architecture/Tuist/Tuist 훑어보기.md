@@ -8,5 +8,10 @@ Tuist의 주요 기능 중 하나는 Swift 언어로 정의된 매니페스트 �
 
 결국, Tuist는 큰 규모의 iOS/macOS 프로젝트를 체계적으로 관리하고자 하는 개발자들에게 매우 유용한 도구다.
 
+# Manifest
+## Project
+## Package
+
+
 
 
