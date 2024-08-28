@@ -69,6 +69,7 @@ struct HealthKitClient {
     State --> View : observe
     Effect --> Action : returns
     HealthKitClient --> Effect : returns
+	HealthKitClient --> Reducer : dependency
 }
 
 @enduml

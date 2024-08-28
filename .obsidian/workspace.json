@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Clean Architecture/Clean Architecture.md",
+                "file": "iOS/F-lab 멘토링/TCA 구조.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Clean Architecture/Clean Architecture.md",
+                "file": "iOS/F-lab 멘토링/TCA 구조.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Clean Architecture/Clean Architecture.md"
+                "file": "iOS/F-lab 멘토링/TCA 구조.md"
               }
             }
           },
@@ -156,10 +156,10 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "160736a19be9866b",
+  "active": "554c44933f88c727",
   "lastOpenFiles": [
-    "iOS/F-lab 멘토링/TCA 구조.md",
     "Clean Architecture/Clean Architecture.md",
+    "iOS/F-lab 멘토링/TCA 구조.md",
     "Clean Architecture/Tuist/Tuist 훑어보기.md",
     "Clean Architecture/Understading Clean Architecture in iOS.md",
     "Clean Architecture/Tuist.md",
