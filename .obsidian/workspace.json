@@ -156,12 +156,13 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "554c44933f88c727",
+  "active": "160736a19be9866b",
   "lastOpenFiles": [
+    "iOS/F-lab 멘토링/TCA 구조.md",
+    "Clean Architecture/Clean Architecture.md",
     "Clean Architecture/Tuist/Tuist 훑어보기.md",
     "Clean Architecture/Understading Clean Architecture in iOS.md",
     "Clean Architecture/Tuist.md",
-    "Clean Architecture/Clean Architecture.md",
     "conflict-files-obsidian-git.md",
     "Clean Architecture/Tuist",
     "TCA/TCA 1.0/Chatper 5. Dependency.md",
@@ -172,7 +173,6 @@
     "TCA/TCA 1.0/도서.md",
     "TCA/TCA 1.0",
     "TCA/The Composable Architectrue.md",
-    "iOS/F-lab 멘토링/TCA 구조.md",
     "iOS/동시성 프로그래밍/Operation/Operation 심화.md",
     "iOS/동시성 프로그래밍/Operation/Operation.md",
     "iOS/동시성 프로그래밍/코어와 스레드.md",

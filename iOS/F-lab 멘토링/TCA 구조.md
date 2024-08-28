@@ -36,3 +36,41 @@ struct DrinkWaterView: View {
 	var body: some View 
 }
 ```
+
+# History
+## UML
+```plantUML
+@startuml
+package "Store" {
+    class Action {
+        +fetchHistories
+    }
+
+    class Reducer {
+        +reduce(State, Action)
+    }
+
+    class State {
+        +[History] histories
+    }
+}
+
+class View {
+        +body
+    }
+    
+struct HealthKitClient {
+   +fetchHistories
+}
+    
+    View --> Action : sends
+    Action --> Reducer : received by
+    Reducer --> State : mutates
+    State --> View : observe
+    Effect --> Action : returns
+    HealthKitClient --> Effect : returns
+}
+
+@enduml
+```
+
