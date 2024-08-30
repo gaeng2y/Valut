@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "iOS/F-lab 멘토링/TCA 구조.md",
+                "file": "Clean Architecture/Pokedex.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "iOS/F-lab 멘토링/TCA 구조.md",
+                "file": "Clean Architecture/Pokedex.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "iOS/F-lab 멘토링/TCA 구조.md"
+                "file": "Clean Architecture/Pokedex.md"
               }
             }
           },
@@ -158,10 +158,11 @@
   },
   "active": "554c44933f88c727",
   "lastOpenFiles": [
+    "Clean Architecture/Understading Clean Architecture in iOS.md",
+    "Clean Architecture/Pokedex.md",
     "Clean Architecture/Clean Architecture.md",
     "iOS/F-lab 멘토링/TCA 구조.md",
     "Clean Architecture/Tuist/Tuist 훑어보기.md",
-    "Clean Architecture/Understading Clean Architecture in iOS.md",
     "Clean Architecture/Tuist.md",
     "conflict-files-obsidian-git.md",
     "Clean Architecture/Tuist",
@@ -190,7 +191,6 @@
     "TCA/튜토리얼/Adding side effects.md",
     "TCA/튜토리얼",
     "TCA",
-    "RxSwift/subscribe, bind, drive.md",
     "RxSwift",
     "iOS/F-lab 멘토링/11주차",
     "iOS/TCA/튜토리얼",
