@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Clean Architecture/Pokedex.md",
+                "file": "Audio Streaming/HLS.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Clean Architecture/Pokedex.md",
+                "file": "Audio Streaming/HLS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Clean Architecture/Pokedex.md"
+                "file": "Audio Streaming/HLS.md"
               }
             }
           },
@@ -158,8 +158,10 @@
   },
   "active": "554c44933f88c727",
   "lastOpenFiles": [
-    "Clean Architecture/Understading Clean Architecture in iOS.md",
     "Clean Architecture/Pokedex.md",
+    "Audio Streaming/HLS.md",
+    "Audio Streaming",
+    "Clean Architecture/Understading Clean Architecture in iOS.md",
     "Clean Architecture/Clean Architecture.md",
     "iOS/F-lab 멘토링/TCA 구조.md",
     "Clean Architecture/Tuist/Tuist 훑어보기.md",
@@ -188,12 +190,10 @@
     "Test-Driven Development/Mocking/OHHTTPStub.md",
     "Test-Driven Development/Mocking",
     "TCA/튜토리얼/Your first feature.md",
-    "TCA/튜토리얼/Adding side effects.md",
     "TCA/튜토리얼",
     "TCA",
     "RxSwift",
     "iOS/F-lab 멘토링/11주차",
-    "iOS/TCA/튜토리얼",
     "Combine/Combine Study/Resources/Pasted image 20240807114451.png",
     "Combine/Combine Study/Resources/Pasted image 20240806172928.png",
     "Combine/Combine Study/Resources/Pasted image 20240806171902.png",
