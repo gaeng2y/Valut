@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Audio Streaming/HLS.md",
+                "file": "Audio Streaming/Streaming.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Audio Streaming/HLS.md",
+                "file": "Audio Streaming/Streaming.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Audio Streaming/HLS.md"
+                "file": "Audio Streaming/Streaming.md"
               }
             }
           },
@@ -158,8 +158,9 @@
   },
   "active": "554c44933f88c727",
   "lastOpenFiles": [
-    "Clean Architecture/Pokedex.md",
     "Audio Streaming/HLS.md",
+    "Audio Streaming/Streaming.md",
+    "Clean Architecture/Pokedex.md",
     "Audio Streaming",
     "Clean Architecture/Understading Clean Architecture in iOS.md",
     "Clean Architecture/Clean Architecture.md",
@@ -189,7 +190,6 @@
     "iOS/TCA/튜토리얼/Adding side effects.md",
     "Test-Driven Development/Mocking/OHHTTPStub.md",
     "Test-Driven Development/Mocking",
-    "TCA/튜토리얼/Your first feature.md",
     "TCA/튜토리얼",
     "TCA",
     "RxSwift",
