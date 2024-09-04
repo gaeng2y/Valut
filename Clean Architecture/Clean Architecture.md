@@ -1,5 +1,22 @@
 Clean Architecture는 소프트웨어 설계 원칙을 따르는 아키텍처 패턴으로, 코드의 유지보수성과 확장성을 높이고, 비즈니스 로직을 외부의 의존성(예: 데이터베이스, UI 등)으로부터 독립적으로 유지하는 것을 목표로 합니다. 이 아키텍처 패턴은 2012년에 로버트 C. 마틴(일명 "Uncle Bob")이 제안했습니다.
 
+# 궁극적 목표
+
+1. **Independent of Frameworks**. The architecture does not depend on the existence of some library of feature laden software. This allows you to use such frameworks as tools, rather than having to cram your system into their limited constraints.  
+**- 아키텍처는 소프트웨어 라이브러리 존재 여부에 의존하지 않는다.**  
+  
+2. **Testable**. The business rules can be tested without the UI, Database, Web Server, or any other external element.  
+**- 비즈니스 규칙은 UI, 데이터베이스, 웹 서버, 기타 외부 요인없이 테스트가 가능하다.**  
+  
+3. **Independent of UI**. The UI can change easily, without changing the rest of the system. A Web UI could be replaced with a console UI, for example, without changing the business rules.  
+**- 시스템의 나머지 부분을 변경할 필요 없이 UI를 쉽게 변경할 수 있다.**  
+  
+4. **Independent of Database**. You can swap out Oracle or SQL Server, for Mongo, BigTable, CouchDB, or something else. Your business rules are not bound to the database.  
+**- 비즈니스 규칙은 데이터베이스에 얽매이지(바인딩되지) 않는다.**  
+  
+5. **Independent of any external agency**. In fact your business rules simply don’t know anything at all about the outside world.  
+**- 비즈니스 로직은 외부 세계에 대해 전혀 알지 못한다.**
+
 # Clean Architecture의 주요 개념
 
 1. **레이어드 아키텍처**: Clean Architecture는 여러 계층(layer)으로 나뉘며, 각 계층은 특정한 역할을 담당합니다. 가장 바깥쪽의 계층은 인프라와 관련된 부분이고, 안쪽으로 갈수록 핵심 비즈니스 로직에 가까워집니다. 주요 레이어는 다음과 같습니다:
