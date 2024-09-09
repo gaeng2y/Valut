@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Clean Architecture/Pokedex.md",
+                "file": "iOS/F-lab 멘토링/모의면접 질문/디자인 패턴 비교.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Clean Architecture/Pokedex.md",
+                "file": "iOS/F-lab 멘토링/모의면접 질문/디자인 패턴 비교.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Clean Architecture/Pokedex.md"
+                "file": "iOS/F-lab 멘토링/모의면접 질문/디자인 패턴 비교.md"
               }
             }
           },
@@ -158,8 +158,12 @@
   },
   "active": "554c44933f88c727",
   "lastOpenFiles": [
-    "Clean Architecture/Clean Architecture with ReactorKit.md",
+    "iOS/F-lab 멘토링/모의면접 질문/질문 리스트.md",
+    "iOS/F-lab 멘토링/모의면접 질문/디자인 패턴 비교.md",
+    "iOS/F-lab 멘토링/TCA 구조.md",
+    "iOS/F-lab 멘토링/모의면접 질문",
     "Clean Architecture/Pokedex.md",
+    "Clean Architecture/Clean Architecture with ReactorKit.md",
     "Clean Architecture/Tuist/Tuist 훑어보기.md",
     "Clean Architecture/Tuist/Tuist Manifest 작성.md",
     "Clean Architecture/Understading Clean Architecture in iOS.md",
@@ -168,7 +172,6 @@
     "Audio Streaming/Streaming.md",
     "Audio Streaming/HLS.md",
     "Audio Streaming",
-    "iOS/F-lab 멘토링/TCA 구조.md",
     "Clean Architecture/Tuist.md",
     "conflict-files-obsidian-git.md",
     "Clean Architecture/Tuist",
@@ -188,13 +191,10 @@
     "iOS/동시성 프로그래밍/DispatchSemaphore.md",
     "iOS/동시성 프로그래밍/Race Condition과 Thread Safe.md",
     "iOS/앱과 비즈니스 로직.md",
-    "iOS/동시성 프로그래밍/Dispatch/심화/DispatchGroup.md",
-    "iOS/동시성 프로그래밍/Dispatch/심화/Dispatch 옵션.md",
     "Test-Driven Development/Mocking",
     "TCA/튜토리얼",
     "TCA",
     "RxSwift",
-    "iOS/F-lab 멘토링/11주차",
     "Combine/Combine Study/Resources/Pasted image 20240807114451.png",
     "Combine/Combine Study/Resources/Pasted image 20240806172928.png",
     "Combine/Combine Study/Resources/Pasted image 20240806171902.png",
