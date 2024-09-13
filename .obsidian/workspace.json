@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "iOS/F-lab 멘토링/모의면접 질문/TCA(Redux) 와 ReactorKit(Flux)를 비교.md",
+                "file": "Clean Architecture/Pokedex/PokeApi.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "iOS/F-lab 멘토링/모의면접 질문/TCA(Redux) 와 ReactorKit(Flux)를 비교.md",
+                "file": "Clean Architecture/Pokedex/PokeApi.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "iOS/F-lab 멘토링/모의면접 질문/TCA(Redux) 와 ReactorKit(Flux)를 비교.md"
+                "file": "Clean Architecture/Pokedex/PokeApi.md"
               }
             }
           },
@@ -158,17 +158,19 @@
   },
   "active": "554c44933f88c727",
   "lastOpenFiles": [
-    "iOS/F-lab 멘토링/모의면접 질문/Combine과 RxSwift 비교.md",
+    "Clean Architecture/Pokedex/Pokedex.md",
+    "Clean Architecture/Pokedex/PokeApi.md",
+    "Clean Architecture/Pokedex",
+    "Clean Architecture/Understading Clean Architecture in iOS.md",
     "iOS/F-lab 멘토링/모의면접 질문/TCA(Redux) 와 ReactorKit(Flux)를 비교.md",
+    "iOS/F-lab 멘토링/모의면접 질문/Combine과 RxSwift 비교.md",
     "iOS/F-lab 멘토링/모의면접 질문/디자인 패턴 비교.md",
     "iOS/F-lab 멘토링/모의면접 질문/질문 리스트.md",
     "iOS/F-lab 멘토링/TCA 구조.md",
     "iOS/F-lab 멘토링/모의면접 질문",
-    "Clean Architecture/Pokedex.md",
     "Clean Architecture/Clean Architecture with ReactorKit.md",
     "Clean Architecture/Tuist/Tuist 훑어보기.md",
     "Clean Architecture/Tuist/Tuist Manifest 작성.md",
-    "Clean Architecture/Understading Clean Architecture in iOS.md",
     "Clean Architecture/Clean Architecture.md",
     "Clean Architecture/Pasted image 20240904140921.png",
     "Audio Streaming/Streaming.md",
@@ -190,11 +192,9 @@
     "iOS/동시성 프로그래밍/코어와 스레드.md",
     "iOS/동시성 프로그래밍/UI는 왜 Main Thread에서?.md",
     "iOS/동시성 프로그래밍/Operation",
-    "iOS/동시성 프로그래밍/DispatchSemaphore.md",
     "Test-Driven Development/Mocking",
     "TCA/튜토리얼",
     "TCA",
-    "RxSwift",
     "Combine/Combine Study/Resources/Pasted image 20240807114451.png",
     "Combine/Combine Study/Resources/Pasted image 20240806172928.png",
     "Combine/Combine Study/Resources/Pasted image 20240806171902.png",
