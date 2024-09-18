@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Clean Architecture/Pokedex/PokeApi.md",
+                "file": "Swift/HTTPTypes/swift-http-types.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Clean Architecture/Pokedex/PokeApi.md",
+                "file": "Swift/HTTPTypes/swift-http-types.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Clean Architecture/Pokedex/PokeApi.md"
+                "file": "Swift/HTTPTypes/swift-http-types.md"
               }
             }
           },
@@ -158,8 +158,11 @@
   },
   "active": "554c44933f88c727",
   "lastOpenFiles": [
-    "Clean Architecture/Pokedex/Pokedex.md",
     "Clean Architecture/Pokedex/PokeApi.md",
+    "Swift/HTTPTypes/swift-http-types.md",
+    "Swift/HTTPTypes/무제 폴더",
+    "Swift/HTTPTypes",
+    "Clean Architecture/Pokedex/Pokedex.md",
     "Clean Architecture/Pokedex",
     "Clean Architecture/Understading Clean Architecture in iOS.md",
     "iOS/F-lab 멘토링/모의면접 질문/TCA(Redux) 와 ReactorKit(Flux)를 비교.md",
@@ -190,11 +193,8 @@
     "iOS/동시성 프로그래밍/Operation/Operation 심화.md",
     "iOS/동시성 프로그래밍/Operation/Operation.md",
     "iOS/동시성 프로그래밍/코어와 스레드.md",
-    "iOS/동시성 프로그래밍/UI는 왜 Main Thread에서?.md",
     "iOS/동시성 프로그래밍/Operation",
     "Test-Driven Development/Mocking",
-    "TCA/튜토리얼",
-    "TCA",
     "Combine/Combine Study/Resources/Pasted image 20240807114451.png",
     "Combine/Combine Study/Resources/Pasted image 20240806172928.png",
     "Combine/Combine Study/Resources/Pasted image 20240806171902.png",
