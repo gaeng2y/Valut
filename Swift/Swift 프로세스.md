@@ -19,5 +19,4 @@ Compile 과정과 Link 과정을 아우르는 과정을 빌드라고 한다.
 # LLVM 컴파일러 구조
 
 LLVM(Love Level Virtual Machine)은 컴파일러의 기반구조다. 프로그램을 컴파일 타임, 링크 타임, 런타임 상황에서 프로그램의 작성 언어에 상관없이 최적화를 쉽게 구현할 수 있도록 구성되어 있다.
-
 ![llvm-infra](https://user-images.githubusercontent.com/20410193/110127199-b10a1c00-7e08-11eb-99ee-30f85ce63246.png)
