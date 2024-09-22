@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Clean Architecture/Tuist/App Extension 적용하기.md",
+                "file": "Swift/Swift 프로세스.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Clean Architecture/Tuist/App Extension 적용하기.md",
+                "file": "Swift/Swift 프로세스.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Clean Architecture/Tuist/App Extension 적용하기.md"
+                "file": "Swift/Swift 프로세스.md"
               }
             }
           },
@@ -158,8 +158,9 @@
   },
   "active": "554c44933f88c727",
   "lastOpenFiles": [
-    "RxSwift/subscribe, bind, drive.md",
     "Clean Architecture/Tuist/App Extension 적용하기.md",
+    "Swift/Swift 프로세스.md",
+    "RxSwift/subscribe, bind, drive.md",
     "RxSwift/Scheduler.md",
     "Swift/HTTPTypes/swift-http-types.md",
     "Clean Architecture/Pokedex/PokeApi.md",
@@ -192,7 +193,6 @@
     "TCA/TCA 1.0/Chapter 2. TCA의 기본 개념.md",
     "TCA/TCA 1.0/도서.md",
     "TCA/TCA 1.0",
-    "TCA/The Composable Architectrue.md",
     "iOS/동시성 프로그래밍/Operation",
     "Test-Driven Development/Mocking",
     "Combine/Combine Study/Resources/Pasted image 20240807114451.png",
