@@ -1,4 +1,4 @@
-세 메소드 모두 구독하는 메소드이다.
+세 메소드 모두 구독하는 메소드다.
 ## subscribe
 onNext, onError, onCompleted 가 모두 온다.
 ## bind

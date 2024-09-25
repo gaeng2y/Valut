@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "RxSwift/RxSwift Traits(특성).md",
+                "file": "TCA/The Composable Architectrue.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "RxSwift/RxSwift Traits(특성).md",
+                "file": "TCA/The Composable Architectrue.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "RxSwift/RxSwift Traits(특성).md"
+                "file": "TCA/The Composable Architectrue.md"
               }
             }
           },
