@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TCA/The Composable Architectrue.md",
+                "file": "Swift/Swift 프로세스.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TCA/The Composable Architectrue.md",
+                "file": "Swift/Swift 프로세스.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TCA/The Composable Architectrue.md"
+                "file": "Swift/Swift 프로세스.md"
               }
             }
           },
@@ -158,31 +158,32 @@
   },
   "active": "554c44933f88c727",
   "lastOpenFiles": [
-    "RxSwift/subscribe, bind, drive.md",
     "RxSwift/RxSwift Traits(특성).md",
-    "Clean Architecture/Pokedex.md",
-    "iOS/F-lab 멘토링/모의면접 질문/질문 리스트.md",
-    "iOS/F-lab 멘토링/모의면접 질문/디자인 패턴 비교.md",
+    "Clean Architecture/Tuist/App Extension 적용하기.md",
+    "Swift/Swift 프로세스.md",
+    "RxSwift/subscribe, bind, drive.md",
+    "RxSwift/Scheduler.md",
+    "Swift/HTTPTypes/swift-http-types.md",
+    "Clean Architecture/Pokedex/PokeApi.md",
+    "Swift/HTTPTypes/무제 폴더",
+    "Swift/HTTPTypes",
+    "Clean Architecture/Pokedex/Pokedex.md",
+    "Clean Architecture/Pokedex",
+    "Clean Architecture/Understading Clean Architecture in iOS.md",
     "iOS/F-lab 멘토링/모의면접 질문/TCA(Redux) 와 ReactorKit(Flux)를 비교.md",
     "iOS/F-lab 멘토링/모의면접 질문/Combine과 RxSwift 비교.md",
+    "iOS/F-lab 멘토링/모의면접 질문/디자인 패턴 비교.md",
+    "iOS/F-lab 멘토링/모의면접 질문/질문 리스트.md",
+    "iOS/F-lab 멘토링/TCA 구조.md",
     "iOS/F-lab 멘토링/모의면접 질문",
-    "Swift/Swift 프로세스.md",
-    "Swift/HTTPTypes/swift-http-types.md",
-    "Swift/HTTPTypes",
-    "Clean Architecture/Tuist/App Extension 적용하기.md",
-    "Clean Architecture/Pokedex/Pokedex.md",
-    "Clean Architecture/Pokedex/PokeApi.md",
-    "Clean Architecture/Pokedex",
     "Clean Architecture/Clean Architecture with ReactorKit.md",
     "Clean Architecture/Tuist/Tuist 훑어보기.md",
     "Clean Architecture/Tuist/Tuist Manifest 작성.md",
-    "Clean Architecture/Understading Clean Architecture in iOS.md",
     "Clean Architecture/Clean Architecture.md",
     "Clean Architecture/Pasted image 20240904140921.png",
     "Audio Streaming/Streaming.md",
     "Audio Streaming/HLS.md",
     "Audio Streaming",
-    "iOS/F-lab 멘토링/TCA 구조.md",
     "Clean Architecture/Tuist.md",
     "conflict-files-obsidian-git.md",
     "Clean Architecture/Tuist",
@@ -194,7 +195,6 @@
     "TCA/TCA 1.0",
     "iOS/동시성 프로그래밍/Operation",
     "Test-Driven Development/Mocking",
-    "TCA/튜토리얼",
     "Combine/Combine Study/Resources/Pasted image 20240807114451.png",
     "Combine/Combine Study/Resources/Pasted image 20240806172928.png",
     "Combine/Combine Study/Resources/Pasted image 20240806171902.png",

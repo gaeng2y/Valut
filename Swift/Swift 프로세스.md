@@ -60,4 +60,8 @@ Swift 소스 코드로 바이너리 코드를 생성할 때, 컴파일러는 다
 	- 소스 파일에 있는 내용과 가장 가까운 representation
 	- Swift 소스 코드, Swift 모듈 및 Clang 모듈로부터 생성됨(각각 `lib/Parse`, `lib/Serialization` , `lib/ClangImporter` 에서 생성)
 	- 컴파일 초기에 resoultion, typechecking, high-level semantics functions (in `lib/Sema`) 으로 해석됨
-- 
+	- https://swift-ast-explorer.com/ 를 통해서 Swift 코드를 Swift AST로 어떻게 변환되는지 확인 가능
+	- https://github.com/swiftlang/swift-syntax 를 통해 Swift syntax가 되어있는데, Swift Syntax를 사용하면 Swift 코드를 AST 형태로 변환한다.
+-  **Swift SIL**(Swift Intermediate Language)
+	- Swift 코드와 LLVM IR과의 중간에 위치 (`AST` - `SIL` - `LLVM IR` )
+	- 
