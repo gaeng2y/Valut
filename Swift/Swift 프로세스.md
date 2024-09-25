@@ -52,5 +52,12 @@ LLVM 프론트엔드에 대응하는 디버거
 
 Swift 소스 코드로 바이너리 코드를 생성할 때, 컴파일러는 다음의 과정을 거친다.
 
+`Swift Code` -> `구문 분석 (AST 생성)` -> `의미 분석 (타입 정보를 포함한 AST 생성)` -> `모듈 임포트` -> `SIL 생성 (raw SIL)` -> `SIL 정규화 (canonical SIL)`, -> `SIL **최적화**` -> `LLVM IR 생성` (여기까지 LLVM의 프론트 엔드) -> `**최적화**` -> `Compiler backend` -> `Assembler` -> `링커`
 
-
+- **Swift AST**(Abstract Syntax Tree)
+	- Swift의 문법 분석(예약어 검사, 구현 등을 제외한 순수한 구문 분석)을 수행
+	- `lib/AST` directory에 정의됨
+	- 소스 파일에 있는 내용과 가장 가까운 representation
+	- Swift 소스 코드, Swift 모듈 및 Clang 모듈로부터 생성됨(각각 `lib/Parse`, `lib/Serialization` , `lib/ClangImporter` 에서 생성)
+	- 컴파일 초기에 resoultion, typechecking, high-level semantics functions (in `lib/Sema`) 으로 해석됨
+- 
