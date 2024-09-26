@@ -64,4 +64,37 @@ Swift 소스 코드로 바이너리 코드를 생성할 때, 컴파일러는 다
 	- https://github.com/swiftlang/swift-syntax 를 통해 Swift syntax가 되어있는데, Swift Syntax를 사용하면 Swift 코드를 AST 형태로 변환한다.
 -  **Swift SIL**(Swift Intermediate Language)
 	- Swift 코드와 LLVM IR과의 중간에 위치 (`AST` - `SIL` - `LLVM IR` )
-	- 
+		- AST 표현보다는 낮은 수준으로, 더 명백
+		- LLVM과 같은 기계 지향 표현보다는 높은 수준으로, 더 Swift-specific 한 representation
+	- Swift 소스 코드와 **LLVM IR과의 표현의 차이를 메꾸기 위함**
+	- `Raw Swift IL` 과 `Canonical Swift IL` 두 형태 존재
+	- LLVM IR이 다루기 힘든 **Swift 소스 코드 레벨에서의 정적 분석도 범위에 들어감** (코드 하이라이팅, auto completion 등의 기능도 포함)
+	- `lib/SIL`에 정의되며 `lib/SILGen`의 코드에 의해 생성되며 선택적으로 `lib/SILoptimizer`의 코드에 의해 최적화됨
+	- 여기에서 Swift, `Swift AST` 에서 나타나는 규칙적인 패턴과 각 문법의 구분이 흐려지고, 함수, 클로져, 변수등은 모두 동등한 구성으로 재배치 됨. 여기까지가 **LLVM**의 **Frontend**
+- **LLVM IR**(Low Level Virtual Machine Intermediate Representation)
+	- 컴파일되는 기계어를 추상적으로 표현한 representation
+	- Swift-specific knowledge 은 포함되어 있지 않음
+	- Swift 컴파일러가 SIL (in `lib/IRGen`)에서 생성한 다음 LLVM 백엔드에 입력으로 전달
+    - LLVM에는 기계 코드로 낮추기 전에 LLVM IR에 적용되는 자체 선택적 최적화가 있음
+    - LLVM IR은 아래와 같이 분류 됨
+        1. LLVM 어셈블리 언어(LLVM assembly language) -> `.ll` 확장자인 텍스트 파일로 저장. 사람이 읽을 수 있는 문자열로 표현됨.
+        2. LLVM 비트코드(bitcode) -> `.bc` 확장자인 바이너리 파일로 저장. 바이너리로 표현 되는, 아직 기계코드도 아니고 내가 이해 할 수 있는 코드도 아닌 중간단계의 코드.
+            LLVM 어셈블리 언어와 LLVM 비트코드는 표현 형식만 다르고, 서로 간에 자유롭게 전환할 수 있다. LVM 명령어 도구인 llvm-dis를 사용해 LLVM 비트코드를 LLVM 어셈블리 언어로 전환할 수 있으며, 반대로 llvm-as를 사용해서 LLVM 어셈블리 언어를 LLVM 비트코드로 전환할 수 있다.
+            `ex. test.ll → llvm-as → test.bc`
+        3. C++ 목적 코드(C++ Object Code) -> `.o` 확장자
+- **최적화(optimizer)**
+    - LLVM 패스(pass)라는 단위로 관리
+    - 각각의 최적화 패스는 전달받은 LLVM IR을 최적화한 뒤, 최적화한 LLVM IR을 그다음 패스로 전달
+- **Compiler Backend**
+    - 최적화된 LLVM IR을 특정 CPU 아키텍처에 의존적인 어셈블리(assembly) 언어로 변환
+- **Assembler**
+    - 어셈블리 언어(human-readable)를 기계어(machine code)로 변경해 확장자가 `.o`인 오브젝트(object) 파일 (Mach-O파일) 로 저장
+    - Mach-O 파일은 iOS와 MacOS에서 쓰이는 특정한 파일 포맷
+- **링커**
+    - 참조 관계 확인 및 저장된 오브젝트 파일들을 하나로 묶어서 실행(executable) 파일 또는 공유 라이브러리(shared object) 파일을 생성
+    - 얘도 Mach-O 파일을 출력으로 생성
+    - Build Settings > Linking > Mach-O Type 에서 링커 단계의 아웃풋을 무슨 타입으로 할 건지 설정 가능 (참고 - [Mach-O](https://github.com/sujinnaljin/TIL/blob/master/Swift/Mach-O.md))
+    - 이 단계에서 링크 시점 최적화(LTO, Link Time Optimizer)도 수행될 수 있음
+- **로더**
+    - 운영체제의 일부로서 로그램을 메모리로 가져 와서 실행
+    - 프로그램을 실행하는 데 필요한 메모리 공간을 할당하고 레지스터를 초기 상태로 초기화

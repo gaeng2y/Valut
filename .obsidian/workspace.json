@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Swift/Swift 프로세스.md",
+                "file": "Swift/Swift 컴파일 프로세스.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Swift/Swift 프로세스.md",
+                "file": "Swift/Swift 컴파일 프로세스.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Swift/Swift 프로세스.md"
+                "file": "Swift/Swift 컴파일 프로세스.md"
               }
             }
           },
@@ -160,7 +160,7 @@
   "lastOpenFiles": [
     "RxSwift/RxSwift Traits(특성).md",
     "Clean Architecture/Tuist/App Extension 적용하기.md",
-    "Swift/Swift 프로세스.md",
+    "Swift/Swift 컴파일 프로세스.md",
     "RxSwift/subscribe, bind, drive.md",
     "RxSwift/Scheduler.md",
     "Swift/HTTPTypes/swift-http-types.md",
