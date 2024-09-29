@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Swift/Swift 컴파일 프로세스.md",
+                "file": "Clean Architecture/Tuist/App Extension 적용하기.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Swift/Swift 컴파일 프로세스.md",
+                "file": "Clean Architecture/Tuist/App Extension 적용하기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Swift/Swift 컴파일 프로세스.md"
+                "file": "Clean Architecture/Tuist/App Extension 적용하기.md"
               }
             }
           },
@@ -158,9 +158,11 @@
   },
   "active": "554c44933f88c727",
   "lastOpenFiles": [
+    "Clean Architecture/Tuist/Tuist 훑어보기.md",
+    "Swift/Swift 컴파일 프로세스.md",
+    "Clean Architecture/Tuist/무제 파일.md",
     "RxSwift/RxSwift Traits(특성).md",
     "Clean Architecture/Tuist/App Extension 적용하기.md",
-    "Swift/Swift 컴파일 프로세스.md",
     "RxSwift/subscribe, bind, drive.md",
     "RxSwift/Scheduler.md",
     "Swift/HTTPTypes/swift-http-types.md",
@@ -177,7 +179,6 @@
     "iOS/F-lab 멘토링/TCA 구조.md",
     "iOS/F-lab 멘토링/모의면접 질문",
     "Clean Architecture/Clean Architecture with ReactorKit.md",
-    "Clean Architecture/Tuist/Tuist 훑어보기.md",
     "Clean Architecture/Tuist/Tuist Manifest 작성.md",
     "Clean Architecture/Clean Architecture.md",
     "Clean Architecture/Pasted image 20240904140921.png",
@@ -191,7 +192,6 @@
     "Clean Architecture",
     "TCA/TCA 1.0/Chapter 4. TCA Binding.md",
     "TCA/TCA 1.0/Chapter 3. TCA의 기본개념(2).md",
-    "TCA/TCA 1.0/Chapter 2. TCA의 기본 개념.md",
     "TCA/TCA 1.0",
     "iOS/동시성 프로그래밍/Operation",
     "Test-Driven Development/Mocking",
