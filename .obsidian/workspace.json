@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cocoa Internals/1장 객체/무제 파일.md",
+                "file": "RxSwift/Disposables.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cocoa Internals/1장 객체/무제 파일.md",
+                "file": "RxSwift/Disposables.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cocoa Internals/1장 객체/무제 파일.md"
+                "file": "RxSwift/Disposables.md"
               }
             }
           },
@@ -158,6 +158,8 @@
   },
   "active": "554c44933f88c727",
   "lastOpenFiles": [
+    "Cocoa Internals/1장 객체/무제 파일.md",
+    "RxSwift/Disposables.md",
     "iOS/UICollectionView 톺아보기.md",
     "iOS/UIKit/UICollectionView/UICollectionViewFlowLayout.md",
     "iOS/UIKit/UICollectionView/UICollectionView 톺아보기.md",
@@ -165,7 +167,6 @@
     "iOS/UIKit",
     "RxSwift/Disposable.md",
     "conflict-files-obsidian-git.md",
-    "Cocoa Internals/1장 객체/무제 파일.md",
     "Cocoa Internals/1장 객체",
     "Clean Architecture/Understading Clean Architecture in iOS.md",
     "Cocoa Internals",
