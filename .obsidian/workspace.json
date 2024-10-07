@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Clean Architecture/Understading Clean Architecture in iOS.md",
+                "file": "Cocoa Internals/1장 객체/무제 파일.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Clean Architecture/Understading Clean Architecture in iOS.md",
+                "file": "Cocoa Internals/1장 객체/무제 파일.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Clean Architecture/Understading Clean Architecture in iOS.md"
+                "file": "Cocoa Internals/1장 객체/무제 파일.md"
               }
             }
           },
@@ -156,8 +156,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "554c44933f88c727",
+  "active": "160736a19be9866b",
   "lastOpenFiles": [
+    "Cocoa Internals/1장 객체",
+    "Clean Architecture/Understading Clean Architecture in iOS.md",
+    "Cocoa Internals/1장 객체/무제 파일.md",
+    "Cocoa Internals",
     "Clean Architecture/Tuist/App Extension 적용하기.md",
     "Clean Architecture/Tuist/Tuist 훑어보기.md",
     "Clean Architecture/Clean Architecture.md",
@@ -172,7 +176,6 @@
     "Swift/HTTPTypes",
     "Clean Architecture/Pokedex/Pokedex.md",
     "Clean Architecture/Pokedex",
-    "Clean Architecture/Understading Clean Architecture in iOS.md",
     "iOS/F-lab 멘토링/모의면접 질문/TCA(Redux) 와 ReactorKit(Flux)를 비교.md",
     "iOS/F-lab 멘토링/모의면접 질문/Combine과 RxSwift 비교.md",
     "iOS/F-lab 멘토링/모의면접 질문/디자인 패턴 비교.md",
@@ -190,11 +193,8 @@
     "Clean Architecture/Tuist",
     "TCA/TCA 1.0/Chatper 5. Dependency.md",
     "Clean Architecture",
-    "TCA/TCA 1.0/Chapter 4. TCA Binding.md",
-    "TCA/TCA 1.0/Chapter 3. TCA의 기본개념(2).md",
     "TCA/TCA 1.0",
     "iOS/동시성 프로그래밍/Operation",
-    "Test-Driven Development/Mocking",
     "Combine/Combine Study/Resources/Pasted image 20240807114451.png",
     "Combine/Combine Study/Resources/Pasted image 20240806172928.png",
     "Combine/Combine Study/Resources/Pasted image 20240806171902.png",
