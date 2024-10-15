@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "iOS/MVVM/MVVM + Combine + SwiftUI.md",
+                "file": "Cocoa Internals/1장 객체.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "iOS/MVVM/MVVM + Combine + SwiftUI.md",
+                "file": "Cocoa Internals/1장 객체.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "iOS/MVVM/MVVM + Combine + SwiftUI.md"
+                "file": "Cocoa Internals/1장 객체.md"
               }
             }
           },
@@ -156,14 +156,14 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "9090a6cb481eceb6",
+  "active": "160736a19be9866b",
   "lastOpenFiles": [
-    "iOS/MVVM/Modern MVVM with Combine.md",
     "iOS/MVVM/MVVM + Combine + SwiftUI.md",
+    "iOS/MVVM/Modern MVVM with Combine.md",
     "iOS/F-lab 멘토링/5주차/HealthKit 서베이.md",
     "iOS/F-lab 멘토링/3주차/HealthKit.md",
     "RxSwift/Disposables.md",
-    "Cocoa Internals/1장 객체/무제 파일.md",
+    "Cocoa Internals/1장 객체.md",
     "iOS/UICollectionView 톺아보기.md",
     "iOS/UIKit/UICollectionView/UICollectionViewFlowLayout.md",
     "iOS/UIKit/UICollectionView/UICollectionView 톺아보기.md",
