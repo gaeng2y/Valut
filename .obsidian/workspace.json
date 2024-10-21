@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "430a15bd92bd1390",
+        "id": "5b702d4f1eaaf701",
         "type": "tabs",
         "children": [
           {
-            "id": "554c44933f88c727",
+            "id": "ca92cf6314b4b26d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "TIL/2024-10-17 TIL.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "TIL/2024-10-17 TIL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "TIL/2024-10-17 TIL.md"
+              }
             }
           },
           {
@@ -150,7 +157,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "554c44933f88c727",
+  "active": "ca92cf6314b4b26d",
   "lastOpenFiles": [
     "TIL/2024-10-17 TIL.md",
     "RxSwift/Disposable.md",
