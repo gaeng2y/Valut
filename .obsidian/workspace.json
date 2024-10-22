@@ -165,6 +165,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
       "command-palette:명령어 팔레트 열기": false,
       "switcher:퀵 스위처 열기": false,
       "templates:템플릿 삽입": false,
