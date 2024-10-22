@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TIL/2024-10-17 TIL.md",
+                "file": "TIL/2024-10-22 TIL.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2024-10-17 TIL"
+              "title": "2024-10-22 TIL"
             }
           }
         ]
@@ -178,6 +178,7 @@
   "active": "ca92cf6314b4b26d",
   "lastOpenFiles": [
     "TIL/2024-10-17 TIL.md",
+    "TIL/2024-10-22 TIL.md",
     "RxSwift/Disposable.md",
     "iOS/MVVM/Modern MVVM with Combine.md",
     "iOS/MVVM/MVVM + Combine + SwiftUI.md",
@@ -207,7 +208,6 @@
     "Swift/HTTPTypes/swift-http-types.md",
     "Swift/HTTPTypes",
     "Clean Architecture/Tuist/App Extension 적용하기.md",
-    "Clean Architecture/Pokedex/Pokedex.md",
     "Clean Architecture/Pokedex",
     "Clean Architecture/Pasted image 20240904140921.png",
     "Audio Streaming",
