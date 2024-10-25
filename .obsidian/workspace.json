@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Vapor/Swift로 서버 만들기.md",
+                "file": "Vapor/Vapor.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Swift로 서버 만들기"
+              "title": "Vapor"
             }
           }
         ]
@@ -177,8 +177,9 @@
   },
   "active": "ca92cf6314b4b26d",
   "lastOpenFiles": [
-    "TIL/2024-10-22 TIL.md",
     "Vapor/Swift로 서버 만들기.md",
+    "Vapor/Vapor.md",
+    "TIL/2024-10-22 TIL.md",
     "Vapor",
     "Swift/OptionSet.md",
     "TIL/2024-10-17 TIL.md",
@@ -207,7 +208,6 @@
     "iOS/F-lab 멘토링/모의면접 질문/TCA(Redux) 와 ReactorKit(Flux)를 비교.md",
     "iOS/F-lab 멘토링/모의면접 질문/Combine과 RxSwift 비교.md",
     "iOS/F-lab 멘토링/모의면접 질문",
-    "Swift/Swift 프로세스.md",
     "Swift/HTTPTypes",
     "Clean Architecture/Pokedex",
     "Clean Architecture/Pasted image 20240904140921.png",
