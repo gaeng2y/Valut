@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "RxSwift/subscribe, bind, drive.md",
+                "file": "WWDC/WWDC 22/Swift 제네릭 사용하기.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "subscribe, bind, drive"
+              "title": "Swift 제네릭 사용하기"
             }
           }
         ]
@@ -177,8 +177,10 @@
   },
   "active": "ca92cf6314b4b26d",
   "lastOpenFiles": [
-    "RxSwift/Binder, ControlEvent.md",
     "RxSwift/subscribe, bind, drive.md",
+    "WWDC/WWDC 22/Swift 제네릭 사용하기.md",
+    "WWDC/WWDC 22",
+    "RxSwift/Binder, ControlEvent.md",
     "Vapor/Vapor.md",
     "Vapor/Swift로 서버 만들기.md",
     "TIL/2024-10-22 TIL.md",
@@ -206,14 +208,12 @@
     "Clean Architecture/Pokedex.md",
     "iOS/F-lab 멘토링/모의면접 질문/질문 리스트.md",
     "iOS/F-lab 멘토링/모의면접 질문/디자인 패턴 비교.md",
-    "iOS/F-lab 멘토링/모의면접 질문/TCA(Redux) 와 ReactorKit(Flux)를 비교.md",
     "iOS/F-lab 멘토링/모의면접 질문",
     "Swift/HTTPTypes",
     "Clean Architecture/Pokedex",
     "Clean Architecture/Pasted image 20240904140921.png",
     "Audio Streaming",
     "Clean Architecture/Tuist",
-    "Clean Architecture",
     "Combine/Combine Study/Resources/Pasted image 20240807114451.png",
     "Combine/Combine Study/Resources/Pasted image 20240806172928.png",
     "Combine/Combine Study/Resources/Pasted image 20240806171902.png",
