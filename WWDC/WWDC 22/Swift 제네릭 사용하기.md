@@ -123,3 +123,22 @@ func makeView(for farm: Farm) -> some View {
 }
 ```
 
+ 다시 Animal로 돌아와서 Animal 타입에 associatdtype으로 Habitat을 추가하며 
+ 
+ buildHome이라는 메소드에서 Habitat라는 타입의 결과값을 반환해야한다면 A의 구체 타입에 따라 Habitat가 달라지기 때문에 아래와 같이 함수 시그니처를 작성해야한다.
+ 
+```swift
+func buildHome<A>(for animal: A) -> A.Habitat where A: Animal { ... }
+```
+
+```swift
+struct Silo<Material> {
+	private var storage: [Material]
+
+	init(storing materials: [Material]) {
+		self.storage = materials
+	}
+}
+```
+
+Opaque 타입을 여러 번 참조해야 하는 경우 또 다른 일반적인 위치는 제네릭 유형이다.
