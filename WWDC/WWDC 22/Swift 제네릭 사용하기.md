@@ -150,3 +150,5 @@ Opaque 타입을 여러 번 참조해야 하는 경우 또 다른 일반적인 �
 [some Animal] // 똑같은 구체타입으로 이루어진 배열만 가능
 [any Animal] // Animal을 채택한 모든 타입이 가능
 ```
+
+![](WWDC/WWDC%2022/Pasted%20image%2020241031113802.png)
