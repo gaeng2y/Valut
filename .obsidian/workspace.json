@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "5b702d4f1eaaf701",
+        "id": "b30bf45690309d67",
         "type": "tabs",
         "children": [
           {
-            "id": "ca92cf6314b4b26d",
+            "id": "9090a6cb481eceb6",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TIL/2024-10-17 TIL.md",
+                "file": "Cocoa Internals/1장 객체.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "2024-10-17 TIL의 백링크"
+              "title": "1장 객체의 백링크"
             }
           },
           {
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TIL/2024-10-17 TIL.md"
+                "file": "Cocoa Internals/1장 객체.md"
               },
               "icon": "lucide-list",
-              "title": "2024-10-17 TIL 개요"
+              "title": "1장 객체 개요"
             }
           },
           {
@@ -154,75 +154,83 @@
               "icon": "calendar-with-checkmark",
               "title": "Calendar"
             }
+          },
+          {
+            "id": "32cf7df0d5cfe21b",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
       "command-palette:명령어 팔레트 열기": false,
       "switcher:퀵 스위처 열기": false,
       "templates:템플릿 삽입": false,
       "markdown-importer:마크다운 형식 가져오기 열기": false,
       "callout-manager:Insert Callout": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-git:Open Git source control": false,
       "periodic-notes:Open today": false
     }
   },
-  "active": "ca92cf6314b4b26d",
+  "active": "9090a6cb481eceb6",
   "lastOpenFiles": [
-    "WWDC/WWDC 22/Design protocol interfaces in Swift/Resources/Pasted image 20241101122415.png",
-    "Swift/메소드에서 -> 가 있는 기준.md",
-    "WWDC/WWDC 22/Design protocol interfaces in Swift/Swift의 디자인 프로토콜 인터페이스.md",
-    "WWDC/WWDC 22/Design protocol interfaces in Swift/Resources/Pasted image 20241101121027.png",
-    "WWDC/WWDC 22/Design protocol interfaces in Swift/Resources/Pasted image 20241101121645.png",
-    "WWDC/WWDC 22/Design protocol interfaces in Swift/Resources/Pasted image 20241101121644.png",
-    "WWDC/WWDC 22/Design protocol interfaces in Swift/Resources/Pasted image 20241101120903.png",
-    "WWDC/WWDC 22/Design protocol interfaces in Swift/Resources/Pasted image 20241101115733.png",
-    "Swift/Type Erasure.md",
-    "WWDC/WWDC 22/Embrace Swift generics/Swift 제네릭 사용하기.md",
-    "WWDC/WWDC 22/Design protocol interfaces in Swift/Resources/Pasted image 20241101114815.png",
-    "WWDC/WWDC 22/Design protocol interfaces in Swift/Resources/Pasted image 20241101114740.png",
-    "WWDC/WWDC 22/Design protocol interfaces in Swift/Resources/Pasted image 20241101114530.png",
-    "WWDC/WWDC 22/Design protocol interfaces in Swift/Resources",
-    "WWDC/WWDC 22/Design protocol interfaces in Swift",
-    "WWDC/WWDC 22/Embrace Swift generics/Resources",
-    "WWDC/WWDC 22/Embrace Swift generics",
+    "Swift/OptionSet.md",
+    "WWDC/WWDC 22/Swift의 디자인 프로토콜 인터페이스.md",
     "WWDC/WWDC 22/Embrace Swift generics/Resources/Pasted image 20241031113802.png",
     "WWDC/WWDC 22/Embrace Swift generics/Resources/Pasted image 20241029142011.png",
-    "RxSwift/subscribe, bind, drive.md",
+    "WWDC/WWDC 22/Embrace Swift generics/Swift 제네릭 사용하기.md",
+    "WWDC/WWDC 22/Embrace Swift generics/Resources",
+    "WWDC/WWDC 22/Embrace Swift generics",
+    "WWDC/WWDC 22/Design protocol interfaces in Swift/Resources/Pasted image 20241101122415.png",
+    "WWDC/WWDC 22/Design protocol interfaces in Swift/Resources/Pasted image 20241101121645.png",
+    "WWDC/WWDC 22/Design protocol interfaces in Swift/Resources/Pasted image 20241101121644.png",
+    "WWDC/WWDC 22/Design protocol interfaces in Swift/Resources/Pasted image 20241101121027.png",
+    "WWDC/WWDC 22/Design protocol interfaces in Swift/Resources/Pasted image 20241101120903.png",
+    "WWDC/WWDC 22/Design protocol interfaces in Swift/Resources/Pasted image 20241101115733.png",
+    "WWDC/WWDC 22/Design protocol interfaces in Swift/Resources/Pasted image 20241101114815.png",
+    "WWDC/WWDC 22/Design protocol interfaces in Swift/Resources/Pasted image 20241101114740.png",
+    "WWDC/WWDC 22/Design protocol interfaces in Swift/Swift의 디자인 프로토콜 인터페이스.md",
+    "WWDC/WWDC 22/Design protocol interfaces in Swift/Resources",
+    "WWDC/WWDC 22/Design protocol interfaces in Swift",
+    "Swift/메소드에서 -> 가 있는 기준.md",
+    "Swift/Type Erasure.md",
+    "WWDC/WWDC 22/Swift 제네릭 사용하기.md",
     "WWDC/WWDC 22",
-    "RxSwift/Binder, ControlEvent.md",
     "Vapor/Vapor.md",
     "Vapor/Swift로 서버 만들기.md",
-    "TIL/2024-10-22 TIL.md",
     "Vapor",
-    "Swift/OptionSet.md",
+    "Cocoa Internals/1장 객체.md",
+    "iOS/UIKit/UICollectionView/UICollectionViewFlowLayout.md",
+    "iOS/UIKit/UICollectionView/UICollectionView 톺아보기.md",
+    "iOS/UIKit/UICollectionView",
+    "iOS/UIKit",
+    "TIL/2024-10-22 TIL.md",
     "TIL/2024-10-17 TIL.md",
     "RxSwift/Disposable.md",
-    "iOS/MVVM/Modern MVVM with Combine.md",
     "iOS/MVVM/MVVM + Combine + SwiftUI.md",
+    "iOS/MVVM/Modern MVVM with Combine.md",
+    "iOS/F-lab 멘토링/5주차/HealthKit 서베이.md",
+    "iOS/F-lab 멘토링/3주차/HealthKit.md",
     "RxSwift/Disposables.md",
-    "Cocoa Internals/1장 객체.md",
+    "iOS/UICollectionView 톺아보기.md",
+    "conflict-files-obsidian-git.md",
+    "Cocoa Internals/1장 객체",
+    "Clean Architecture/Understading Clean Architecture in iOS.md",
     "Cocoa Internals",
-    "iOS/UIKit/UICollectionView/UICollectionViewFlowLayout.md",
-    "Swift/Swift 컴파일 프로세스.md",
-    "iOS/UITraitChangeObservable.md",
-    "iOS/UIKit/UICollectionView",
-    "iOS/UIKit/UICollectionView/UICollectionView 톺아보기.md",
-    "iOS/UIKit",
-    "iOS/앱과 비즈니스 로직.md",
-    "iOS/MVVM/Input - Ouput 패턴.md",
-    "iOS/The RED 슈퍼앱 운영을 위한 확장성 높은 앱 아키텍처 구축/Composition.md",
-    "TCA/The Composable Architectrue.md",
-    "RxSwift/RxDataSources.md",
-    "iOS/F-lab 멘토링/모의면접 질문",
+    "Clean Architecture/Tuist/App Extension 적용하기.md",
+    "Clean Architecture/Tuist/Tuist 훑어보기.md",
     "Computational Thinking/무제 파일.canvas"
   ]
 }
