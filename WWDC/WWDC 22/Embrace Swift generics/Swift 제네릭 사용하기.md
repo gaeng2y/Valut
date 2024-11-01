@@ -1,4 +1,6 @@
-Swift에서 다형성의 여러 형태가 있다.
+ref: https://developer.apple.com/videos/play/wwdc2022/110352/
+
+Swift에서 다형성 구현의 여러 형태가 있다.
 - 오버로드를 이용한 ad-hoc 다형성
 - 서브타입을 이용한 subtype 다형성
 - 제네릭을 이용한 parametric 다형성
@@ -24,7 +26,7 @@ protocol Animal {
 
 를 통해 Animal 에 대해 필요한 부분을 명세
 
-![](WWDC/WWDC%2022/Pasted%20image%2020241029142011.png)
+![](WWDC/WWDC%2022/Embrace%20Swift%20generics/Resources/Pasted%20image%2020241029142011.png)
 
 위와 같이 사용할 수 있다.
 
@@ -151,4 +153,4 @@ Opaque 타입을 여러 번 참조해야 하는 경우 또 다른 일반적인 �
 [any Animal] // Animal을 채택한 모든 타입이 가능
 ```
 
-![](WWDC/WWDC%2022/Pasted%20image%2020241031113802.png)
+![](WWDC/WWDC%2022/Embrace%20Swift%20generics/Resources/Pasted%20image%2020241031113802.png)
