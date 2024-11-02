@@ -166,7 +166,7 @@ extension Farm {
 ```swift
 extension Farm {
 	var hungryAnimals: some Collection<any Animal> {
-		animals.filter(\.isHungry)
+		animals.lazy.filter(\.isHungry)
 	}
 
 	func feedAnimals() {
@@ -175,5 +175,54 @@ extension Farm {
 		}
 	}
 }
+
+// 만약 isLazy같은 상태를 만들어 분기하고 싶은 경우에는 마찬가지로 some -> any로 변경해주면 된다.
+
+var hungryAnimals: any Collection<any Animal> {
+	if isLazy {
+		animals.lazy.filter(\.isHungry)
+	} else {
+		animal.filter(\.isHungry)
+	}
+}
 ```
+## Identify type relationships
+
+불투명 타입 제네렉 코드 작성은 추상 타입 관계에 기반해야 하는데 연관 프로토콜을 사용하여 여러 추상 타입 간에 필요한 타입 관계를 식별하고 보장하는 방법을 살펴보자.
+
+```swift
+protocol Animal {
+	var isHungry: Boool { get }
+
+	associatedtype FeedType: AnimalFeed
+	func eat(_: FeedType)
+}
+```
+
+`AnimalFeed` 프로토콜에 대한 연관 타입을 `FeedType`으로 선언하였다. 재미를 위해 좀 더 복잡하게 바꿔보자.
+
+먹이를 주기 전에 적절한 타입의 작물을 재배하고 수확하여 사료를 생산해야 한다고 해보자.
+
+```swift
+protocol AnimalFeed {
+  associatedtype CropType: Crop
+  static func grow() -> CropType
+}
+
+protocol Crop {
+  associatedtype FeedType: AnimalFeed
+  func harvest() -> FeedType
+}
+
+extension Farm {
+  private func feedAnimal(_ animal: some  Animal) {
+    let crop = type(of: animal).FeedType.grow()
+    let feed = crop.harvest()
+    animal.eat(feed)
+  }
+}
+```
+
+AnimalFeed에서 CropType에 대한 조건을 걸 수 있다.
+`associatedtype CropType: Crop where CropType.FeedType == Self` 
 
