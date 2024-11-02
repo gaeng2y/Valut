@@ -80,4 +80,11 @@ FeedType의 상한은 `any AnimalFeed`이지만 ??? 부분에 임의의 `any Ani
 
 타입 소거는 소비 위치에서 연관 타입을 사용하는 것을 허용하지 않는다. 그 대신 불분명한 `some` 타입을 취하는 함수에 입력함으로써 실존하는 `any`타입을 언박싱해야 한다.
 
-연관 타입의 이러한 타입 소거 동작은 
+![](WWDC/WWDC%2022/Design%20protocol%20interfaces%20in%20Swift/Resources/Pasted%20image%2020241102173351.png)
+#### Type erasure recap
+
+- `any` 를 사용하여 값 타입이 프로토콜을 따르는 구체 타입을 저장하는 실존 타입임을 선선할 수 있다.
+- `producing`위치에서 associatedtype을 가진 프로토콜 메소드를 호출할 경우 associatedtype은 연관 타입 제약 조건을 가진 또 다른 실존 타입인 상한 타입까지 타입 소거된다.
+
+구체 타입을 추상화하는 것은 함수 입력뿐만 아니라 출력에도 유용하다. 구체 타입은 구현했을 때만 볼 수 있다.
+##
