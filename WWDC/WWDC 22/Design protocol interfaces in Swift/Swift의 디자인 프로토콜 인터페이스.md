@@ -1,4 +1,4 @@
-ref: https://developer.apple.com/videos/play/wwdc2022/110353/
+ ref: https://developer.apple.com/videos/play/wwdc2022/110353/
 # Agenda
 
 1. Understand type erasure
@@ -79,3 +79,5 @@ Animal 프로토콜을 따르는 모든 구체 타입에 대해 항상 안전하
 FeedType의 상한은 `any AnimalFeed`이지만 ??? 부분에 임의의 `any AnimalFeed`가 주어질 경우 Cow에 필요한 `Hay`인지 정적으로 보장할 수 없다는 것이다.
 
 타입 소거는 소비 위치에서 연관 타입을 사용하는 것을 허용하지 않는다. 그 대신 불분명한 `some` 타입을 취하는 함수에 입력함으로써 실존하는 `any`타입을 언박싱해야 한다.
+
+연관 타입의 이러한 타입 소거 동작은 
