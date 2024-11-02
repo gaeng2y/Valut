@@ -87,4 +87,93 @@ FeedType의 상한은 `any AnimalFeed`이지만 ??? 부분에 임의의 `any Ani
 - `producing`위치에서 associatedtype을 가진 프로토콜 메소드를 호출할 경우 associatedtype은 연관 타입 제약 조건을 가진 또 다른 실존 타입인 상한 타입까지 타입 소거된다.
 
 구체 타입을 추상화하는 것은 함수 입력뿐만 아니라 출력에도 유용하다. 구체 타입은 구현했을 때만 볼 수 있다.
-##
+## Hide implementation details
+
+동물에게 먹이를 줄 수 있도록 Animal 프로토콜을 일반화해보자.
+
+```swift
+protocol Animal {
+	var isHungry: Bool { get }
+}
+
+extension Farm {
+	var hungryAnimals: [any Animal] {
+		animals.filter(\.isHungry)
+	}
+
+	func feedAnimals() {
+		for animal in hungryAnimals {
+			...
+		}
+	}
+}
+```
+
+위 코드에서 `feedAnimals()`는 `hungryAnimals`를 한 번 반복한 다음 즉시 임시 배열을 버린다는 걸 볼 수 있다. 이 경우 `isHungry`가 true인 요소가 많은 경우 비효율적인 방법이다.
+
+이러한 임시 할당을 피하는 방법은 표준 라이브러리의 지연 계산 컬렉션 기능을 사용하는 것이다.
+
+> [!info] [LazyFilterSequence](https://developer.apple.com/documentation/swift/lazyfiltersequence)
+> 어떤 Sequence의 요소로 구성되고 주어진 predicate를 만족하는 시퀀스다.
+> - **왜 더 효율적임?**
+> 일반 배열의 경우 filter, map 등의 연산을 체이닝하면 매 연산마다 새로운 배열을 생성합니다.
+> Lazy Sequence는 중간 결과를 저장하지 않고, 최종 결과가 필요할 때까지 연산을 지연시킵니다.
+
+```swift
+extension Farm {
+	var hungryAnimals: LazyFilterSequence<[any Animal]> {
+		animals.filter(\.isHungry)
+	}
+
+	func feedAnimals() {
+		for animal in hungryAnimals {
+			...
+		}
+	}
+}
+
+->
+
+extension Farm {
+	var hungryAnimals: some Collection {
+		animals.filter(\.isHungry)
+	}
+
+	func feedAnimals() {
+		for animal in hungryAnimals {
+			...
+		}
+	}
+}
+```
+
+`hungryAnimals` 프로퍼티의 타입은 `LazyFilterSequence<[any Animal]>`라는 복잡한 구체 타입이다. 이는 불필요한 구체 세부 사항을 노출한다. 
+
+클라이언트인 `feedAnimals()`는 `hungryAnimals` 구현 시 `lazy.filter`를 썼는지 알 필요가 없고 반복할 수 있는 컬렉션을 얻을 수 있다는 것만 알면 된다. `some Collection`을 사용하면 복잡한 구체 타입을 컬렉션의 추상 인터페이스 뒤로 숨길 수 있다.
+
+하지만 이 방법은 클라이언트로부터 정적 타입 정보를 너무 많이 숨겨버린다.(그러면 여기서 더 좋은 방법이 있나보다.)
+
+ ![](WWDC/WWDC%2022/Design%20protocol%20interfaces%20in%20Swift/Resources/Pasted%20image%2020241102182555.png)
+
+`some Collection`을 사용하면 구체 타입을 감출 수 있지만 이렇게 되면 위와 같이 Element 타입을 우리는 `any Animal`으로 알고 있어야되는데 알 수가 없다.
+
+`some Collection`을 자세히 보면 **제한된 불분명한 결과 타입**을 사용하면 구현 세부 정보를 감추고 인터페이스 정보를 노출시키는 정도를 균형 있게 조절할 수 있다.
+
+(오 **Swift 5.7**부터 가능하다고함)
+
+그래서 코드를 수정해보면 아래와 같이 변경할 수 있다.
+
+```swift
+extension Farm {
+	var hungryAnimals: some Collection<any Animal> {
+		animals.filter(\.isHungry)
+	}
+
+	func feedAnimals() {
+		for animal in hungryAnimals {
+			...
+		}
+	}
+}
+```
+
