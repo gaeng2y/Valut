@@ -223,6 +223,7 @@ extension Farm {
 }
 ```
 
+
 AnimalFeed에서 CropType에 대한 조건을 걸 수 있다.
 `associatedtype CropType: Crop where CropType.FeedType == Self` 
 
