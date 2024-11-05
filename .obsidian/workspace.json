@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Swift/XCTest/OHHTTPStubs를 이용한 유닛 테스트.md",
+                "file": "Swift/XCTest/URLProtocol를 이용한 Mock으로 유닛 테스트.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "OHHTTPStubs를 이용한 유닛 테스트"
+              "title": "URLProtocol를 이용한 Mock으로 유닛 테스트"
             }
           }
         ]
@@ -178,7 +178,7 @@
   "active": "ca92cf6314b4b26d",
   "lastOpenFiles": [
     "WWDC/WWDC 22/Design protocol interfaces in Swift/Swift의 디자인 프로토콜 인터페이스.md",
-    "Swift/XCTest/OHHTTPStubs를 이용한 유닛 테스트.md",
+    "Swift/XCTest/URLProtocol를 이용한 Mock으로 유닛 테스트.md",
     "Swift/XCTest",
     "WWDC/WWDC 22/Design protocol interfaces in Swift/Resources/Pasted image 20241102182555.png",
     "WWDC/WWDC 22/Design protocol interfaces in Swift/Resources/Pasted image 20241102173351.png",
