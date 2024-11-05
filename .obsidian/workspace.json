@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WWDC/WWDC 22/Design protocol interfaces in Swift/Swift의 디자인 프로토콜 인터페이스.md",
+                "file": "Swift/XCTest/OHHTTPStubs를 이용한 유닛 테스트.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Swift의 디자인 프로토콜 인터페이스"
+              "title": "OHHTTPStubs를 이용한 유닛 테스트"
             }
           }
         ]
@@ -177,12 +177,14 @@
   },
   "active": "ca92cf6314b4b26d",
   "lastOpenFiles": [
+    "WWDC/WWDC 22/Design protocol interfaces in Swift/Swift의 디자인 프로토콜 인터페이스.md",
+    "Swift/XCTest/OHHTTPStubs를 이용한 유닛 테스트.md",
+    "Swift/XCTest",
     "WWDC/WWDC 22/Design protocol interfaces in Swift/Resources/Pasted image 20241102182555.png",
     "WWDC/WWDC 22/Design protocol interfaces in Swift/Resources/Pasted image 20241102173351.png",
     "Swift/Type Erasure.md",
     "Swift/메소드에서 -> 가 있는 기준.md",
     "TIL/Trouble shooting/Pull to Refresh.md",
-    "WWDC/WWDC 22/Design protocol interfaces in Swift/Swift의 디자인 프로토콜 인터페이스.md",
     "WWDC/WWDC 22/Design protocol interfaces in Swift/Resources/Pasted image 20241101122415.png",
     "WWDC/WWDC 22/Design protocol interfaces in Swift/Resources/Pasted image 20241101121027.png",
     "WWDC/WWDC 22/Design protocol interfaces in Swift/Resources/Pasted image 20241101121645.png",
@@ -192,7 +194,6 @@
     "WWDC/WWDC 22/Embrace Swift generics/Swift 제네릭 사용하기.md",
     "WWDC/WWDC 22/Design protocol interfaces in Swift/Resources/Pasted image 20241101114815.png",
     "WWDC/WWDC 22/Design protocol interfaces in Swift/Resources/Pasted image 20241101114740.png",
-    "WWDC/WWDC 22/Design protocol interfaces in Swift/Resources/Pasted image 20241101114530.png",
     "WWDC/WWDC 22/Design protocol interfaces in Swift/Resources",
     "WWDC/WWDC 22/Design protocol interfaces in Swift",
     "WWDC/WWDC 22/Embrace Swift generics/Resources",
@@ -222,7 +223,6 @@
     "iOS/MVVM/Input - Ouput 패턴.md",
     "iOS/The RED 슈퍼앱 운영을 위한 확장성 높은 앱 아키텍처 구축/Composition.md",
     "TCA/The Composable Architectrue.md",
-    "iOS/F-lab 멘토링/모의면접 질문",
     "Computational Thinking/무제 파일.canvas"
   ]
 }
