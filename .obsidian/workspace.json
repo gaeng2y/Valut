@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "URLProtocol를 이용한 Mock으로 유닛 테스트"
             }
+          },
+          {
+            "id": "65dd444e4e95f2da",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "WWDC/WWDC 23/Keep up with the Keyboard/Keep up with the keyboard.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Keep up with the keyboard"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -175,10 +190,17 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "ca92cf6314b4b26d",
+  "active": "65dd444e4e95f2da",
   "lastOpenFiles": [
-    "WWDC/WWDC 22/Design protocol interfaces in Swift/Swift의 디자인 프로토콜 인터페이스.md",
+    "WWDC/WWDC 23/Keep up with the Keyboard/Pasted image 20241108120115.png",
+    "WWDC/추천 WWDC.md",
+    "WWDC/WWDC 23/Keep up with the Keyboard/Keep up with the keyboard.md",
+    "WWDC/WWDC 23/Keep up with the Keyboard",
+    "WWDC/WWDC 24",
+    "Meet asyncAwait in Swift.md",
     "Swift/XCTest/URLProtocol를 이용한 Mock으로 유닛 테스트.md",
+    "WWDC/WWDC 21",
+    "WWDC/WWDC 22/Design protocol interfaces in Swift/Swift의 디자인 프로토콜 인터페이스.md",
     "Swift/XCTest",
     "WWDC/WWDC 22/Design protocol interfaces in Swift/Resources/Pasted image 20241102182555.png",
     "WWDC/WWDC 22/Design protocol interfaces in Swift/Resources/Pasted image 20241102173351.png",
@@ -212,17 +234,10 @@
     "iOS/MVVM/MVVM + Combine + SwiftUI.md",
     "RxSwift/Disposables.md",
     "Cocoa Internals/1장 객체.md",
-    "Cocoa Internals",
     "iOS/UIKit/UICollectionView/UICollectionViewFlowLayout.md",
     "Swift/Swift 컴파일 프로세스.md",
     "iOS/UITraitChangeObservable.md",
-    "iOS/UIKit/UICollectionView",
     "iOS/UIKit/UICollectionView/UICollectionView 톺아보기.md",
-    "iOS/UIKit",
-    "iOS/앱과 비즈니스 로직.md",
-    "iOS/MVVM/Input - Ouput 패턴.md",
-    "iOS/The RED 슈퍼앱 운영을 위한 확장성 높은 앱 아키텍처 구축/Composition.md",
-    "TCA/The Composable Architectrue.md",
     "Computational Thinking/무제 파일.canvas"
   ]
 }
