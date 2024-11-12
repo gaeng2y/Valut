@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cocoa Internals/1장 객체.md",
+                "file": "Cocoa Internals/2장 메모리 관리.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1장 객체"
+              "title": "2장 메모리 관리"
             }
           }
         ]
@@ -187,6 +187,8 @@
   },
   "active": "9090a6cb481eceb6",
   "lastOpenFiles": [
+    "Cocoa Internals/1장 객체.md",
+    "Cocoa Internals/2장 메모리 관리.md",
     "WWDC/WWDC 22/Design protocol interfaces in Swift/Swift의 디자인 프로토콜 인터페이스.md",
     "WWDC/WWDC 23/Keep up with the Keyboard/Pasted image 20241108120630.png",
     "WWDC/WWDC 23/Keep up with the Keyboard/Pasted image 20241108120115.png",
@@ -217,7 +219,6 @@
     "Vapor/Vapor.md",
     "Vapor/Swift로 서버 만들기.md",
     "Vapor",
-    "Cocoa Internals/1장 객체.md",
     "iOS/UIKit/UICollectionView/UICollectionViewFlowLayout.md",
     "iOS/UIKit/UICollectionView/UICollectionView 톺아보기.md",
     "iOS/UIKit/UICollectionView",
