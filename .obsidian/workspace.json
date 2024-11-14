@@ -185,8 +185,9 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "9090a6cb481eceb6",
+  "active": "160736a19be9866b",
   "lastOpenFiles": [
+    "Swift/Concurrent Programming",
     "Cocoa Internals/1장 객체.md",
     "Cocoa Internals/2장 메모리 관리.md",
     "WWDC/WWDC 22/Design protocol interfaces in Swift/Swift의 디자인 프로토콜 인터페이스.md",
@@ -232,7 +233,6 @@
     "iOS/F-lab 멘토링/3주차/HealthKit.md",
     "RxSwift/Disposables.md",
     "iOS/UICollectionView 톺아보기.md",
-    "conflict-files-obsidian-git.md",
     "Computational Thinking/무제 파일.canvas"
   ]
 }
