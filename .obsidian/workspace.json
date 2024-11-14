@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cocoa Internals/2장 메모리 관리.md",
+                "file": "Swift/Concurrent Programming/동기, 비동기.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2장 메모리 관리"
+              "title": "동기, 비동기"
             }
           }
         ]
@@ -185,11 +185,13 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "160736a19be9866b",
+  "active": "9090a6cb481eceb6",
   "lastOpenFiles": [
+    "Swift/Concurrent Programming/GCD, Operation.md",
+    "Swift/Concurrent Programming/동기, 비동기.md",
+    "Cocoa Internals/2장 메모리 관리.md",
     "Swift/Concurrent Programming",
     "Cocoa Internals/1장 객체.md",
-    "Cocoa Internals/2장 메모리 관리.md",
     "WWDC/WWDC 22/Design protocol interfaces in Swift/Swift의 디자인 프로토콜 인터페이스.md",
     "WWDC/WWDC 23/Keep up with the Keyboard/Pasted image 20241108120630.png",
     "WWDC/WWDC 23/Keep up with the Keyboard/Pasted image 20241108120115.png",
@@ -223,7 +225,6 @@
     "iOS/UIKit/UICollectionView/UICollectionViewFlowLayout.md",
     "iOS/UIKit/UICollectionView/UICollectionView 톺아보기.md",
     "iOS/UIKit/UICollectionView",
-    "iOS/UIKit",
     "TIL/2024-10-22 TIL.md",
     "TIL/2024-10-17 TIL.md",
     "RxSwift/Disposable.md",
@@ -232,7 +233,6 @@
     "iOS/F-lab 멘토링/5주차/HealthKit 서베이.md",
     "iOS/F-lab 멘토링/3주차/HealthKit.md",
     "RxSwift/Disposables.md",
-    "iOS/UICollectionView 톺아보기.md",
     "Computational Thinking/무제 파일.canvas"
   ]
 }
