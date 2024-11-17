@@ -6,7 +6,7 @@
 
 이것은 두 프로세스가 자원을 공유할 때 발생할 수 있다.
 
-![[Pasted image 20231002190737.png]]
+![[iOS/Swift/Swift Concurrency/Chapter 1/Pasted image 20231002190737.png]]
 ### 교착 상태 해결 방법
 
 교착 상태 문제에는 많은 확립된 해결책이 있다. Mutex와 Semaphores가 가장 많이 사용된다.
@@ -19,7 +19,7 @@ Mutex는 상호 배타적인 자물쇠(또는 깃발)의 줄임말이다.
 
 이렇게 하면, 스레드 A가 리소스 C와 리소스 D가 필요한 경우, 스레드 B가 액세스하려고 시도하기 전에 잠글 수 있습니다.
 
-![[Pasted image 20231002190800.png]]
+![[iOS/Swift/Swift Concurrency/Chapter 1/Pasted image 20231002190800.png]]
 
 뮤텍스를 이용하는 상황에서, 스레드 A와 스레드 B는 멀티스레드가 있지만 동시에 엄격하게 실행되지 않는다는 것을 의미합니다.
 
