@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "iOS/Swift/Concurrent Programming/동기, 비동기.md",
+                "file": "iOS/Swift/Concurrent/동기, 비동기.md",
                 "mode": "source",
                 "source": false
               },
@@ -187,11 +187,13 @@
   },
   "active": "160736a19be9866b",
   "lastOpenFiles": [
+    "Meet asyncAwait in Swift.md",
+    "무제 파일.md",
+    "iOS/Swift/Concurrent/동기, 비동기.md",
     "Computer Science/Modular programming/Library, Framework, Swift Package 차이점.md",
-    "iOS/Swift/Concurrent Programming/동기, 비동기.md",
-    "iOS/Swift/Concurrent Programming/GCD, Operation.md",
+    "iOS/Swift/Concurrent/GCD, Operation.md",
     "iOS/Cocoa Internals/2장 메모리 관리.md",
-    "iOS/Swift/Concurrent Programming",
+    "iOS/Swift/Concurrent",
     "iOS/Cocoa Internals/1장 객체.md",
     "iOS/WWDC/WWDC 22/Design protocol interfaces in Swift/Swift의 디자인 프로토콜 인터페이스.md",
     "iOS/WWDC/WWDC 23/Keep up with the Keyboard/Pasted image 20241108120630.png",
@@ -200,7 +202,6 @@
     "iOS/WWDC/WWDC 23/Keep up with the Keyboard",
     "iOS/Swift/XCTest/URLProtocol를 이용한 Mock으로 유닛 테스트.md",
     "iOS/Swift/XCTest",
-    "Meet asyncAwait in Swift.md",
     "iOS/WWDC/WWDC 22/Design protocol interfaces in Swift/Resources/Pasted image 20241102182555.png",
     "iOS/WWDC/WWDC 22/Design protocol interfaces in Swift/Resources/Pasted image 20241102173351.png",
     "iOS/Swift/OptionSet.md",
@@ -232,7 +233,6 @@
     "iOS/MVVM/MVVM + Combine + SwiftUI.md",
     "iOS/MVVM/Modern MVVM with Combine.md",
     "iOS/F-lab 멘토링/5주차/HealthKit 서베이.md",
-    "iOS/F-lab 멘토링/3주차/HealthKit.md",
     "Computational Thinking/무제 파일.canvas"
   ]
 }
