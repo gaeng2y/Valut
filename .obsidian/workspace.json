@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "iOS/Swift/Concurrent/동기, 비동기, 직렬, 동시.md",
+                "file": "iOS/Swift/Concurrent/Dispatch, also known as Grand Central Dispatch (GCD).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "동기, 비동기, 직렬, 동시"
+              "title": "Dispatch, also known as Grand Central Dispatch (GCD)"
             }
           }
         ]
@@ -177,8 +177,9 @@
   },
   "active": "9090a6cb481eceb6",
   "lastOpenFiles": [
-    "iOS/Swift/Concurrent/GCD, Operation.md",
     "iOS/Swift/Concurrent/동기, 비동기, 직렬, 동시.md",
+    "iOS/Swift/Concurrent/Dispatch, also known as Grand Central Dispatch (GCD).md",
+    "iOS/Swift/Concurrent/GCD, Operation.md",
     "iOS/Combine/Combine Study/Book/Chapter 2. Publishers & Subscribers.md",
     "iOS/F-lab 멘토링/모의면접 질문/Combine과 RxSwift 비교.md",
     "iOS/동시성 프로그래밍/Dispatch/심화/DispatchGroup.md",
@@ -222,7 +223,6 @@
     "iOS/UIKit/UICollectionView/UICollectionViewFlowLayout.md",
     "iOS/UIKit/UICollectionView/UICollectionView 톺아보기.md",
     "iOS/UIKit/UICollectionView",
-    "TIL/2024-10-22 TIL.md",
     "Computational Thinking/무제 파일.canvas"
   ]
 }
