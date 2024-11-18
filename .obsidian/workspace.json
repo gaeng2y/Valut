@@ -62,16 +62,6 @@
               "icon": "lucide-search",
               "title": "검색"
             }
-          },
-          {
-            "id": "b1e81fbdd975f898",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "플러그인이 더 이상 활성화되지 않음"
-            }
           }
         ]
       }
@@ -185,13 +175,18 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "160736a19be9866b",
+  "active": "9090a6cb481eceb6",
   "lastOpenFiles": [
+    "iOS/Swift/Concurrent/GCD, Operation.md",
+    "iOS/Swift/Concurrent/동기, 비동기.md",
+    "iOS/Combine/Combine Study/Book/Chapter 2. Publishers & Subscribers.md",
+    "iOS/F-lab 멘토링/모의면접 질문/Combine과 RxSwift 비교.md",
+    "iOS/동시성 프로그래밍/Dispatch/심화/DispatchGroup.md",
+    "iOS/동시성 프로그래밍/Operation/Operation.md",
+    "iOS/동시성 프로그래밍/Dispatch/기본/Dispatch 기본.md",
     "Meet asyncAwait in Swift.md",
     "무제 파일.md",
-    "iOS/Swift/Concurrent/동기, 비동기.md",
     "Computer Science/Modular programming/Library, Framework, Swift Package 차이점.md",
-    "iOS/Swift/Concurrent/GCD, Operation.md",
     "iOS/Cocoa Internals/2장 메모리 관리.md",
     "iOS/Swift/Concurrent",
     "iOS/Cocoa Internals/1장 객체.md",
@@ -228,11 +223,6 @@
     "iOS/UIKit/UICollectionView/UICollectionView 톺아보기.md",
     "iOS/UIKit/UICollectionView",
     "TIL/2024-10-22 TIL.md",
-    "TIL/2024-10-17 TIL.md",
-    "iOS/RxSwift/Disposable.md",
-    "iOS/MVVM/MVVM + Combine + SwiftUI.md",
-    "iOS/MVVM/Modern MVVM with Combine.md",
-    "iOS/F-lab 멘토링/5주차/HealthKit 서베이.md",
     "Computational Thinking/무제 파일.canvas"
   ]
 }
