@@ -177,6 +177,8 @@
   },
   "active": "9090a6cb481eceb6",
   "lastOpenFiles": [
+    "iOS/Swift/Concurrent/Pasted image 20241124165736.png",
+    "iOS/Swift/Concurrent/Pasted image 20241124165622.png",
     "iOS/Swift/Concurrent/동기, 비동기, 직렬, 동시.md",
     "iOS/Swift/Concurrent/Dispatch, also known as Grand Central Dispatch (GCD).md",
     "iOS/Swift/Concurrent/GCD, Operation.md",
@@ -210,7 +212,6 @@
     "iOS/WWDC/WWDC 22/Design protocol interfaces in Swift/Resources/Pasted image 20241101122415.png",
     "iOS/WWDC/WWDC 22/Design protocol interfaces in Swift/Resources/Pasted image 20241101121645.png",
     "iOS/WWDC/WWDC 22/Design protocol interfaces in Swift/Resources/Pasted image 20241101121644.png",
-    "iOS/WWDC/WWDC 22/Design protocol interfaces in Swift/Resources/Pasted image 20241101121027.png",
     "iOS/WWDC/WWDC 22/Design protocol interfaces in Swift/Resources",
     "iOS/WWDC/WWDC 22/Design protocol interfaces in Swift",
     "iOS/Swift/메소드에서 -> 가 있는 기준.md",
@@ -221,7 +222,6 @@
     "iOS/Vapor/Swift로 서버 만들기.md",
     "iOS/Vapor",
     "iOS/UIKit/UICollectionView/UICollectionViewFlowLayout.md",
-    "iOS/UIKit/UICollectionView/UICollectionView 톺아보기.md",
     "iOS/UIKit/UICollectionView",
     "Computational Thinking/무제 파일.canvas"
   ]

@@ -6,3 +6,8 @@
 - 큐의 QoS를 지정해놓고 async 메소드에서 QoS를 변경 시 변경된 QoS로 적용
 #### 3) 프라이빗(커스텀) 큐
 - 커스텀 큐는 직렬과 동시 중 정할 수 있다.
+
+## 큐의 종류 정리
+
+![](iOS/Swift/Concurrent/Pasted%20image%2020241124165736.png)
+(출처: https://www.inflearn.com/course/ios-concurrency-gcd-operation)
