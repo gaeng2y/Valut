@@ -1,4 +1,4 @@
-- ref: https://developer.apple.com/documentation/oslog
+- https://developer.apple.com/documentation/oslog
 - 과거 데이터를 읽기 위한 통합 로깅 시스템
 ## Overview
 - OSLog 프레임워크를 사용하면 로그를 읽을 수 있다. 
@@ -20,3 +20,6 @@
 이 시스템은 텍스트 기반 로그 파일에 데이터를 쓰는 대신 **메모리와 디스크에 로그 데이터를 중앙에서 저장**. 
 콘솔 앱, 명령줄 도구 또는 Xcode 디버그 콘솔을 사용하여 로그 메시지를 볼 수 있다 . 
 OSLog 프레임워크를 사용하여 프로그래밍 방식으로 로그 메시지에 액세스할 수도 있다 .
+
+# Reference
+https://velog.io/@ryan-son/Swift-%ED%86%B5%ED%95%A9-%EB%A1%9C%EA%B9%85-%EC%8B%9C%EC%8A%A4%ED%85%9C%EC%9C%BC%EB%A1%9C-%EB%A1%9C%EA%B9%85-%ED%95%B4%EB%B3%B4%EC%9E%90-OSLog
