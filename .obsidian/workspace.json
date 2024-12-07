@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "iOS/Swift/OSLog.md",
+                "file": "iOS/Tuist/무제 파일.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "OSLog"
+              "title": "무제 파일"
             }
           }
         ]
@@ -175,10 +175,14 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "9090a6cb481eceb6",
+  "active": "160736a19be9866b",
   "lastOpenFiles": [
-    "iOS/Swift/Concurrent/Dispatch, also known as Grand Central Dispatch (GCD).md",
+    "iOS/Tuist",
+    "Computer Science/Modular programming/Library, Framework, Swift Package 차이점.md",
+    "iOS/Tuist/무제 파일.md",
+    "Computer Science/Modular programming/무제 파일.md",
     "iOS/Swift/OSLog.md",
+    "iOS/Swift/Concurrent/Dispatch, also known as Grand Central Dispatch (GCD).md",
     "iOS/Swift/Concurrent/Pasted image 20241124165736.png",
     "iOS/Swift/Concurrent/Pasted image 20241124165622.png",
     "iOS/Swift/Concurrent/동기, 비동기, 직렬, 동시.md",
@@ -190,7 +194,6 @@
     "iOS/동시성 프로그래밍/Dispatch/기본/Dispatch 기본.md",
     "Meet asyncAwait in Swift.md",
     "무제 파일.md",
-    "Computer Science/Modular programming/Library, Framework, Swift Package 차이점.md",
     "iOS/Cocoa Internals/2장 메모리 관리.md",
     "iOS/Swift/Concurrent",
     "iOS/Cocoa Internals/1장 객체.md",
@@ -218,10 +221,7 @@
     "iOS/Swift/Type Erasure.md",
     "WWDC/WWDC 22/Swift 제네릭 사용하기.md",
     "iOS/WWDC/WWDC 22",
-    "iOS/Vapor/Vapor.md",
-    "iOS/Vapor/Swift로 서버 만들기.md",
     "iOS/Vapor",
-    "iOS/UIKit/UICollectionView/UICollectionViewFlowLayout.md",
     "iOS/UIKit/UICollectionView",
     "Computational Thinking/무제 파일.canvas"
   ]
