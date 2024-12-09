@@ -14,3 +14,12 @@ Project를 통해 내외부 라이브러리 등의 의존성 관계를 유지할
 ### Workspace
 여러 개의 Project를 하나의 환경에서 관리할 수 있는 공간이다.
 
+Workspace는 여러개의 모듈을 동시에 개발하는 대규모 프로젝트에서 사용될 수 있다.
+
+## Reference
+
+https://developer.apple.com/documentation/xcode/projects-and-workspaces
+
+https://developer.apple.com/library/archive/featuredarticles/XcodeConcepts/Concept-Projects.html
+
+https://developer.apple.com/library/archive/featuredarticles/XcodeConcepts/Concept-Workspace.html
