@@ -2,4 +2,5 @@
 
 Tuist 설치는 관련 내용은 [여기](https://docs.tuist.dev/en/guides/quick-start/install-tuist)에서 확인해주세요
 
+## 프로젝트 init
 
