@@ -8,6 +8,14 @@ Tuist의 주요 기능 중 하나는 Swift 언어로 정의된 매니페스트 �
 
 결국, Tuist는 큰 규모의 iOS/macOS 프로젝트를 체계적으로 관리하고자 하는 개발자들에게 매우 유용한 도구다.
 
+Tuist 설치는 관련 내용은 [여기](https://docs.tuist.dev/en/guides/quick-start/install-tuist)에서 확인해주세요
+
+### Tuist를 이용한 프로젝트 생성
+```bash
+tuist init --platform ios
+```
+
+그 후 Project.swift 파일을 수정하여 작업 혹은 Workspace.swift 파일을 만들어 작업 가능.
 # Manifest
 
 Tuist의 `Manifest`는 Xcode 프로젝트를 정의하고 관리하기 위한 설정 파일입니다. Tuist는 Swift를 기반으로 하는 프로젝트 관리 도구로, 복잡한 Xcode 프로젝트와 워크스페이스 설정을 간단하게 구성하고 유지보수할 수 있도록 도와줍니다. `Manifest` 파일은 프로젝트 설정을 코드로 작성하며, 일반적으로 Swift 파일로 작성됩니다.
@@ -59,6 +67,4 @@ let workspace = Workspace(
     ]
 )
 ```
-
-
 
