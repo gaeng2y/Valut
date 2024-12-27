@@ -5,4 +5,5 @@ https://developer.apple.com/documentation/storekit/implementing-a-store-in-your-
 - 트랜잭션 처리 방식 변경
 - 실시간 트랜잭션 동기화
 - Apple은 2024년 WWDC에서 **StoreKit 1 API를 공식적으로 더 이상 사용하지 않을 것을 권장**하며, 개발자들에게 StoreKit 2로 마이그레이션할 것을 강력히 권장
-
+## Reference
+- **WWDC21 Meet StoreKit 2**: https://developer.apple.com/videos/play/wwdc2021/10114/
