@@ -1,0 +1,1 @@
+https://developer.apple.com/kr/design/human-interface-guidelines/in-app-purchase/
