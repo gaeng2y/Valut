@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "iOS/Swift/Concurrent/Dispatch Semaphore.md",
+                "file": "iOS/Swift/Concurrent/동시성 관련 문제.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Dispatch Semaphore"
+              "title": "동시성 관련 문제"
             }
           }
         ],
@@ -192,8 +192,9 @@
   },
   "active": "50ee7ed6fdcfc06f",
   "lastOpenFiles": [
-    "iOS/Swift/Concurrent/DispatchGroup.md",
     "iOS/Swift/Concurrent/Dispatch Semaphore.md",
+    "iOS/Swift/Concurrent/동시성 관련 문제.md",
+    "iOS/Swift/Concurrent/DispatchGroup.md",
     "iOS/Swift/Concurrent/Dispatch 사용 시 주의해야할 사항.md",
     "iOS/StoreKit2/StoreKit 2 적용기.md",
     "iOS/StoreKit2/In app purchase in HIG.md",
@@ -221,7 +222,6 @@
     "iOS/Tuist/Library, Framework, Package 비교.md",
     "iOS/Tuist",
     "iOS/Swift/OSLog.md",
-    "iOS/Combine/Combine Study/Book/Chapter 2. Publishers & Subscribers.md",
     "iOS/Swift/Concurrent",
     "iOS/WWDC/WWDC 23/Keep up with the Keyboard/Pasted image 20241108120630.png",
     "iOS/WWDC/WWDC 23/Keep up with the Keyboard/Pasted image 20241108120115.png",
