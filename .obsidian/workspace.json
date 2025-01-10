@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "iOS/UIMenu 사용하기.md",
+                "file": "iOS/RIBs 시작하기.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "UIMenu 사용하기"
+              "title": "RIBs 시작하기"
             }
           }
         ]
@@ -177,8 +177,8 @@
   },
   "active": "9090a6cb481eceb6",
   "lastOpenFiles": [
-    "iOS/The RED 슈퍼앱 운영을 위한 확장성 높은 앱 아키텍처 구축/RIBs 시작하기.md",
     "iOS/UIMenu 사용하기.md",
+    "iOS/RIBs 시작하기.md",
     "iOS/The RED 슈퍼앱 운영을 위한 확장성 높은 앱 아키텍처 구축/복잡한 플로우 만들기.md",
     "iOS/The RED 슈퍼앱 운영을 위한 확장성 높은 앱 아키텍처 구축/Composition.md",
     "iOS/The RED 슈퍼앱 운영을 위한 확장성 높은 앱 아키텍처 구축/RIBs.md",
