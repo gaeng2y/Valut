@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "iOS/The RED 슈퍼앱 운영을 위한 확장성 높은 앱 아키텍처 구축/RIBs 시작하기.md",
+                "file": "iOS/UIMenu 사용하기.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "RIBs 시작하기"
+              "title": "UIMenu 사용하기"
             }
           }
         ]
@@ -160,7 +160,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -176,8 +177,9 @@
   },
   "active": "9090a6cb481eceb6",
   "lastOpenFiles": [
-    "iOS/The RED 슈퍼앱 운영을 위한 확장성 높은 앱 아키텍처 구축/복잡한 플로우 만들기.md",
     "iOS/The RED 슈퍼앱 운영을 위한 확장성 높은 앱 아키텍처 구축/RIBs 시작하기.md",
+    "iOS/UIMenu 사용하기.md",
+    "iOS/The RED 슈퍼앱 운영을 위한 확장성 높은 앱 아키텍처 구축/복잡한 플로우 만들기.md",
     "iOS/The RED 슈퍼앱 운영을 위한 확장성 높은 앱 아키텍처 구축/Composition.md",
     "iOS/The RED 슈퍼앱 운영을 위한 확장성 높은 앱 아키텍처 구축/RIBs.md",
     "iOS/StoreKit2/StoreKit 2 적용기.md",
@@ -211,7 +213,6 @@
     "iOS/Swift/동시성 프로그래밍/Dispatch/심화/DispatchGroup.md",
     "iOS/Swift/동시성 프로그래밍/Dispatch/심화/Dispatch 옵션.md",
     "iOS/Swift/동시성 프로그래밍/Operation/Operation.md",
-    "iOS/Swift/동시성 프로그래밍/Operation/Operation 심화.md",
     "iOS/Swift/동시성 프로그래밍/Dispatch/기본",
     "iOS/Swift/동시성 프로그래밍/Dispatch/심화",
     "iOS/Swift/동시성 프로그래밍/Operation",
