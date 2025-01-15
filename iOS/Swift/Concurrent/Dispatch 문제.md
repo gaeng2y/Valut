@@ -202,5 +202,124 @@ DispatchQueue.global().async {
     lock2.unlock()
 }
 
-// task1에선 lock1을 획득하고 lock2ㅇ
+// task1에선 lock1을 획득하고 lock2을 대기, task2에선 lock2를 획득하고 lock1을 대기하기 때문에 서로 해제하기를 기다리므로 데드락 발생
+```
+
+13. 데드락 발생 조건 네 가지
+- 상호 배제: 한 번에 하나의 스레드만 자원을 사용 가능
+- 점유 및 대기: 자원을 점유하고 있는 스레드가 스스로 자원을 해제할 때까지 기다림
+- 비선점: 자원을 점유하고 있는 스레드가 스스로 자원을 해제할 때까지 기다림
+- 순환 대기: 스레드 간에 순환적인 자원 대기 상태가 발생
+
+14. Deadlock을 방지하기 위한 일반적인 전략 두 가지를 제시하고, 각각의 장단점을 설명하세요
+- 자원 획득 순서 고정
+  - 모든 스레드가 자원을 획득할 때 고정된 순서로 자원을 요청하도록 강제
+  - 장점: 간단하고 직관적
+  - 단점: 확장성이 낮음
+- 타임아웃 설정
+  - 스레드가 자원을 요청할 때 시간 제한 설정
+  - 장점: 확실히 방지
+  - 단점: 복잡한 구현
+
+15. Priority Inversion이 발생할 수 있는 상황을 설명하세요
+```swift
+let highPriorityQueue = DispatchQueue.global(qos: .userInteractive)
+let lowPriorityQueue = DispatchQueue.global(qos: .background)
+let semaphore = DispatchSemaphore(value: 1)
+
+lowPriorityQueue.async {
+    semaphore.wait()
+    sleep(3)
+    print("Low priority task completed")
+    semaphore.signal()
+}
+
+highPriorityQueue.async {
+    semaphore.wait()
+    print("High priority task completed")
+    semaphore.signal()
+}
+```
+- lowPriorityQueue에서 세마포를 얻고 3초 지연
+- 그 후 hightPriorityQueue에서 세마포에 접근하려하지만 이미 접근되어있어 우선순위가 높지만 먼저 실행할 수 없는 상황이 발생할 수 있음
+
+16. iOS에서 GCD(Grand Central Dispatch)를 사용할 때 Priority Inversion 문제가 발생하지 않도록 하기 위해 개발자가 따라야 할 권장 사항은 무엇인가요?
+- 우선 순위가 높은 작업이 낮은 작업에 의해 지연되지 않도록 설계해야 한다. (적절한 타임아웃, 우선순위 상속 등을 이용해서)
+
+17. 다음 코드에서 Dispatch Barrier를 활용하여 위 코드를 수정하고, 수정된 코드가 thread-safe한 이유를 설명하세요.
+
+```swift
+class SharedResource {
+    private var data: [String] = []
+    private let queue = DispatchQueue(label: "com.example.concurrentQueue", attributes: .concurrent)
+
+    func addItem(_ item: String) {
+        queue.async {
+            self.data.append(item)
+        }
+    }
+
+    func getItems() -> [String] {
+        return queue.sync {
+            return self.data
+        }
+    }
+}
+
+let resource = SharedResource()
+DispatchQueue.global().async {
+    resource.addItem("Item 1")
+}
+DispatchQueue.global().async {
+    print(resource.getItems())
+}
+
+// addItem 메소드 내의 queue에서 flag에 .barrier 추가
+// 사용하게 되면 thread-safe한 이유
+// 배리어를 이용하면 data 배열에 아이템을 추가할 때 작업이 다 끝나야 getItems()에서 data에 접근이 가능해지기 때문에 thread-safe 해진다.
+```
+
+18. 아래 코드는 AccessToken과 RefreshToken을 관리하는 클래스입니다. 이 코드를 thread-safe하게 수정하세요.
+
+```swift
+class TokenManager {
+    private var accessToken: String = ""
+    private var refreshToken: String = ""
+    private let queue = DispatchQueue(label: "token", attributes: .concurrent)
+
+    func updateAccessToken(_ token: String) {
+            queue.async(flags: .barrier) {
+            accessToken = token
+          }
+    }
+
+    func updateRefreshToken(_ token: String) {
+              queue.async(flags: .barrier) {
+        refreshToken = token
+        }
+    }
+
+    func getAccessToken() -> String {
+              queue.sync {
+          return accessToken
+              }
+    }
+
+    func getRefreshToken() -> String {
+        queue.sync {
+            return refreshToken
+        }
+        
+    }
+}
+
+let manager = TokenManager()
+
+DispatchQueue.global().async() {
+    manager.updateAccessToken("newAccessToken")
+}
+
+DispatchQueue.global().async {
+    print(manager.getAccessToken())
+}
 ```
