@@ -113,13 +113,94 @@ DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
 - 모든 다운로드가 완료되면 UI 업데이트
 - 다운로드 실패 시 에러 처리
 ```swift
+let urls = [
+    "https://github.com/IQAndreas/sample-images/blob/gh-pages/100-100-color/00.jpg?raw=true",
+    "https://github.com/IQAndreas/sample-images/blob/gh-pages/100-100-color/01.jpg?raw=true",
+    "https://github.com/IQAndreas/sample-images/blob/gh-pages/100-100-color/02.jpg?raw=true"
+]
 private let downloadQueue = DispatchQueue(label: "downloadQueue", attributes: .concurrent)
 private let semaphore = DispatchSemaphore(value: 3)
 private let group = DispatchGroup()
 
-func download(from: urls: [String]) {
-  for url in urls {
-    group.enter()
-  }
+func download() {
+    for urlString in urls {
+        group.enter()
+        semaphore.wait()
+        downloadQueue.async {
+            let url = URL(string: urlString)!
+            let request = URLRequest(url: url)
+            URLSession.shared.dataTask(with: request) { data, response, error in
+                defer {
+                    semaphore.signal()
+                    group.leave()
+                }
+                if let error {
+                    return
+                }
+                let image = UIImage(data: data!)
+                print(image!.size)
+            }
+        }
+    }
 }
+```
+9. 다음 클로저에서 발생할 수 있는 메모리 순환 참조를 해결하는 코드를 작성하세요.
+```swift
+class NetworkManager {
+    func fetchData(completion: @escaping () -> Void) {
+        DispatchQueue.global().async {
+            // 네트워크 작업
+            self.processData()
+            completion()
+        }
+    }
+}
+
+// async 클로저 내에 [weak self] 혹은 [unowned self]로 레퍼런스 카운트 증가하지 않도록 적용
+```
+
+10. Race condition의 주요 원인 세 가지를 나열하고, 각각의 문제를 해결할 수 있는 동기화 메커니즘을 제시하세요.
+- 공유 자원에 대한 동시 접근
+- 작업 순서의 부재
+- 자원 접근에 대한 제한 메커니즘 부재
+- 동기화 도구: 세마포, 뮤텍스, 락
+
+11. 다음 코드에서 발생할 수 있는 문제를 설명하고, 이를 해결하기 위한 방법을 제안하세요
+    ```swift
+var sharedCounter = 0
+let queue = DispatchQueue.global(qos: .userInitiated)
+
+for _ in 1...10 {
+    queue.async {
+        sharedCounter += 1
+    }
+}
+
+print("Final Counter: \(sharedCounter)")
+```
+- 비동기로 queue에서 sharedCounter에 접근하므로 경쟁 상태 발생 가능. async 를 sync로 바꾸면 경쟁 상태 해결
+12. 다음 코드에서 Deadlock이 발생하는 이유를 설명하고, 이를 방지하기 위한 방법을 제안하세요
+    ```swift
+let lock1 = NSLock()
+let lock2 = NSLock()
+
+DispatchQueue.global().async {
+    lock1.lock()
+    sleep(1)
+    lock2.lock()
+    print("Task 1 completed")
+    lock2.unlock()
+    lock1.unlock()
+}
+
+DispatchQueue.global().async {
+    lock2.lock()
+    sleep(1)
+    lock1.lock()
+    print("Task 2 completed")
+    lock1.unlock()
+    lock2.unlock()
+}
+
+// task1에선 lock1을 획득하고 lock2ㅇ
 ```
