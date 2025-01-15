@@ -108,8 +108,18 @@ DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
 // Working: 5
 // 로 나오며 cancel()메소드가 호출되면 workItem의 isCancelled가 true로 됨 그래서 for문 내에서 workItem.isCancelled를 체크하여서 break 해야함.
 ```
-
-8. 다음 시나리오를 해결하는 코드를 작성하세요:
+8. 다음 시나리오를 해결하는 코드를 작성하세요
+- 최대 3개의 동시 다운로드만 허용
+- 모든 다운로드가 완료되면 UI 업데이트
+- 다운로드 실패 시 에러 처리
 ```swift
+private let downloadQueue = DispatchQueue(label: "downloadQueue", attributes: .concurrent)
+private let semaphore = DispatchSemaphore(value: 3)
+private let group = DispatchGroup()
 
+func download(from: urls: [String]) {
+  for url in urls {
+    group.enter()
+  }
+}
 ```
