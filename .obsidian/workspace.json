@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "Chapter 6. Time Manipulation Operator"
             }
+          },
+          {
+            "id": "f833b4456dc8f8a9",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "iOS/WWDC/WWDC 22/Design protocol interfaces in Swift/Resources/Pasted image 20241101114530.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20241101114530"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -52,7 +65,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "debounce",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -63,12 +76,11 @@
               "title": "검색"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 399.5
   },
   "right": {
     "id": "9843e891487ed6f6",
@@ -161,23 +173,45 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-git:Open Git source control": false,
       "command-palette:명령어 팔레트 열기": false,
       "switcher:퀵 스위처 열기": false,
       "templates:템플릿 삽입": false,
       "markdown-importer:마크다운 형식 가져오기 열기": false,
       "callout-manager:Insert Callout": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "periodic-notes:Open today": false
+      "periodic-notes:Open today": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9090a6cb481eceb6",
+  "active": "f833b4456dc8f8a9",
   "lastOpenFiles": [
+    "iOS/WWDC/WWDC 22/Design protocol interfaces in Swift/Swift의 디자인 프로토콜 인터페이스.md",
+    "iOS/WWDC/WWDC 22/Embrace Swift generics/Swift 제네릭 사용하기.md",
+    "iOS/WWDC/WWDC 16/Understanding Swift Performance/Understanding Swift Performance.md",
+    "iOS/WWDC/WWDC 16/Understanding Swift Performance/Reference Counting.md",
+    "iOS/WWDC/WWDC 16/Understanding Swift Performance/Generic Code.md",
+    "iOS/WWDC/WWDC 16/Understanding Swift Performance/Method Dispatch.md",
+    "iOS/WWDC/WWDC 16/Understanding Swift Performance/Allocation.md",
+    "iOS/WWDC/WWDC 16/Understanding Swift Performance/Resources/Protocol1.png",
+    "iOS/WWDC/WWDC 16/Understanding Swift Performance/Resources/Protocol2.png",
+    "iOS/WWDC/WWDC 16/Understanding Swift Performance/Resources/Protocol3.png",
+    "iOS/WWDC/WWDC 16/Understanding Swift Performance/Resources/Protocol4.png",
+    "iOS/WWDC/WWDC 16/Understanding Swift Performance/Protocol Types.md",
+    "iOS/WWDC/WWDC 22/Embrace Swift generics/Resources/Pasted image 20241031113802.png",
+    "iOS/WWDC/WWDC 22/Embrace Swift generics/Resources/Pasted image 20241029142011.png",
+    "iOS/WWDC/WWDC 23/Discover String Catalogs/Discover String Catalogs.md",
+    "iOS/WWDC/WWDC 23/Keep up with the Keyboard/Keep up with the keyboard.md",
+    "conflict-files-obsidian-git.md",
+    "iOS/Combine/Combine Study/Book/Chapter 6. Time Manipulation Operator.md",
+    "iOS/Swift/Concurrent/Resources/Pasted image 20250119213754.png",
+    "iOS/Swift/Concurrent/Operation/Operation.md",
+    "iOS/Swift/Concurrent/Operation/Operation Queue.md",
+    "iOS/Swift/Concurrent/Operation",
+    "iOS/Swift/Concurrent/Dispatch/Dispatch 문제.md",
     "iOS/RIBs 시작하기.md",
     "iOS/UIMenu 사용하기.md",
     "iOS/The RED 슈퍼앱 운영을 위한 확장성 높은 앱 아키텍처 구축/복잡한 플로우 만들기.md",
@@ -189,41 +223,18 @@
     "iOS/Swift/Concurrent/Resources/Pasted image 20250106204030.png",
     "iOS/Swift/Concurrent/Resources/Pasted image 20250106203621.png",
     "iOS/Swift/Concurrent/Resources/Pasted image 20250105235620.png",
-    "iOS/Swift/Concurrent/Resources/Pasted image 20250105235552.png",
-    "iOS/Swift/Concurrent/Resources/Pasted image 20250105235442.png",
-    "iOS/Swift/Concurrent/Resources/Pasted image 20241124165736.png",
-    "iOS/Swift/Concurrent/Resources/Pasted image 20241124165622.png",
     "iOS/Swift/Concurrent/Resources",
     "iOS/Swift/Concurrent/Lazy var 이슈.md",
     "iOS/Swift/Concurrent/Dispatch/DispatchGroup.md",
     "iOS/Swift/Concurrent/Dispatch/Dispatch, also known as Grand Central Dispatch (GCD).md",
-    "iOS/Swift/Concurrent/Dispatch/Dispatch 사용 시 주의해야할 사항.md",
-    "iOS/Swift/Concurrent/Dispatch/Dispatch Semaphore.md",
     "iOS/Swift/Concurrent/Dispatch",
-    "iOS/Tuist/XCConfig.md",
-    "iOS/Tuist/Tuist에서 Configuration 설정.md",
-    "iOS/Tuist/Tuist 훑어보기.md",
-    "iOS/Tuist/Tuist 시작하는 법.md",
-    "iOS/Tuist/Reference.md",
-    "iOS/Tuist/Project & Workspace.md",
-    "iOS/Tuist/Library, Framework, Package 비교.md",
-    "iOS/Tuist/App Extension 적용하기.md",
     "iOS/Tuist",
-    "iOS/Swift/동시성 프로그래밍/Dispatch/기본/헷갈리는 개념 다시 잡기.md",
-    "iOS/Swift/동시성 프로그래밍/Dispatch/기본/Dispatch 기본.md",
-    "iOS/Swift/동시성 프로그래밍/Dispatch/심화/DispatchGroup.md",
-    "iOS/Swift/동시성 프로그래밍/Dispatch/심화/Dispatch 옵션.md",
-    "iOS/Swift/동시성 프로그래밍/Operation/Operation.md",
     "iOS/Swift/동시성 프로그래밍/Dispatch/기본",
     "iOS/Swift/동시성 프로그래밍/Dispatch/심화",
     "iOS/Swift/동시성 프로그래밍/Operation",
     "iOS/Swift/동시성 프로그래밍/Dispatch",
     "iOS/Swift/동시성 프로그래밍",
-    "iOS/Swift/Concurrent/Pasted image 20241124165736.png",
-    "iOS/Swift/Concurrent/Pasted image 20241124165622.png",
     "iOS/Clean Architecture/Pokedex",
-    "iOS/Clean Architecture",
-    "iOS/WWDC/WWDC 23/Keep up with the Keyboard/Pasted image 20241108120630.png",
     "Computational Thinking/무제 파일.canvas"
   ]
 }
