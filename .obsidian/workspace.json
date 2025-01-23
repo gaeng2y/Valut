@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "iOS/Swift/Concurrent/Operation/오퍼레이션 프로젝트.md",
+                "file": "iOS/Swift/Concurrent/GCD, Operation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "오퍼레이션 프로젝트"
+              "title": "GCD, Operation"
             }
           }
         ],
@@ -204,13 +204,13 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "160736a19be9866b",
+  "active": "d7453f0426c168bf",
   "lastOpenFiles": [
+    "iOS/Swift/Concurrent/Operation/오퍼레이션 프로젝트.md",
     "iOS/StoreKit2/Pasted image 20250122161320.png",
     "iOS/StoreKit2/Pasted image 20250122161209.png",
     "TIL/2025-01-23.md",
     "iOS/Swift/Concurrent/Operation/오퍼레이션의 작업 취소.md",
-    "iOS/Swift/Concurrent/Operation/오퍼레이션 프로젝트.md",
     "iOS/Swift/Concurrent/Operation/Pasted image 20250121214425.png",
     "iOS/Swift/Concurrent/Operation/순서 관리 (종속성).md",
     "iOS/Swift/Concurrent/Operation/AsyncOperation.md",
@@ -244,7 +244,6 @@
     "iOS/Swift/Concurrent/Dispatch",
     "iOS/Swift/Concurrent/Lazy var 이슈.md",
     "iOS/Swift/Concurrent/Thread-safe한 코드의 구현과 방법.md",
-    "iOS/Swift/Concurrent/Resources/Pasted image 20241124165622.png",
     "iOS/Swift/Concurrent/Resources",
     "iOS/StoreKit2",
     "iOS/Tuist",
