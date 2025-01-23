@@ -16,7 +16,13 @@ Next를 눌러보면 아래와 같은 창이 나올텐데 이미지에서 체크
 ![](iOS/StoreKit2/Pasted%20image%2020250122161320.png)
 
 암튼 이렇게 추가해준다.
+## 판매 목록 가져오기
 
+```swift
+static func products<Identifiers>(for identifiers: Identifiers) async throws -> [Product] where Identifiers : Collection, Identifiers.Element == String
+```
+
+위 메소드를 이용해 인앱 아이템 목록을 가져와야한다.
 
 
 ---
