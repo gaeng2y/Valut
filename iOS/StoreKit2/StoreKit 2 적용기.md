@@ -24,6 +24,7 @@ static func products<Identifiers>(for identifiers: Identifiers) async throws -> 
 
 위 메소드를 이용해 인앱 아이템 목록을 가져와야한다.
 
+서버에서 기존 StoreKit1에서 사용하던 skuCode를 가져와서 `Product.products(for: [skuCode])`로 호출해서 가져오면 해당 [skuCode]에 해당하는 Product들을 가져올 수 있다.
 
 ---
 ## Reference
