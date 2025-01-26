@@ -39,14 +39,12 @@
             "id": "d7453f0426c168bf",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "iOS/Swift/Concurrent/GCD, Operation.md",
-                "mode": "source",
-                "source": false
+                "file": "iOS/Swift/Concurrent/Resources/Pasted image 20250121204135.png"
               },
-              "icon": "lucide-file",
-              "title": "GCD, Operation"
+              "icon": "lucide-image",
+              "title": "Pasted image 20250121204135"
             }
           }
         ],
@@ -204,14 +202,16 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "d7453f0426c168bf",
+  "active": "160736a19be9866b",
   "lastOpenFiles": [
+    "iOS/Swift/Concurrent/GCD, Operation.md",
+    "iOS/Swift/Concurrent/Operation/Resources",
     "iOS/Swift/Concurrent/Operation/오퍼레이션 프로젝트.md",
     "iOS/StoreKit2/Pasted image 20250122161320.png",
     "iOS/StoreKit2/Pasted image 20250122161209.png",
     "TIL/2025-01-23.md",
     "iOS/Swift/Concurrent/Operation/오퍼레이션의 작업 취소.md",
-    "iOS/Swift/Concurrent/Operation/Pasted image 20250121214425.png",
+    "iOS/Swift/Concurrent/Resources/Pasted image 20250121214425.png",
     "iOS/Swift/Concurrent/Operation/순서 관리 (종속성).md",
     "iOS/Swift/Concurrent/Operation/AsyncOperation.md",
     "conflict-files-obsidian-git.md",
@@ -225,8 +225,8 @@
     "iOS/WWDC/Resources/Protocol2.png",
     "iOS/WWDC/Resources/Protocol1.png",
     "iOS/WWDC/Resources",
-    "iOS/Swift/Concurrent/Operation/Pasted image 20250121204324.png",
-    "iOS/Swift/Concurrent/Operation/Pasted image 20250121204135.png",
+    "iOS/Swift/Concurrent/Resources/Pasted image 20250121204324.png",
+    "iOS/Swift/Concurrent/Resources/Pasted image 20250121204135.png",
     "iOS/Swift/Concurrent/Operation/BlockOperation.md",
     "iOS/Swift/Concurrent/Operation/Operation Queue.md",
     "iOS/Swift/Concurrent/Dispatch/Dispatch 문제.md",
@@ -238,7 +238,6 @@
     "iOS/앱과 비즈니스 로직.md",
     "iOS/UIMenu 사용하기.md",
     "iOS/RIBs 시작하기.md",
-    "iOS/Swift/Concurrent/GCD, Operation.md",
     "무제 파일.md",
     "iOS/Swift/Concurrent/동시성 관련 문제.md",
     "iOS/Swift/Concurrent/Dispatch",
@@ -250,7 +249,6 @@
     "iOS/Swift/Concurrent",
     "iOS/WWDC/WWDC 23/Keep up with the Keyboard",
     "iOS/Swift/XCTest",
-    "iOS/WWDC/WWDC 22/Embrace Swift generics/Resources",
     "Computational Thinking/무제 파일.canvas"
   ]
 }
