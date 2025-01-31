@@ -25,4 +25,43 @@ namespace header1 {
   int foo();
   void bar();
 }
+
+namespace header2 {
+  int foo();
+  void bar();
+}
+```
+
+위 코드에서 `header1`에 있는 `foo`는 `header1`라는 이름 공간에 살고 있는 `foo`가 되고, `header2`에 있는 `foo`의 경우 `header2`라는 이름 공간에 살고 있는 `foo`가 된다.
+
+```c++
+#include "header1.h"
+
+namespace header1 {
+  int func() {
+    foo(); // 알아서 header1::foo()가 실행된다.
+    header2::foo();
+  }
+} // namespace header1
+```
+
+```c++
+#include "header1.h"
+#include "header2.h"
+
+using header1::foo;
+int main() {
+  foo(); // header1에 있는 함수를 호출
+}
+```
+
+```c++
+#include "header1.h"
+#include "header2.h"
+
+using namespace header1;
+int main() {
+  foo(); // header1에 있는 함수를 호출
+  bar(); // header1에 있는 함수를 호출
+}
 ```
