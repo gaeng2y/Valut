@@ -19,3 +19,10 @@ std::cout
 
 ### 이름 공간 정의 방법
 header1.h, header2.h 파일이 있다 가정해보자.
+
+```c++
+namespace header1 {
+  int foo();
+  void bar();
+}
+```
