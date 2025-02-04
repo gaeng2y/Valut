@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "0e4da93cd9417d2f",
+        "id": "1cfd602ffc23b4c4",
         "type": "tabs",
         "children": [
           {
-            "id": "29b4b85f7b0d0d9f",
+            "id": "11dba88d28e5f020",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -176,11 +176,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "29b4b85f7b0d0d9f",
+  "active": "11dba88d28e5f020",
   "lastOpenFiles": [
     "iOS/Clean Architecture/iOS Clean Architecture & MVVM - RxSwift 완전 정복/Pasted image 20250204225726.png",
-    "iOS/Clean Architecture/iOS Clean Architecture & MVVM - RxSwift 완전 정복/MVVM에 대해.md",
     "iOS/Clean Architecture/iOS Clean Architecture & MVVM - RxSwift 완전 정복/클린 아키텍처는 왜 사용하는가?.md",
+    "iOS/Clean Architecture/iOS Clean Architecture & MVVM - RxSwift 완전 정복/MVVM에 대해.md",
     "iOS/Swift/메소드에서 -> 가 있는 기준.md",
     "iOS/Clean Architecture/Clean Architecture.md",
     "iOS/Clean Architecture/Understading Clean Architecture in iOS.md",
@@ -218,7 +218,6 @@
     "iOS/Swift/Concurrent/Resources/Pasted image 20250121214425.png",
     "iOS/WWDC/Resources/Protocol4.png",
     "iOS/WWDC/Resources/Protocol3.png",
-    "iOS/WWDC/Resources/Protocol2.png",
     "iOS/WWDC/Resources",
     "iOS/Swift/Concurrent/Operation",
     "iOS/Swift/Concurrent/Dispatch",
