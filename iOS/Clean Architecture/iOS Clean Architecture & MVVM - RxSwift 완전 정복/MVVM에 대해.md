@@ -18,3 +18,7 @@
 - Model에게 이벤트 전달
 - View와 관련된 로직
 - View 관련 상태
+
+**View -> ViewModel -> Model 의 의존관계**
+
+
