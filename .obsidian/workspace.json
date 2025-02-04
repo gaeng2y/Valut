@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "iOS/Swift/Concurrency/self 키워드.md",
+                "file": "iOS/Clean Architecture/iOS Clean Architecture & MVVM - RxSwift 완전 정복/MVVM에 대해.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "self 키워드"
+              "title": "MVVM에 대해"
             }
           }
         ]
@@ -178,6 +178,13 @@
   },
   "active": "29b4b85f7b0d0d9f",
   "lastOpenFiles": [
+    "iOS/Swift/메소드에서 -> 가 있는 기준.md",
+    "iOS/Clean Architecture/iOS Clean Architecture & MVVM - RxSwift 완전 정복/MVVM에 대해.md",
+    "iOS/Clean Architecture/Clean Architecture.md",
+    "iOS/Clean Architecture/Understading Clean Architecture in iOS.md",
+    "iOS/Clean Architecture/Clean Architecture with ReactorKit.md",
+    "iOS/Swift/Concurrency/self 키워드.md",
+    "iOS/Clean Architecture/iOS Clean Architecture & MVVM - RxSwift 완전 정복",
     "iOS/StoreKit2/Resources/Pasted image 20250203153358.png",
     "iOS/StoreKit2/Resources/Pasted image 20250122161320.png",
     "iOS/StoreKit2/Resources/Pasted image 20250122161209.png",
@@ -185,7 +192,6 @@
     "conflict-files-obsidian-git.md",
     "iOS/StoreKit2/Pasted image 20250122161320.png",
     "iOS/StoreKit2/Pasted image 20250122161209.png",
-    "iOS/Swift/Concurrency/self 키워드.md",
     "iOS/Swift/Concurrency/왜 동시성 프로그래밍이 필요한가.md",
     "iOS/Swift/Concurrency/번역본 자료.md",
     "iOS/Swift/Swift 컴파일 프로세스.md",
@@ -210,10 +216,6 @@
     "iOS/Swift/Concurrent/Resources/Pasted image 20250121214425.png",
     "iOS/Swift/Concurrent/Operation/순서 관리 (종속성).md",
     "iOS/Swift/Concurrent/Operation/AsyncOperation.md",
-    "iOS/WWDC/WWDC 16/Understanding Swift Performance/Reference Counting.md",
-    "iOS/WWDC/WWDC 16/Understanding Swift Performance/Protocol Types.md",
-    "iOS/WWDC/WWDC 16/Understanding Swift Performance/Method Dispatch.md",
-    "iOS/WWDC/WWDC 16/Understanding Swift Performance/Generic Code.md",
     "iOS/WWDC/Resources/Protocol4.png",
     "iOS/WWDC/Resources/Protocol3.png",
     "iOS/WWDC/Resources/Protocol2.png",
@@ -222,7 +224,6 @@
     "iOS/Swift/Concurrent/Dispatch",
     "iOS/Swift/Concurrent/Resources",
     "iOS/StoreKit2",
-    "iOS/Tuist",
     "Computational Thinking/무제 파일.canvas"
   ]
 }
