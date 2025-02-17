@@ -10,4 +10,19 @@
 # Misc
 - WWDC 23 - [Discover String Catalogs](iOS/WWDC/WWDC%2023/Discover%20String%20Catalogs/Discover%20String%20Catalogs.md)
 - WWDC 23 - [Keep up with the keyboard](iOS/WWDC/WWDC%2023/Keep%20up%20with%20the%20Keyboard/Keep%20up%20with%20the%20keyboard.md)
-- 
+## User Interface
+#### SwiftUI essentials
+- Human Interface Guidelines https://developer.apple.com/design/human-interface-guidelines/
+#### A guide to layout in SwiftUI
+- Use SwiftUI with UIKit (WWDC22) https://developer.apple.com/videos/play/wwdc2022/10072
+#### Data flow through SwiftUI, UIKit, and AppKit
+- Discover observation in SwiftUI (WWDC23) https://developer.apple.com/videos/play/wwdc2023/10149
+- Use SwiftUI with UIKit (WWDC22) https://developer.apple.com/videos/play/wwdc2022/10072
+- Data essentials in SwiftUI (WWDC20) https://developer.apple.com/videos/play/wwdc2020/10040
+#### Optimize SwiftUI performance
+- Demystify SwiftUI performance (WWDC23) https://developer.apple.com/videos/play/wwdc2023/10160
+#### Animate SwiftUI
+- Explore SwiftUI Animation (WWDC23) https://developer.apple.com/videos/play/wwdc2023/10156
+#### Design with SwiftUI
+- Create custom visual effects with SwiftUI (WWDC24) https://developer.apple.com/videos/play/wwdc2024/10151/
+- Design with SwiftUI (WWDC23) https://developer.apple.com/videos/play/wwdc2023/10115/
