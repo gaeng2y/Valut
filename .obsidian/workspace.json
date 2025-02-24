@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "iOS/WWDC/WWDC 세션.md",
+                "file": "iOS/Clean Architecture/iOS Clean Architecture & MVVM - RxSwift 완전 정복/클린 아키텍처는 왜 사용하는가?.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "WWDC 세션"
+              "title": "클린 아키텍처는 왜 사용하는가?"
+            }
+          },
+          {
+            "id": "dc37f010820c6ecb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "iOS/Noncopyable.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Noncopyable"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -175,17 +190,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "11dba88d28e5f020",
+  "active": "dc37f010820c6ecb",
   "lastOpenFiles": [
+    "iOS/코파일럿과 함께 레인드롭 오디오 신시사이저 만들기.md",
+    "iOS/Noncopyable.md",
     "iOS/UISheetPresentationController/Reference.md",
-    "iOS/UISheetPresentationController",
-    "iOS/WWDC/추천 WWDC.md",
-    "iOS/앱과 비즈니스 로직.md",
-    "iOS/WWDC/WWDC 세션.md",
-    "[Understanding Swift Performance.md",
-    "iOS/RIBs 시작하기.md",
-    "iOS/Swift Linking 비교.md",
     "iOS/Clean Architecture/iOS Clean Architecture & MVVM - RxSwift 완전 정복/클린 아키텍처는 왜 사용하는가?.md",
+    "iOS/UISheetPresentationController",
     "iOS/Clean Architecture/iOS Clean Architecture & MVVM - RxSwift 완전 정복/Pasted image 20250204225726.png",
     "iOS/Clean Architecture/iOS Clean Architecture & MVVM - RxSwift 완전 정복/MVVM에 대해.md",
     "iOS/Swift/메소드에서 -> 가 있는 기준.md",
@@ -207,13 +218,17 @@
     "C++/Namespace.md",
     "iOS/Swift/Concurrency",
     "iOS/WWDC/WWDC 23/Keep up with the Keyboard/Keep up with the keyboard.md",
+    "iOS/WWDC/WWDC 세션.md",
     "iOS/WWDC/WWDC 15/Protocol-Oriented Programming in Swift/Protocol and Value Oriented Programming in UIKit Apps/Protocol and Value Oriented Programming in UIKit Apps.md",
     "iOS/WWDC/WWDC 15/Protocol-Oriented Programming in Swift/Protocol-Oriented Programming in Swift.md",
     "iOS/WWDC/WWDC 16/Understanding Swift Performance/Understanding Swift Performance.md",
+    "[Understanding Swift Performance.md",
     "iOS/WWDC/WWDC 15/Building Better Apps with Value Types in Swift/Building Better Apps with Value Types in Swift.md",
     "iOS/Swift/Concurrent/Operation/오퍼레이션 문제.md",
     "iOS/Swift/Concurrent/Operation/오퍼레이션 프로젝트.md",
     "C++",
+    "iOS/Swift/Concurrent/Operation/오퍼레이션의 작업 취소.md",
+    "iOS/Swift/Concurrent/동시성 관련 문제.md",
     "iOS/Swift/Concurrent/Resources/Pasted image 20250121204135.png",
     "iOS/Swift/Concurrent/Operation/Resources",
     "iOS/Swift/Concurrent/Resources/Pasted image 20250121214425.png",

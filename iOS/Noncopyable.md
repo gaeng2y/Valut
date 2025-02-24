@@ -1,0 +1,1 @@
+https://nilcoalescing.com/blog/NoncopyableTypesInSwift/
