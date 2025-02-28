@@ -34,9 +34,21 @@
               "icon": "lucide-file",
               "title": "Noncopyable"
             }
+          },
+          {
+            "id": "0b9342bc022dc647",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.7"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -191,7 +203,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "dc37f010820c6ecb",
+  "active": "0b9342bc022dc647",
   "lastOpenFiles": [
     "iOS/코파일럿과 함께 레인드롭 오디오 신시사이저 만들기.md",
     "iOS/Noncopyable.md",
