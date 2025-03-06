@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "iOS/AVFoundation/AVFoundation 톺아보기.md",
+                "file": "iOS/AVFoundation/AVFoundation in Apple.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AVFoundation 톺아보기"
+              "title": "AVFoundation in Apple"
             }
           }
         ],
@@ -193,8 +193,9 @@
   },
   "active": "f4a75c4bd8759f15",
   "lastOpenFiles": [
-    "iOS/SwiftUI/N사 음성 메모 앱/SwiftUI의 Property Wrappers.md",
     "iOS/AVFoundation/AVFoundation 톺아보기.md",
+    "iOS/AVFoundation/AVFoundation in Apple.md",
+    "iOS/SwiftUI/N사 음성 메모 앱/SwiftUI의 Property Wrappers.md",
     "iOS/AVFoundation",
     "iOS/Swift/Misc/Error 관련 트러블 슈팅.md",
     "conflict-files-obsidian-git.md",
@@ -232,7 +233,6 @@
     "iOS/Swift/Swift 컴파일 프로세스.md",
     "C++/Namespace.md",
     "iOS/Swift/Concurrency",
-    "iOS/WWDC/WWDC 23/Keep up with the Keyboard/Keep up with the keyboard.md",
     "C++",
     "iOS/Swift/Concurrent/Resources/Pasted image 20250121204135.png",
     "iOS/Swift/Concurrent/Operation/Resources",
