@@ -58,3 +58,4 @@ Task {
 ---
 ## Reference
 - **WWDC21 Meet StoreKit 2**: https://developer.apple.com/videos/play/wwdc2021/10114/
+- 리버리 블로그 포스팅: https://rriver2.tistory.com/entry/%EC%9D%B8%EC%95%B1-%EA%B2%B0%EC%A0%9C%ED%95%98%EA%B8%B0-2
