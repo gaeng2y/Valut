@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "1cfd602ffc23b4c4",
+        "id": "65fe93c568f02716",
         "type": "tabs",
         "children": [
           {
-            "id": "11dba88d28e5f020",
+            "id": "fb1e22585550e7af",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "iOS/Swift/Concurrency/async await.md",
+                "file": "iOS/WWDC/WWDC 21/Explore structured concurrency in Swift/Explore structured concurrency in Swift.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "async await"
+              "title": "Explore structured concurrency in Swift"
             }
           }
         ]
@@ -176,40 +176,43 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "11dba88d28e5f020",
+  "active": "fb1e22585550e7af",
   "lastOpenFiles": [
+    "iOS/WWDC/WWDC 21/Explore structured concurrency in Swift/Pasted image 20250318120849.png",
+    "iOS/WWDC/WWDC 21/Explore structured concurrency in Swift/Pasted image 20250318120627.png",
+    "iOS/WWDC/WWDC 23/Discover String Catalogs/Discover String Catalogs.md",
+    "iOS/WWDC/WWDC 21/Explore structured concurrency in Swift/Explore structured concurrency in Swift.md",
+    "iOS/WWDC/WWDC 21/Explore structured concurrency in Swift",
     "iOS/StoreKit2/앱 시작 시에 끝나지 않은 결제에 대해 처리.md",
+    "iOS/WWDC/WWDC 21",
     "iOS/Swift/Concurrency/GCD vs Concurrency.md",
     "iOS/Swift/Concurrency/async await.md",
-    "iOS/Swift/Concurrency/self 키워드.md",
     "iOS/Swift/Concurrency/Task.md",
-    "iOS/Swift/Concurrency/번역본 자료.md",
-    "iOS/SwiftUI/N사 음성 메모 앱/SwiftUI란?.md",
-    "iOS/AVFoundation/AVFoundation in Apple.md",
-    "conflict-files-obsidian-git.md",
-    "iOS/AVFoundation/AVFoundation 톺아보기.md",
-    "iOS/SwiftUI/N사 음성 메모 앱/SwiftUI의 Property Wrappers.md",
-    "iOS/AVFoundation",
+    "iOS/StoreKit2/StoreKit 2 적용기.md",
+    "iOS/StoreKit2/In app purchase in HIG.md",
+    "iOS/UISheetPresentationController/Reference.md",
     "iOS/Swift/Misc/Error 관련 트러블 슈팅.md",
+    "iOS/AVFoundation/AVFoundation 톺아보기.md",
+    "iOS/AVFoundation/AVFoundation in Apple.md",
+    "iOS/AVFoundation",
+    "iOS/Clean Architecture/iOS Clean Architecture & MVVM - RxSwift 완전 정복/클린 아키텍처는 왜 사용하는가?.md",
+    "iOS/WWDC/WWDC 19/Modern Swift API Design",
+    "iOS/WWDC/WWDC 19",
+    "iOS/Noncopyable.md",
+    "conflict-files-obsidian-git.md",
+    "iOS/SwiftUI/N사 음성 메모 앱/SwiftUI의 Property Wrappers.md",
+    "iOS/SwiftUI/N사 음성 메모 앱/SwiftUI란?.md",
     "iOS/SwiftUI/N사 음성 메모 앱/Pasted image 20250225203111.png",
-    "iOS/SwiftUI/N사 음성 메모 앱/Pasted image 20250225202631.png",
-    "iOS/WWDC/WWDC 세션.md",
     "iOS/SwiftUI/N사 음성 메모 앱",
     "iOS/코파일럿과 함께 레인드롭 오디오 신시사이저 만들기.md",
-    "iOS/Noncopyable.md",
-    "iOS/UISheetPresentationController/Reference.md",
     "iOS/UISheetPresentationController",
-    "iOS/WWDC/추천 WWDC.md",
-    "iOS/앱과 비즈니스 로직.md",
-    "[Understanding Swift Performance.md",
-    "iOS/RIBs 시작하기.md",
-    "iOS/Swift Linking 비교.md",
-    "iOS/Clean Architecture/iOS Clean Architecture & MVVM - RxSwift 완전 정복/클린 아키텍처는 왜 사용하는가?.md",
     "iOS/Clean Architecture/iOS Clean Architecture & MVVM - RxSwift 완전 정복/Pasted image 20250204225726.png",
     "iOS/Clean Architecture/iOS Clean Architecture & MVVM - RxSwift 완전 정복/MVVM에 대해.md",
     "iOS/Swift/메소드에서 -> 가 있는 기준.md",
     "iOS/Clean Architecture/Clean Architecture.md",
     "iOS/Clean Architecture/Understading Clean Architecture in iOS.md",
+    "iOS/Clean Architecture/Clean Architecture with ReactorKit.md",
+    "iOS/Swift/Concurrency/self 키워드.md",
     "iOS/Clean Architecture/iOS Clean Architecture & MVVM - RxSwift 완전 정복",
     "iOS/StoreKit2/Resources/Pasted image 20250203153358.png",
     "iOS/StoreKit2/Resources/Pasted image 20250122161320.png",
@@ -217,13 +220,10 @@
     "iOS/StoreKit2/Resources",
     "iOS/StoreKit2/Pasted image 20250122161320.png",
     "iOS/StoreKit2/Pasted image 20250122161209.png",
+    "iOS/Swift/Concurrency/왜 동시성 프로그래밍이 필요한가.md",
     "iOS/Swift/Concurrency",
-    "C++",
     "iOS/Swift/Concurrent/Resources/Pasted image 20250121204135.png",
-    "iOS/Swift/Concurrent/Operation/Resources",
     "iOS/Swift/Concurrent/Resources/Pasted image 20250121214425.png",
-    "iOS/WWDC/Resources",
-    "iOS/Swift/Concurrent/Operation",
     "Computational Thinking/무제 파일.canvas"
   ]
 }
