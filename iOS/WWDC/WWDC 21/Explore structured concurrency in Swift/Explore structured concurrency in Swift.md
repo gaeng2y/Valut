@@ -138,3 +138,9 @@ func fetchOneThumbnail(withID id: String) async throws -> UIImage {
 
 예를 들어, 위 코드에서 metadata를 먼저 await를 하고 imageData를 await 한다. 만약, metadata 작업이 에러를 던지며 종료되면, fetchOneThumbnail 메소드는 오류를 던지며 종료돼야 한다. 하지만 두 번째 다운로드 작업을 수행하는 작업은 어떻게 될까? 비정상 종료가 발생하면 Swift는 완료되지 않은 작업을 자동으로 취소하고, 함수가 종료되기 전에 해당 작업이 끝날 때까지 기다린다.
 
+Task를 취소한다고 해서 그 작업이 즉시 중단되는 것은 아니다. 취소는 단지 해당 Task에게 **결과가 더 이상 필요 없다**라고 알리는 것이다. 실제로 작업이 취소되면, 그 작업의 **모든 하위 작업**도 자동으로 취소된다.
+
+![](iOS/WWDC/WWDC%2021/Explore%20structured%20concurrency%20in%20Swift/Pasted%20image%2020250318151451.png)
+
+그래서 만약 URLSession의 구현이 이미지를 다운로드하기 위해 자체적으로 구조화된 작업들을 생성했다면, 그 작업들은 취소로 표시될 것이다.
+
