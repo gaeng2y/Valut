@@ -131,3 +131,10 @@ func fetchOneThumbnail(withID id: String) async throws -> UIImage {
     return Image
 }
 ```
+
+![](iOS/WWDC/WWDC%2021/Explore%20structured%20concurrency%20in%20Swift/Pasted%20image%2020250318150239.png)
+
+부모 Task는 자식 Task들이 모두 끝나야 끝낼 수 있다. 이 규칙은 비정상적인 제어 흐름으로 인해 자식 작업이 await 되지 못하더라도 여전히 유효하다. 
+
+예를 들어, 위 코드에서 metadata를 먼저 await를 하고 imageData를 await 한다. 만약, metadata 작업이 에러를 던지며 종료되면, fetchOneThumbnail 메소드는 오류를 던지며 종료돼야 한다. 하지만 두 번째 다운로드 작업을 수행하는 작업은 어떻게 될까? 비정상 종료가 발생하면 Swift는 완료되지 않은 작업을 자동으로 취소하고, 함수가 종료되기 전에 해당 작업이 끝날 때까지 기다린다.
+
