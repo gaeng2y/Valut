@@ -93,7 +93,7 @@ async let result = URLSession.shared.data(...)
 
 첫 번째 화살표는 자식 작업을 위한 것이며, 이 자식 작업은 즉시 데이터를 다운로드하기 시작한다. 두 번째 화살표는 부모 작업을 위한 것으로, 부모 작업은 즉시 변수 result를 자리 표시자 값에 바인딩한다.
 
-![](iOS/WWDC/WWDC%2021/Explore%20structured%20concurrency%20in%20Swift/Resources/Pasted%20image%2020250318120627.png)
+![](https://github.com/gaeng2y/Valut/blob/main/iOS/WWDC/WWDC%2021/Explore%20structured%20concurrency%20in%20Swift/Resources/Pasted%20image%2020250318120627.png?raw=true)
 
 하지만 `result` 의 실제 값이 필요한 표현식에 도달하면, 부모 작업은 자식 작업의 완료를 기다리게 된다. 
 
