@@ -145,3 +145,177 @@ Task를 취소한다고 해서 그 작업이 즉시 중단되는 것은 아니�
 그래서 만약 URLSession의 구현이 이미지를 다운로드하기 위해 자체적으로 구조화된 작업들을 생성했다면, 그 작업들은 취소로 표시될 것이다.
 
 함수 `fetchOneThumbnail` 은 자신이 직접 또는 간접적으로 생성한 모든 구조화된 작업들이 완료된 후, 오류를 던지며 종료된다. 이 보장은 구조화된 동시성에서 매우 중요한 원칙이다.
+
+이것은 작업들의 생애 주기를 관리하는 데 도움을 주어, 메모리의 생애 주기를 자동으로 관리하는 ARC와 마찬가지로 실수로 작업이 유출되는 것을 방지한다.
+### Cancellation is cooperative
+![](iOS/WWDC/WWDC%2021/Explore%20structured%20concurrency%20in%20Swift/Pasted%20image%2020250319105255.png)
+코드는 취소를 명시적으로 확인하고 적절한 방법으로 실행을 종료해야 한다. 현재 작업의 취소 상태는 비동기 함수이든 아니든 모든 함수에서 확인할 수 있다. 이는 특히 긴 시간 동안 실행되는 계산을 포함하는 경우, 취소를 염두에 두고 API를 구현해야 한다는 의미다.
+
+다시 모든 썸네일을 가져오는 코드로 돌아와서
+
+```swift
+func fetchThumbnails(for ids: [String]) async throws -> [String: UIImage] {
+    var thumbnails: [String: UIImage] = [:]
+    for id in ids {
+        try Task.checkCancellation()
+        thumbnails[id] = try await fetchOneThumbnail(withID: id)
+    }
+    return thumbnails
+}
+
+func fetchThumbnails(for ids: [String]) async throws -> [String: UIImage] {
+    var thumbnails: [String: UIImage] = [:]
+    for id in ids {
+        if Task.isCancelled { break }
+        thumbnails[id] = try await fetchOneThumbnail(withID: id)
+    }
+    return thumbnails
+}
+```
+
+만약 이 함수가 취소된 작업 내에서 호출되었다면, 불필요한 썸네일을 생성하여 애플리케이션을 지연시키고 싶지 않다. 따라서 각 반복(iteration)의 시작 부분에 [checkCancellation()](https://developer.apple.com/documentation/swift/task/checkcancellation()) 호출을 추가하면 된다. 이 호출은 현재 작업이 취소된 경우에만 오류를 던진다. 또한, 코드에 더 적합하다면 현재 Task의 [isCancelled](https://developer.apple.com/documentation/swift/task/iscancelled-swift.type.property)를 불리언 값으로 얻을 수도 있다.
+
+`if Task.isCancelled { break }` 를 사용한 함수에서는 일부 요청된 썸네일만 포함된 사전(딕셔너리)을 반환하여 부분적인 결과를 반환하고 있다는 점에 유의해야한다. 이렇게 할 때는 API가 부분적인 결과가 반환될 수 있음을 명확하게 설명해야 한다. 그렇지 않으면 작업 취소가 사용자에게 치명적인 오류를 일으킬 수 있다. 왜냐하면 취소 중에도 코드가 완전한 결과를 요구하기 때문이다.
+## Group tasks
+모든 구조적 동시성의 좋은 속성을 포기하지 않으면서 async-let보다 더 많은 유연성을 제공한다. 앞서 보았듯이, async-let은 사용 가능한 동시성의 양이 고정되어 있을 때 잘 작동한다. 이제 제가 앞서 설명한 두 가지 함수에 대해 살펴보자.
+
+```swift
+func fetchThumbnails(for ids: [String]) async throws -> [String: UIImage] {
+    var thumbnails: [String: UIImage] = [:]
+    for id in ids {
+        thumbnails[id] = try await fetchOneThumbnail(withID: id)
+    }
+    return thumbnails
+}
+
+func fetchOneThumbnail(withID id: String) async throws -> UIImage {
+    // ...
+
+    async let (data, _) = URLSession.shared.data(for: imageReq)
+    async let (metadata, _) = URLSession.shared.data(for: metadataReq)
+
+    // ...
+}
+```
+
+루프에서 각 썸네일 ID에 대해 `fetchOneThumbnail`을 호출하여 처리하는데, 이 함수는 정확히 두 개의 자식 작업을 생성한다. 만약 이 함수의 본문을 이 루프에 인라인으로 작성하더라도 동시성의 양은 변하지 않는다. async-let은 변수 바인딩처럼 범위가 제한된다. 
+
+즉, 두 개의 자식 작업은 다음 루프 반복이 시작되기 전에 완료되어야 한다. 하지만 만약 이 루프가 모든 썸네일을 동시에 가져오는 작업을 시작하도록 만들고 싶다면 어떻게 될까? 그러면 동시성의 양은 정적으로 알 수 없다. 왜냐하면 그것은 배열에 있는 ID의 수에 따라 달라지기 때문이다.
+
+이럴 때 적절한 도구가 TaskGroup이다. 작업 그룹(task group)은 동적 동시성 양을 제공하도록 설계된 구조적 동시성의 한 형태다. `withThrowingTaskGroup` 함수를 호출하여 작업 그룹을 도입할 수 있다.
+
+```swift
+func fetchThumbnails(for ids: [String]) async throws -> [String: UIImage] {
+    var thumbnails: [String: UIImage] = [:]
+    try await withThrowingTaskGroup(of: Void.self) { group in
+        for id in ids {
+            group.async {
+                // Error: Mutation of captured var 'thumbnails' in concurrently executing code
+                thumbnails[id] = try await fetchOneThumbnail(withID: id)
+            }
+        }
+    }
+    return thumbnails
+}
+```
+
+이 함수는 오류를 던질 수 있는 자식 작업을 생성할 수 있는 범위가 제한된 그룹 객체를 제공한다. 그룹에 추가된 작업은 그룹이 정의된 블록의 범위를 벗어나지 못한다. 전체 for-loop을 블록 안에 배치했기 때문에 이제 그룹을 사용하여 동적 수의 작업을 생성할 수 있다. 그룹 내에서 자식 작업을 생성하려면 해당 그룹의 async 메서드를 호출하면 된다.
+
+그룹에 추가되면 자식 작업은 즉시 실행되며, 순서는 상관없다. 그룹 객체가 범위를 벗어나면, 그 안의 모든 작업이 완료될 때까지 암묵적으로 기다리게 된다. 이는 앞서 설명한 작업 트리 규칙의 결과로, 그룹 작업도 구조화되어 있기 때문이다.
+
+이 시점에서 우리는 이미 원하는 동시성을 달성했다. 즉, `fetchOneThumbnail`을 호출할 때마다 하나의 작업이 생성되고, 그 자체로 async-let을 사용하여 두 개의 자식 작업을 생성하게 된다. 이것은 구조적 동시성의 또 다른 좋은 속성이다. async-let을 그룹 작업 내에서 사용할 수 있고, 그룹 작업을 async-let 작업 내에서 생성할 수도 있다. 이렇게 하면 트리 구조 내의 동시성 수준이 자연스럽게 결합된다.
+
+![](iOS/WWDC/WWDC%2021/Explore%20structured%20concurrency%20in%20Swift/Pasted%20image%2020250319110938.png)
+
+만약 이를 실행하려고 시도한다면, 컴파일러가 데이터 경합 문제를 경고해 줄 것이다. 문제는 각 자식 작업에서 단일 딕셔너리에 썸네일을 삽입하려고 한다는 점이다. 이는 프로그램에서 동시성의 양을 증가시킬 때 흔히 발생하는 실수다. 데이터 경합(data race)이 우연히 발생하게 된다.
+
+![](iOS/WWDC/WWDC%2021/Explore%20structured%20concurrency%20in%20Swift/Pasted%20image%2020250319111212.png)
+
+새로운 작업을 생성할 때마다, 작업이 수행하는 작업은 `@Sendable` 클로저라는 새로운 클로저 유형 내에서 실행된다. `@Sendable` 클로저의 본문은 그 범위 내에서 변경 가능한 변수들을 캡처하는 것을 제한한다. 이는 해당 변수들이 작업이 실행된 후에 수정될 수 있기 때문이다. 따라서 작업 내에서 캡처하는 값들은 안전하게 공유될 수 있어야 한다. 예를 들어, `Int`나 `String`처럼 값 타입이거나, 여러 스레드에서 접근할 수 있도록 설계된 객체들(예: 액터(actor)와 자체 동기화를 구현한 클래스들)이어야 한다.
+
+우리 예제에서 데이터 경합을 피하려면, 각 자식 작업이 값을 반환하도록 할 수 있다. 이 디자인은 부모 작업이 결과를 처리하는 유일한 책임을 가지게 만든다.
+
+```swift
+func fetchThumbnails(for ids: [String]) async throws -> [String: UIImage] {
+    var thumbnails: [String: UIImage] = [:]
+    try await withThrowingTaskGroup(of: (String, UIImage).self) { group in
+        for id in ids {
+            group.async {
+                return (id, try await fetchOneThumbnail(withID: id))
+            }
+        }
+        // Obtain results from the child tasks, sequentially, in order of completion.
+        for try await (id, thumbnail) in group {
+            thumbnails[id] = thumbnail
+        }
+    }
+    return thumbnails
+}
+```
+
+이 디자인은 부모 작업이 결과를 처리하는 유일한 책임을 가지게 만든다. 이 경우, 각 자식 작업이 `String` ID와 썸네일을 위한 `UIImage`를 포함하는 튜플을 반환해야 한다고 지정했다. 그런 다음, 각 자식 작업 내에서 사전에 직접 쓰는 대신, 부모가 처리할 수 있도록 키-값 튜플을 반환하게 했다. 
+
+부모 작업은 새로운 `for-await` 루프를 사용하여 각 자식 작업에서 결과를 순차적으로 처리할 수 있다. `for-await` 루프는 자식 작업이 완료되는 순서대로 결과를 얻는다. 이 루프는 순차적으로 실행되기 때문에, 부모 작업은 각 키-값 쌍을 안전하게 사전에 추가할 수 있다.
+
+작업 그룹(task groups)은 구조적 동시성의 한 형태이지만, 작업 트리 규칙이 그룹 작업과 async-let 작업에 대해 구현되는 방식에는 작은 차이가 있다.
+
+![](iOS/WWDC/WWDC%2021/Explore%20structured%20concurrency%20in%20Swift/Pasted%20image%2020250319112035.png)
+
+이 그룹의 결과를 반복하는 중에, 오류가 발생한 자식 작업을 만났다고 가정해 보자. 그 오류가 그룹 블록에서 던져지면, 그룹 내의 모든 작업은 암묵적으로 취소되고, 이후에는 모두 기다려야 한다. 이것은 async-let과 똑같이 작동한다.
+
+차이점은 그룹이 블록에서 정상적으로 종료되어 범위를 벗어날 때 발생한다. 이 경우, 취소는 암묵적이지 않다. 이 동작은 작업 그룹을 사용하여 fork-join 패턴을 표현하기 쉽게 만든다. 왜냐하면 작업들이 취소되지 않고 대기만 하기 때문이다. 또한, 블록을 종료하기 전에 그룹의 `cancelAll` 메서드를 사용하여 모든 작업을 수동으로 취소할 수도 있다.
+## Unstructured tasks
+Swift는 또한 비구조적 작업(unstructured task) API를 제공하는데, 이는 훨씬 더 많은 유연성을 제공하지만, 그만큼 더 많은 수동 관리가 필요하다. 
+
+작업이 명확한 계층 구조에 속하지 않는 상황이 많이 존재하는데, 가장 명백한 예로, 비동기 코드가 아닌 코드에서 비동기 계산을 수행하기 위해 작업을 시작하려는 경우, 부모 작업이 전혀 없을 수 있다. 
+
+또는 작업의 생애 주기가 하나의 범위나 하나의 함수에만 국한되지 않는 경우가 있을 수 있다. 예를 들어, 객체를 활성 상태로 만드는 메서드 호출에 반응하여 작업을 시작하고, 객체를 비활성화하는 다른 메서드 호출에 반응하여 작업을 취소하고 싶을 수 있다.
+
+![](iOS/WWDC/WWDC%2021/Explore%20structured%20concurrency%20in%20Swift/Pasted%20image%2020250319112600.png)
+
+가령, 우리가 컬렉션 뷰(collection view)가 있고, 아직 컬렉션 뷰 데이터 소스 API를 사용할 수 없다고 가정해 보자. 대신, 방금 작성한 fetchThumbnails 함수를 사용하여 컬렉션 뷰의 항목들이 표시될 때 네트워크에서 썸네일을 가져오고 싶다. 하지만, 델리게이트 메서드는 비동기적이지 않기 때문에, async 함수에 대한 호출을 await할 수 없다.
+
+```swift
+@MainActor
+class MyDelegate: UICollectionViewDelegate {
+    func collectionView(_ view: UICollectionView, willDisplay cell: UICollectionViewCell, forItemAt item: IndexPath) {
+        let ids = getThumbnailIDs(for: item)
+        // Error: 'await' in a function that does not support concurrency
+        let thumbnails = await fetchThumbnails(for: ids)
+        display(thumbnails, in: cell)
+    }
+}
+```
+
+이 경우, 비구조적 작업(unstructured task)을 사용하면 작업의 생애 주기를 단일 델리게이트 메서드의 범위에 묶지 않고, **메인 액터(main actor)** 에서 UI 우선 순위를 유지하면서 작업을 실행할 수 있다. Swift에서는 Task를 사용하여 비구조적 작업을 생성할 수 있으며, 이 작업은 부모 작업과 독립적인 생애 주기를 가질 수 있다.
+
+```swift
+@MainActor
+class MyDelegate: UICollectionViewDelegate {
+    func collectionView(_ view: UICollectionView, willDisplay cell: UICollectionViewCell, forItemAt item: IndexPath) {
+        let ids = getThumbnailIDs(for: item)
+        Task {
+            let thumbnails = await fetchThumbnails(for: ids)
+            display(thumbnails, in: cell)
+        }
+    }
+}
+```
+
+이제 실행 시간에서 어떤 일이 일어나는지 살펴보자.
+
+![](iOS/WWDC/WWDC%2021/Explore%20structured%20concurrency%20in%20Swift/Pasted%20image%2020250319113155.png)
+
+우리가 작업을 생성하는 시점에, Swift는 해당 작업을 원래의 범위와 같은 액터에서 실행되도록 예약한다. 
+
+이 경우, 그 액터는 메인 액터입니다. 그동안 제어는 즉시 호출자에게 반환된다. 썸네일 작업은 메인 스레드에서 실행되며, 이 작업은 델리게이트 메서드에서 메인 스레드를 즉시 차단하지 않고 실행될 수 있는 여유가 있을 때 수행된다. 이렇게 작업을 생성하는 방식은 구조적 코드와 비구조적 코드 사이의 중간 지점을 제공한다.
+
+![](iOS/WWDC/WWDC%2021/Explore%20structured%20concurrency%20in%20Swift/Pasted%20image%2020250319113431.png)
+
+직접 생성된 작업은 여전히 실행된 컨텍스트의 액터(있다면)를 상속받는다. 또한 우선 순위나 다른 속성들도 원본 작업과 동일하게 상속된다. 이는 그룹 작업이나 async-let이 작업을 생성할 때와 마찬가지다.
+
+하지만 새로운 작업은 **비구조적(unscoped)** 이다. 즉, 그 작업의 생애 주기는 작업이 생성된 범위에 묶이지 않으며, 원본 작업이 비동기적이지 않아도 새로운 작업을 생성할 수 있다. 
+
+대신, 이 모든 유연성을 제공하는 대신, 비구조적 작업은 구조적 동시성이 자동으로 처리하는 것들을 우리가 직접 관리해야 한다. 예를 들어, **취소(Cancellation)** 와 **오류 처리(Errors)** 는 자동으로 전파되지 않으며, 작업의 결과는 **명시적으로 대기(await)** 하지 않으면 자동으로 기다리지 않는다.
+
+

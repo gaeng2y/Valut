@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "iOS/StoreKit2/StoreKit2 Transaction Tracking.md",
+                "file": "iOS/WWDC/WWDC 21/Explore structured concurrency in Swift/Explore structured concurrency in Swift.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "StoreKit2 Transaction Tracking"
+              "title": "Explore structured concurrency in Swift"
             }
           }
         ]
@@ -178,16 +178,21 @@
   },
   "active": "fb1e22585550e7af",
   "lastOpenFiles": [
-    "iOS/StoreKit2/앱 시작 시에 끝나지 않은 결제에 대해 처리.md",
-    "iOS/StoreKit2/StoreKit2 Transaction Tracking.md",
+    "iOS/WWDC/WWDC 21/Explore structured concurrency in Swift/Pasted image 20250319113431.png",
+    "iOS/WWDC/WWDC 21/Explore structured concurrency in Swift/Pasted image 20250319113155.png",
+    "iOS/WWDC/WWDC 21/Explore structured concurrency in Swift/Pasted image 20250319112600.png",
+    "iOS/WWDC/WWDC 21/Explore structured concurrency in Swift/Pasted image 20250319112035.png",
+    "iOS/WWDC/WWDC 21/Explore structured concurrency in Swift/Pasted image 20250319111212.png",
+    "iOS/WWDC/WWDC 21/Explore structured concurrency in Swift/Pasted image 20250319110938.png",
     "iOS/WWDC/WWDC 21/Explore structured concurrency in Swift/Explore structured concurrency in Swift.md",
+    "iOS/WWDC/WWDC 21/Explore structured concurrency in Swift/Pasted image 20250319105255.png",
+    "iOS/StoreKit2/StoreKit2 Transaction Tracking.md",
+    "iOS/StoreKit2/앱 시작 시에 끝나지 않은 결제에 대해 처리.md",
     "iOS/WWDC/WWDC 21/Explore structured concurrency in Swift/Pasted image 20250318120627.png",
     "iOS/WWDC/WWDC 21/Explore structured concurrency in Swift/Pasted image 20250318151451.png",
     "iOS/WWDC/WWDC 21/Explore structured concurrency in Swift/Pasted image 20250318150239.png",
     "iOS/WWDC/WWDC 21/Explore structured concurrency in Swift/Pasted image 20250318150156.png",
-    "iOS/WWDC/WWDC 21/Explore structured concurrency in Swift/Pasted image 20250318150151.png",
     "iOS/StoreKit2/StoreKit 2 적용기.md",
-    "iOS/WWDC/WWDC 21/Explore structured concurrency in Swift/Pasted image 20250318120849.png",
     "iOS/WWDC/WWDC 23/Discover String Catalogs/Discover String Catalogs.md",
     "iOS/WWDC/WWDC 21/Explore structured concurrency in Swift",
     "iOS/WWDC/WWDC 21",
@@ -207,11 +212,9 @@
     "conflict-files-obsidian-git.md",
     "iOS/SwiftUI/N사 음성 메모 앱/SwiftUI의 Property Wrappers.md",
     "iOS/SwiftUI/N사 음성 메모 앱/SwiftUI란?.md",
-    "iOS/SwiftUI/N사 음성 메모 앱/Pasted image 20250225203111.png",
     "iOS/SwiftUI/N사 음성 메모 앱",
     "iOS/코파일럿과 함께 레인드롭 오디오 신시사이저 만들기.md",
     "iOS/UISheetPresentationController",
-    "iOS/Clean Architecture/iOS Clean Architecture & MVVM - RxSwift 완전 정복/Pasted image 20250204225726.png",
     "iOS/Clean Architecture/iOS Clean Architecture & MVVM - RxSwift 완전 정복/MVVM에 대해.md",
     "iOS/Swift/메소드에서 -> 가 있는 기준.md",
     "iOS/Clean Architecture/Clean Architecture.md",
@@ -219,10 +222,7 @@
     "iOS/Clean Architecture/Clean Architecture with ReactorKit.md",
     "iOS/Swift/Concurrency/self 키워드.md",
     "iOS/Clean Architecture/iOS Clean Architecture & MVVM - RxSwift 완전 정복",
-    "iOS/StoreKit2/Resources/Pasted image 20250203153358.png",
-    "iOS/StoreKit2/Resources/Pasted image 20250122161320.png",
     "iOS/StoreKit2/Resources",
-    "iOS/Swift/Concurrency/왜 동시성 프로그래밍이 필요한가.md",
     "iOS/Swift/Concurrency",
     "Computational Thinking/무제 파일.canvas"
   ]
