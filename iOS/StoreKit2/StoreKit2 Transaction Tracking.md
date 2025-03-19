@@ -22,7 +22,7 @@ Task {
 var transactionListener: Task<Void, Error>?
 
 func setupTransactionListener() {
-    transactionListener = Task(priority: .background) {
+    transactionListener = Task.detached {
         for await update in Transaction.updates {
             do {
                 let transaction = try await update.payloadValue
@@ -49,6 +49,7 @@ deinit {
 }
 ```
 
+---
 ## 부록: 내가 궁금해서 찾아보는 Transaction의 static 프로퍼티들
 StoreKit2의 Transaction 타입에 있는 네 가지 정적 프로퍼티는 각각 다른 목적으로 사용되는 트랜잭션 시퀀스를 제공합니다.
 
