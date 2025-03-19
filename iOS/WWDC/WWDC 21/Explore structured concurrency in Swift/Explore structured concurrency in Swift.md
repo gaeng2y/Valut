@@ -318,4 +318,61 @@ class MyDelegate: UICollectionViewDelegate {
 
 대신, 이 모든 유연성을 제공하는 대신, 비구조적 작업은 구조적 동시성이 자동으로 처리하는 것들을 우리가 직접 관리해야 한다. 예를 들어, **취소(Cancellation)** 와 **오류 처리(Errors)** 는 자동으로 전파되지 않으며, 작업의 결과는 **명시적으로 대기(await)** 하지 않으면 자동으로 기다리지 않는다.
 
+우리는 컬렉션 뷰 아이템이 표시될 때 썸네일을 가져오는 작업을 시작했다. 이제 썸네일이 준비되기 전에 아이템이 뷰에서 스크롤 아웃되면 그 작업을 취소해야 한다. 비구조적 작업을 사용하고 있기 때문에 그 취소는 자동으로 이루어지지 않는다.
 
+```swift
+@MainActor
+class MyDelegate: UICollectionViewDelegate {
+    var thumbnailTasks: [IndexPath: Task<Void, Never>] = [:]
+    
+    func collectionView(_ view: UICollectionView, willDisplay cell: UICollectionViewCell, forItemAt item: IndexPath) {
+        let ids = getThumbnailIDs(for: item)
+        thumbnailTasks[item] = Task {
+            defer { thumbnailTasks[item] = nil }
+            let thumbnails = await fetchThumbnails(for: ids)
+            display(thumbnails, in: cell)
+        }
+    }
+    
+    func collectionView(_ view: UICollectionView, didEndDisplay cell: UICollectionViewCell, forItemAt item: IndexPath) {
+        thumbnailTasks[item]?.cancel()
+    }
+}
+```
+
+우리는 비구조적(unscoped) 작업을 사용하고 있기 때문에, 작업 취소는 자동으로 이루어지지 않는다. 
+
+이제 이를 구현해봅시다. 작업을 생성한 후, 얻은 값을 저장해두겠다. 이 값을 딕셔너리에 행 인덱스를 키로 하여 넣어두면, 나중에 그 작업을 취소할 때 사용할 수 있다. 작업이 완료되면, 딕셔너리에서 해당 작업을 제거해야 한다. 그렇지 않으면 이미 완료된 작업을 취소하려고 시도할 수 있기 때문이다. 
+
+또한, 중요한 점은 이 딕셔너리를 **비동기 작업 안팎에서 안전하게 접근**할 수 있다는 것이다. 컴파일러에서 데이터 레이스를 경고하지 않는다.
+
+우리의 델리게이트 클래스는 메인 액터에 바인딩되어 있으며, 새로 생성된 작업은 그 액터를 상속받기 때문에 둘이 병렬로 실행되지 않는다. 우리는 이 작업 안에서 메인 액터에 바인딩된 클래스의 저장된 속성에 접근할 때 데이터 레이스에 대한 걱정 없이 안전하게 접근할 수 있다. 한편, 나중에 델리게이트가 같은 테이블 행이 화면에서 제거되었다는 정보를 받으면, 값에 대해 cancel 메서드를 호출하여 작업을 취소할 수 있다.
+
+이제 우리는 범위와 독립적으로 실행되는 비구조적 작업을 어떻게 생성할 수 있는지 살펴보았다. 이 작업은 여전히 해당 작업의 원래 컨텍스트에서 특성을 상속받는다. 그러나 때때로 원래의 컨텍스트에서 아무것도 상속받고 싶지 않을 때가 있다.
+## Detached tasks
+![](iOS/WWDC/WWDC%2021/Explore%20structured%20concurrency%20in%20Swift/Pasted%20image%2020250319115742.png)
+
+최대한 유연성을 제공하기 위해, Swift는 분리된(detached) 작업을 제공한다. 이름에서 알 수 있듯이, 분리된 작업은 원래의 컨텍스트와 독립적이다. 이 작업은 여전히 비구조적 작업이며, 원래 범위에 의해 수명이 제한되지 않습니다. 그러나 분리된 작업은 원래의 범위에서 아무 것도 상속하지 않는다. 
+
+기본적으로 동일한 액터에 의해 제약을 받지 않으며, 시작된 위치와 동일한 우선순위에서 실행될 필요도 없다. 분리된 작업은 기본적으로 우선순위와 같은 것들에 대해 일반적인 기본값으로 실행되지만, 새로운 작업이 어떻게 실행될지, 어디서 실행될지를 제어할 수 있는 선택적인 매개변수들을 사용하여 시작할 수도 있다.
+
+서버에서 썸네일을 가져온 후, 나중에 다시 가져올 때 네트워크를 다시 호출하지 않도록 로컬 디스크 캐시에 저장하고 싶다고 가정해보자. 이 캐싱 작업은 메인 액터에서 이루어질 필요는 없으며, 썸네일을 모두 가져오는 작업을 취소하더라도 이미 가져온 썸네일을 캐시하는 것은 여전히 유용하다.
+
+```swift
+@MainActor
+class MyDelegate: UICollectionViewDelegate {
+    var thumbnailTasks: [IndexPath: Task<Void, Never>] = [:]
+    
+    func collectionView(_ view: UICollectionView, willDisplay cell: UICollectionViewCell, forItemAt item: IndexPath) {
+        let ids = getThumbnailIDs(for: item)
+        thumbnailTasks[item] = Task {
+            defer { thumbnailTasks[item] = nil }
+            let thumbnails = await fetchThumbnails(for: ids)
+            Task.detached(priority: .background) {
+                writeToLocalCache(thumbnails)
+            }
+            display(thumbnails, in: cell)
+        }
+    }
+}
+```
