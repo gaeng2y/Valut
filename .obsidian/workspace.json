@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "iOS/Swift/Concurrency/Actor.md",
+                "file": "iOS/Swift/Concurrency/Continuation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Actor"
+              "title": "Continuation"
             }
           }
         ]
@@ -176,8 +176,10 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "160736a19be9866b",
+  "active": "fb1e22585550e7af",
   "lastOpenFiles": [
+    "iOS/Swift/Concurrency/Actor.md",
+    "iOS/Swift/Concurrency/Continuation.md",
     "iOS/WWDC/WWDC 21/Explore structured concurrency in Swift/Explore structured concurrency in Swift.md",
     "iOS/Swift/Concurrency/yield().md",
     "iOS/WWDC/WWDC 21/Explore structured concurrency in Swift/Resources/Pasted image 20250318120627.png",
@@ -222,8 +224,6 @@
     "iOS/Clean Architecture/iOS Clean Architecture & MVVM - RxSwift 완전 정복/MVVM에 대해.md",
     "iOS/Swift/메소드에서 -> 가 있는 기준.md",
     "iOS/Clean Architecture/Clean Architecture.md",
-    "iOS/Clean Architecture/Understading Clean Architecture in iOS.md",
-    "iOS/Clean Architecture/Clean Architecture with ReactorKit.md",
     "Computational Thinking/무제 파일.canvas"
   ]
 }
