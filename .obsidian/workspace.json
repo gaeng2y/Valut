@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "iOS/코파일럿과 함께 레인드롭 오디오 신시사이저 만들기.md",
+                "file": "iOS/Swift/Concurrency/신규 URLSession API.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "코파일럿과 함께 레인드롭 오디오 신시사이저 만들기"
+              "title": "신규 URLSession API"
             }
           }
         ]
@@ -178,6 +178,8 @@
   },
   "active": "11dba88d28e5f020",
   "lastOpenFiles": [
+    "iOS/코파일럿과 함께 레인드롭 오디오 신시사이저 만들기.md",
+    "iOS/Swift/Concurrency/신규 URLSession API.md",
     "iOS/RIBs/RIBs 시작하기.md",
     "iOS/RIBs",
     "iOS/실전 리팩토링/2024 03 12 라이브세션.md",
@@ -205,8 +207,6 @@
     "iOS/Swift/Concurrency/Modern Concurrency on Apple platforms/Chapter 5/Unstructured Concurrency in Action.md",
     "iOS/Swift/Concurrency/Modern Concurrency on Apple platforms/Chapter 4/Task Groups.md",
     "iOS/Swift/Concurrency/Modern Concurrency on Apple platforms/Chapter 4/Summary.md",
-    "iOS/Swift/Concurrency/Modern Concurrency on Apple platforms/Chapter 4/Structured Concurrency.md",
-    "iOS/Swift/Concurrency/Modern Concurrency on Apple platforms/Chapter 3/Continuations.md",
     "iOS/Swift/Concurrency/Modern Concurrency on Apple platforms/Chapter 1/Pasted image 20231002190800.png",
     "iOS/Swift/Concurrency/Modern Concurrency on Apple platforms/Chapter 1/Pasted image 20231002190737.png",
     "iOS/Swift/Concurrency/Modern Concurrency on Apple platforms/Reference",
