@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "Reference"
             }
+          },
+          {
+            "id": "f5f88f3c408321c6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -176,10 +191,16 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "fb1e22585550e7af",
+  "active": "f5f88f3c408321c6",
   "lastOpenFiles": [
-    "iOS/Swift/Concurrency/번역본 자료.md",
     "iOS/WWDC/WWDC 21/Detetct and diagnose memory issues/Reference.md",
+    "conflict-files-obsidian-git.md",
+    "iOS/Swift/Concurrency/신규 URLSession API.md",
+    "iOS/RIBs/RIBs 시작하기.md",
+    "iOS/RIBs",
+    "iOS/F-lab 사이드 프로젝트/무제.md",
+    "iOS/F-lab 사이드 프로젝트",
+    "iOS/Swift/Concurrency/번역본 자료.md",
     "iOS/WWDC/WWDC 21/Detetct and diagnose memory issues",
     "iOS/WWDC/WWDC 12/iOS App Performance Memory",
     "iOS/WWDC/WWDC 12",
@@ -205,7 +226,6 @@
     "iOS/Swift/Concurrency/Modern Concurrency on Apple platforms/Chapter 8/Final Actors.md",
     "iOS/WWDC/WWDC 21/Explore structured concurrency in Swift/Explore structured concurrency in Swift.md",
     "iOS/WWDC/WWDC 21/Explore structured concurrency in Swift/Resources/Pasted image 20250318120627.png",
-    "iOS/WWDC/WWDC 21/Explore structured concurrency in Swift/무제.md",
     "iOS/WWDC/WWDC 21/Explore structured concurrency in Swift/Resources",
     "iOS/WWDC/WWDC 21/Swift Concurrency. Behind the scens",
     "iOS/WWDC/WWDC 21/Protect mutable state with Swift actors",
@@ -218,12 +238,7 @@
     "iOS/WWDC/WWDC 21/Explore structured concurrency in Swift/Resources/Pasted image 20250319112035.png",
     "iOS/WWDC/WWDC 21/Explore structured concurrency in Swift/Resources/Pasted image 20250319111212.png",
     "iOS/WWDC/WWDC 21/Explore structured concurrency in Swift/Resources/Pasted image 20250319110938.png",
-    "iOS/StoreKit2/StoreKit2 Transaction Tracking.md",
-    "iOS/StoreKit2/앱 시작 시에 끝나지 않은 결제에 대해 처리.md",
-    "iOS/StoreKit2/StoreKit 2 적용기.md",
     "iOS/WWDC/WWDC 21/Explore structured concurrency in Swift",
-    "iOS/WWDC/WWDC 21",
-    "iOS/AVFoundation",
     "Computational Thinking/무제 파일.canvas"
   ]
 }
