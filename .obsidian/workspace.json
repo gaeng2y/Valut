@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "iOS/WWDC/WWDC 21/Detetct and diagnose memory issues/Reference.md",
+                "file": "LLM 세미나/무제.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Reference"
+              "title": "무제"
             }
           }
         ]
@@ -178,8 +178,10 @@
   },
   "active": "fb1e22585550e7af",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "iOS/WWDC/WWDC 21/Detetct and diagnose memory issues/Reference.md",
+    "LLM 세미나/무제.md",
+    "LLM 세미나",
+    "conflict-files-obsidian-git.md",
     "iOS/Swift/Concurrency/신규 URLSession API.md",
     "iOS/RIBs/RIBs 시작하기.md",
     "iOS/RIBs",
@@ -209,7 +211,6 @@
     "iOS/Swift/Concurrency/Modern Concurrency on Apple platforms/Chapter 7/Sendable Types.md",
     "iOS/Swift/Concurrency/Modern Concurrency on Apple platforms/Chapter 8/Main Actor.md",
     "iOS/Swift/Concurrency/Modern Concurrency on Apple platforms/Chapter 8/Final Actors.md",
-    "iOS/WWDC/WWDC 21/Explore structured concurrency in Swift/Explore structured concurrency in Swift.md",
     "iOS/WWDC/WWDC 21/Explore structured concurrency in Swift/Resources/Pasted image 20250318120627.png",
     "iOS/WWDC/WWDC 21/Explore structured concurrency in Swift/Resources",
     "iOS/WWDC/WWDC 21/Swift Concurrency. Behind the scens",
@@ -223,7 +224,6 @@
     "iOS/WWDC/WWDC 21/Explore structured concurrency in Swift/Resources/Pasted image 20250319112035.png",
     "iOS/WWDC/WWDC 21/Explore structured concurrency in Swift/Resources/Pasted image 20250319111212.png",
     "iOS/WWDC/WWDC 21/Explore structured concurrency in Swift/Resources/Pasted image 20250319110938.png",
-    "iOS/WWDC/WWDC 21/Explore structured concurrency in Swift",
     "Computational Thinking/무제 파일.canvas"
   ]
 }
