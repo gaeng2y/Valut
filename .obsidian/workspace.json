@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "iOS/Swift/Concurrency/번역본 자료.md",
+                "file": "iOS/WWDC/WWDC 21/Detetct and diagnose memory issues/Reference.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "번역본 자료"
+              "title": "Reference"
             }
           }
         ]
@@ -176,13 +176,15 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "160736a19be9866b",
+  "active": "fb1e22585550e7af",
   "lastOpenFiles": [
+    "iOS/Swift/Concurrency/번역본 자료.md",
+    "iOS/WWDC/WWDC 21/Detetct and diagnose memory issues/Reference.md",
+    "iOS/WWDC/WWDC 21/Detetct and diagnose memory issues",
     "iOS/WWDC/WWDC 12/iOS App Performance Memory",
     "iOS/WWDC/WWDC 12",
     "iOS/WWDC/WWDC 21/Understand and eliminate hangs from your app",
     "iOS/Swift/Concurrency/yield().md",
-    "iOS/Swift/Concurrency/번역본 자료.md",
     "iOS/Swift/Concurrency/async await.md",
     "iOS/Swift/Concurrency/self 키워드.md",
     "iOS/Swift/Concurrency/GCD vs Concurrency.md",
@@ -222,8 +224,6 @@
     "iOS/WWDC/WWDC 21/Explore structured concurrency in Swift",
     "iOS/WWDC/WWDC 21",
     "iOS/AVFoundation",
-    "iOS/WWDC/WWDC 19/Modern Swift API Design",
-    "iOS/WWDC/WWDC 19",
     "Computational Thinking/무제 파일.canvas"
   ]
 }
