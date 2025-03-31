@@ -13,12 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
+<<<<<<< HEAD
                 "file": "iOS/Tuist/Library, Framework, Package 비교.md",
+=======
+                "file": "Computer Science/Algorithm/백준/99클럽 코테 스터디 0일차 TIL + 오늘의 학습 키워드.md",
+>>>>>>> 8809d6e (vault backup: 2025-03-31 19:54:23)
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
+<<<<<<< HEAD
               "title": "Library, Framework, Package 비교"
+=======
+              "title": "99클럽 코테 스터디 0일차 TIL + 오늘의 학습 키워드"
+>>>>>>> 8809d6e (vault backup: 2025-03-31 19:54:23)
             }
           }
         ]
@@ -178,9 +186,20 @@
   },
   "active": "fb1e22585550e7af",
   "lastOpenFiles": [
+<<<<<<< HEAD
     "iOS/Tuist/Tuist 훑어보기.md",
     "LLM 세미나/레퍼런스.md",
     "iOS/효율적이고 안정적인 iOS 코드 설계/1주차.md",
+=======
+    "iOS/효율적이고 안정적인 iOS 코드 설계/1주차.md",
+    "Computer Science/Algorithm/백준/99클럽 코테 스터디 0일차 TIL + 오늘의 학습 키워드.md",
+    "Computer Science/Algorithm/백준",
+    "Computer Science/Algorithm",
+    "LLM 세미나/레퍼런스.md",
+    "conflict-files-obsidian-git.md",
+    "LLM 세미나/무제.md",
+    "iOS/Swift/sleep의 실행 방식.md",
+>>>>>>> 8809d6e (vault backup: 2025-03-31 19:54:23)
     "iOS/효율적이고 안정적인 iOS 코드 설계",
     "iOS/Swift/sleep의 실행 방식.md",
     "iOS/Swift/Concurrency/Continuation.md",
@@ -208,6 +227,7 @@
     "iOS/Swift/메소드에서 -> 가 있는 기준.md",
     "iOS/WWDC/WWDC 21/Protect mutable state with Swift actors/Sendable.md",
     "iOS/WWDC/WWDC 21/Protect mutable state with Swift actors/Actor.md",
+<<<<<<< HEAD
     "iOS/WWDC/WWDC 21/Protect mutable state with Swift actors/Continuation.md",
     "iOS/WWDC/WWDC 세션.md",
     "iOS/WWDC/추천 WWDC.md",
@@ -215,6 +235,22 @@
     "iOS/WWDC/WWDC 21/Explore structured concurrency in Swift/Resources/Pasted image 20250318120627.png",
     "iOS/WWDC/WWDC 21/Explore structured concurrency in Swift/Resources",
     "iOS/WWDC/WWDC 21/Swift Concurrency. Behind the scens",
+=======
+    "iOS/WWDC/WWDC 21/Protect mutable state with Swift actors",
+    "iOS/Swift/Concurrency/Modern Concurrency on Apple platforms/Reference/레퍼런스.md",
+    "iOS/Swift/Concurrency/Modern Concurrency on Apple platforms/Chapter 8/Main Actor.md",
+    "iOS/Swift/Concurrency/Modern Concurrency on Apple platforms/Chapter 8/Final Actors.md",
+    "iOS/Swift/Concurrency/Modern Concurrency on Apple platforms/Chapter 7/The Sendable Protocol.md",
+    "iOS/Swift/Concurrency/Modern Concurrency on Apple platforms/Chapter 7/Sendable Types.md",
+    "iOS/Swift/Concurrency/Modern Concurrency on Apple platforms/Chapter 6/Nonisolated Access to an Actor.md",
+    "iOS/Swift/Concurrency/Modern Concurrency on Apple platforms/Chapter 6/Introducing Actors.md",
+    "iOS/Swift/Concurrency/Modern Concurrency on Apple platforms/Chapter 6/General Tips for Working with Actors.md",
+    "iOS/Swift/Concurrency/Modern Concurrency on Apple platforms/Chapter 1/Pasted image 20231002190800.png",
+    "iOS/Swift/Concurrency/Modern Concurrency on Apple platforms/Chapter 1/Pasted image 20231002190737.png",
+    "iOS/Swift/Concurrency/Modern Concurrency on Apple platforms/Reference",
+    "iOS/Swift/Concurrency/Modern Concurrency on Apple platforms/Chapter 8",
+    "iOS/WWDC/WWDC 21/Explore structured concurrency in Swift/Resources/Pasted image 20250319142847.png",
+>>>>>>> 8809d6e (vault backup: 2025-03-31 19:54:23)
     "iOS/WWDC/WWDC 21/Explore structured concurrency in Swift/Resources/Pasted image 20250319143009.png",
     "iOS/WWDC/WWDC 21/Explore structured concurrency in Swift/Resources/Pasted image 20250319142847.png",
     "iOS/WWDC/WWDC 21/Explore structured concurrency in Swift/Resources/Pasted image 20250319115742.png",
