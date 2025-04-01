@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "iOS/Tuist/Project & Workspace.md",
+                "file": "Computer Science/Algorithm/항해 99/99클럽 코테 스터디 1일차 TIL + 에라토스테네스의 채.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Project & Workspace"
+              "title": "99클럽 코테 스터디 1일차 TIL + 에라토스테네스의 채"
             }
           }
         ]
@@ -178,10 +178,11 @@
   },
   "active": "fb1e22585550e7af",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "iOS/Tuist/Project & Workspace.md",
+    "Computer Science/Algorithm/항해 99",
+    "conflict-files-obsidian-git.md",
     "iOS/Swift/Concurrency/구조적 동시성과 병렬 처리.md",
-    "Computer Science/Algorithm/백준/99클럽 코테 스터디 1일차 TIL + 에라토스테네스의 채.md",
+    "Computer Science/Algorithm/항해 99/99클럽 코테 스터디 1일차 TIL + 에라토스테네스의 채.md",
     "Computer Science/Algorithm/백준",
     "Computer Science/Algorithm",
     "iOS/Tuist/Library, Framework, Package 비교.md",
@@ -202,7 +203,6 @@
     "iOS/WWDC/WWDC 21/Detetct and diagnose memory issues",
     "iOS/WWDC/WWDC 12/iOS App Performance Memory",
     "iOS/WWDC/WWDC 12",
-    "iOS/WWDC/WWDC 21/Understand and eliminate hangs from your app",
     "iOS/Swift/Concurrency/yield().md",
     "iOS/Swift/Concurrency/async await.md",
     "iOS/Swift/Concurrency/self 키워드.md",
@@ -213,7 +213,6 @@
     "iOS/Swift/Type Erasure.md",
     "iOS/Swift/메소드에서 -> 가 있는 기준.md",
     "iOS/WWDC/WWDC 21/Protect mutable state with Swift actors/Sendable.md",
-    "iOS/WWDC/WWDC 21/Protect mutable state with Swift actors/Actor.md",
     "iOS/WWDC/WWDC 21/Explore structured concurrency in Swift/Resources/Pasted image 20250318120627.png",
     "iOS/WWDC/WWDC 21/Explore structured concurrency in Swift/Resources/Pasted image 20250319143009.png",
     "iOS/WWDC/WWDC 21/Explore structured concurrency in Swift/Resources/Pasted image 20250319142847.png",
