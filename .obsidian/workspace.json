@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Science/Algorithm/항해 99/99클럽 코테 스터디 3일차 TIL + 시뮬레이션.md",
+                "file": "iOS/F-lab 멘토링/1주차/Swift Data Structure.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "99클럽 코테 스터디 3일차 TIL + 시뮬레이션"
+              "title": "Swift Data Structure"
             }
           }
         ]
@@ -178,9 +178,21 @@
   },
   "active": "fb1e22585550e7af",
   "lastOpenFiles": [
+    "iOS/F-lab 멘토링/1주차/Swift 지정, 편의 생성자.md",
+    "iOS/F-lab 멘토링/1주차/Swift의 캡쳐 리스트.md",
+    "iOS/F-lab 멘토링/1주차/웹 뷰에서 자바스크립트와 상호작용.md",
+    "iOS/F-lab 멘토링/1주차/Objective-C vs Swift differences.md",
+    "iOS/F-lab 멘토링/1주차/Single Source of truth.md",
+    "iOS/F-lab 멘토링/1주차/Choosing Between Structures and Classes.md",
+    "iOS/F-lab 멘토링/1주차/Deinitialization.md",
+    "iOS/F-lab 멘토링/1주차/AutoReleasePool.md",
+    "Computer Science/Design Pattern/패턴 순위.md",
+    "Computer Science/Design Pattern/리이오의 디자인 패턴/기본에 디자인 패턴 붓기.md",
+    "Computer Science/Computational Thinking/컴퓨터의 연산.md",
+    "Computer Science/Computational Thinking/컴퓨터 구조.md",
+    "Computer Science/Algorithm/항해 99/99클럽 코테 스터디 3일차 TIL + 시뮬레이션.md",
     "Computer Science/Algorithm/항해 99/99클럽 코테 스터디 1일차 TIL + 에라토스테네스의 채.md",
     "Computer Science/Algorithm/항해 99/99클럽 코테 스터디 2일차 TIL + 동적 프로그래밍.md",
-    "Computer Science/Algorithm/항해 99/99클럽 코테 스터디 3일차 TIL + 시뮬레이션.md",
     "WWDC/WWDC 23/Keep up with the Keyboard/Keep up with the keyboard.md",
     "WWDC/WWDC 23/Keep up with the Keyboard/Pasted image 20250401170902.png",
     "WWDC/WWDC 23/Keep up with the Keyboard/Pasted image 20250401170718.png",
@@ -204,21 +216,9 @@
     "LLM 세미나/레퍼런스.md",
     "iOS/효율적이고 안정적인 iOS 코드 설계/1주차.md",
     "iOS/효율적이고 안정적인 iOS 코드 설계",
-    "iOS/Swift/sleep의 실행 방식.md",
-    "iOS/Swift/Concurrency/Continuation.md",
-    "WWDC/WWDC 21/Detetct and diagnose memory issues/Reference.md",
     "LLM 세미나",
-    "iOS/Swift/Concurrency/신규 URLSession API.md",
-    "iOS/RIBs/RIBs 시작하기.md",
     "iOS/RIBs",
-    "iOS/F-lab 사이드 프로젝트/무제.md",
     "iOS/F-lab 사이드 프로젝트",
-    "iOS/Swift/Concurrency/번역본 자료.md",
-    "iOS/Swift/Concurrency/yield().md",
-    "iOS/Swift/Concurrency/async await.md",
-    "iOS/Swift/Concurrency/self 키워드.md",
-    "iOS/Swift/Concurrency/GCD vs Concurrency.md",
-    "iOS/Swift/OptionSet.md",
     "WWDC/WWDC 21/Explore structured concurrency in Swift/Resources/Pasted image 20250318120627.png",
     "WWDC/WWDC 21/Explore structured concurrency in Swift/Resources/Pasted image 20250319143009.png",
     "WWDC/WWDC 21/Explore structured concurrency in Swift/Resources/Pasted image 20250319142847.png",
