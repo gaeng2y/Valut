@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "65fe93c568f02716",
+        "id": "2299662a10ff905e",
         "type": "tabs",
         "children": [
           {
-            "id": "fb1e22585550e7af",
+            "id": "87725f8f33ce8428",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "iOS/F-lab 멘토링/1주차/Swift Data Structure.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Swift Data Structure"
+              "title": "새 탭"
             }
           }
         ]
@@ -176,45 +172,46 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "fb1e22585550e7af",
+  "active": "87725f8f33ce8428",
   "lastOpenFiles": [
-    "iOS/F-lab 멘토링/1주차/Swift 지정, 편의 생성자.md",
+    "class.md",
+    "iOS/F-lab 멘토링/8주차/Widget 설계서.md",
+    "iOS/F-lab 멘토링/9주차/SwiftData.md",
+    "iOS/F-lab 멘토링/10주차/iOS 프로젝트에 Firebase 적용하기.md",
+    "iOS/F-lab 멘토링/10주차/HealthKit 설계.md",
+    "iOS/F-lab 멘토링/10주차/Pasted image 20240801211145.png",
+    "iOS/F-lab 멘토링/11주차/목.md",
+    "iOS/F-lab 멘토링/TCA 구조.md",
+    "iOS/F-lab 멘토링/모의면접 질문/질문 리스트.md",
+    "iOS/F-lab 멘토링/모의면접 질문/디자인 패턴 비교.md",
+    "iOS/F-lab 멘토링/모의면접 질문/TCA(Redux) 와 ReactorKit(Flux)를 비교.md",
+    "iOS/F-lab 멘토링/모의면접 질문/Combine과 RxSwift 비교.md",
+    "iOS/F-lab 멘토링/7주차/Actor의 종류.md",
+    "iOS/F-lab 멘토링/7주차/Observation.md",
+    "iOS/F-lab 멘토링/7주차/Combine Key feature.md",
+    "iOS/F-lab 멘토링/7주차/@ObservedObject vs @StateObject.md",
+    "iOS/F-lab 멘토링/5주차/Swift Concurrency.md",
+    "iOS/F-lab 멘토링/4주차/Priority Inversion.md",
+    "iOS/F-lab 멘토링/4주차/준비 내용.md",
+    "iOS/F-lab 멘토링/4주차/Network.md",
+    "iOS/F-lab 멘토링/3주차/App Intent Framework.md",
+    "iOS/F-lab 멘토링/2주차/CPU 스케줄링 기준.md",
     "iOS/F-lab 멘토링/1주차/Swift의 캡쳐 리스트.md",
+    "iOS/F-lab 멘토링/1주차/Swift Data Structure.md",
+    "iOS/F-lab 멘토링/1주차/Swift 지정, 편의 생성자.md",
     "iOS/F-lab 멘토링/1주차/웹 뷰에서 자바스크립트와 상호작용.md",
     "iOS/F-lab 멘토링/1주차/Objective-C vs Swift differences.md",
-    "iOS/F-lab 멘토링/1주차/Single Source of truth.md",
-    "iOS/F-lab 멘토링/1주차/Choosing Between Structures and Classes.md",
-    "iOS/F-lab 멘토링/1주차/Deinitialization.md",
-    "iOS/F-lab 멘토링/1주차/AutoReleasePool.md",
-    "Computer Science/Design Pattern/패턴 순위.md",
-    "Computer Science/Design Pattern/리이오의 디자인 패턴/기본에 디자인 패턴 붓기.md",
-    "Computer Science/Computational Thinking/컴퓨터의 연산.md",
-    "Computer Science/Computational Thinking/컴퓨터 구조.md",
-    "Computer Science/Algorithm/항해 99/99클럽 코테 스터디 3일차 TIL + 시뮬레이션.md",
-    "Computer Science/Algorithm/항해 99/99클럽 코테 스터디 1일차 TIL + 에라토스테네스의 채.md",
-    "Computer Science/Algorithm/항해 99/99클럽 코테 스터디 2일차 TIL + 동적 프로그래밍.md",
-    "WWDC/WWDC 23/Keep up with the Keyboard/Keep up with the keyboard.md",
     "WWDC/WWDC 23/Keep up with the Keyboard/Pasted image 20250401170902.png",
     "WWDC/WWDC 23/Keep up with the Keyboard/Pasted image 20250401170718.png",
     "WWDC/WWDC 23/Keep up with the Keyboard/Pasted image 20250401170607.png",
     "WWDC/WWDC 23/Keep up with the Keyboard/Pasted image 20250401170524.png",
     "WWDC/WWDC 23/Keep up with the Keyboard/Pasted image 20250401170411.png",
-    "WWDC/WWDC 24/Migrate your app to Swift 6/Migrate your app to Swift 6.md",
-    "WWDC/WWDC 세션.md",
-    "iOS/UISheetPresentationController/Reference.md",
     "WWDC/WWDC 24/Migrate your app to Swift 6/Resources",
     "WWDC/WWDC 24/Migrate your app to Swift 6",
     "WWDC/WWDC 24",
-    "iOS/Tuist/Project & Workspace.md",
     "Computer Science/Algorithm/항해 99",
-    "conflict-files-obsidian-git.md",
-    "iOS/Swift/Concurrency/구조적 동시성과 병렬 처리.md",
     "Computer Science/Algorithm/백준",
     "Computer Science/Algorithm",
-    "iOS/Tuist/Library, Framework, Package 비교.md",
-    "iOS/Tuist/Tuist 훑어보기.md",
-    "LLM 세미나/레퍼런스.md",
-    "iOS/효율적이고 안정적인 iOS 코드 설계/1주차.md",
     "iOS/효율적이고 안정적인 iOS 코드 설계",
     "LLM 세미나",
     "iOS/RIBs",
@@ -223,7 +220,6 @@
     "WWDC/WWDC 21/Explore structured concurrency in Swift/Resources/Pasted image 20250319143009.png",
     "WWDC/WWDC 21/Explore structured concurrency in Swift/Resources/Pasted image 20250319142847.png",
     "WWDC/WWDC 21/Explore structured concurrency in Swift/Resources/Pasted image 20250319115742.png",
-    "WWDC/WWDC 21/Explore structured concurrency in Swift/Resources/Pasted image 20250319113431.png",
     "Computational Thinking/무제 파일.canvas"
   ]
 }
