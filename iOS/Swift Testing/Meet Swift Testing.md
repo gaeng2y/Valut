@@ -1,3 +1,5 @@
+https://developer.apple.com/videos/play/wwdc2024/10179
+(https://developer.apple.com/videos/play/wwdc2024/10179?time=126)
 - Swift 코드를 테스트할 수 있는 새로운 도구
 - 오픈 소스다
 
