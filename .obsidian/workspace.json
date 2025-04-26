@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "iOS/함수형 프로그래밍/세션.md",
+                "file": "iOS/Modular Architecture/The Modular Architecture(TMA).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "세션"
+              "title": "The Modular Architecture(TMA)"
             }
           }
         ]
@@ -178,6 +178,10 @@
   },
   "active": "e6d5d00918cf46ad",
   "lastOpenFiles": [
+    "iOS/Modular Architecture/레퍼런스.md",
+    "iOS/Modular Architecture/The Modular Architecture(TMA).md",
+    "iOS/Modular Architecture/무제",
+    "iOS/함수형 프로그래밍/세션.md",
     "iOS/함수형 프로그래밍/강의.md",
     "iOS/함수형 프로그래밍/강의 자료.md",
     "Computer Science/Algorithm/항해 99/99클럽 코테 스터디 16일차 TIL +.md",
@@ -189,13 +193,11 @@
     "Computer Science/Algorithm/항해 99/Pasted image 20250415213227.png",
     "Computer Science/Algorithm/항해 99/99클럽 코테 스터디 12일차 TIL + 동적 프로그래밍.md",
     "Computer Science/Algorithm/항해 99/99클럽 코테 스터디 11일차 TIL + 이분 탐색.md",
-    "iOS/Modular Architecture/레퍼런스.md",
     "면접/면접반 2일차.md",
     "면접/면접반 1일차.md",
     "Computer Science/Algorithm/항해 99/99클럽 코테 스터디 9일차 TIL + 추론.md",
     "Computer Science/Algorithm/항해 99/99클럽 코테 스터디 11일차 TIL + 이분탐색.md",
     "Computer Science/Algorithm/항해 99/99클럽 코테 스터디 10일차 TIL + 시뮬레이션.md",
-    "iOS/함수형 프로그래밍/세션.md",
     "iOS/Modular Architecture",
     "면접/프로젝트 진행 중 협업 과정에서 갈등이나 의견 차이가 있었던 경험이 있다면, 이를 어떻게 해결했는지 설명해주세요. 그 과정에서 본인이 맡았던 역할과 결과도 함께 알려주세요..md",
     "면접",
@@ -209,7 +211,6 @@
     "conflict-files-obsidian-git.md",
     "iOS/Swift Testing",
     "iOS/함수형 프로그래밍/효율적이고 안정적인 iOS 코드 설계/2주차.md",
-    "iOS/함수형 프로그래밍/효율적이고 안정적인 iOS 코드 설계/1주차.md",
     "iOS/함수형 프로그래밍/효율적이고 안정적인 iOS 코드 설계",
     "iOS/함수형 프로그래밍",
     "iOS/F-lab 멘토링/10주차/Pasted image 20240801211145.png",
@@ -222,7 +223,6 @@
     "WWDC/WWDC 24/Migrate your app to Swift 6",
     "WWDC/WWDC 24",
     "Computer Science/Algorithm/항해 99",
-    "Computer Science/Algorithm/백준",
     "WWDC/WWDC 21/Explore structured concurrency in Swift/Resources/Pasted image 20250318120627.png",
     "Computational Thinking/무제 파일.canvas"
   ]
