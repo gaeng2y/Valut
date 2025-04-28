@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "iOS/SwiftUI/Clean code in SwiftUI.md",
+                "file": "iOS/UISheetPresentationController/Reference.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Clean code in SwiftUI"
+              "title": "Reference"
             }
           }
         ]
@@ -178,8 +178,9 @@
   },
   "active": "e6d5d00918cf46ad",
   "lastOpenFiles": [
-    "iOS/SwiftUI/MV 패턴이란?.md",
+    "iOS/UISheetPresentationController/Custom Detent.md",
     "iOS/SwiftUI/Clean code in SwiftUI.md",
+    "iOS/SwiftUI/MV 패턴이란?.md",
     "iOS/함수형 프로그래밍/세션.md",
     "iOS/SwiftUI/MV 패턴",
     "iOS/Modular Architecture/The Modular Architecture(TMA).md",
@@ -188,7 +189,6 @@
     "Computer Science/Algorithm/항해 99/99클럽 코테 스터디 16일차 TIL +.md",
     "Computer Science/Algorithm/항해 99/99클럽 코테 스터디 17일차 TIL + 탐색.md",
     "Computer Science/Algorithm/항해 99/99클럽 코테 스터디 15일차 TIL + 동적 프로그래밍.md",
-    "iOS/UISheetPresentationController/Custom Detent.md",
     "Computer Science/Algorithm/항해 99/99클럽 코테 스터디 14일차 TIL + 동적 프로그래밍 1.md",
     "iOS/RxSwift/MainScheduler.md",
     "Computer Science/Algorithm/항해 99/Pasted image 20250415213227.png",
