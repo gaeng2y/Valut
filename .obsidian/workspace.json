@@ -176,11 +176,18 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "e6d5d00918cf46ad",
+  "active": "160736a19be9866b",
   "lastOpenFiles": [
+<<<<<<< Updated upstream
     "iOS/UISheetPresentationController/Custom Detent.md",
     "iOS/SwiftUI/Clean code in SwiftUI.md",
     "iOS/SwiftUI/MV 패턴이란?.md",
+=======
+    "devclub",
+    "iOS/Modular Architecture/레퍼런스.md",
+    "iOS/Modular Architecture/The Modular Architecture(TMA).md",
+    "iOS/Modular Architecture/무제",
+>>>>>>> Stashed changes
     "iOS/함수형 프로그래밍/세션.md",
     "iOS/SwiftUI/MV 패턴",
     "iOS/Modular Architecture/The Modular Architecture(TMA).md",
