@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "The Modular Architecture(TMA)"
             }
+          },
+          {
+            "id": "711a6aa21aba8b99",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Brewing/아카이아 펄/펄 앱.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "펄 앱"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -176,13 +191,20 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "160736a19be9866b",
+  "active": "711a6aa21aba8b99",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "Brewing/아카이아 펄/펄 앱.md",
+    "Brewing/아카이아 펄",
+    "Brewing",
+    "iOS/Modular Architecture/The Modular Architecture(TMA).md",
+    "devclub/로그인 관련/카카오 로그인.md",
+    "devclub/로그인 관련/애플 로그인.md",
+    "devclub/로그인 관련",
     "iOS/SwiftUI/MV 패턴이란?.md",
     "iOS/SwiftUI/Clean code in SwiftUI.md",
     "devclub",
     "iOS/Modular Architecture/레퍼런스.md",
-    "iOS/Modular Architecture/The Modular Architecture(TMA).md",
     "iOS/Modular Architecture/무제",
     "iOS/함수형 프로그래밍/세션.md",
     "iOS/함수형 프로그래밍/강의.md",
@@ -205,10 +227,6 @@
     "면접/프로젝트 진행 중 협업 과정에서 갈등이나 의견 차이가 있었던 경험이 있다면, 이를 어떻게 해결했는지 설명해주세요. 그 과정에서 본인이 맡았던 역할과 결과도 함께 알려주세요..md",
     "면접",
     "Computer Science/Algorithm/항해 99/99클럽 코테 스터디 8일차 TIL.md",
-    "Computer Science/Algorithm/항해 99/99클럽 코테 스터디 7일차 TIL + DFS, BFS.md",
-    "Computer Science/Algorithm/항해 99/99클럽 코테 스터디 6일차 TIL.md",
-    "iOS/Swift Testing/Meet Swift Testing.md",
-    "Computer Science/Algorithm/항해 99/99클럽 코테 스터디 6일차 TIL + DFS, BFS.md",
     "iOS/Swift Testing/Pasted image 20250407103331.png",
     "iOS/Swift Testing/Pasted image 20250407103247.png",
     "iOS/Swift Testing",
@@ -220,9 +238,6 @@
     "WWDC/WWDC 23/Keep up with the Keyboard/Pasted image 20250401170607.png",
     "WWDC/WWDC 23/Keep up with the Keyboard/Pasted image 20250401170524.png",
     "WWDC/WWDC 23/Keep up with the Keyboard/Pasted image 20250401170411.png",
-    "WWDC/WWDC 24/Migrate your app to Swift 6/Resources",
-    "WWDC/WWDC 24/Migrate your app to Swift 6",
-    "WWDC/WWDC 24",
     "WWDC/WWDC 21/Explore structured concurrency in Swift/Resources/Pasted image 20250318120627.png",
     "Computational Thinking/무제 파일.canvas"
   ]
