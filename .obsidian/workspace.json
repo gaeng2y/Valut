@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "iOS/UISheetPresentationController/Reference.md",
+                "file": "iOS/Modular Architecture/The Modular Architecture(TMA).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Reference"
+              "title": "The Modular Architecture(TMA)"
             }
           }
         ]
@@ -178,30 +178,24 @@
   },
   "active": "160736a19be9866b",
   "lastOpenFiles": [
-<<<<<<< Updated upstream
-    "iOS/UISheetPresentationController/Custom Detent.md",
-    "iOS/SwiftUI/Clean code in SwiftUI.md",
     "iOS/SwiftUI/MV 패턴이란?.md",
-=======
+    "iOS/SwiftUI/Clean code in SwiftUI.md",
     "devclub",
     "iOS/Modular Architecture/레퍼런스.md",
     "iOS/Modular Architecture/The Modular Architecture(TMA).md",
     "iOS/Modular Architecture/무제",
->>>>>>> Stashed changes
     "iOS/함수형 프로그래밍/세션.md",
-    "iOS/SwiftUI/MV 패턴",
-    "iOS/Modular Architecture/The Modular Architecture(TMA).md",
     "iOS/함수형 프로그래밍/강의.md",
     "iOS/함수형 프로그래밍/강의 자료.md",
     "Computer Science/Algorithm/항해 99/99클럽 코테 스터디 16일차 TIL +.md",
     "Computer Science/Algorithm/항해 99/99클럽 코테 스터디 17일차 TIL + 탐색.md",
     "Computer Science/Algorithm/항해 99/99클럽 코테 스터디 15일차 TIL + 동적 프로그래밍.md",
+    "iOS/UISheetPresentationController/Custom Detent.md",
     "Computer Science/Algorithm/항해 99/99클럽 코테 스터디 14일차 TIL + 동적 프로그래밍 1.md",
     "iOS/RxSwift/MainScheduler.md",
     "Computer Science/Algorithm/항해 99/Pasted image 20250415213227.png",
     "Computer Science/Algorithm/항해 99/99클럽 코테 스터디 12일차 TIL + 동적 프로그래밍.md",
     "Computer Science/Algorithm/항해 99/99클럽 코테 스터디 11일차 TIL + 이분 탐색.md",
-    "iOS/Modular Architecture/레퍼런스.md",
     "면접/면접반 2일차.md",
     "면접/면접반 1일차.md",
     "Computer Science/Algorithm/항해 99/99클럽 코테 스터디 9일차 TIL + 추론.md",
@@ -229,7 +223,6 @@
     "WWDC/WWDC 24/Migrate your app to Swift 6/Resources",
     "WWDC/WWDC 24/Migrate your app to Swift 6",
     "WWDC/WWDC 24",
-    "Computer Science/Algorithm/항해 99",
     "WWDC/WWDC 21/Explore structured concurrency in Swift/Resources/Pasted image 20250318120627.png",
     "Computational Thinking/무제 파일.canvas"
   ]
