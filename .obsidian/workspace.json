@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "devclub/로그인 관련/온보딩.md",
+                "file": "devclub/로그인 관련/카카오 로그인.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "온보딩"
+              "title": "카카오 로그인"
             }
           }
         ],
@@ -193,8 +193,8 @@
   },
   "active": "711a6aa21aba8b99",
   "lastOpenFiles": [
-    "devclub/로그인 관련/카카오 로그인.md",
     "devclub/로그인 관련/온보딩.md",
+    "devclub/로그인 관련/카카오 로그인.md",
     "devclub/로그인 관련/애플 로그인.md",
     "Brewing/아카이아 펄/펄 앱.md",
     "conflict-files-obsidian-git.md",
