@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Science/모두를 위한 컴퓨터 과학 (CS50)/1. 컴퓨팅 사고/1) 2진법.md",
+                "file": "Brewing/안스타 레시피.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1) 2진법"
+              "title": "안스타 레시피"
             }
           }
         ]
@@ -143,12 +143,14 @@
   },
   "active": "f750d6cb6f56a780",
   "lastOpenFiles": [
+    "iOS/F-lab 멘토링/2주차/Hash Collision.md",
+    "Brewing/안스타 레시피.md",
+    "Computer Science/모두를 위한 컴퓨터 과학 (CS50)/1. 컴퓨팅 사고/1) 2진법.md",
     "DevClub/로그인 관련/온보딩.md",
     "Brewing/아카이아 펄/펄 앱.md",
     "Brewing/아카이아 펄",
     "Brewing",
     "Computer Science/모두를 위한 컴퓨터 과학 (CS50)/강의.md",
-    "Computer Science/모두를 위한 컴퓨터 과학 (CS50)/1. 컴퓨팅 사고/1) 2진법.md",
     "Computer Science/모두를 위한 컴퓨터 과학 (CS50)/1. 컴퓨팅 사고",
     "Computer Science/모두를 위한 컴퓨터 과학 (CS50)"
   ]
