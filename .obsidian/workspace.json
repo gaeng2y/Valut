@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "iOS/TCA/The Composable Architecture Tutorials/Chapter 1/1. Your first feature.md",
+                "file": "iOS/Lookin/사용법.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1. Your first feature"
+              "title": "사용법"
             }
           }
         ]
@@ -131,9 +131,9 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "command-palette:명령어 팔레트 열기": false,
       "switcher:빠른 전환기 열기": false,
       "templates:템플릿 삽입": false,
-      "command-palette:명령어 팔레트 열기": false,
       "markdown-importer:마크다운 형식 불러오기 열기": false,
       "obsidian-git:Open Git source control": false,
       "callout-manager:Insert Callout": false,
@@ -143,8 +143,10 @@
   },
   "active": "f750d6cb6f56a780",
   "lastOpenFiles": [
-    "iOS/TCA/The Composable Architecture Tutorials/Chapter 1/2. Adding side effects.md",
     "iOS/TCA/The Composable Architecture Tutorials/Chapter 1/1. Your first feature.md",
+    "iOS/Lookin/사용법.md",
+    "iOS/Lookin",
+    "iOS/TCA/The Composable Architecture Tutorials/Chapter 1/2. Adding side effects.md",
     "iOS/TCA/The Composable Architecture Tutorials/Chapter 1",
     "iOS/UIKit/Safe Area inset.md",
     "Brewing/안스타 레시피.md",
