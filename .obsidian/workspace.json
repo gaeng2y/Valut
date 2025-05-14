@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "iOS/TCA/The Composable Architecture Tutorials/Chapter 1/4. Composing features.md",
+                "file": "iOS/TCA/The Composable Architecture Tutorials/Chatper 2/1. Your first presentation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4. Composing features"
+              "title": "1. Your first presentation"
             }
           }
         ]
@@ -143,8 +143,11 @@
   },
   "active": "0c01e9a6e917ee9d",
   "lastOpenFiles": [
-    "iOS/TCA/The Composable Architecture Tutorials/Chapter 1/3. Testing your feature.md",
+    "무제.md",
+    "iOS/TCA/The Composable Architecture Tutorials/Chatper 2/1. Your first presentation.md",
     "iOS/TCA/The Composable Architecture Tutorials/Chapter 1/4. Composing features.md",
+    "iOS/TCA/The Composable Architecture Tutorials/Chatper 2",
+    "iOS/TCA/The Composable Architecture Tutorials/Chapter 1/3. Testing your feature.md",
     "iOS/TCA/The Composable Architecture Tutorials/Chapter 1/2. Adding side effects.md",
     "iOS/LicensePlist SPM 교체기.md",
     "iOS/Swift/Protocol some, any.md",
