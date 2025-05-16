@@ -1,41 +1,56 @@
 {
   "main": {
-    "id": "f2fee0d9d2726a53",
+    "id": "4b8a3f212e8a26f5",
     "type": "split",
     "children": [
       {
-        "id": "dbb35030aadee015",
+        "id": "39f8164bba31ab6a",
         "type": "tabs",
         "children": [
           {
-            "id": "0c01e9a6e917ee9d",
+            "id": "e6d5d00918cf46ad",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "iOS/TCA/The Composable Architecture Tutorials/Chatper 2/1. Your first presentation.md",
+                "file": "iOS/Modular Architecture/The Modular Architecture(TMA).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1. Your first presentation"
+              "title": "The Modular Architecture(TMA)"
+            }
+          },
+          {
+            "id": "711a6aa21aba8b99",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "devclub/로그인 관련/카카오 로그인.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "카카오 로그인"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "aad4cd1ec05b5891",
+    "id": "1d7be501334b4f8e",
     "type": "split",
     "children": [
       {
-        "id": "5e7994324b313bc1",
+        "id": "7da1bab4e02177b5",
         "type": "tabs",
         "children": [
           {
-            "id": "07806348fe1fe1a1",
+            "id": "160736a19be9866b",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,7 +63,7 @@
             }
           },
           {
-            "id": "96716307e3823d3c",
+            "id": "1026d6dce6518d07",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -71,20 +86,20 @@
     "width": 200
   },
   "right": {
-    "id": "36208d566877a9b8",
+    "id": "9843e891487ed6f6",
     "type": "split",
     "children": [
       {
-        "id": "7c700c177f0a91b1",
+        "id": "5d5b5eb45813bcbf",
         "type": "tabs",
         "children": [
           {
-            "id": "6f9500a8f44d7734",
+            "id": "e01195b0b63073ef",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Science/모두를 위한 컴퓨터 과학 (CS50)/1. 컴퓨팅 사고/1) 2진법.md",
+                "file": "Cocoa Internals/1장 객체.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,26 +109,50 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "1) 2진법 의 백링크"
+              "title": "1장 객체의 백링크"
             }
           },
           {
-            "id": "2b9f8f622c946519",
+            "id": "17fe9a2dfb041ffb",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "WWDC/WWDC 16/Understanding Swift Performance/Reference Counting.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "lucide-file",
+              "title": "플러그인이 더 이상 활성화돼있지 않음"
+            }
+          },
+          {
+            "id": "d2876114b2f4a8da",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-file",
+              "title": "플러그인이 더 이상 활성화돼있지 않음"
+            }
+          },
+          {
+            "id": "55b4a66e0ca28465",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Science/모두를 위한 컴퓨터 과학 (CS50)/1. 컴퓨팅 사고/1) 2진법.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
+                "file": "Cocoa Internals/1장 객체.md"
               },
               "icon": "lucide-list",
-              "title": "1) 2진법 의 개요"
+              "title": "1장 객체 개요"
             }
           },
           {
-            "id": "c96796dc531f3628",
+            "id": "421fa6bc25d6c34a",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -121,8 +160,19 @@
               "icon": "calendar-with-checkmark",
               "title": "Calendar"
             }
+          },
+          {
+            "id": "32cf7df0d5cfe21b",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -133,41 +183,62 @@
     "hiddenItems": {
       "command-palette:명령어 팔레트 열기": false,
       "switcher:빠른 전환기 열기": false,
-      "templates:템플릿 삽입": false,
       "markdown-importer:마크다운 형식 불러오기 열기": false,
-      "obsidian-git:Open Git source control": false,
+      "templates:템플릿 삽입": false,
       "callout-manager:Insert Callout": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-git:Open Git source control": false,
       "periodic-notes:Open today": false
     }
   },
-  "active": "0c01e9a6e917ee9d",
+  "active": "711a6aa21aba8b99",
   "lastOpenFiles": [
-    "iOS/F-lab 사이드 프로젝트/무제.md",
+    "iOS/함수형 프로그래밍/레퍼런스.md",
+    "iOS/UIKit/Safe Area inset.md",
     "iOS/TCA/The Composable Architecture Tutorials/Chatper 2/1. Your first presentation.md",
-    "무제.md",
     "iOS/TCA/The Composable Architecture Tutorials/Chapter 1/4. Composing features.md",
-    "iOS/TCA/The Composable Architecture Tutorials/Chatper 2",
     "iOS/TCA/The Composable Architecture Tutorials/Chapter 1/3. Testing your feature.md",
     "iOS/TCA/The Composable Architecture Tutorials/Chapter 1/2. Adding side effects.md",
-    "iOS/LicensePlist SPM 교체기.md",
-    "iOS/Swift/Protocol some, any.md",
-    "Computer Science/Dependency Injection/Auto Dependency Injection.md",
     "iOS/TCA/The Composable Architecture Tutorials/Chapter 1/1. Your first feature.md",
-    "iOS/함수형 프로그래밍/레퍼런스.md",
+    "iOS/TCA/The Composable Architecture Tutorials/Chatper 2",
+    "iOS/TCA/The Composable Architecture Tutorials/Chapter 1",
+    "iOS/TCA/The Composable Architecture Tutorials",
+    "iOS/Swift/Protocol some, any.md",
     "iOS/Lookin/사용법.md",
     "iOS/Lookin",
-    "iOS/TCA/The Composable Architecture Tutorials/Chapter 1",
-    "iOS/UIKit/Safe Area inset.md",
-    "Brewing/안스타 레시피.md",
-    "iOS/F-lab 멘토링/2주차/Hash Collision.md",
+    "iOS/LicensePlist SPM 교체기.md",
     "Computer Science/모두를 위한 컴퓨터 과학 (CS50)/1. 컴퓨팅 사고/1) 2진법.md",
-    "DevClub/로그인 관련/온보딩.md",
-    "Brewing/아카이아 펄/펄 앱.md",
-    "Brewing/아카이아 펄",
-    "Brewing",
     "Computer Science/모두를 위한 컴퓨터 과학 (CS50)/강의.md",
     "Computer Science/모두를 위한 컴퓨터 과학 (CS50)/1. 컴퓨팅 사고",
-    "Computer Science/모두를 위한 컴퓨터 과학 (CS50)"
+    "Computer Science/모두를 위한 컴퓨터 과학 (CS50)",
+    "Computer Science/Dependency Injection/Auto Dependency Injection.md",
+    "Brewing/안스타 레시피.md",
+    "devclub/로그인 관련/온보딩.md",
+    "devclub/로그인 관련/카카오 로그인.md",
+    "devclub/로그인 관련/애플 로그인.md",
+    "Brewing/아카이아 펄/펄 앱.md",
+    "conflict-files-obsidian-git.md",
+    "Brewing/아카이아 펄",
+    "Brewing",
+    "iOS/Modular Architecture/The Modular Architecture(TMA).md",
+    "devclub/로그인 관련",
+    "iOS/SwiftUI/MV 패턴이란?.md",
+    "iOS/SwiftUI/Clean code in SwiftUI.md",
+    "devclub",
+    "iOS/Modular Architecture/레퍼런스.md",
+    "iOS/함수형 프로그래밍/세션.md",
+    "iOS/함수형 프로그래밍/강의.md",
+    "iOS/함수형 프로그래밍/강의 자료.md",
+    "Computer Science/Algorithm/항해 99/Pasted image 20250415213227.png",
+    "iOS/Swift Testing/Pasted image 20250407103331.png",
+    "iOS/Swift Testing/Pasted image 20250407103247.png",
+    "iOS/F-lab 멘토링/10주차/Pasted image 20240801211145.png",
+    "WWDC/WWDC 23/Keep up with the Keyboard/Pasted image 20250401170902.png",
+    "WWDC/WWDC 23/Keep up with the Keyboard/Pasted image 20250401170718.png",
+    "WWDC/WWDC 23/Keep up with the Keyboard/Pasted image 20250401170607.png",
+    "WWDC/WWDC 23/Keep up with the Keyboard/Pasted image 20250401170524.png",
+    "WWDC/WWDC 23/Keep up with the Keyboard/Pasted image 20250401170411.png",
+    "WWDC/WWDC 21/Explore structured concurrency in Swift/Resources/Pasted image 20250318120627.png",
+    "Computational Thinking/무제 파일.canvas"
   ]
 }
