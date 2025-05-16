@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "devclub/로그인 관련/카카오 로그인.md",
+                "file": "devclub/로그인 관련/MainTab.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "카카오 로그인"
+              "title": "MainTab"
             }
           }
         ],
@@ -193,6 +193,8 @@
   },
   "active": "711a6aa21aba8b99",
   "lastOpenFiles": [
+    "devclub/로그인 관련/카카오 로그인.md",
+    "devclub/로그인 관련/MainTab.md",
     "iOS/함수형 프로그래밍/레퍼런스.md",
     "iOS/UIKit/Safe Area inset.md",
     "iOS/TCA/The Composable Architecture Tutorials/Chatper 2/1. Your first presentation.md",
@@ -214,7 +216,6 @@
     "Computer Science/Dependency Injection/Auto Dependency Injection.md",
     "Brewing/안스타 레시피.md",
     "devclub/로그인 관련/온보딩.md",
-    "devclub/로그인 관련/카카오 로그인.md",
     "devclub/로그인 관련/애플 로그인.md",
     "Brewing/아카이아 펄/펄 앱.md",
     "conflict-files-obsidian-git.md",
@@ -228,7 +229,6 @@
     "iOS/Modular Architecture/레퍼런스.md",
     "iOS/함수형 프로그래밍/세션.md",
     "iOS/함수형 프로그래밍/강의.md",
-    "iOS/함수형 프로그래밍/강의 자료.md",
     "Computer Science/Algorithm/항해 99/Pasted image 20250415213227.png",
     "iOS/Swift Testing/Pasted image 20250407103331.png",
     "iOS/Swift Testing/Pasted image 20250407103247.png",
