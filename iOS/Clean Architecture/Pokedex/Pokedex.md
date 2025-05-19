@@ -2,12 +2,8 @@
 
 - Swift
 - SwiftUI
-- TCA
 - Tuist
 - PokemonAPI
-# Clean Architecture는 어디감?
-
-TCA 자체가 아키텍처라 클린 아키텍처랑 같이 못함... (어쩐지 자료가 없더라)
 
 # 그러면 모듈화 어떻게 할거?
 
