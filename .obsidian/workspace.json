@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "dbb35030aadee015",
+        "id": "a4adfef1298424d7",
         "type": "tabs",
         "children": [
           {
-            "id": "0c01e9a6e917ee9d",
+            "id": "92229dfce5e54d9e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "iOS/TCA/The Composable Architecture Tutorials/Chatper 2/1. Your first presentation.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "1. Your first presentation"
+              "title": "새 탭"
             }
           }
         ]
@@ -141,10 +137,13 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "0c01e9a6e917ee9d",
+  "active": "92229dfce5e54d9e",
   "lastOpenFiles": [
-    "iOS/F-lab 사이드 프로젝트/무제.md",
+    "iOS/TCA/TCA 1.0/도서.md",
+    "iOS/TCA/TCA 1.0/Chatper 5. Dependency.md",
+    "iOS/TCA/TCA 1.0/Chapter 2. TCA의 기본 개념.md",
     "iOS/TCA/The Composable Architecture Tutorials/Chatper 2/1. Your first presentation.md",
+    "iOS/F-lab 사이드 프로젝트/무제.md",
     "무제.md",
     "iOS/TCA/The Composable Architecture Tutorials/Chapter 1/4. Composing features.md",
     "iOS/TCA/The Composable Architecture Tutorials/Chatper 2",
