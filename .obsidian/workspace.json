@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "무제",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -64,7 +64,8 @@
               "title": "검색"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -141,7 +142,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "92229dfce5e54d9e",
+  "active": "96716307e3823d3c",
   "lastOpenFiles": [
     "iOS/무제.md",
     "iOS/Swift/Writing High-Performance Swift Code.md",
