@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevClub/걷는/TCA Alert.md",
+                "file": "iOS/Swift/Concurrency/구조적 동시성.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TCA Alert"
+              "title": "구조적 동시성"
             }
           }
         ],
@@ -193,8 +193,9 @@
   },
   "active": "711a6aa21aba8b99",
   "lastOpenFiles": [
-    "iOS/Swift/Concurrency/신규 URLSession API.md",
     "DevClub/걷는/TCA Alert.md",
+    "iOS/Swift/Concurrency/구조적 동시성.md",
+    "iOS/Swift/Concurrency/신규 URLSession API.md",
     "iOS/Swift/Concurrency/번역본 자료.md",
     "iOS/Swift/Concurrency/구조적 동시성과 병렬 처리.md",
     "iOS/Swift/Concurrency/self 키워드.md",
@@ -226,7 +227,6 @@
     "Computer Science/모두를 위한 컴퓨터 과학 (CS50)",
     "Computer Science/Dependency Injection/Auto Dependency Injection.md",
     "Brewing/안스타 레시피.md",
-    "DevClub/걷는/로그인 관련/애플 로그인.md",
     "Brewing/아카이아 펄",
     "Brewing",
     "Computer Science/Algorithm/항해 99/Pasted image 20250415213227.png",
