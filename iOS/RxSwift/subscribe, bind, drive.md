@@ -92,4 +92,10 @@ public func drive(
     }
 ```
 
-drive 메소드는 `MainScheduler.ensureRunningOnMainThread(errorMessage:)` 를 통해 메인 스케줄러를 보장하며, subscribe 메소드를 통해 next, completed, disposed 이벤트를 처리할 수 있다.
+drive 메소드는 `MainScheduler.ensureRunningOnMainThread(errorMessage:)` 를 통해 메인 스케줄러를 보장하며, subscribe 메소드를 통해 next, completed, disposed 이벤트를 처리할 수 있다
+
+| 메소드         | 대상         | 처리 가능한 이벤트                       | 스레드 보장            | 주 사용처                   |
+| ----------- | ---------- | -------------------------------- | ----------------- | ----------------------- |
+| `subscribe` | Observable | next, error, completed, disposed | ❌ (사용자 지정)        | 전반적인 스트림 처리             |
+| `bind`      | Observable | next                             | ❌ (직접 지정 필요)      | ViewModel → View 바인딩    |
+| `drive`     | Driver     | next, completed, disposed        | ✅ (MainScheduler) | UI 바인딩 (안정성 + 메인스레드 보장) |
