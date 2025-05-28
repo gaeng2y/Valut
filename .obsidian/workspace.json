@@ -11,10 +11,14 @@
             "id": "6e3ad45bea9fb7ee",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "iOS/RxSwift/subscribe, bind, drive.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "새 탭"
+              "title": "subscribe, bind, drive"
             }
           }
         ]
@@ -137,10 +141,25 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "07806348fe1fe1a1",
+  "active": "6e3ad45bea9fb7ee",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
+    "iOS/RxSwift/Scheduler.md",
+    "iOS/RxSwift/subscribe, bind, drive.md",
+    "iOS/RxSwift/RxSwift Traits(특성).md",
+    "iOS/RxSwift/Disposable.md",
+    "iOS/RxSwift/Disposables.md",
+    "iOS/Swift/메소드에서 -> 가 있는 기준.md",
+    "iOS/Swift/Misc/가변 파라미터.md",
+    "iOS/Swift/Misc/self vs Self.md",
+    "iOS/Swift/Misc/RunLoop.main과 DispatchQueue.main의 차이.md",
+    "iOS/Swift/Misc/Lazy stored properties.md",
+    "iOS/Swift/Misc/Compile, Link, Build.md",
+    "iOS/Swift/Misc/🔀 Method Swizzling.md",
+    "iOS/Swift/Writing High-Performance Swift Code.md",
+    "iOS/Swift/Type Erasure.md",
     "iOS/Swift/Task, Task.detached 의 self 캡처.md",
+    "iOS/Swift/Swift 컴파일 프로세스.md",
+    "conflict-files-obsidian-git.md",
     "devclub/걷는/로그인 관련/애플 로그인.md",
     "devclub/걷는/로그인 관련/카카오 로그인.md",
     "devclub/걷는/로그인 관련/온보딩.md",
@@ -149,26 +168,11 @@
     "devclub/걷는/로그인 관련",
     "devclub/걷는",
     "devclub",
-    "iOS/Swift/Writing High-Performance Swift Code.md",
     "iOS/무제.md",
     "iOS/함수형 프로그래밍/강의 자료.md",
     "iOS/함수형 프로그래밍/강의.md",
     "iOS/함수형 프로그래밍/세션.md",
-    "iOS/함수형 프로그래밍/레퍼런스.md",
-    "iOS/TCA/The Composable Architecture Tutorials/Chatper 2/1. Your first presentation.md",
-    "iOS/TCA/The Composable Architecture Tutorials/Chapter 1/4. Composing features.md",
-    "iOS/TCA/TCA 1.0/Chapter 4. TCA Binding.md",
-    "iOS/TCA/TCA 1.0/Chatper 5. Dependency.md",
-    "iOS/Modular Architecture/레퍼런스.md",
-    "iOS/Modular Architecture/The Modular Architecture(TMA).md",
-    "iOS/Clean Architecture/iOS Clean Architecture & MVVM - RxSwift 완전 정복/MVVM에 대해.md",
     "iOS/Clean Architecture/iOS Clean Architecture & MVVM - RxSwift 완전 정복/Pasted image 20250204225726.png",
-    "iOS/Clean Architecture/Pokedex/Pokedex.md",
-    "iOS/Clean Architecture/Pokedex/PokeApi.md",
-    "iOS/Clean Architecture/iOS Clean Architecture & MVVM - RxSwift 완전 정복/클린 아키텍처는 왜 사용하는가?.md",
-    "iOS/RxSwift/Disposable.md",
-    "iOS/RxSwift/Disposables.md",
-    "iOS/RxSwift/RxSwift Traits(특성).md",
     "iOS/TCA/The Composable Architecture Tutorials/Chatper 2",
     "iOS/Lookin",
     "iOS/TCA/The Composable Architecture Tutorials/Chapter 1",
