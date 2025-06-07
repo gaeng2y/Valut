@@ -10,3 +10,5 @@
 ### 취소의 구현
 ##### 1. 내부의 비동기 함수에 취소를 전파
 ##### 2. 작업 내부에 작업이 있을 때
+##### 3. URLError
+`URLSession.shared.data(from:)` 메소드를 실행 시 취소가 되면 URLError.Code.cancelled 에러 던짐
