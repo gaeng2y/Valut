@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "iOS/Swift/Concurrency/구조적 동시성.md",
+                "file": "iOS/Swift/Task Local 변수의 사용.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "구조적 동시성"
+              "title": "Task Local 변수의 사용"
             }
           }
         ],
@@ -193,6 +193,10 @@
   },
   "active": "711a6aa21aba8b99",
   "lastOpenFiles": [
+    "iOS/Swift/Concurrency/프로퍼티 래퍼.md",
+    "iOS/Swift/Task Local 변수의 사용.md",
+    "iOS/Swift/Concurrency/TaskGroup 활용.md",
+    "무제.md",
     "iOS/Swift/Concurrency/구조적 동시성과 병렬 처리.md",
     "iOS/Swift/Concurrency/구조적 동시성.md",
     "iOS/Swift/Concurrency/Task의 취소.md",
@@ -215,9 +219,6 @@
     "DevClub/걷는/TCA Alert.md",
     "iOS/Swift/Concurrency/신규 URLSession API.md",
     "iOS/Swift/Concurrency/번역본 자료.md",
-    "iOS/Swift/Concurrency/self 키워드.md",
-    "iOS/Swift/Concurrency/async await.md",
-    "DevClub/걷는/MainTab.md",
     "DevClub/걷는/트러블슈팅",
     "DevClub/걷는",
     "iOS/TCA/The Composable Architecture Tutorials/Chatper 2",
