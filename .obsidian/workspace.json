@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Swift/Concurrency/앨런 동시성 파트 1/프로퍼티 래퍼.md",
+                "file": "ab180/개요.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "프로퍼티 래퍼"
+              "title": "개요"
             }
           }
         ],
@@ -191,15 +191,17 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "160736a19be9866b",
+  "active": "711a6aa21aba8b99",
   "lastOpenFiles": [
+    "Swift/Concurrency/앨런 동시성 파트 1/프로퍼티 래퍼.md",
+    "ab180/개요.md",
+    "ab180",
     "Swift/Concurrency/앨런 동시성 파트 2",
     "Swift/Concurrency/앨런 동시성 파트 1",
     "Swift/메소드에서 -> 가 있는 기준.md",
     "Swift/Concurrency/앨런 동시성 파트 1/Executor.md",
     "Swift/Concurrency/앨런 동시성 파트 1/Continuation.md",
     "Swift/Task Local 변수의 사용.md",
-    "Swift/Concurrency/앨런 동시성 파트 1/프로퍼티 래퍼.md",
     "Swift/Concurrency/앨런 동시성 파트 1/TaskGroup 활용.md",
     "무제.md",
     "Swift/Concurrency/앨런 동시성 파트 1/구조적 동시성과 병렬 처리.md",
@@ -227,8 +229,6 @@
     "iOS/TCA/The Composable Architecture Tutorials",
     "iOS/Lookin",
     "Computer Science/모두를 위한 컴퓨터 과학 (CS50)/1. 컴퓨팅 사고",
-    "Computer Science/모두를 위한 컴퓨터 과학 (CS50)",
-    "Brewing/아카이아 펄",
     "Computer Science/Algorithm/항해 99/Pasted image 20250415213227.png",
     "iOS/Swift Testing/Pasted image 20250407103331.png",
     "iOS/Swift Testing/Pasted image 20250407103247.png",
