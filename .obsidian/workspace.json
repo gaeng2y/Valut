@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ab180/개요.md",
+                "file": "iOS/Concurrency to Combine.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "개요"
+              "title": "Concurrency to Combine"
             }
           }
         ],
@@ -193,8 +193,9 @@
   },
   "active": "711a6aa21aba8b99",
   "lastOpenFiles": [
-    "Swift/Concurrency/앨런 동시성 파트 1/프로퍼티 래퍼.md",
     "ab180/개요.md",
+    "iOS/Concurrency to Combine.md",
+    "Swift/Concurrency/앨런 동시성 파트 1/프로퍼티 래퍼.md",
     "ab180",
     "Swift/Concurrency/앨런 동시성 파트 2",
     "Swift/Concurrency/앨런 동시성 파트 1",
@@ -221,7 +222,6 @@
     "F-lab 멘토링/1주차/Notification Center VS Delegate Pattern.md",
     "F-lab 멘토링/1주차/Deinitialization.md",
     "F-lab 멘토링/1주차/Choosing Between Structures and Classes.md",
-    "F-lab 멘토링/1주차/AutoReleasePool.md",
     "DevClub/걷는/트러블슈팅",
     "DevClub/걷는",
     "iOS/TCA/The Composable Architecture Tutorials/Chatper 2",
