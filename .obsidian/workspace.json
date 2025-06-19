@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ab180/EventQueueManaging 상세 분석.md",
+                "file": "iOS/SwiftUI/Navigation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "EventQueueManaging 상세 분석"
+              "title": "Navigation"
             }
           }
         ],
@@ -191,10 +191,14 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "711a6aa21aba8b99",
+  "active": "160736a19be9866b",
   "lastOpenFiles": [
-    "ab180/EventStorage 상세 분석.md",
+    "iOS/SwiftUI/Clean code in SwiftUI.md",
+    "iOS/SwiftUI/MV 패턴이란?.md",
     "ab180/EventQueueManaging 상세 분석.md",
+    "iOS/SwiftUI/패스트 캠퍼스 네카라쿠배",
+    "iOS/SwiftUI/SwiftUI와 컴바인을 활용한 비동기 프로그래밍",
+    "ab180/EventStorage 상세 분석.md",
     "ab180/구조.md",
     "iOS/Concurrency to Combine.md",
     "ab180/개요.md",
@@ -220,15 +224,11 @@
     "F-lab 멘토링/1주차/Swift의 캡쳐 리스트.md",
     "F-lab 멘토링/1주차/웹 뷰에서 자바스크립트와 상호작용.md",
     "F-lab 멘토링/1주차/Swift 지정, 편의 생성자.md",
-    "F-lab 멘토링/1주차/POP.md",
-    "F-lab 멘토링/1주차/Objective-C vs Swift differences.md",
     "DevClub/걷는/트러블슈팅",
     "DevClub/걷는",
     "iOS/TCA/The Composable Architecture Tutorials/Chatper 2",
     "iOS/TCA/The Composable Architecture Tutorials/Chapter 1",
     "iOS/TCA/The Composable Architecture Tutorials",
-    "iOS/Lookin",
-    "Computer Science/모두를 위한 컴퓨터 과학 (CS50)/1. 컴퓨팅 사고",
     "Computer Science/Algorithm/항해 99/Pasted image 20250415213227.png",
     "iOS/Swift Testing/Pasted image 20250407103331.png",
     "iOS/Swift Testing/Pasted image 20250407103247.png",
