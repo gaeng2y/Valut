@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "iOS/SwiftUI/Navigation.md",
+                "file": "iOS/Swift Testing/Meet Swift Testing.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Navigation"
+              "title": "Meet Swift Testing"
             }
           }
         ],
@@ -191,8 +191,9 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "160736a19be9866b",
+  "active": "711a6aa21aba8b99",
   "lastOpenFiles": [
+    "iOS/SwiftUI/Navigation.md",
     "iOS/SwiftUI/Clean code in SwiftUI.md",
     "iOS/SwiftUI/MV 패턴이란?.md",
     "ab180/EventQueueManaging 상세 분석.md",
@@ -223,7 +224,6 @@
     "F-lab 멘토링/2주차/cpu.land.md",
     "F-lab 멘토링/1주차/Swift의 캡쳐 리스트.md",
     "F-lab 멘토링/1주차/웹 뷰에서 자바스크립트와 상호작용.md",
-    "F-lab 멘토링/1주차/Swift 지정, 편의 생성자.md",
     "DevClub/걷는/트러블슈팅",
     "DevClub/걷는",
     "iOS/TCA/The Composable Architecture Tutorials/Chatper 2",
