@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "DevClub/걷는/전반적인 구조 문서.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "전반적인 구조 문서"
             }
           }
         ],
@@ -193,8 +193,11 @@
   },
   "active": "711a6aa21aba8b99",
   "lastOpenFiles": [
-    "무제.md",
+    "DevClub/걷는/Pasted image 20250702214758.png",
     "README.md",
+    "DevClub/걷는/전반적인 구조 문서.md",
+    "DevClub/걷는/구조",
+    "무제.md",
     "class.md",
     "𐂮 Resources/Pasted image 20240717213511.png",
     "𐂮 Resources/Pasted image 20240717213343.png",
@@ -225,13 +228,10 @@
     "F-lab 멘토링/2주차/CPU 스케줄링 기준.md",
     "F-lab 멘토링/2주차/OS의 스레드.md",
     "F-lab 멘토링/2주차/TCP, UDP 차이.md",
-    "F-lab 멘토링/2주차/Instruments.md",
-    "F-lab 멘토링/2주차/Hash Collision.md",
     "DevClub/걷는/트러블슈팅",
     "DevClub/걷는",
     "iOS/TCA/The Composable Architecture Tutorials/Chatper 2",
     "iOS/TCA/The Composable Architecture Tutorials/Chapter 1",
-    "iOS/TCA/The Composable Architecture Tutorials",
     "Computer Science/Algorithm/항해 99/Pasted image 20250415213227.png",
     "iOS/Swift Testing/Pasted image 20250407103331.png",
     "iOS/Swift Testing/Pasted image 20250407103247.png",
