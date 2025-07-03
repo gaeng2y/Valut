@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevClub/걷는/전반적인 구조 문서.md",
+                "file": "DevClub/걷는/TCA NavigationStack.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "전반적인 구조 문서"
+              "title": "TCA NavigationStack"
             }
           }
         ],
@@ -193,9 +193,11 @@
   },
   "active": "711a6aa21aba8b99",
   "lastOpenFiles": [
+    "DevClub/걷는/TCA Alert.md",
+    "DevClub/걷는/TCA NavigationStack.md",
+    "DevClub/걷는/전반적인 구조 문서.md",
     "DevClub/걷는/Pasted image 20250702214758.png",
     "README.md",
-    "DevClub/걷는/전반적인 구조 문서.md",
     "DevClub/걷는/구조",
     "무제.md",
     "class.md",
@@ -227,7 +229,6 @@
     "Swift/Concurrency/앨런 동시성 파트 1/Task의 취소.md",
     "F-lab 멘토링/2주차/CPU 스케줄링 기준.md",
     "F-lab 멘토링/2주차/OS의 스레드.md",
-    "F-lab 멘토링/2주차/TCP, UDP 차이.md",
     "DevClub/걷는/트러블슈팅",
     "DevClub/걷는",
     "iOS/TCA/The Composable Architecture Tutorials/Chatper 2",
@@ -238,7 +239,6 @@
     "F-lab 멘토링/10주차/Pasted image 20240801211145.png",
     "WWDC/WWDC 23/Keep up with the Keyboard/Pasted image 20250401170902.png",
     "WWDC/WWDC 23/Keep up with the Keyboard/Pasted image 20250401170718.png",
-    "WWDC/WWDC 23/Keep up with the Keyboard/Pasted image 20250401170607.png",
     "Computational Thinking/무제 파일.canvas"
   ]
 }
