@@ -106,3 +106,82 @@ state.path.removeAll()
 ```
 
 이러한 패턴을 사용하면 TCA의 철학에 맞는 선언적이고 예측 가능한 네비게이션을 구현할 수 있습니다. 특히 복잡한 네비게이션 플로우나 상태 복원이 필요한 경우에 매우 유용합니다.
+### body에 forEach 필요한 이유
+
+#### `.forEach`의 역할
+
+`.forEach`는 **컬렉션의 각 요소에 대해 개별적으로 reducer를 실행**하는 역할을 합니다.
+
+#### NavigationStack에서 일어나는 일
+
+```swift
+// 현재 상태
+state.path = StackState([
+    .settings(SettingsFeature.State(...)),
+    .changeNickname(ChangeNicknameFeature.State(...))
+])
+```
+
+NavigationStack에서 사용자가 "설정" 화면의 버튼을 누르면:
+
+1. **SwiftUI**: 해당 화면에서 액션이 발생
+2. **TCA**: `path(StackAction<Path.State, Path.Action>)` 액션이 전달됨
+3. **문제**: 이 액션을 누가 처리할까?
+
+#### `.forEach` 없이는 어떻게 될까?
+
+```swift
+// ❌ .forEach 없는 경우
+public var body: some ReducerOf<Self> {
+    Reduce { state, action in
+        switch action {
+        case .path:
+            return .none // 🔴 아무것도 하지 않음!
+        }
+    }
+}
+```
+
+`path` 액션이 와도 실제로 **각 화면의 reducer가 실행되지 않습니다**. 설정 화면에서 버튼을 눌러도 `SettingsFeature`의 reducer가 호출되지 않죠.
+
+#### `.forEach`가 있을 때
+
+```swift
+// ✅ .forEach 있는 경우
+public var body: some ReducerOf<Self> {
+    Reduce { state, action in
+        // 부모 reducer 로직
+    }
+    .forEach(\.path, action: \.path)
+}
+```
+
+이제 `path` 액션이 오면:
+
+1. **TCA가 자동으로 판단**: "아, 이 액션은 path 배열의 어떤 요소에서 온 건가?"
+2. **해당 인덱스 찾기**: 예를 들어 index 0 (설정 화면)에서 온 액션
+3. **해당 reducer 실행**: `SettingsFeature`의 reducer가 실행됨
+4. **상태 업데이트**: 설정 화면의 상태가 업데이트됨
+
+#### 구체적인 예시
+
+```swift
+// 설정 화면에서 "다크모드 켜기" 버튼을 눌렀을 때
+
+// 1. SettingsFeature에서 액션 발생
+store.send(.toggleDarkMode)
+
+// 2. ProfileFeature로 전달
+.path(.element(id: 0, action: .settings(.toggleDarkMode)))
+
+// 3. .forEach가 이를 감지하고 SettingsFeature.reducer 실행
+// 4. 설정 화면의 상태가 업데이트됨
+```
+
+#### 결론
+
+`.forEach`는 **"배열의 각 요소가 독립적인 reducer를 가지고 있을 때, 해당 요소의 액션을 올바른 reducer로 라우팅"**하는 역할을 합니다.
+
+NavigationStack 없이는 각 화면이 독립적으로 동작할 수 없고, 모든 화면이 "멍청한" 뷰가 되어버립니다.
+
+이것이 TCA에서 NavigationStack을 사용할 때 `.forEach`가 필수인 이유입니다!
