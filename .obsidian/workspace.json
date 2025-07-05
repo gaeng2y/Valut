@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevClub/걷는/TCA NavigationStack.md",
+                "file": "iOS/실전 리팩토링/2024 03 05 라이브세션.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TCA NavigationStack"
+              "title": "2024 03 05 라이브세션"
             }
           }
         ],
@@ -191,12 +191,16 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "711a6aa21aba8b99",
+  "active": "160736a19be9866b",
   "lastOpenFiles": [
-    "DevClub/걷는/TCA Alert.md",
-    "DevClub/걷는/TCA NavigationStack.md",
-    "DevClub/걷는/전반적인 구조 문서.md",
-    "DevClub/걷는/Pasted image 20250702214758.png",
+    "iOS/Noncopyable.md",
+    "iOS/Lookin/사용법.md",
+    "Architecture",
+    "Reactive Programming",
+    "F-lab/DevClub/걷는/TCA NavigationStack.md",
+    "F-lab/DevClub/걷는/TCA Alert.md",
+    "F-lab/DevClub/걷는/전반적인 구조 문서.md",
+    "F-lab/DevClub/걷는/Pasted image 20250702214758.png",
     "README.md",
     "DevClub/걷는/구조",
     "무제.md",
@@ -227,16 +231,12 @@
     "Swift/Concurrency/앨런 동시성 파트 1/구조적 동시성과 병렬 처리.md",
     "iOS/Swift/Concurrency/구조적 동시성.md",
     "Swift/Concurrency/앨런 동시성 파트 1/Task의 취소.md",
-    "F-lab 멘토링/2주차/CPU 스케줄링 기준.md",
-    "F-lab 멘토링/2주차/OS의 스레드.md",
-    "DevClub/걷는/트러블슈팅",
-    "DevClub/걷는",
-    "iOS/TCA/The Composable Architecture Tutorials/Chatper 2",
-    "iOS/TCA/The Composable Architecture Tutorials/Chapter 1",
+    "F-lab/DevClub/걷는/트러블슈팅",
+    "F-lab/DevClub/걷는",
     "Computer Science/Algorithm/항해 99/Pasted image 20250415213227.png",
     "iOS/Swift Testing/Pasted image 20250407103331.png",
     "iOS/Swift Testing/Pasted image 20250407103247.png",
-    "F-lab 멘토링/10주차/Pasted image 20240801211145.png",
+    "F-lab/10주차/Pasted image 20240801211145.png",
     "WWDC/WWDC 23/Keep up with the Keyboard/Pasted image 20250401170902.png",
     "WWDC/WWDC 23/Keep up with the Keyboard/Pasted image 20250401170718.png",
     "Computational Thinking/무제 파일.canvas"

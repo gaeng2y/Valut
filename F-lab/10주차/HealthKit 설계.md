@@ -5,7 +5,7 @@
 - datePicker 이용해서 달마다의 수분량을 가져와 리스트로 보여주기
 
 
-![](F-lab%20멘토링/10주차/Pasted%20image%2020240801211145.png)
+![](F-lab/10주차/Pasted%20image%2020240801211145.png)
 
 # HistoryView
 - datePicker: 연월일  고르는 데이트피커
@@ -23,7 +23,7 @@
 - + DrinkView에서 수분량 저장을 위해 setWater 메소드 추가(reset도)
 
 # Class diagram
-![](F-lab%20멘토링/10주차/Pasted%20image%2020240801212045.png)
+![](F-lab/10주차/Pasted%20image%2020240801212045.png)
 
 ## Sequence diagram
-![](F-lab%20멘토링/10주차/Pasted%20image%2020240801212105.png)
+![](F-lab/10주차/Pasted%20image%2020240801212105.png)
