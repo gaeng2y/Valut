@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "iOS/실전 리팩토링/2024 03 05 라이브세션.md",
+                "file": "F-lab/DevClub/걷는/트러블슈팅/그러면 프로필 화면 구성을 어떻게 해야할까?.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2024 03 05 라이브세션"
+              "title": "그러면 프로필 화면 구성을 어떻게 해야할까?"
             }
           }
         ],
@@ -191,13 +191,15 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "160736a19be9866b",
+  "active": "711a6aa21aba8b99",
   "lastOpenFiles": [
+    "F-lab/DevClub/걷는/TCA NavigationStack.md",
+    "F-lab/DevClub/걷는/트러블슈팅/그러면 프로필 화면 구성을 어떻게 해야할까?.md",
+    "iOS/실전 리팩토링/2024 03 05 라이브세션.md",
     "iOS/Noncopyable.md",
     "iOS/Lookin/사용법.md",
     "Architecture",
     "Reactive Programming",
-    "F-lab/DevClub/걷는/TCA NavigationStack.md",
     "F-lab/DevClub/걷는/TCA Alert.md",
     "F-lab/DevClub/걷는/전반적인 구조 문서.md",
     "F-lab/DevClub/걷는/Pasted image 20250702214758.png",
@@ -229,8 +231,6 @@
     "Swift/Task Local 변수의 사용.md",
     "Swift/Concurrency/앨런 동시성 파트 1/TaskGroup 활용.md",
     "Swift/Concurrency/앨런 동시성 파트 1/구조적 동시성과 병렬 처리.md",
-    "iOS/Swift/Concurrency/구조적 동시성.md",
-    "Swift/Concurrency/앨런 동시성 파트 1/Task의 취소.md",
     "F-lab/DevClub/걷는/트러블슈팅",
     "F-lab/DevClub/걷는",
     "Computer Science/Algorithm/항해 99/Pasted image 20250415213227.png",
