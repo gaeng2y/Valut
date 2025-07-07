@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "F-lab/DevClub/걷는/트러블슈팅/그러면 프로필 화면 구성을 어떻게 해야할까?.md",
+                "file": "Architecture/Modular Architecture/Swift 환경에서 MVVM + Clean Architecture + Modular Architecture + µFeature 통합 가이드.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "그러면 프로필 화면 구성을 어떻게 해야할까?"
+              "title": "Swift 환경에서 MVVM + Clean Architecture + Modular Architecture + µFeature 통합 가이드"
             }
           }
         ],
@@ -193,8 +193,10 @@
   },
   "active": "711a6aa21aba8b99",
   "lastOpenFiles": [
-    "F-lab/DevClub/걷는/TCA NavigationStack.md",
     "F-lab/DevClub/걷는/트러블슈팅/그러면 프로필 화면 구성을 어떻게 해야할까?.md",
+    "Architecture/Modular Architecture/Swift 환경에서 MVVM + Clean Architecture + Modular Architecture + µFeature 통합 가이드.md",
+    "Tuist/무제",
+    "F-lab/DevClub/걷는/TCA NavigationStack.md",
     "iOS/실전 리팩토링/2024 03 05 라이브세션.md",
     "iOS/Noncopyable.md",
     "iOS/Lookin/사용법.md",
@@ -230,9 +232,7 @@
     "Swift/Concurrency/앨런 동시성 파트 1/Continuation.md",
     "Swift/Task Local 변수의 사용.md",
     "Swift/Concurrency/앨런 동시성 파트 1/TaskGroup 활용.md",
-    "Swift/Concurrency/앨런 동시성 파트 1/구조적 동시성과 병렬 처리.md",
     "F-lab/DevClub/걷는/트러블슈팅",
-    "F-lab/DevClub/걷는",
     "Computer Science/Algorithm/항해 99/Pasted image 20250415213227.png",
     "iOS/Swift Testing/Pasted image 20250407103331.png",
     "iOS/Swift Testing/Pasted image 20250407103247.png",
