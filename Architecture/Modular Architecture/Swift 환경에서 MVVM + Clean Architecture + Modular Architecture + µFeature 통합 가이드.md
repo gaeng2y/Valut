@@ -1,160 +1,147 @@
-## 전체 아키텍처 개요
+## µFeature 정확한 구조
 
-Swift와 Tuist를 활용하여 세 가지 아키텍처 패턴을 통합합니다:
-
-- **MVVM**: UI 바인딩과 프레젠테이션 로직 분리 (Combine 활용)
-- **Clean Architecture**: 비즈니스 로직과 외부 의존성 분리
-- **Modular Architecture**: 기능별 모듈 분리
-- **µFeature**: 독립적인 마이크로 모듈 구성
-
-## 모듈 구조 설계
-
-### 1. Core 모듈 (공통 기능)
-```
-Core/
-├── CoreCommon/          # 공통 유틸리티, 확장
-├── CoreNetwork/         # 네트워킹 설정
-├── CoreDatabase/        # Core Data 설정
-├── CoreUI/             # 공통 UI 컴포넌트
-├── CoreDomain/         # 공통 도메인 모델
-└── CoreNavigation/     # 네비게이션 인터페이스
-```
-
-### 2. Feature 모듈 (µFeature 적용)
+### Feature 모듈 (µFeature 표준)
 ```
 AuthFeature/
-├── AuthFeature/                    # umbrella module
-├── AuthFeatureInterface/           # public interface
-├── AuthFeatureImplementation/      # 실제 구현
-│   ├── Presentation/              # MVVM Layer
+├── Interface/          # 공개 인터페이스 (Protocol)
+├── Source/            # 실제 구현
+│   ├── Presentation/  # MVVM Layer
 │   │   ├── ViewModel/
 │   │   └── View/
-│   ├── Domain/                    # Clean Architecture Domain
+│   ├── Domain/        # Clean Architecture Domain
 │   │   ├── UseCase/
 │   │   └── Repository/
-│   └── Data/                      # Clean Architecture Data
+│   └── Data/          # Clean Architecture Data
 │       ├── Repository/
 │       └── DataSource/
-├── AuthFeatureTesting/            # 테스트 유틸리티
-└── AuthFeatureExample/            # 독립 실행 앱
+├── Testing/           # 테스트 유틸리티 (Mock, Stub)
+├── Tests/            # 실제 테스트 코드
+└── Demo/             # 독립 실행 가능한 데모 앱
 ```
 
 ## Tuist Project.swift 구성
 
-### Core 모듈 프로젝트
-```swift
-// Core/Project.swift
-let coreProject = Project(
-    name: "Core",
-    targets: [
-        Target(
-            name: "CoreCommon",
-            platform: .iOS,
-            product: .framework,
-            bundleId: "com.app.core.common",
-            sources: ["CoreCommon/**"],
-            dependencies: []
-        ),
-        Target(
-            name: "CoreNetwork",
-            platform: .iOS,
-            product: .framework,
-            bundleId: "com.app.core.network",
-            sources: ["CoreNetwork/**"],
-            dependencies: [
-                .target(name: "CoreCommon")
-            ]
-        ),
-        Target(
-            name: "CoreDomain",
-            platform: .iOS,
-            product: .framework,
-            bundleId: "com.app.core.domain",
-            sources: ["CoreDomain/**"],
-            dependencies: [
-                .target(name: "CoreCommon")
-            ]
-        )
-    ]
-)
-```
-
 ### Feature 모듈 프로젝트
 ```swift
 // AuthFeature/Project.swift
+import ProjectDescription
+
 let authFeatureProject = Project(
     name: "AuthFeature",
     targets: [
+        // Interface - 공개 인터페이스
         Target(
             name: "AuthFeatureInterface",
             platform: .iOS,
             product: .framework,
             bundleId: "com.app.auth.interface",
-            sources: ["AuthFeatureInterface/**"],
+            sources: ["Interface/**"],
             dependencies: [
                 .project(target: "CoreDomain", path: "../Core"),
                 .project(target: "CoreCommon", path: "../Core")
             ]
         ),
+        
+        // Source - 실제 구현
         Target(
-            name: "AuthFeatureImplementation",
+            name: "AuthFeature",
             platform: .iOS,
             product: .framework,
-            bundleId: "com.app.auth.implementation",
-            sources: ["AuthFeatureImplementation/**"],
+            bundleId: "com.app.auth.source",
+            sources: ["Source/**"],
             dependencies: [
                 .target(name: "AuthFeatureInterface"),
                 .project(target: "CoreNetwork", path: "../Core"),
-                .project(target: "CoreDatabase", path: "../Core")
+                .project(target: "CoreDatabase", path: "../Core"),
+                .project(target: "CoreUI", path: "../Core")
             ]
         ),
+        
+        // Testing - 테스트 유틸리티
         Target(
-            name: "AuthFeatureExample",
+            name: "AuthFeatureTesting",
+            platform: .iOS,
+            product: .framework,
+            bundleId: "com.app.auth.testing",
+            sources: ["Testing/**"],
+            dependencies: [
+                .target(name: "AuthFeatureInterface")
+            ]
+        ),
+        
+        // Tests - 실제 테스트
+        Target(
+            name: "AuthFeatureTests",
+            platform: .iOS,
+            product: .unitTests,
+            bundleId: "com.app.auth.tests",
+            sources: ["Tests/**"],
+            dependencies: [
+                .target(name: "AuthFeature"),
+                .target(name: "AuthFeatureTesting")
+            ]
+        ),
+        
+        // Demo - 독립 실행 앱
+        Target(
+            name: "AuthFeatureDemo",
             platform: .iOS,
             product: .app,
-            bundleId: "com.app.auth.example",
-            sources: ["AuthFeatureExample/**"],
+            bundleId: "com.app.auth.demo",
+            sources: ["Demo/**"],
             dependencies: [
-                .target(name: "AuthFeatureImplementation")
+                .target(name: "AuthFeature")
             ]
         )
     ]
 )
 ```
 
-## 실제 구현 예시
+## 각 모듈별 구현
 
-### AuthFeatureInterface (공개 인터페이스)
+### Interface 모듈
 ```swift
+// AuthFeature/Interface/AuthFeatureInterface.swift
 import UIKit
 import Combine
 
 public protocol AuthFeatureInterface {
     func makeAuthViewController() -> UIViewController
-    func makeAuthCoordinator() -> AuthCoordinator
+    func makeAuthCoordinator(navigator: AuthNavigator) -> AuthCoordinator
 }
 
 public protocol AuthCoordinator {
     func start()
-    func navigateToMain()
-    func navigateToSignUp()
+    func showLogin()
+    func showSignUp()
 }
 
 public protocol AuthNavigator {
     func navigateToMain()
-    func navigateToSignUp()
+    func showError(_ message: String)
+}
+
+public struct AuthConfiguration {
+    public let baseURL: String
+    public let apiKey: String
+    
+    public init(baseURL: String, apiKey: String) {
+        self.baseURL = baseURL
+        self.apiKey = apiKey
+    }
 }
 ```
 
-### AuthFeatureImplementation (실제 구현)
+### Source 모듈
 
 #### Domain Layer
 ```swift
+// AuthFeature/Source/Domain/UseCase/LoginUseCase.swift
 import Foundation
 import Combine
 import CoreDomain
+import AuthFeatureInterface
 
-// Use Case
 public class LoginUseCase {
     private let authRepository: AuthRepository
     
@@ -163,11 +150,20 @@ public class LoginUseCase {
     }
     
     public func execute(email: String, password: String) -> AnyPublisher<User, AuthError> {
+        guard !email.isEmpty, !password.isEmpty else {
+            return Fail(error: AuthError.invalidCredentials)
+                .eraseToAnyPublisher()
+        }
+        
         return authRepository.login(email: email, password: password)
     }
 }
 
-// Repository Protocol
+// AuthFeature/Source/Domain/Repository/AuthRepository.swift
+import Foundation
+import Combine
+import CoreDomain
+
 public protocol AuthRepository {
     func login(email: String, password: String) -> AnyPublisher<User, AuthError>
     func logout() -> AnyPublisher<Void, AuthError>
@@ -176,9 +172,11 @@ public protocol AuthRepository {
 
 #### Presentation Layer (MVVM)
 ```swift
-import UIKit
+// AuthFeature/Source/Presentation/ViewModel/LoginViewModel.swift
+import Foundation
 import Combine
 import CoreCommon
+import AuthFeatureInterface
 
 class LoginViewModel: ObservableObject {
     @Published var email: String = ""
@@ -206,6 +204,7 @@ class LoginViewModel: ObservableObject {
                     self?.isLoading = false
                     if case .failure(let error) = completion {
                         self?.errorMessage = error.localizedDescription
+                        self?.navigator.showError(error.localizedDescription)
                     }
                 },
                 receiveValue: { [weak self] user in
@@ -215,46 +214,11 @@ class LoginViewModel: ObservableObject {
             .store(in: &cancellables)
     }
 }
-
-class LoginViewController: UIViewController {
-    private let viewModel: LoginViewModel
-    private var cancellables = Set<AnyCancellable>()
-    
-    init(viewModel: LoginViewModel) {
-        self.viewModel = viewModel
-        super.init(nibName: nil, bundle: nil)
-    }
-    
-    required init?(coder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
-    }
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        setupUI()
-        bindViewModel()
-    }
-    
-    private func bindViewModel() {
-        viewModel.$isLoading
-            .receive(on: DispatchQueue.main)
-            .sink { [weak self] isLoading in
-                // UI 업데이트
-            }
-            .store(in: &cancellables)
-        
-        viewModel.$errorMessage
-            .receive(on: DispatchQueue.main)
-            .sink { [weak self] errorMessage in
-                // 에러 메시지 표시
-            }
-            .store(in: &cancellables)
-    }
-}
 ```
 
 #### Data Layer
 ```swift
+// AuthFeature/Source/Data/Repository/AuthRepositoryImpl.swift
 import Foundation
 import Combine
 import CoreNetwork
@@ -279,6 +243,7 @@ class AuthRepositoryImpl: AuthRepository {
                 
                 return self.authDAO.saveUser(user)
                     .map { _ in user }
+                    .mapError { _ in AuthError.storageError }
                     .eraseToAnyPublisher()
             }
             .eraseToAnyPublisher()
@@ -286,92 +251,188 @@ class AuthRepositoryImpl: AuthRepository {
 }
 ```
 
-### AuthFeature 구현체
+### Source 모듈 - Feature 구현체
 ```swift
+// AuthFeature/Source/AuthFeature.swift
 import AuthFeatureInterface
 import CoreNetwork
 import CoreDatabase
 
 public class AuthFeature: AuthFeatureInterface {
-    private let authAPI: AuthAPI
-    private let authDAO: AuthDAO
-    private let navigator: AuthNavigator
+    private let configuration: AuthConfiguration
+    private let coreServices: CoreServices
     
-    public init(authAPI: AuthAPI, authDAO: AuthDAO, navigator: AuthNavigator) {
-        self.authAPI = authAPI
-        self.authDAO = authDAO
-        self.navigator = navigator
+    public init(configuration: AuthConfiguration, coreServices: CoreServices) {
+        self.configuration = configuration
+        self.coreServices = coreServices
     }
     
     public func makeAuthViewController() -> UIViewController {
-        let repository = AuthRepositoryImpl(authAPI: authAPI, authDAO: authDAO)
+        let repository = AuthRepositoryImpl(
+            authAPI: coreServices.authAPI,
+            authDAO: coreServices.authDAO
+        )
         let loginUseCase = LoginUseCase(authRepository: repository)
-        let viewModel = LoginViewModel(loginUseCase: loginUseCase, navigator: navigator)
+        let viewModel = LoginViewModel(
+            loginUseCase: loginUseCase,
+            navigator: DummyNavigator() // Demo에서는 더미 네비게이터
+        )
         
         return LoginViewController(viewModel: viewModel)
     }
     
-    public func makeAuthCoordinator() -> AuthCoordinator {
-        return AuthCoordinatorImpl(authFeature: self)
+    public func makeAuthCoordinator(navigator: AuthNavigator) -> AuthCoordinator {
+        return AuthCoordinatorImpl(authFeature: self, navigator: navigator)
     }
 }
 ```
 
-## 메인 앱에서 DI 구성
-
-### AppDependencyContainer
+### Testing 모듈
 ```swift
+// AuthFeature/Testing/MockAuthRepository.swift
+import Foundation
+import Combine
+import CoreDomain
 import AuthFeatureInterface
-import UserFeatureInterface
-import CoreNetwork
-import CoreDatabase
 
-class AppDependencyContainer {
+public class MockAuthRepository: AuthRepository {
+    public var loginResult: AnyPublisher<User, AuthError> = Empty().eraseToAnyPublisher()
+    public var logoutResult: AnyPublisher<Void, AuthError> = Empty().eraseToAnyPublisher()
     
-    // Core dependencies
-    private lazy var networkModule = NetworkModule()
-    private lazy var databaseModule = DatabaseModule()
+    public init() {}
     
-    // Feature dependencies
-    lazy var authFeature: AuthFeatureInterface = {
-        let navigator = AppAuthNavigator(appCoordinator: appCoordinator)
-        return AuthFeature(
-            authAPI: networkModule.authAPI,
-            authDAO: databaseModule.authDAO,
-            navigator: navigator
-        )
-    }()
+    public func login(email: String, password: String) -> AnyPublisher<User, AuthError> {
+        return loginResult
+    }
     
-    lazy var userFeature: UserFeatureInterface = {
-        return UserFeature(
-            userAPI: networkModule.userAPI,
-            userDAO: databaseModule.userDAO
-        )
-    }()
+    public func logout() -> AnyPublisher<Void, AuthError> {
+        return logoutResult
+    }
+}
+
+// AuthFeature/Testing/MockAuthNavigator.swift
+import AuthFeatureInterface
+
+public class MockAuthNavigator: AuthNavigator {
+    public var navigateToMainCalled = false
+    public var showErrorCalled = false
+    public var lastErrorMessage: String?
     
-    private lazy var appCoordinator = AppCoordinator(
-        authFeature: authFeature,
-        userFeature: userFeature
-    )
+    public init() {}
     
-    func createRootViewController() -> UIViewController {
-        return appCoordinator.start()
+    public func navigateToMain() {
+        navigateToMainCalled = true
+    }
+    
+    public func showError(_ message: String) {
+        showErrorCalled = true
+        lastErrorMessage = message
     }
 }
 ```
 
-## 핵심 장점
+### Tests 모듈
+```swift
+// AuthFeature/Tests/LoginUseCaseTests.swift
+import XCTest
+import Combine
+import AuthFeature
+import AuthFeatureTesting
+import CoreDomain
 
-**SwiftUI/UIKit 호환성**: 두 UI 프레임워크 모두 지원 가능
+class LoginUseCaseTests: XCTestCase {
+    private var sut: LoginUseCase!
+    private var mockRepository: MockAuthRepository!
+    private var cancellables: Set<AnyCancellable>!
+    
+    override func setUp() {
+        super.setUp()
+        mockRepository = MockAuthRepository()
+        sut = LoginUseCase(authRepository: mockRepository)
+        cancellables = Set<AnyCancellable>()
+    }
+    
+    func test_execute_withValidCredentials_shouldReturnUser() {
+        // Given
+        let expectedUser = User(id: "1", email: "test@test.com")
+        mockRepository.loginResult = Just(expectedUser)
+            .setFailureType(to: AuthError.self)
+            .eraseToAnyPublisher()
+        
+        let expectation = XCTestExpectation(description: "Login should succeed")
+        
+        // When
+        sut.execute(email: "test@test.com", password: "password")
+            .sink(
+                receiveCompletion: { _ in },
+                receiveValue: { user in
+                    XCTAssertEqual(user.email, expectedUser.email)
+                    expectation.fulfill()
+                }
+            )
+            .store(in: &cancellables)
+        
+        // Then
+        wait(for: [expectation], timeout: 1.0)
+    }
+}
+```
 
-**Combine 활용**: 반응형 프로그래밍으로 MVVM 바인딩 강화
+### Demo 모듈
+```swift
+// AuthFeature/Demo/DemoApp.swift
+import SwiftUI
+import AuthFeature
+import AuthFeatureInterface
 
-**독립 개발**: 각 Feature가 Example 앱으로 독립 실행 가능
+@main
+struct AuthFeatureDemoApp: App {
+    var body: some Scene {
+        WindowGroup {
+            ContentView()
+        }
+    }
+}
 
-**빌드 최적화**: Tuist의 캐시 시스템으로 빌드 시간 단축
+struct ContentView: View {
+    private let authFeature: AuthFeatureInterface
+    
+    init() {
+        let configuration = AuthConfiguration(
+            baseURL: "https://api.demo.com",
+            apiKey: "demo-key"
+        )
+        let coreServices = DemoCoreServices()
+        
+        self.authFeature = AuthFeature(
+            configuration: configuration,
+            coreServices: coreServices
+        )
+    }
+    
+    var body: some View {
+        AuthFeatureWrapper(authFeature: authFeature)
+    }
+}
+```
 
-**테스트 용이성**: Protocol 기반으로 Mock 객체 생성이 쉬움
+## 전체 워크스페이스 구성
 
-**팀 협업**: 각 팀이 독립적인 µFeature를 담당
+### Workspace.swift
+```swift
+// Workspace.swift
+import ProjectDescription
 
-이 구조로 Swift 환경에서도 대규모 앱 개발 시 코드 품질과 개발 효율성을 모두 확보할 수 있습니다.
+let workspace = Workspace(
+    name: "MyApp",
+    projects: [
+        "App",
+        "Core",
+        "Features/AuthFeature",
+        "Features/UserFeature",
+        "Features/HomeFeature"
+    ]
+)
+```
+
+이 구조로 각 µFeature가 완전히 독립적으로 개발, 테스트, 데모 실행이 가능하며, Clean Architecture의 계층 분리와 MVVM의 바인딩 구조를 모두 유지할 수 있습니다.
