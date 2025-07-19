@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "F-lab/DevClub/걷는/로그인 관련/발자취 등록.md",
+                "file": "iOS/Supabase/Auth/Supabase Auth 참고.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "발자취 등록"
+              "title": "Supabase Auth 참고"
             }
           }
         ],
@@ -193,8 +193,11 @@
   },
   "active": "711a6aa21aba8b99",
   "lastOpenFiles": [
-    "F-lab/DevClub/걷는/로그인 관련/Sign in with apple.md",
     "F-lab/DevClub/걷는/로그인 관련/발자취 등록.md",
+    "iOS/Supabase/Auth/Supabase Auth 참고.md",
+    "iOS/Supabase/Auth",
+    "iOS/Supabase",
+    "F-lab/DevClub/걷는/로그인 관련/Sign in with apple.md",
     "F-lab/DevClub/걷는/로그인 관련/애플 로그인.md",
     "Architecture/Modular Architecture/MµCM.md",
     "F-lab/DevClub/걷는/트러블슈팅/그러면 프로필 화면 구성을 어떻게 해야할까?.md",
@@ -230,9 +233,6 @@
     "Swift/Concurrency/앨런 동시성 파트 1/프로퍼티 래퍼.md",
     "ab180",
     "Swift/Concurrency/앨런 동시성 파트 2",
-    "Swift/Concurrency/앨런 동시성 파트 1",
-    "Swift/메소드에서 -> 가 있는 기준.md",
-    "F-lab/DevClub/걷는/트러블슈팅",
     "Computer Science/Algorithm/항해 99/Pasted image 20250415213227.png",
     "iOS/Swift Testing/Pasted image 20250407103331.png",
     "iOS/Swift Testing/Pasted image 20250407103247.png",
