@@ -28,3 +28,68 @@ Core Data를 사용하면 모델 계층을 지원하기 위해 작성해야 하�
 - **관계(Relationships)**: 엔티티 간의 연결을 정의합니다. 일대일(to-one) 또는 일대다(to-many) 관계를 설정할 수 있습니다.
 
 엔티티 상속(Entity Inheritance): 상위 엔티티(superentity)가 공통 속성을 정의하고, 하위 엔티티(subentities)가 이를 상속받아 재사용할 수 있습니다. 이를 통해 공통 속성을 한 번만 정의하여 효율적으로 관리할 수 있습니다.
+
+---
+## Setting up a Core Data stack
+**Core Data 스택(stack)** 은 앱의 객체를 관리하고 저장하는 클래스들의 집합입니다.
+
+**Core Data 스택의 구성 요소**
+NSPersistentContainer를 사용하면 스택 설정이 간소화됩니다. 이 컨테이너는 다음 세 가지 핵심 구성 요소를 한 번에 초기화합니다:
+- NSManagedObjectModel: 앱의 데이터 모델 파일을 나타냅니다.
+- NSManagedObjectContext: 앱의 객체에 대한 변경 사항을 추적하는 역할을 합니다.
+- NSPersistentStoreCoordinator: 객체를 저장소에 저장하고 가져오는 작업을 관리합니다.
+
+**설정 방법**
+문서에서는 `CoreDataStack` 이라는 클래스를 만들고, **싱글톤(singleton)** 으로 정의하여 `NSPersistentContainer` 변수를 사용하는 방법을 제안합니다. 컨테이너는 데이터 모델 파일 이름으로 초기화되고, 영구 저장소가 로드됩니다.
+
+또한, 앱의 뷰가 관리 객체 컨텍스트에 접근할 수 있도록 컨테이너의 `viewContext`를 앱 환경에 주입하는 방법을 코드 예시를 통해 보여줍니다.
+
+**편의 메서드 추가**
+`save()`나 `delete()`와 같은 편의 메서드를 `CoreDataStack` 클래스에 추가하여 변경 사항과 삭제를 효율적으로 관리할 수 있습니다. 이를 통해 실제 변경 사항이 있을 때만 저장하도록 하여 성능을 개선할 수 있습니다.
+
+---
+## Creating and Saving Managed Objects
+Core Data를 사용하여 객체를 생성하고 저장하는 방법은 다음과 같습니다.
+##### 객체 생성 과정
+
+**관리 객체 모델(managed object model)** 을 정의하고 **Core Data 스택(stack)** 을 초기화한 후, 데이터 저장을 위한 객체를 만들 수 있습니다. Core Data 모델 객체의 기본 단위는 `NSManagedObject` 인스턴스이며, 이는 다음 두 가지 요소가 필요합니다.
+1.  **`NSEntityDescription`**: 객체가 속한 엔티티를 설명합니다.
+2.  **`NSManagedObjectContext`**: 객체의 변경 사항을 추적하고 관리하는 컨텍스트입니다.
+
+이 두 가지 요소를 사용하여 특정 엔티티에 대한 새 객체를 관리 객체 컨텍스트에 삽입하는 과정이 필요합니다.
+##### `NSManagedObject` 서브클래싱
+문서에서는 각 엔티티에 대해 `NSManagedObject`의 서브클래스를 생성하는 것이 좋다고 권장합니다.
+* **코드 자동 완성(code completion)** 을 위한 속성들을 정의할 수 있습니다.
+* 편의 메서드들을 추가하여 기능을 확장할 수 있습니다.
+
+서브클래스에서는 `@dynamic` 태그를 사용하여 변수들이 런타임에 결정될 것임을 컴파일러에게 알려줍니다.
+##### 객체 저장
+`NSManagedObject` 인스턴스를 생성하는 것만으로는 데이터가 영구적으로 저장되지 않습니다. 변경 사항을 영구 저장소에 저장하려면 **관리 객체 컨텍스트를 명시적으로 저장**해야 합니다. 문서는 컨텍스트를 저장하는 코드 스니펫과 함께, 저장 과정에서 발생할 수 있는 잠재적인 오류를 처리하는 방법을 제시합니다.
+
+---
+## Fetching Objects
+Core Data를 사용하여 기존 데이터를 가져오는 방법은 `NSFetchRequest` 를 사용하는 것입니다.
+##### 객체 가져오기 요약
+`NSFetchRequest`는 Core Data의 영구 저장소에서 기존 데이터를 접근하기 위해 사용됩니다. 객체를 가져오는 과정은 다음과 같습니다:
+1. `NSFetchRequest` 생성: 어떤 종류의 엔티티를 반환받을지 명시하는 `NSFetchRequest`를 생성합니다.
+2. 가져오기 요청 실행: `NSManagedObjectContext`의 `executeFetchRequest:error:` 메서드를 호출하여 결과를 가져옵니다.
+- 요청이 성공하면, NSArray 형태의 객체 배열이 반환됩니다.
+- 일치하는 기록이 없으면 빈 배열이, 오류가 발생하면 nil이 반환됩니다.
+##### 검색 조건 설정
+`NSFetchReques`t에 `NSPredicate` 객체를 추가하여 검색 결과를 필터링할 수 있습니다. 예를 들어, 특정 firstName을 가진 객체만 반환하도록 조건을 설정할 수 있습니다.
+##### 반환 유형 설정
+`NSFetchRequest`는 `NSManagedObject` 인스턴스 대신 `NSDictionary` 인스턴스를 반환하도록 구성할 수도 있습니다. 이 경우, 사용 가능한 속성들 중 일부만 포함하도록 제한할 수 있습니다.
+
+---
+## Creating and Modifying Custom Managed Objects
+Core Data에서 관리 객체(managed object)의 **수명 주기**는 프레임워크에 의해 관리됩니다. 이는 표준 Objective-C 객체의 수명 주기와는 다릅니다.
+##### 객체 생성 및 초기화
+* **객체 생성**: 관리 객체가 처음 생성될 때, **관리 객체 모델(managed object model)** 에 정의된 기본값으로 초기화됩니다.
+* **사용자 정의 초기화**: 추가적인 동적 초기화가 필요한 경우, `awakeFromInsert` 또는 `awakeFromFetch` 메서드를 재정의하여 처리할 수 있습니다.
+    * **`awakeFromInsert`**: 객체가 처음 생성될 때 한 번 호출됩니다. 생성 날짜와 같이 특별한 기본 속성 값을 설정하는 데 유용합니다.
+    * **`awakeFromFetch`**: 객체가 영구 저장소에서 다시 초기화될 때 호출됩니다. 임시 값(transient values)이나 캐시를 설정하는 데 사용할 수 있습니다.
+
+**주의**: `init` 또는 `initWithEntity:insertIntoManagedObjectContext:` 메서드를 재정의하는 것은 권장되지 않습니다. 이 메서드에서 상태를 변경하면 실행 취소(undo) 및 다시 실행(redo) 기능과 제대로 통합되지 않을 수 있습니다.
+##### 객체 해제 및 정리
+* **`didTurnIntoFault`**: 메모리 오버헤드를 줄이기 위해 객체가 **결함(fault)** 으로 변환될 때 Core Data에 의해 자동으로 호출됩니다.
+* **`dealloc`**: 이 메서드를 재정의하는 대신 `didTurnIntoFault`를 사용하여 객체 해제 시 필요한 정리 작업을 처리하는 것이 좋습니다.
