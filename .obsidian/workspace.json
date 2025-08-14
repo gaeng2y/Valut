@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "iOS/CoreData/Core Data Programming Guide/Integrating Core Data with iOS.md",
+                "file": "iOS/CoreData/Core Data Programming Guide/Link.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Integrating Core Data with iOS"
+              "title": "Link"
             }
           }
         ]
@@ -188,8 +188,9 @@
   },
   "active": "184be10d2de65804",
   "lastOpenFiles": [
-    "Swift/Networking/Multipart.md",
     "iOS/CoreData/Core Data Programming Guide/Integrating Core Data with iOS.md",
+    "iOS/CoreData/Core Data Programming Guide/Link.md",
+    "Swift/Networking/Multipart.md",
     "Swift/Networking",
     "iOS/CoreData/Core Data Programming Guide/Getting Started.md",
     "iOS/CoreData/Pasted image 20250811225123.png",
@@ -228,7 +229,6 @@
     "𐂮 Resources/Pasted image 20240717213343.png",
     "𐂮 Resources/Pasted image 20240717212913 1.png",
     "iOS/Swift Testing/Meet Swift Testing.md",
-    "iOS/SwiftUI/Navigation.md",
     "iOS/SwiftUI/패스트 캠퍼스 네카라쿠배",
     "Computer Science/Algorithm/항해 99/Pasted image 20250415213227.png",
     "iOS/Swift Testing/Pasted image 20250407103331.png",
