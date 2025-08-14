@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Swift/Networking/Multipart.md",
+                "file": "iOS/CoreData/Core Data Programming Guide/Integrating Core Data with iOS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Multipart"
+              "title": "Integrating Core Data with iOS"
             }
           }
         ]
@@ -188,8 +188,8 @@
   },
   "active": "184be10d2de65804",
   "lastOpenFiles": [
-    "iOS/CoreData/Core Data Programming Guide/Integrating Core Data with iOS.md",
     "Swift/Networking/Multipart.md",
+    "iOS/CoreData/Core Data Programming Guide/Integrating Core Data with iOS.md",
     "Swift/Networking",
     "iOS/CoreData/Core Data Programming Guide/Getting Started.md",
     "iOS/CoreData/Pasted image 20250811225123.png",
