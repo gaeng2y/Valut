@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "iOS/CoreData/Core Data Programming Guide/Link.md",
+                "file": "Swift/Networking/URLSession으로 Multipart 하기.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Link"
+              "title": "URLSession으로 Multipart 하기"
             }
           }
         ]
@@ -186,12 +186,13 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "160736a19be9866b",
+  "active": "184be10d2de65804",
   "lastOpenFiles": [
+    "Swift/Networking/Multipart.md",
+    "Swift/Networking/URLSession으로 Multipart 하기.md",
+    "iOS/CoreData/Core Data Programming Guide/Link.md",
     "Computer Science/Algorithm/알고리즘 with 수학",
     "iOS/CoreData/Core Data Programming Guide/Integrating Core Data with iOS.md",
-    "iOS/CoreData/Core Data Programming Guide/Link.md",
-    "Swift/Networking/Multipart.md",
     "Swift/Networking",
     "iOS/CoreData/Core Data Programming Guide/Getting Started.md",
     "iOS/CoreData/Pasted image 20250811225123.png",
@@ -229,7 +230,6 @@
     "𐂮 Resources/Pasted image 20240717213511.png",
     "𐂮 Resources/Pasted image 20240717213343.png",
     "𐂮 Resources/Pasted image 20240717212913 1.png",
-    "iOS/SwiftUI/패스트 캠퍼스 네카라쿠배",
     "Computer Science/Algorithm/항해 99/Pasted image 20250415213227.png",
     "iOS/Swift Testing/Pasted image 20250407103331.png",
     "iOS/Swift Testing/Pasted image 20250407103247.png",
