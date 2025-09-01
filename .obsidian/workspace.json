@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "iOS/AVFoundation/Camera/Tutorials.md",
+                "file": "iOS/AVFoundation/Camera/Setting up a Camera session.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tutorials"
+              "title": "Setting up a Camera session"
             }
           }
         ]
@@ -189,8 +189,8 @@
   },
   "active": "184be10d2de65804",
   "lastOpenFiles": [
-    "iOS/AVFoundation/Camera/Setting up a Camera session.md",
     "iOS/AVFoundation/Camera/Tutorials.md",
+    "iOS/AVFoundation/Camera/Setting up a Camera session.md",
     "iOS/AVFoundation/Camera/AVCam.md",
     "iOS/AVFoundation/AVFoundation 톺아보기.md",
     "iOS/AVFoundation/Camera",
