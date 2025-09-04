@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "iOS/AVFoundation/Camera/Setting Up a Capture Session 정리.md",
+                "file": "Swift/Concurrency/앨런 동시성 파트 2/CS로 이해하는 Swift Concurrency.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Setting Up a Capture Session 정리"
+              "title": "CS로 이해하는 Swift Concurrency"
             }
           }
         ]
@@ -68,7 +68,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "9843e891487ed6f6",
@@ -189,8 +190,9 @@
   },
   "active": "184be10d2de65804",
   "lastOpenFiles": [
-    "iOS/AVFoundation/Camera/AVFoundation Capture Setup 정리.md",
     "iOS/AVFoundation/Camera/Setting Up a Capture Session 정리.md",
+    "Swift/Concurrency/앨런 동시성 파트 2/CS로 이해하는 Swift Concurrency.md",
+    "iOS/AVFoundation/Camera/AVFoundation Capture Setup 정리.md",
     "iOS/AVFoundation/Camera/AVCam.md",
     "iOS/AVFoundation/Camera/Tutorials.md",
     "iOS/AVFoundation/AVFoundation 톺아보기.md",
@@ -225,7 +227,6 @@
     "Architecture/Modular Architecture/App, Feature, Domain, Core, Shared 기반 µFeature 아키텍처.md",
     "Tuist/무제",
     "F-lab/DevClub/걷는/TCA NavigationStack.md",
-    "iOS/실전 리팩토링/2024 03 05 라이브세션.md",
     "Architecture",
     "F-lab/DevClub/걷는/Pasted image 20250702214758.png",
     "𐂮 Resources/Pasted image 20240717213511.png",
