@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Swift/Concurrency/앨런 동시성 파트 2/CS로 이해하는 Swift Concurrency.md",
+                "file": "Swift/Concurrency/앨런 동시성 파트 2/CS로 이해하는 Swift Concurrency/Thread Pool 개념.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CS로 이해하는 Swift Concurrency"
+              "title": "Thread Pool 개념"
             }
           }
         ]
@@ -68,8 +68,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "9843e891487ed6f6",
@@ -190,8 +189,12 @@
   },
   "active": "184be10d2de65804",
   "lastOpenFiles": [
+    "Swift/Concurrency/앨런 동시성 파트 2/CS로 이해하는 Swift Concurrency/Concurrency 이전 함수의 실행과 멀티 스레드의 메모리 구조.md",
+    "Swift/Concurrency/앨런 동시성 파트 2/CS로 이해하는 Swift Concurrency/Thread Pool 개념.md",
+    "Swift/Concurrency/앨런 동시성 파트 2/CS로 이해하는 Swift Concurrency",
+    "무제 1.base",
+    "무제.base",
     "iOS/AVFoundation/Camera/Setting Up a Capture Session 정리.md",
-    "Swift/Concurrency/앨런 동시성 파트 2/CS로 이해하는 Swift Concurrency.md",
     "iOS/AVFoundation/Camera/AVFoundation Capture Setup 정리.md",
     "iOS/AVFoundation/Camera/AVCam.md",
     "iOS/AVFoundation/Camera/Tutorials.md",
@@ -219,15 +222,11 @@
     "iOS/CoreData",
     "F-lab/DevClub/걷는/로그인 관련/발자취 등록.md",
     "iOS/Supabase/Auth",
-    "iOS/Supabase",
     "F-lab/DevClub/걷는/로그인 관련/Sign in with apple.md",
     "F-lab/DevClub/걷는/로그인 관련/애플 로그인.md",
     "Architecture/Modular Architecture/MµCM.md",
     "F-lab/DevClub/걷는/트러블슈팅/그러면 프로필 화면 구성을 어떻게 해야할까?.md",
     "Architecture/Modular Architecture/App, Feature, Domain, Core, Shared 기반 µFeature 아키텍처.md",
-    "Tuist/무제",
-    "F-lab/DevClub/걷는/TCA NavigationStack.md",
-    "Architecture",
     "F-lab/DevClub/걷는/Pasted image 20250702214758.png",
     "𐂮 Resources/Pasted image 20240717213511.png",
     "𐂮 Resources/Pasted image 20240717213343.png",
