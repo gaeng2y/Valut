@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Swift/Concurrency/앨런 동시성 파트 2/CS로 이해하는 Swift Concurrency/UI는 왜 메인스레드에서?.md",
+                "file": "Swift/Concurrency/앨런 동시성 파트 2/값 타입과 참조 타입/Deep copy와 Copy on Write.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "UI는 왜 메인스레드에서?"
+              "title": "Deep copy와 Copy on Write"
             }
           }
         ]
@@ -68,8 +68,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "9843e891487ed6f6",
@@ -190,8 +189,11 @@
   },
   "active": "184be10d2de65804",
   "lastOpenFiles": [
-    "Swift/Concurrency/앨런 동시성 파트 2/CS로 이해하는 Swift Concurrency/비동기 함수의 메모리 구조.md",
+    "Swift/Concurrency/앨런 동시성 파트 2/값 타입과 참조 타입/값 타입과 참조 타입의 비교.md",
+    "Swift/Concurrency/앨런 동시성 파트 2/값 타입과 참조 타입/Deep copy와 Copy on Write.md",
+    "Swift/Concurrency/앨런 동시성 파트 2/값 타입과 참조 타입",
     "Swift/Concurrency/앨런 동시성 파트 2/CS로 이해하는 Swift Concurrency/UI는 왜 메인스레드에서?.md",
+    "Swift/Concurrency/앨런 동시성 파트 2/CS로 이해하는 Swift Concurrency/비동기 함수의 메모리 구조.md",
     "Swift/Concurrency/앨런 동시성 파트 2/CS로 이해하는 Swift Concurrency/협력적 스레드 풀.md",
     "Swift/Concurrency/앨런 동시성 파트 2/CS로 이해하는 Swift Concurrency/Thread Pool 개념.md",
     "Swift/Concurrency/앨런 동시성 파트 2/CS로 이해하는 Swift Concurrency/Concurrency 이전 함수의 실행과 멀티 스레드의 메모리 구조.md",
@@ -225,9 +227,6 @@
     "iOS/Supabase/Auth/Supabase Auth 참고.md",
     "iOS/CoreData",
     "F-lab/DevClub/걷는/로그인 관련/발자취 등록.md",
-    "iOS/Supabase/Auth",
-    "F-lab/DevClub/걷는/로그인 관련/Sign in with apple.md",
-    "F-lab/DevClub/걷는/로그인 관련/애플 로그인.md",
     "F-lab/DevClub/걷는/Pasted image 20250702214758.png",
     "𐂮 Resources/Pasted image 20240717213511.png",
     "𐂮 Resources/Pasted image 20240717213343.png",
