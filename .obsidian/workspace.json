@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Swift/Concurrency/앨런 동시성 파트 2/값 타입과 참조 타입/Deep copy와 Copy on Write.md",
+                "file": "Swift/Concurrency/앨런 동시성 파트 2/Isolation, Sendable/Shared Mutable State.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Deep copy와 Copy on Write"
+              "title": "Shared Mutable State"
             }
           }
         ]
@@ -187,11 +187,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "160736a19be9866b",
+  "active": "184be10d2de65804",
   "lastOpenFiles": [
-    "Swift/Concurrency/앨런 동시성 파트 2/무제",
-    "Swift/Concurrency/앨런 동시성 파트 2/값 타입과 참조 타입/값 타입과 참조 타입의 비교.md",
     "Swift/Concurrency/앨런 동시성 파트 2/값 타입과 참조 타입/Deep copy와 Copy on Write.md",
+    "Swift/Concurrency/앨런 동시성 파트 2/Isolation, Sendable/Shared Mutable State.md",
+    "Swift/Concurrency/앨런 동시성 파트 2/Isolation, Sendable",
+    "Swift/Concurrency/앨런 동시성 파트 2/값 타입과 참조 타입/값 타입과 참조 타입의 비교.md",
     "Swift/Concurrency/앨런 동시성 파트 2/값 타입과 참조 타입",
     "Swift/Concurrency/앨런 동시성 파트 2/CS로 이해하는 Swift Concurrency/UI는 왜 메인스레드에서?.md",
     "Swift/Concurrency/앨런 동시성 파트 2/CS로 이해하는 Swift Concurrency/비동기 함수의 메모리 구조.md",
@@ -226,7 +227,6 @@
     "iOS/Noncopyable.md",
     "무제.md",
     "iOS/Supabase/Auth/Supabase Auth 참고.md",
-    "iOS/CoreData",
     "F-lab/DevClub/걷는/Pasted image 20250702214758.png",
     "𐂮 Resources/Pasted image 20240717213511.png",
     "𐂮 Resources/Pasted image 20240717213343.png",
