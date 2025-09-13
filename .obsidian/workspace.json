@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Swift/Concurrency/앨런 동시성 파트 2/Isolation, Sendable/Sendable.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Sendable"
+              "title": "README"
             }
           }
         ]
@@ -189,8 +189,10 @@
   },
   "active": "184be10d2de65804",
   "lastOpenFiles": [
-    "WWDC/WWDC 21/Protect mutable state with Swift actors/Sendable.md",
     "Swift/Concurrency/앨런 동시성 파트 2/Isolation, Sendable/Sendable.md",
+    "무제.base",
+    "무제.md",
+    "WWDC/WWDC 21/Protect mutable state with Swift actors/Sendable.md",
     "Swift/Concurrency/앨런 동시성 파트 2/Isolation, Sendable/Task isolation.md",
     "Swift/Concurrency/앨런 동시성 파트 2/Isolation, Sendable/Shared Mutable State.md",
     "Swift/Concurrency/앨런 동시성 파트 2/값 타입과 참조 타입/Deep copy와 Copy on Write.md",
@@ -204,7 +206,6 @@
     "Swift/Concurrency/앨런 동시성 파트 2/CS로 이해하는 Swift Concurrency/Concurrency 이전 함수의 실행과 멀티 스레드의 메모리 구조.md",
     "Swift/Concurrency/앨런 동시성 파트 2/CS로 이해하는 Swift Concurrency",
     "무제 1.base",
-    "무제.base",
     "iOS/AVFoundation/Camera/Setting Up a Capture Session 정리.md",
     "iOS/AVFoundation/Camera/AVFoundation Capture Setup 정리.md",
     "iOS/AVFoundation/Camera/AVCam.md",
@@ -224,9 +225,7 @@
     "iOS/CoreData/Pasted image 20250803231539.png",
     "iOS/CoreData/릴레이션.md",
     "iOS/CoreData/관계 다루기.md",
-    "iOS/CoreData/CoreData.md",
     "iOS/CoreData/Core Data Programming Guide",
-    "iOS/CoreData/실습.md",
     "F-lab/DevClub/걷는/Pasted image 20250702214758.png",
     "𐂮 Resources/Pasted image 20240717213511.png",
     "𐂮 Resources/Pasted image 20240717213343.png",
