@@ -189,6 +189,8 @@
   },
   "active": "184be10d2de65804",
   "lastOpenFiles": [
+    "웹, 네트워크/Chapter 1.md",
+    "F-lab/TCA 구조.md",
     "Swift/동시성 프로그래밍/GCD, Operation.md",
     "Swift/동시성 프로그래밍/Operation/AsyncOperation.md",
     "Swift/동시성 프로그래밍/Operation/Operation.md",
@@ -216,8 +218,6 @@
     "Swift/Concurrency/앨런 동시성 파트 2/CS로 이해하는 Swift Concurrency/UI는 왜 메인스레드에서?.md",
     "Swift/Concurrency/앨런 동시성 파트 2/CS로 이해하는 Swift Concurrency/비동기 함수의 메모리 구조.md",
     "Swift/Concurrency/앨런 동시성 파트 2/CS로 이해하는 Swift Concurrency/협력적 스레드 풀.md",
-    "Swift/Concurrency/앨런 동시성 파트 2/CS로 이해하는 Swift Concurrency/Thread Pool 개념.md",
-    "Swift/Concurrency/앨런 동시성 파트 2/CS로 이해하는 Swift Concurrency/Concurrency 이전 함수의 실행과 멀티 스레드의 메모리 구조.md",
     "Swift/Concurrency/앨런 동시성 파트 2/CS로 이해하는 Swift Concurrency",
     "무제 1.base",
     "iOS/AVFoundation/Camera",
