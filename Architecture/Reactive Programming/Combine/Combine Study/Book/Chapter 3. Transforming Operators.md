@@ -56,14 +56,14 @@ nil 병합 연산자인 `??` 을 사용하는 것과 `replaceNil` 를 사용
 > [!info] RxSwift -> 없다
 #### replaceEmpty(with:)
 - Publihser 가 값은 emit 하지 않은채로 완료 되었을 때 사용
-![](Reactive%20Programming/Combine/Combine%20Study/Resources/Pasted%20image%2020240718095218.png)
+![](Architecture/Reactive%20Programming/Combine/Combine%20Study/Resources/Pasted%20image%2020240718095218.png)
 - Publihser 가 값은 emit 하지 않은채로 완료 되었을 때, `reppaceEmpty(with:)` operator 가 값을 넣어 준 뒤 downstream 에 publish 한다.
 
 > [!info] RxSwift -> ifEmpty(default:)
 ### **Incrementally transforming output**
 #### scan(_ : _ :)
 - upstream publisher 에서 emit 된 현재 값을 clousre 로 제공하고, 해당 클로저에 의해 리턴 된 마지막 값을 제공한다.
-![](Reactive%20Programming/Combine/Combine%20Study/Resources/Pasted%20image%2020240718095304.png)
+![](Architecture/Reactive%20Programming/Combine/Combine%20Study/Resources/Pasted%20image%2020240718095304.png)
 1. `scan` 은 시작 값 0 을 저장 하면서 시작한다.
 2. Publihser로 부터 각각의 값을 전달 받으면, 이전에 저장 해놓은 값에 더해서 저장하고, 결과를 emit 한다.
 

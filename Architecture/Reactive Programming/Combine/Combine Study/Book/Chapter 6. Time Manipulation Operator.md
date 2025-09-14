@@ -48,7 +48,7 @@ sourcePublisher.displayEvents(in: sourceTimeline)
 delayedPublisher.displayEvents(in: delayedTimeline)
 ```
 
-![](Reactive%20Programming/Combine/Combine%20Study/Resources/Pasted%20image%2020240806164043.png)
+![](Architecture/Reactive%20Programming/Combine/Combine%20Study/Resources/Pasted%20image%2020240806164043.png)
 
 위에 타임라인은 timer 에 의해 emit 된 값을 보여준다. 아래는 값은 값을 지연된 타임라인을 보여 준다.
 
@@ -87,7 +87,7 @@ sourcePublisher.displayEvents(in: sourceTimeline)
 collectedPublisher.displayEvents(in: collectedTimeline)
 ```
 
-![](Reactive%20Programming/Combine/Combine%20Study/Resources/Pasted%20image%2020240806165047.png)
+![](Architecture/Reactive%20Programming/Combine/Combine%20Study/Resources/Pasted%20image%2020240806165047.png)
 
 Emitted values 타임라인에는 일정한 값이 emit 되고, 아래 Collected values 는 매 4초 마다 단일 값이 표시 된다.
 
@@ -101,7 +101,7 @@ let collectedPublisher = sourcePublisher
 
 `collect` 가 수집한 값의 그룹을 emit 할 때마다, `flatMap` 은 각각의 값으로 분해하고 즉시 바로 다음 값을 emit 한다. `publisher` extension 인 `Collection` 을 사용해 값의 시퀀스를 모든 시퀀스를 각각 개별 값으로 즉시 emit 하는 Pulisher 에게 보낸다.
 
-![](Reactive%20Programming/Combine/Combine%20Study/Resources/Pasted%20image%2020240806165257.png)
+![](Architecture/Reactive%20Programming/Combine/Combine%20Study/Resources/Pasted%20image%2020240806165257.png)
 
 이제 매 4초마다, `collect` 가 지난 시간 간격 동안 수집 된 값의 배열을 emit 하는 것을 볼 수 있다.
 # Collecting values (part 2)
@@ -144,7 +144,7 @@ collectedPublisher.displayEvents(in: collectedTimeline)
 collectedPublisher2.displayEvents(in: collectedTimeline2)
 ```
 
-![](Reactive%20Programming/Combine/Combine%20Study/Resources/Pasted%20image%2020240806165401.png)
+![](Architecture/Reactive%20Programming/Combine/Combine%20Study/Resources/Pasted%20image%2020240806165401.png)
 두번째 타임라인이 `collectMaxCount` 상수에 요구된 시간마다 두개의 값을 수집하도록 제한 하는 것을 볼 수 있다.
 # Holding off on events
 
@@ -190,7 +190,7 @@ subject.feed(with: typingHelloWorld)
 
 - 결과의 일관성을 보장하기 위해, `share()` 를 사용하여 `debounce` 에 단일 subscription 지점을 생성해 모든 subscribers 에게 같은 시간에 같은 결과를 보여 줄 수 있게 한다.
 - `feed(with:)` 메소드는 data set 을 가지고 미리 정의된 시간 간격에 주어진 `subject` 에게 데이터를 전송한다.
-![](Reactive%20Programming/Combine/Combine%20Study/Resources/Pasted%20image%2020240806171902.png)
+![](Architecture/Reactive%20Programming/Combine/Combine%20Study/Resources/Pasted%20image%2020240806171902.png)
 11 개의 string 이 `sourcePublisher` 에 푸시 되었다. 두 단어 사이에 유저가 `paused` 한것을 볼 수 있다. 이때가 `debounce` 가 captured input 을 emit 할 때이다.
 
 ```
@@ -257,7 +257,7 @@ subject.feed(with: typingHelloWorld)
 
 - `debounce` 처럼 모든 subscriber 가 같은 결과를 같은 시간에 볼 수 있게 보장 하기 위해 `share()` operator 를 사용한다.
 
-![](Reactive%20Programming/Combine/Combine%20Study/Resources/Pasted%20image%2020240806172928.png)
+![](Architecture/Reactive%20Programming/Combine/Combine%20Study/Resources/Pasted%20image%2020240806172928.png)
 
 `throttle` 에 의해 emit 된 값들은 살짝 타이밍이 다르다.
 
@@ -339,7 +339,7 @@ timedOutSubject.displayEvents(in: timeline)
 > [!note]
 > `Void` 값을 emit 하는 subject 를 사용하는 것은 무언가 발생하지만, 처리할 특정 값이 없다는 것이다. `Subject` 에는 `Output` 타입이 `Void`인, 파라미터를 사용하지 않는 `send()` 함수가 있는 extension 이 있다. 이것은 `subject.send(())` 같은 이상한 구문을 쓰지 않게 해준다.
 
-![](Reactive%20Programming/Combine/Combine%20Study/Resources/Pasted%20image%2020240807114451.png)
+![](Architecture/Reactive%20Programming/Combine/Combine%20Study/Resources/Pasted%20image%2020240807114451.png)
 정확히 액션을 취하기 위해, 실패를 전송하기 위해 `timeout` publisher 를 만들어 보자.
 
 ```swift
@@ -367,7 +367,7 @@ timedOutSubject.displayEvents(in: timeline)
 
 이제 버튼을 5초 동안 누르지 않으면, `timeOutSubject` 가 실패를 emit 하는 것을 볼 수 있다.
 
-![](Reactive%20Programming/Combine/Combine%20Study/Resources/Pasted%20image%2020240807114529.png)
+![](Architecture/Reactive%20Programming/Combine/Combine%20Study/Resources/Pasted%20image%2020240807114529.png)
 # Measuring time
 
 시간을 조작하지 않고 단지 측정만 한다
