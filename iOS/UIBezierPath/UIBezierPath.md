@@ -1,4 +1,4 @@
-![](Swift/UIBezierPath/define.png)
+![](iOS/UIBezierPath/define.png)
 
 path인데 CustomView에서 렌더링할 수 있는 직선과 곡선 세그먼트로 구성된 거
 

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Swift/HTTPTypes/swift-http-types.md",
+                "file": "F-lab/TCA 구조.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "swift-http-types"
+              "title": "TCA 구조"
             }
           }
         ]
@@ -189,6 +189,19 @@
   },
   "active": "184be10d2de65804",
   "lastOpenFiles": [
+    "Swift/동시성 프로그래밍/GCD, Operation.md",
+    "Swift/동시성 프로그래밍/Operation/AsyncOperation.md",
+    "Swift/동시성 프로그래밍/Operation/Operation.md",
+    "Swift/동시성 프로그래밍/Operation/Operation.md",
+    "Swift/동시성 프로그래밍/코어와 스레드.md",
+    "Swift/동시성 프로그래밍/Dispatch/Dispatch Semaphore.md",
+    "Swift/동시성 프로그래밍/Dispatch/Dispatch 문제.md",
+    "Swift/Misc/Concurrency to Combine.md",
+    "Swift/Misc/Swift Linking 비교.md",
+    "iOS/코파일럿과 함께 레인드롭 오디오 신시사이저 만들기.md",
+    "Swift/Misc/메소드에서 -> 가 있는 기준.md",
+    "Swift/Concurrency/sleep의 실행 방식.md",
+    "Swift/Misc/Swift HTTP Types.md",
     "README.md",
     "Swift/Concurrency/앨런 동시성 파트 2/Isolation, Sendable/Sendable.md",
     "무제.base",
@@ -207,25 +220,12 @@
     "Swift/Concurrency/앨런 동시성 파트 2/CS로 이해하는 Swift Concurrency/Concurrency 이전 함수의 실행과 멀티 스레드의 메모리 구조.md",
     "Swift/Concurrency/앨런 동시성 파트 2/CS로 이해하는 Swift Concurrency",
     "무제 1.base",
-    "iOS/AVFoundation/Camera/Setting Up a Capture Session 정리.md",
-    "iOS/AVFoundation/Camera/AVFoundation Capture Setup 정리.md",
-    "iOS/AVFoundation/Camera/AVCam.md",
-    "iOS/AVFoundation/Camera/Tutorials.md",
-    "iOS/AVFoundation/AVFoundation 톺아보기.md",
     "iOS/AVFoundation/Camera",
     "iOS/CloudKit",
-    "Swift/Networking/URLSession으로 Multipart 하기.md",
-    "Swift/Networking/Multipart.md",
-    "iOS/CoreData/Core Data Programming Guide/Link.md",
     "Computer Science/Algorithm/알고리즘 with 수학",
-    "iOS/CoreData/Core Data Programming Guide/Integrating Core Data with iOS.md",
     "Swift/Networking",
-    "iOS/CoreData/Core Data Programming Guide/Getting Started.md",
     "iOS/CoreData/Pasted image 20250811225123.png",
-    "iOS/CoreData/코어 데이터의 구조.md",
     "iOS/CoreData/Pasted image 20250803231539.png",
-    "iOS/CoreData/릴레이션.md",
-    "iOS/CoreData/관계 다루기.md",
     "iOS/CoreData/Core Data Programming Guide",
     "F-lab/DevClub/걷는/Pasted image 20250702214758.png",
     "𐂮 Resources/Pasted image 20240717213511.png",

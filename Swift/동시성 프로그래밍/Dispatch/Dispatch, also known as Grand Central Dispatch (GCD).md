@@ -9,5 +9,5 @@
 
 ## 큐의 종류 정리
 
-![](Swift/Concurrent/Resources/Pasted%20image%2020241124165736.png)
+![](Swift/동시성%20프로그래밍/Resources/Pasted%20image%2020241124165736.png)
 (출처: https://www.inflearn.com/course/ios-concurrency-gcd-operation)
