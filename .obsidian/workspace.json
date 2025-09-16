@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Swift/Misc/메소드에서 -> 가 있는 기준.md",
+                "file": "TIL/Trouble shooting/무제.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "메소드에서 -> 가 있는 기준"
+              "title": "무제"
             }
           }
         ]
@@ -189,6 +189,12 @@
   },
   "active": "184be10d2de65804",
   "lastOpenFiles": [
+    "걷는/TCA NavigationStack.md",
+    "TIL/Trouble shooting/무제.md",
+    "걷는/Pasted image 20250702214758.png",
+    "걷는/MainTab.md",
+    "F-lab/TCA 구조.md",
+    "Swift/Misc/메소드에서 -> 가 있는 기준.md",
     "Swift/Misc/Writing High-Performance Swift Code.md",
     "Swift/Misc/Type Erasure.md",
     "Swift/Concurrency/Task Local 변수의 사용.md",
@@ -200,7 +206,6 @@
     "Swift/Misc/Concurrency to Combine.md",
     "Swift/Concurrency/sleep의 실행 방식.md",
     "README.md",
-    "F-lab/TCA 구조.md",
     "웹, 네트워크/Chapter 1.md",
     "Swift/동시성 프로그래밍/GCD, Operation.md",
     "Swift/동시성 프로그래밍/Operation/AsyncOperation.md",
@@ -210,12 +215,8 @@
     "Swift/동시성 프로그래밍/Dispatch/Dispatch Semaphore.md",
     "Swift/동시성 프로그래밍/Dispatch/Dispatch 문제.md",
     "iOS/코파일럿과 함께 레인드롭 오디오 신시사이저 만들기.md",
-    "Swift/Misc/메소드에서 -> 가 있는 기준.md",
     "Swift/Misc/Swift HTTP Types.md",
-    "Swift/Concurrency/앨런 동시성 파트 2/Isolation, Sendable/Sendable.md",
     "무제.base",
-    "무제.md",
-    "WWDC/WWDC 21/Protect mutable state with Swift actors/Sendable.md",
     "Swift/Concurrency/앨런 동시성 파트 2/Isolation, Sendable",
     "Swift/Concurrency/앨런 동시성 파트 2/값 타입과 참조 타입",
     "Swift/Concurrency/앨런 동시성 파트 2/CS로 이해하는 Swift Concurrency",
@@ -227,7 +228,6 @@
     "iOS/CoreData/Pasted image 20250811225123.png",
     "iOS/CoreData/Pasted image 20250803231539.png",
     "iOS/CoreData/Core Data Programming Guide",
-    "F-lab/DevClub/걷는/Pasted image 20250702214758.png",
     "𐂮 Resources/Pasted image 20240717213511.png",
     "𐂮 Resources/Pasted image 20240717213343.png",
     "𐂮 Resources/Pasted image 20240717212913 1.png",
